@@ -2,8 +2,8 @@
 
 """scrape_image_urls.py
 
-Scrape all image URLs found in the <../content/blog> directory then download all images into
-the <../content/static/img> directory.
+Scrape all WordPress image URLs found in the <../content/blog> directory then download all images
+into a matching subdirectory within the <../content/static/img> directory.
 """
 
 import os
@@ -21,8 +21,10 @@ def download_images(images, image_directory):
         image_directory: String describing the directory where images should be saved.
     """
     for image in images:
-        image_name = urllib.parse.urlparse(image).path.split('/')[-1]
-        image_path = os.path.join(image_directory, image_name)
+        image_location = urllib.parse.urlparse(image).path.split('/')[-3:]
+        image_location = os.sep.join(image_location)
+        image_path = os.path.join(image_directory, image_location)
+        make_directories(image_path)
         with urllib.request.urlopen(image) as in_file, open(image_path, 'wb') as out_file:
             shutil.copyfileobj(in_file, out_file)
 
@@ -36,9 +38,19 @@ def find_image_urls(haystack):
     Returns:
         List of image URL strings.
     """
-    needle = re.compile('(http.*\.)(gif|jpg|jpeg|png|svg|tif)', re.IGNORECASE)
+    needle = re.compile('(http.*wp-content.*\.)(gif|jpg|jpeg|png|svg|tif)', re.IGNORECASE)
     matches = [''.join(m) for m in needle.findall(haystack)]
     return matches
+
+
+def make_directories(path):
+    """Create all directories in a file path that do not exist.
+
+    Args:
+        path: String containing the file path on the local drive.
+    """
+    path_head = os.path.split(path)[0]
+    os.makedirs(path_head, exist_ok=True)
 
 
 def search_content_files(content_directory, image_directory):

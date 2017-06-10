@@ -54,7 +54,7 @@ your lethargic software of villains. Defending your time against these
 robbers continues with optimizing your "XML and HTTP Request" calls,
 compressing big static assets in a variety of clever ways, and
 requesting "Document Object Model" updates at a pace your browser can
-manage. See [*Part 2*][5] for further instruction on what you can do
+manage. See *[Part 2][5]* for further instruction on what you can do
 to enforce law and order in your digital domain. Your time depends
 on it!
 

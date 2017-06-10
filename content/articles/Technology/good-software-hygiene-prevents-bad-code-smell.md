@@ -1,19 +1,14 @@
 Title: Good Software Hygiene Prevents Bad Code Smell
 Date: 2016-09-17 11:50
-Author: david-timmons
+Author: David Timmons
 Category: Technology
 Slug: good-software-hygiene-prevents-bad-code-smell
 Status: published
 
-\[caption id="attachment\_2452" align="aligncenter" width="580"\]![Good
-Software Hygiene Prevents Bad Code
-Smell](http://david.timmons.io/wp-content/uploads/2016/11/software-hygiene.jpg){.aligncenter
-.size-full .wp-image-2452}Photo: Courtesy of [Ascend
-Marketing](http://thinking.ascend.marketing/good-software-hygiene-prevents-bad-code-smell "View this post on the Ascend Marketing blog.")
-
-Just look at that code! Somebody crack a window...
-
-\[/caption\]
+![Photo courtesy of Ascend Marketing][1]
+<span class="img-caption">
+  Photo: Courtesy of [Ascend Marketing][2].
+</span>
 
 Johann Wolfgang von Goethe once wrote, "In der Beschränkung zeigt sich
 erst der Meister." Put another way, "Masters of their craft know that
@@ -22,8 +17,7 @@ building software is a craft. The joy of solving problems and writing
 algorithms is tantalizing for many developers; when a developer can
 quickly transmute an idea into a prototype, the reward is immediate and
 tangible. However, software has a tendency to stick around once built.
-Joost Visser writes in [*Building Maintainable
-Software*](https://www.sig.eu/en/building-maintainable-software) that
+Joost Visser writes in *[Building Maintainable Software][3]* that
 "the maintenance phase of a software system often spans 10 years or
 more." It's quite easy to build software without a plan, but without
 good software hygiene, system components quickly become tangled and
@@ -32,10 +26,9 @@ often improved not by what you put in to it but rather what you leave
 out of it.
 
 ISO, the International Organization for Standardization, defines eight
-characteristics they believe contribute to software quality. The [ISO
-25010](https://www.iso.org/obp/ui/#iso:std:iso-iec:25010:ed-1:v1:en)
-standard lists these as functional suitability, reliability,
-performance, efficiency, usability, security, compatibility,
+characteristics they believe contribute to software quality. The
+[ISO 25010][4] standard lists these as functional suitability,
+reliability, performance, efficiency, usability, security, compatibility,
 maintainability, and portability. Measuring these qualities is not
 always easy, but at the very least, developers should keep these tenets
 firmly in mind when architecting a software product. Software hygiene
@@ -50,8 +43,7 @@ Good software hygiene starts at the code repository. A development team
 needs a solid strategy for collaborating on a software project because
 without one, it is never quite clear who is doing what and which version
 of the code is current. Vincent Driessen presents a great Git strategy
-in his "[A successful Git branching
-model](http://nvie.com/posts/a-successful-git-branching-model/)" article
+in his "[A successful Git branching model][5]" article
 that suggests a team organize its repository around a master branch,
 develop branch, feature branches, and hotfix branches. This model and
 others like it improves the velocity of new development through
@@ -96,3 +88,19 @@ practices. Only with good software hygiene can we prevent "bad code
 smell". Who wants a reputation as the person who never washes his or her
 code? Instead, our goal should be the fresh and clean scent of
 maintainable, hygienic software!
+
+
+[1]: {filename}/images/2016/11/software-hygiene.jpg
+  "Just look at that code! Somebody crack a window..."
+
+[2]: http://thinking.ascend.marketing/good-software-hygiene-prevents-bad-code-smell
+  "View this post on the Ascend Marketing blog."
+
+[3]: https://www.sig.eu/en/building-maintainable-software
+  "Visit www.sig.eu."
+
+[4]: https://www.iso.org/obp/ui/#iso:std:iso-iec:25010:ed-1:v1:en
+  "Visit www.iso.org."
+
+[5]: http://nvie.com/posts/a-successful-git-branching-model/
+  "Visit nvie.com."

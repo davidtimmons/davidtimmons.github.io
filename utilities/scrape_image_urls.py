@@ -72,8 +72,8 @@ def main():
     """Searches content files for image URLs then downloads them to a local directory.
     """
     path_prefix = os.path.split(os.path.dirname(os.path.abspath(__file__)))[0]
-    content_directory = os.path.join(path_prefix, 'content', 'blog')
-    image_directory = os.path.join(path_prefix, 'content', 'static', 'img')
+    content_directory = os.path.join(path_prefix, 'content', 'articles')
+    image_directory = os.path.join(path_prefix, 'content', 'images')
     search_content_files(content_directory, image_directory)
 
 

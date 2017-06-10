@@ -1,20 +1,14 @@
 Title: Have you met Docker's cousin Vagrant?
 Date: 2016-05-25 16:58
-Author: david-timmons
+Author: David Timmons
 Category: Technology
 Slug: have-you-met-dockers-cousin-vagrant
 Status: published
 
-\[caption id="attachment\_2431" align="aligncenter"
-width="580"\]![Docker's Cousin
-Vagrant](http://david.timmons.io/wp-content/uploads/2016/07/dockers-cousin-vagrant.jpg){.aligncenter
-.size-full .wp-image-2431} Photo: Courtesy of [Ascend
-Marketing](http://thinking.ascend.marketing/have-you-met-dockers-cousin-vagrant "View this post on the Ascend Marketing blog.")
-
-It's a little-known fact that Docker's cousin Vagrant likes V-neck
-sweaters.
-
-\[/caption\]
+![Photo courtesy of Ascend Marketing][1]
+<span class="img-caption">
+  Photo: Courtesy of [Ascend Marketing][2].
+</span>
 
 The technology industry has long accepted virtualization as a great
 idea, but it’s important to use the right tool for the job.
@@ -30,13 +24,11 @@ However, containers are not always the best tool for the job; sometimes
 a different virtualization tool is helpful. Virtual machines are another
 option, and Vagrant is an excellent choice.
 
-In [the
-words](http://stackoverflow.com/questions/16647069/should-i-use-vagrant-or-docker-for-creating-an-isolated-environment#answer-21314566)
-of Vagrant creator Mitchell Hashimoto, "Vagrant is for managing
-development environments." It doesn't get as much press as its cousin
-Docker, but Vagrant can make your job easier when correctly applied. It
-creates a fully encapsulated development environment useful in many
-different situations, such as aligning a team around a single
+In [the words][3] of Vagrant creator Mitchell Hashimoto, "Vagrant is for
+managing development environments." It doesn't get as much press as its\
+cousin Docker, but Vagrant can make your job easier when correctly
+applied. It creates a fully encapsulated development environment useful
+in many different situations, such as aligning a team around a single
 development environment or performing a test update of a production
 website.
 
@@ -74,7 +66,7 @@ the scenes a Unix shell script installs exactly the software that is
 needed, updates the application database to the latest schema, and
 starts a server daemon so the software runs once Vagrant cranks up. A
 developer on the project can pop open a browser and go to something like
-"http://localhost:1234" to find the running application without any
+`http://localhost:1234` to find the running application without any
 knowledge of how the magic happens. Since Vagrant can share files
 between the host and guest machines, everyone can use whichever
 development tools are desired to get work done in the host while the
@@ -86,3 +78,13 @@ choice, but the key point is virtualization encompasses more than just
 containers. While a container is a valuable tool, it can be a hammer
 when you really need a saw. A virtual machine solution like Vagrant can
 be that saw.
+
+
+[1]: {filename}/images/2016/07/dockers-cousin-vagrant.jpg
+  "It's a little-known fact that Docker's cousin Vagrant likes V-neck sweaters."
+
+[2]: http://thinking.ascend.marketing/have-you-met-dockers-cousin-vagrant
+  "View this post on the Ascend Marketing blog."
+
+[3]: http://stackoverflow.com/questions/16647069/should-i-use-vagrant-or-docker-for-creating-an-isolated-environment#answer-21314566
+  "Visit stackoverflow.com."

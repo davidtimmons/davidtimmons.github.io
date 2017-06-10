@@ -1,30 +1,21 @@
 Title: How to be MEAN!
 Date: 2015-10-08 02:05
-Author: david-timmons
+Author: David Timmons
 Category: Technology
 Slug: how-to-be-mean
 Status: published
 
-\[caption id="attachment\_2336" align="aligncenter" width="580"\]![How
-to be
-MEAN!](http://david.timmons.io/wp-content/uploads/2015/10/hf-robot-blog.jpg){.aligncenter
-.size-full .wp-image-2336} Photo:
-[middlewick](http://www.morguefile.com/archive/display/208246 "'IMG_4236' by middlewick")
-
-Be MEAN! Build a Web app.
-
-\[/caption\]
+![IMG_4236][1]
+<span class="img-caption">
+  Photo: "IMG_4236" image courtesy of [middlewick][2].
+</SPAN>
 
 Bringing a Web application from the spark of an idea to a complete
 interactive experience is certainly a rite of passage. I finished
 programming my first complete Web application this week using the MEAN
-stack
-([MongoDB](https://www.mongodb.org/ "Click here to visit the official MongoDB website."),
-[Express](http://expressjs.com/ "Click here to visit the official Express website."),
-[AngularJS](https://angularjs.org/ "Click here to visit the official AngularJS website."),
-[Node.js](https://nodejs.org/en/ "Click here to visit the official Node.js website.")),
-and while I can already see what I would do differently next time, my
-time spent with this project has had tremendous value.
+stack ([MongoDB][], [Express][], [AngularJS][], [Node.js][]), and while
+I can already see what I would do differently next time, my time spent
+with this project has had tremendous value.
 
 Building a Web application is a journey that requires familiarity with
 so many topics that at the end you feel as if no concept in this domain
@@ -33,14 +24,12 @@ repetition, every student of technology interested in the Web should
 build a full app at least once. It's worth it.
 
 If life is a road continually traveled, I look back now and marvel at
-the distance I covered these past months. Finishing the
-[Hacka\_finder](http://hackafinder.timmons.io/ "View the Hacka_finder demo here.")
-[prototype](https://github.com/davidtimmons/hackafinder "View the Hacka_finder code here.")
-was very gratifying. Taking on a solo project this large taught me more
-than I ever learned in a classroom, and I want to share with my fellow
-adventurers some of what I discovered along the way.
+the distance I covered these past months. Finishing the [Hacka\_finder][3]
+[prototype][4] was very gratifying. Taking on a solo project this large
+taught me more than I ever learned in a classroom, and I want to share
+with my fellow adventurers some of what I discovered along the way.
 
-### Finding Your Footing {#finding-your-footing .subhead}
+## Finding Your Footing
 
 Having the idea for an app is easy. Everybody has ideas. However,
 building that idea into an application is a monumental task, so much so
@@ -59,26 +48,24 @@ AngularJS, not to mention the many API references for tools like Grunt
 and Yeoman that I knew through research to be essential. Understanding
 what a tool can do before using it can only lead to stronger craft.
 
-When looking for a concrete place to begin,
-[Yeoman](http://yeoman.io/ "Click here to visit the official Yeoman website.")
-is an excellent tool. The generators it sports are not all perfect, but
-I found it very helpful to see an opinion on how to scaffold a large
-project while planning my own.
+When looking for a concrete place to begin, [Yeoman][] is an excellent
+tool. The generators it sports are not all perfect, but I found it very
+helpful to see an opinion on how to scaffold a large project while
+planning my own.
 
-### The Red Pill {#the-red-pill .subhead}
+## The Red Pill
 
 One thing six books and countless API documents did *not* tell me is
-this: Code that runs a Web application consists of **95%** connective
-boilerplate to support the **5%** that runs the core idea behind an app.
-Building the
-[Hacka\_finder](https://github.com/davidtimmons/hackafinder "View the Hacka_finder code here.")
-prototype took me a little over 2 months from start to finish. I wrote
-code to work with MongoDB, code to authenticate user sessions, code to
-manage the API requests and responses, but perhaps only *three*
-functions total that actually search the user data for a query match.
-This was quite eye opening!
+this: Code that runs a Web application like this consists of **95%**
+connective boilerplate to support the **5%** that runs the core idea
+behind an app. Building the [Hacka\_finder prototype][4] took me a
+little over 2 months from start to finish. I wrote code to work with
+MongoDB, code to authenticate user sessions, code to manage the API
+requests and responses, but perhaps only *three* functions total that
+actually search the user data for a query match. This was quite eye
+opening!
 
-### Front or Back {#front-or-back .subhead}
+## Front or Back
 
 Single-page applications (SPA) run mostly in the browser. This is
 different from a more traditional approach that puts everything on the
@@ -100,7 +87,7 @@ requirements for an app out of your server and onto the computers of
 your app users. This is why SPA architecture has become popular. Just be
 careful how you handle your sensitive data!
 
-### A Schema is a Road Map {#a-schema-is-a-road-map .subhead}
+## A Schema is a Road Map
 
 Create the database schema first. MongoDB does not require a schema per
 se unlike the more traditional SQL-style databases, but for me, knowing
@@ -111,7 +98,7 @@ glance. At any given time I understood which part of the database would
 be active and what the response from the database would contain. MongoDB
 itself was quite easy to use; I would use it again.
 
-### Branding {#branding .subhead}
+## Branding
 
 My business roots are going to show here, but branding is important. The
 graphic design of your app flows entirely from the logo. It defines the
@@ -124,21 +111,19 @@ video game software, and so on that you cannot afford to give users a
 reason to hate the experience. Branding is much more than graphic
 design, but it does start there, so spend a dime to buy some time.
 
-### Front End {#front-end .subhead}
+## Front End
 
-I have planned website projects with
-[Balsamiq](https://balsamiq.com/ "Click here to visit the official Balsamiq website."),
-[Axure](http://www.axure.com/ "Click here to visit the official Axure website."),
-Photoshop, and Illustrator. While these are all good tools, theme design
-in this project worked best with vanilla HTML and Sass. Here's the
-thing: While you can build a design in these other tools, you still have
+I have planned website projects with [Balsamiq][], [Axure][], Photoshop,
+and Illustrator. While these are all good tools, theme design in this
+project worked best with vanilla HTML and Sass. Here's the thing:
+While you can build a design in these other tools, you still have
 to program it at some point. I found that by starting with code, it was
 much faster to port the design into my JavaScript framework. The
 stylesheets carry over as is. If you remember to base your responsive
 theme styles on the mobile experience first and layer rules for other
 screen sizes on top using media query breakpoints, nothing more has to
 be done when porting. The HTML can be popped apart with relative ease
-for use with Angular's *ngInclude* directive. Starting the theme design
+for use with Angular's `ngInclude` directive. Starting the theme design
 in code was a good decision. Of course, designing for stakeholders is
 different from designing for yourself, so your mileage may vary.
 
@@ -153,12 +138,11 @@ cringe a little at mixing code and custom tags with vanilla HTML, but I
 found AngularJS easy to use and relatively easy to understand. AngularJS
 version 2.0 comes out soon, but when that happens, I will likely switch
 to Aurelia. The Angular 2.0 syntax does not appeal to me, and
-[Aurelia](http://aurelia.io/ "Click here to visit the official Aurelia website.")
-syntax is based on EcmaScript 6 which I want to explore anyway. The
-Aurelia creator was once even part of the Angular team, so there is
-that, too, if you like Angular 1.\*.
+[Aurelia][] syntax is based on EcmaScript 6 which I want to explore
+anyway. The Aurelia creator was once even part of the Angular team, so
+there is that, too, if you like Angular 1.\*.
 
-### Back End {#back-end .subhead}
+## Back End
 
 Technically, Node.js is not a framework. It's a run-time environment.
 Express is the server framework in the MEAN stack though it just deals
@@ -189,7 +173,7 @@ already know what you should be looking for. I had to learn what I
 needed the hard way, though I suppose the resulting lesson stays with
 you longer.
 
-### Testing {#testing .subhead}
+## Testing
 
 Of all the concepts I learned during this project, test-driven
 development (TDD) and behavior-driven development (BDD) were the most
@@ -197,11 +181,7 @@ profoundly fundamental lessons of them all. In short, build nothing
 without TDD/BDD! I found I prefer BDD for its syntax since it reads
 quite naturally. An example of a BDD test might be
 `expect(thisArray).to.be.empty;`. BDD makes it pretty clear what the
-code should be doing, and working with
-[Mocha](http://mochajs.org/ "Click here to visit the official Mocha website.")
-and
-[Chai](http://chaijs.com/ "Click here to visit the official Chai website.")
-was a dream.
+code should be doing, and working with [Mocha][] and [Chai][] was a dream.
 
 Writing test code is like writing an entirely separate program alongside
 the one you want to build. It takes lots of time, but from experience on
@@ -221,14 +201,13 @@ and I could then design a workaround. I would have never even suspected
 Node was the problem without writing unit tests to eliminate all other
 possibilities.
 
-### Conclusion {#conclusion .subhead}
+## Conclusion
 
 Building a full-scale Web application solo, and for the first time,
 while simultaneously teaching myself the technologies involved, was a
 fun challenge that taught me many valuable lessons.
 
-Just between you and me, I originally thought the
-[Hacka\_finder](https://github.com/davidtimmons/hackafinder "View the Hacka_finder code here.")
+Just between you and me, I originally thought the [Hacka\_finder][4]
 prototype would take me about 2 weeks to finish. Shows what I knew! Here
 we are a little over two months later with the app just now completed.
 Clearly it's good policy to always double or triple your estimate for
@@ -242,3 +221,46 @@ This project took a lot of work yet came with tremendous educational
 value. It was definitely worth the effort. If you decide to be MEAN and
 take your own journey to build a Web application from scratch, good luck
 to you. Just remember it takes longer than two weeks!
+
+
+[1]: {filename}/images/2015/10/hf-robot-blog.jpg
+  "Be MEAN! Build a Web app."
+
+[2]: http://www.morguefile.com/archive/display/208246
+  "View the original photo on Morguefile."
+
+[3]: http://hackafinder.timmons.io/
+  "View the Hacka_finder demo here."
+
+[4]: https://github.com/davidtimmons/hackafinder
+  "View the Hacka_finder code here."
+
+[AngularJS]: https://angularjs.org/
+  "Click here to visit the official AngularJS website."
+
+[Aurelia]: http://aurelia.io/
+  "Click here to visit the official Aurelia website."
+
+[Axure]: http://www.axure.com/
+  "Click here to visit the official Axure website."
+
+[Balsamiq]: https://balsamiq.com/
+  "Click here to visit the official Balsamiq website."
+
+[Chai]: http://chaijs.com/
+  "Click here to visit the official Chai website."
+
+[Express]: http://expressjs.com/
+  "Click here to visit the official Express website."
+
+[Mocha]: http://mochajs.org/
+  "Click here to visit the official Mocha website."
+
+[MongoDB]: https://www.mongodb.org/
+  "Click here to visit the official MongoDB website."
+
+[Node.js]: https://nodejs.org/en/
+  "Click here to visit the official Node.js website."
+
+[Yeoman]: http://yeoman.io/
+  "Click here to visit the official Yeoman website."

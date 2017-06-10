@@ -14,7 +14,7 @@ Time-thieves delight in stealing your seconds, so when they move into
 your software, you must protect your time from their sticky fingers.
 Your seconds can be put to better use than waiting on a loading screen!
 We looked at slow asymptotic time complexity and slow database access in
-[*Part 1*][3], but there are more temporal robbers living in your
+*[Part 1][3]*, but there are more temporal robbers living in your
 software. Learn their modus operandi to keep your time safe.
 
 The innocent-looking "XML and HTTP Request" (XHR) call is third in the

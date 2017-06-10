@@ -1,4 +1,4 @@
-NOTE: Rename this file to ".config" and enter desired key values when cloning this project.
+NOTE: Rename this file to "_config" and enter desired key values when cloning this project.
 
 FTP_HOST=my_ftp_host
 FTP_USER=my_ftp_user

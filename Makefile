@@ -7,7 +7,7 @@ INPUTDIR=$(BASEDIR)/content
 OUTPUTDIR=$(BASEDIR)/output
 CONFFILE=$(BASEDIR)/pelicanconf.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
-CONFIG=$(BASEDIR)/config
+CONFIG=$(BASEDIR)/_config
 
 FTP_HOST=$(shell awk -F '=' '/FTP_HOST/ {print $$2}' < $(CONFIG))
 FTP_USER=$(shell awk -F '=' '/FTP_USER/ {print $$2}' < $(CONFIG))

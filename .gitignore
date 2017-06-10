@@ -1,5 +1,5 @@
 # Application settings / secrets
-.config
+_config*
 todo.txt
 
 # Pelican defaults
@@ -7,6 +7,7 @@ themes/simple/
 themes/notmyidea/
 output/*
 !output/.keep
+*.pid
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

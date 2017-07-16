@@ -1,16 +1,10 @@
 Title: About
 Date: 2014-05-29 23:19
-Author: david-timmons
+Author: David Timmons
 Slug: about
 Status: published
 
-<div>
-
-![David
-Timmons](http://david.timmons.io/wp-content/uploads/2014/05/david-timmons.jpg "That's me, David Timmons."){.about-portrait
-.shadow .alignleft .size-full .wp-image-2262}
-
-</div>
+![David Timmons][1]
 
 My name is **David Timmons**. Software engineering and entrepreneurship
 are my passions. I particularly love studying new programming languages,
@@ -19,11 +13,7 @@ exploring new business ideas, and of course, building software.
 **Current favorite technologies:**
 Python, JavaScript \[ES2015, Node.js\], Clojure, SQL
 
-<div class="single-content">
-
-### Background {#background .subhead}
-
-</div>
+## Background
 
 My career approach has always been motivated by a strong, innate desire
 to learn. I am continually driven to seek new ideas, acquire new skills,
@@ -32,33 +22,22 @@ though my career spans many years in business with an emphasis on
 technology, data, and marketing. I have worked at startups, been
 embedded in teams at Verizon, and have run my own business.
 
-<div class="posts-nav about-bio project-details shadow">
+<span class="about-bio">
+  Name<br />
+  David Timmons
 
-Name
+  Location<br />
+  Austin, TX . USA
 
-David Timmons
+  Work<br />
+  Technical Lead [@ Ascend Marketing][2]
 
-Location
+  Email<br />
+  <mailto:d@timmons.io>
 
-Austin, TX . USA
-
-Work
-
-Technical Lead
-[@ Ascend
-Marketing](http://www.ascend.marketing/#welcome){.posts-nav-link}
-
-Email
-
-<d@timmons.io>
-
-Social
-
-[GitHub](https://github.com/davidtimmons "Click here to visit my GitHub profile."){.posts-nav-link}
-.
-[LinkedIn](https://www.linkedin.com/in/davidtimmons "Click here to visit my LinkedIn profile."){.posts-nav-link}
-
-</div>
+  Social<br />
+  [GitHub][] . [LinkedIn][]
+</span>
 
 I can work throughout the software stack and enjoy each subject area,
 including front-end, back-end, database, and operations. Studying new
@@ -72,5 +51,20 @@ the executive team on technology topics, and managing various client
 projects.
 
 Feel free to look around, and if you have any questions or want to talk,
-[please send me an
-email](mailto:d@timmons.io "Click here to email me.").
+[please send me an email][3].
+
+
+[1]: {filename}/images/2014/05/david-timmons.jpg
+  "That's me, David Timmons."
+
+[2]: http://www.ascend.marketing/#welcome
+  "Click here to visit the Ascend Marketing website."
+
+[3]: mailto:d@timmons.io
+  "Click here to email me."
+
+[GitHub]: https://github.com/davidtimmons
+  "Click here to visit my GitHub profile."
+
+[LinkedIn]: https://www.linkedin.com/in/davidtimmons
+  "Click here to visit my LinkedIn profile."

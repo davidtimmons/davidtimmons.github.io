@@ -1,40 +1,32 @@
 Title: Want To Earn Your First $1 Million With Crowdfunding?
 Date: 2013-03-14 07:00
-Author: david-timmons
+Author: David Timmons
 Category: Marketing
 Slug: want-to-earn-your-first-1-million-with-crowdfunding
 Status: published
 
-\[caption id="attachment\_1736" align="alignnone"
-width="580"\]![Crowdfunding
-Overview](http://david.timmons.io/wp-content/uploads/2013/03/want-to-earn-your-first-1-million-with-crowdfunding0.jpg "Want To Earn Your First $1 Million With Crowdfunding?"){.size-full
-.wp-image-1736 width="580" height="450"} Photo: [Michael
-Dornbierer](http://www.flickr.com/photos/ausnahmezustand/7624312056/ "crowd by Michael Dornbierer")
+![crowd][1]
+<span class="img-caption">
+  Crowdfunding is a way entrepreneurs can raise money without using
+  conventional financing. Could you use a few million dollars?
 
-Crowdfunding is a way entrepreneurs can raise money without using
-conventional financing. Could you use a few million dollars?
+  Photo: "crowd" by [Michael Dornbierer][2].
+</span>
 
-\[/caption\]
-
-[Crowdfunding](http://en.wikipedia.org/wiki/Crowdfunding "Click here to learn more about crowdfunding.")
-is a way to bypass the sometimes onerous process of raising capital.
-Using this approach entrepreneurs can request monetary support from the
-communities they wish to benefit, often in exchange for exclusive
-incentives. But this approach is only as effective as the marketing
-strategy behind it.
+[Crowdfunding][] is a way to bypass the sometimes onerous process of
+raising capital. Using this approach entrepreneurs can request monetary
+support from the communities they wish to benefit, often in exchange
+for exclusive incentives. But this approach is only as effective as the
+marketing strategy behind it.
 
 For years, entrepreneurs had to rely on bank loans and venture capital
 to raise the money necessary to fund a new idea. However, our consumer
 culture has shifted to one of mass participation, and that opens the
 door to this new method of financing.
 
-[OUYA](http://www.ouya.tv/ "Click here to learn more about OUYA.") is an
-example of successful crowdfunding. In [*just over 8
-hours*](http://www.kickstarter.com/blog/ouyas-big-day "Click here to read about Kickstarter projects that quickly earned millions of dollars."),
-this video game console raised \$1 million. After only a month, it
-raised [*over \$8.5
-million*](http://www.kickstarter.com/projects/ouya/ouya-a-new-kind-of-video-game-console?ref=live "Click here to visit the OUYA Kickstarter page.").
-No strings attached!
+[OUYA][] is an example of successful crowdfunding. In *[just over 8 hours][3]*,
+this video game console raised $1 million. After only a month, it raised
+*[over $8.5 million][4]*. No strings attached!
 
 Not every crowdfunding project is this successful. But OUYA demonstrates
 the magnitude of what is possible when an entrepreneur delivers what the
@@ -73,3 +65,22 @@ thought and a clear vision of what could be, ideas that would otherwise
 be impossible regularly launch into the marketplace.
 
 Have you participated in crowdfunding?
+
+
+[1]: {filename}/images/2013/03/want-to-earn-your-first-1-million-with-crowdfunding0.jpg
+  "Want To Earn Your First $1 Million With Crowdfunding?"
+
+[2]: http://www.flickr.com/photos/ausnahmezustand/7624312056/
+  "View the original photo on Flickr."
+
+[3]: http://www.kickstarter.com/blog/ouyas-big-day
+  "Click here to read about Kickstarter projects that quickly earned millions of dollars."
+
+[4]: http://www.kickstarter.com/projects/ouya/ouya-a-new-kind-of-video-game-console?ref=live
+  "Click here to visit the OUYA Kickstarter page."
+
+[Crowdfunding]: http://en.wikipedia.org/wiki/Crowdfunding
+  "Click here to learn more about crowdfunding."
+
+[OUYA]: http://www.ouya.tv/
+  "Click here to learn more about OUYA."

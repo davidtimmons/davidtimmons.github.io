@@ -1,21 +1,18 @@
 Title: Hire Marketing Generalists, Harvard Says
 Date: 2013-05-09 17:01
-Author: david-timmons
+Author: David Timmons
 Category: Marketing
 Slug: hire-marketing-generalists-harvard-says
 Status: published
 
-\[caption id="attachment\_2114" align="alignnone" width="580"\]![Hire
-the Marketing Generalists, the Full-Stack
-Marketers](http://david.timmons.io/wp-content/uploads/2013/05/hire-marketing-generalists-harvard-says0.jpg "Hire Marketing Generalists, Harvard Says"){.size-full
-.wp-image-2114 width="580" height="450"} Image: [Justin P
-Lambert](http://www.flickr.com/photos/justinplwrites/5311302376/ "'UG' by Justin P Lambert")
+![UG][1]
+<span class="img-caption">
+  Like a tree, modern marketing continues to sprout new branches requiring
+  new knowledge to tend. Marketing generalists are the way to future-proof
+  your marketing department.
 
-Like a tree, modern marketing continues to sprout new branches requiring
-new knowledge to tend. Marketing generalists are the way to future-proof
-your marketing department.
-
-\[/caption\]
+  Image: "UG" by [Justin P. Lambert][2].
+</span>
 
 Marketing was once easy. In fact, it was often synonymous with
 advertising. You hired an artist to depict happy people using your
@@ -47,18 +44,13 @@ this maturity demands a breadth of skillsets to tend it. You can either
 hire an army of specialists or hire several generalists.
 
 Which person should your marketing department prefer? Here's a hint: the
-[*Harvard Business
-Review*](http://blogs.hbr.org/cs/2012/06/all_hail_the_generalist.html "Click here to read 'All Hail the Generalist' at the Harvard Business Review website.")
-thinks you should hire generalists.
+*[Harvard Business Review][3]* thinks you should hire generalists.
 
-### Effective Hiring {#effective-hiring .subhead}
+## Effective Hiring
 
-Articles like those featured in
-[*HBR*](http://blogs.hbr.org/cs/2012/06/all_hail_the_generalist.html "Click here to read 'All Hail the Generalist' at the Harvard Business Review website.")
-and
-[*GeekWire*](http://www.geekwire.com/2013/commentary-startup-marketing-minds-aka-fullstack-marketers/ "Click here to read about 'full-stack marketers' at GeekWire.")
-describe the benefits a "generalist" -- also known as "full-stack" --
-marketer can bring to an organization. For example, *sophistication*.
+Articles like those featured in *[HBR][3]* and *[GeekWire][4]* describe
+the benefits a "generalist" -- also known as "full-stack" -- marketer
+can bring to an organization. For example, *sophistication*.
 
 A sophisticated marketing campaign incorporates different ideas in a
 unified voice. Your marketing becomes unified when individuals on your
@@ -66,13 +58,13 @@ staff can do some of everything, eliminating the disharmony that comes
 from too many opinions embedded into your creative process.
 
 Generalists pool internal knowledge from different areas to achieve a
-***sophisticated result***.
+**sophisticated result**.
 
-Specialists team with other specialists to achieve a ***result***. These
+Specialists team with other specialists to achieve a **result**. These
 dissenting voices often produce an unmemorable outcome. At worst, it's
 confusing.
 
-### Generalist Strengths {#generalist-strengths .subhead}
+## Generalist Strengths
 
 Relying on marketing specialists instead of marketing generalists is
 ultimately a shortsighted solution.
@@ -91,7 +83,7 @@ Your generalist can switch gears and speed up. Your specialist pulls
 over to wait for another expertise-matching scenario, and that's
 unproductive.
 
-### For the win {#for-the-win .subhead}
+## For the win
 
 Modern marketing is complex. The required knowledge comes from many
 different areas, and that knowledge must have a variety of technical and
@@ -104,3 +96,16 @@ lead-generating machine, and that grows your bottom line.
 
 What do you think -- generalists or specialists for your marketing
 department?
+
+
+[1]: {filename}/images/2013/05/hire-marketing-generalists-harvard-says0.jpg
+  "Hire Marketing Generalists, Harvard Says"
+
+[2]: http://www.flickr.com/photos/justinplwrites/5311302376/
+  "View the original photo on Flickr."
+
+[3]: http://blogs.hbr.org/cs/2012/06/all_hail_the_generalist.html
+  "Click here to read 'All Hail the Generalist' at the Harvard Business Review website."
+
+[4]: http://www.geekwire.com/2013/commentary-startup-marketing-minds-aka-fullstack-marketers/
+  "Click here to read about 'full-stack marketers' at GeekWire."

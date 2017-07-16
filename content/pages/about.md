@@ -13,10 +13,10 @@ Timmons](http://david.timmons.io/wp-content/uploads/2014/05/david-timmons.jpg "T
 </div>
 
 My name is **David Timmons**. Software engineering and entrepreneurship
-are my passions. I particularly love studying new languages, exploring
-new business ideas, and of course, building software.
+are my passions. I particularly love studying new programming languages,
+exploring new business ideas, and of course, building software.
 
-**Current favorite technologies:**  
+**Current favorite technologies:**
 Python, JavaScript \[ES2015, Node.js\], Clojure, SQL
 
 <div class="single-content">
@@ -44,7 +44,7 @@ Austin, TX . USA
 
 Work
 
-Technical Lead  
+Technical Lead
 [@ Ascend
 Marketing](http://www.ascend.marketing/#welcome){.posts-nav-link}
 

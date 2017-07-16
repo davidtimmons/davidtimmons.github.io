@@ -1,20 +1,17 @@
 Title: A Square Postcard? Reviewing Square Card Reader Marketing
 Date: 2012-12-20 07:01
-Author: david-timmons
+Author: David Timmons
 Category: Marketing
 Slug: square-card-reader-postcard-review
 Status: published
 
-\[caption id="attachment\_1322" align="alignnone" width="580"\]![A
-postcard advertising the Square card
-reader](http://david.timmons.io/wp-content/uploads/2012/12/square-card-reader-postcard-review0.jpg "A Square postcard? Reviewing Square card reader marketing."){.size-full
-.wp-image-1322 width="580" height="450"} Postcard: [Square,
-Inc.](https://squareup.com/ "Click here to visit the Square, Inc. website.")
+![A postcard advertising the Square card reader][1]
+<span class="img-caption">
+  This Square card reader postcard is a great piece of marketing.
+  Unfortunately, it only works if it lands in the right hands.
 
-This Square card reader postcard is a great piece of marketing.
-Unfortunately, it only works if it lands in the right hands.
-
-\[/caption\]
+  Postcard: Design by [Square, Inc.][2].
+</span>
 
 Square sent me a postcard soon after registering Tachmorn Marketing, LLC
 with the Texas Secretary of State. I'm sure they also do this with other
@@ -37,28 +34,22 @@ does not always work for this very reason.
 However, for the right audience, the Square card reader postcard
 actually is a nice piece of marketing.
 
-### Marketing Critique {#marketing-critique .subhead}
+## Marketing Critique
 
 *Because there is always more to learn!*
 
-<div class="case-study">
-
 **Audience**
-
 -   Small business
 -   Mobile business
 
 **Audience Worldview**
-
 -   "I don't want a complex or custom solution. Just give me something I
     can turn on and use."
 
 **Marketing Story**
-
 -   "It's easy and cheap to accept credit cards in person."
 
 **Incentives**
-
 -   **Economic:** The reader is free. It saves me time which saves me
     money.
 -   **Moral:** N/A
@@ -66,31 +57,31 @@ actually is a nice piece of marketing.
     software to learn)
 
 **Call to Action**
-
--   Get your free card reader at
-    [squareup.com/free](https://squareup.com/ "Click here to visit the link provided in the Square card reader postcard.")
+-   Get your free card reader at [squareup.com/free][2]
 
 **Design**
-
 -   It's clean and uncluttered which will lead to increased readership.
 -   I have a clear understanding of the product.
 -   I know what they want me to do next.
 
 **Pros**
-
 -   Simple design is useful in situations where attention spans are
     short. Mass mailings qualify!
 -   The marketing message is consistent.
 -   The call to action is clear and strong.
 
 **Cons**
-
 -   I am not the target audience, which means if I were a normal person
     I would have immediately chucked this postcard. But I didn't!
     Marketers are weird.
 
-</div>
-
-So what's the lesson here? Know your audience.
+So what's the lesson here? **Know your audience**.
 
 How would you critique this Square card reader postcard?
+
+
+[1]: {filename}/images/2012/12/square-card-reader-postcard-review0.jpg
+  "A Square postcard? Reviewing Square card reader marketing."
+
+[2]: https://squareup.com/
+  "Click here to visit the Square, Inc. website."

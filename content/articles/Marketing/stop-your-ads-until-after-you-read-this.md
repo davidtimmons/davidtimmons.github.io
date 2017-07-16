@@ -1,20 +1,17 @@
 Title: Stop Your Ads Until After You Read This
 Date: 2013-02-07 07:00
-Author: david-timmons
+Author: David Timmons
 Category: Marketing
 Slug: stop-your-ads-until-after-you-read-this
 Status: published
 
-\[caption id="attachment\_1558" align="alignnone" width="580"\]![Ads
-Blog
-Post](http://david.timmons.io/wp-content/uploads/2013/02/stop-your-lubbock-ads-until-after-you-read-this0.jpg "Stop Your Ads Until After You Read This"){.size-full
-.wp-image-1558 width="580" height="450"} Image:
-[Atomicsteve](http://commons.wikimedia.org/wiki/File:AmericasBestComics2403.jpg "America's Best Comics page uploaded by Atomicsteve")
+![America's Best Comics page][1]
+<span class="img-caption">
+  Your ads should be part of a bigger marketing framework if you want them
+  to be effective.
 
-Your ads should be part of a bigger marketing framework if you want them
-to be effective.
-
-\[/caption\]
+  Image: "America's Best Comics page" uploaded by [Atomicsteve][2].
+</span>
 
 What media comes to mind when you think about advertising? Many people
 think of television commercials. There are also plenty of billboards
@@ -29,12 +26,8 @@ When promoting your business, it's important to remember that the
 function of advertising is to generate awareness and, ideally, to create
 a perceived need among your prospective customers. There are many
 frameworks you could adapt when planning your ads. The one I prefer is
-[Google's ZMOT
-model](http://www.zeromomentoftruth.com/ "Click here to visit Google's "),
-originally developed by Procter & Gamble. For more information see the
-["Marketing
-Strategy"](http://www.tachmorn.com/digital-marketing-services/getting-started/marketing-strategy/ "Click here to read our ")
-page on our website.
+[Google's ZMOT model][3], originally developed by Procter & Gamble. For
+more information see the ["Marketing Strategy"][4] page on our website.
 
 Under ZMOT, advertising is part of the "stimulus" for action. If your
 ads fail, you've wasted your money. But should you succeed, your
@@ -60,3 +53,16 @@ When hiring someone to create your advertising, consider this:
 
 What other advise would you give to organizations promoting themselves
 with modern media tactics?
+
+
+[1]: {filename}/images/2013/02/stop-your-lubbock-ads-until-after-you-read-this0.jpg
+  "Stop Your Ads Until After You Read This"
+
+[2]: http://commons.wikimedia.org/wiki/File:AmericasBestComics2403.jpg
+  "View the original photo on Wikimedia Commons."
+
+[3]: https://www.thinkwithgoogle.com/marketing-resources/micro-moments/2011-winning-zmot-ebook/
+  "Click here to read the 'Winning the Zero Moment of Truth' ebook."
+
+[4]: {filename}./marketing-strategy.md
+  "Click here to read more about marketing strategy."

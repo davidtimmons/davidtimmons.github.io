@@ -1,35 +1,28 @@
 Title: How To Use Google Analytics To Predict Sales Success
 Date: 2013-02-21 07:00
-Author: david-timmons
+Author: David Timmons
 Category: Marketing
 Slug: how-to-use-google-analytics-to-predict-sales-success
 Status: published
 
-\[caption id="attachment\_1652" align="alignnone" width="580"\]![Google
-Analytics Sales Prediction
-Overview](http://david.timmons.io/wp-content/uploads/2013/02/how-to-use-google-analytics-to-predict-sales-success0.jpg "How To Use Google Analytics To Predict Sales Success"){.size-full
-.wp-image-1652 width="580" height="450"} Image: [Google,
-Inc.](http://www.google.com/analytics/ "Click here to visit the Google Analytics website.")
+![Google Analytics Sales Prediction Overview][1]
+<span class="img-caption">
+  Google Analytics is a complex tool. However, using it to read your
+  visitors' level of interest in your brand is easy if you know how to
+  look.
 
-Google Analytics is a complex tool. However, using it to read your
-visitors' level of interest in your brand is easy if you know how to
-look.
+  Image: [Google, Inc.][2].
+</span>
 
-\[/caption\]
+[Google Analytics][] is a "crystal ball" in the right hands. It can
+predict customer intentions based on their interactions with your
+website. And since interested visitors are more likely to convert into
+sales leads, it's worth learning how to spot these signals. Best of all,
+interpreting customer signals with Google Analytics is easy if you know
+how to use the tool.
 
-[Google
-Analytics](http://www.google.com/analytics/ "Click here to visit the Google Analytics website.")
-is a "crystal ball" in the right hands. It can predict customer
-intentions based on their interactions with your website. And since
-interested visitors are more likely to convert into sales leads, it's
-worth learning how to spot these signals. Best of all, interpreting
-customer signals with Google Analytics is easy if you know how to use
-the tool.
-
-**1.) Pageviews.**  
-![Google Analytics Overview: "Pageviews" \[1 of
-3\]](http://david.timmons.io/wp-content/uploads/2013/02/how-to-use-google-analytics-to-predict-sales-success1.jpg "Google Analytics Overview: "Pageviews" [1 of 3]"){.aligncenter
-.size-full .wp-image-1655 width="224" height="117"}
+**1.) Pageviews.**
+![Google Analytics Overview: "Pageviews" (1 of 3)][3]
 
 Navigate to your *Audience Overview* screen. This is typically the
 default screen for Google Analytics. Once you're there, compare
@@ -38,10 +31,8 @@ any dates when pageviews spike considerably higher than the number of
 unique visitors to your website? Focus on that date. It could be exactly
 the signal we want.
 
-**2.) Engagement.**  
-![Google Analytics Overview: "Engagement" \[2 of
-3\]](http://david.timmons.io/wp-content/uploads/2013/02/how-to-use-google-analytics-to-predict-sales-success2.jpg "Google Analytics Overview: "Engagement" [2 of 3]"){.aligncenter
-.size-full .wp-image-1658 width="224" height="117"}
+**2.) Engagement.**
+![Google Analytics Overview: "Engagement" (2 of 3)][4]
 
 With your timeframe narrowed to the dates you identified, navigate to
 *Behavior » Engagement*, and select *Page Depth*. What do you see? Do
@@ -51,10 +42,8 @@ look at *Visit Duration* on this same screen. If your special guests
 stayed on your site for more than a couple minutes, things are looking
 very good.
 
-**3.) Advanced Segmentation.**  
-![Google Analytics Overview: "Advanced Segmentation" \[3 of
-3\]](http://david.timmons.io/wp-content/uploads/2013/02/how-to-use-google-analytics-to-predict-sales-success3.jpg "Google Analytics Overview: "Advanced Segmentation" [3 of 3]"){.aligncenter
-.size-full .wp-image-1659 width="257" height="117"}
+**3.) Advanced Segmentation.**
+![Google Analytics Overview: "Advanced Segmentation" (3 of 3)][5]
 
 We want to isolate for further analysis the 2 unique visitors in our
 example who each accrued 30 pageviews. Click on the *Advanced Segments*
@@ -104,3 +93,22 @@ ball at your side is a good way to predict your sales through measuring
 your marketing success.
 
 What web analytics methods or tools do you use with *your* website?
+
+
+[1]: {filename}/images/2013/02/how-to-use-google-analytics-to-predict-sales-success0.jpg
+  "How To Use Google Analytics To Predict Sales Success"
+
+[2]: http://www.google.com/analytics/
+  "Click here to visit the Google Analytics website."
+
+[3]: {filename}/images/2013/02/how-to-use-google-analytics-to-predict-sales-success1.jpg
+  "Google Analytics Overview: 'Pageviews' (1 of 3)"
+
+[4]: {filename}/images/2013/02/how-to-use-google-analytics-to-predict-sales-success2.jpg
+  "Google Analytics Overview: 'Engagement' (2 of 3)"
+
+[5]: {filename}/images/2013/02/how-to-use-google-analytics-to-predict-sales-success3.jpg
+  "Google Analytics Overview: 'Advanced Segmentation' (3 of 3)"
+
+[Google Analytics]: http://www.google.com/analytics/
+  "Click here to visit the Google Analytics website."

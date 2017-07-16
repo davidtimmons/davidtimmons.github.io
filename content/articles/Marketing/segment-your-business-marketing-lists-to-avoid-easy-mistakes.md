@@ -1,20 +1,17 @@
 Title: Segment Your Business Marketing Lists to Avoid Easy Mistakes
 Date: 2013-01-17 06:59
-Author: david-timmons
+Author: David Timmons
 Category: Marketing
 Slug: segment-your-business-marketing-lists-to-avoid-easy-mistakes
 Status: published
 
-\[caption id="attachment\_1439" align="alignnone"
-width="580"\]![Business Marketing Segmentation
-Graph](http://david.timmons.io/wp-content/uploads/2013/01/segment-your-business-marketing-lists-to-avoid-easy-mistakes0.jpg "Segment Your Business Marketing Lists to Avoid Easy Mistakes"){.size-full
-.wp-image-1439 width="580" height="450"} Image:
-[Walleye](http://commons.wikimedia.org/wiki/File:Kgs_rank_histogram.png "KGS Go Server rank distributions by Walleye")
+![KGS Go Server rank distributions][1]
+<span class="img-caption">
+  Business marketing segmentation can make the difference between a
+  prospect who calls *you* and a prospect who calls your *competition*.
 
-Business marketing segmentation can make the difference between a
-prospect who calls *you* and a prospect who calls your *competition*.
-
-\[/caption\]
+  Image: "KGS Go Server rank distributions" by [Walleye][2].
+</span>
 
 Business marketing principles often overlap with consumer marketing, but
 business marketing is unique because it focuses on an organizational
@@ -32,12 +29,9 @@ equipment".
 
 While this is an obvious example, you can segment your business
 marketing lists using variables that fit best with your overall
-strategy. In consumer marketing we often use
-[demographic](http://www.merriam-webster.com/dictionary/demographics "Click here to read a definition of demographics.")
-and
-[psychographic](http://www.merriam-webster.com/dictionary/psychographics "Click here to read a definition of psychographics.")
-factors to accomplish this. However, in business marketing, we use
-[firmographics](http://en.wikipedia.org/wiki/Firmographics "Click here to read more about firmographics.").
+strategy. In consumer marketing we often use [demographics][] and
+[psychographics][] to accomplish this. However, in business
+marketing, we use [firmographics][].
 
 Firmographics are segmentation variables such as industry, company
 location, number of employees, and yearly revenue. The first step is to
@@ -55,3 +49,19 @@ marketing decisions that maximize your response rate.
 
 Business marketing segmentation through the use of firmographics helps
 you target your promotional efforts. This leads to greater success.
+
+
+[1]: {filename}/images/2013/01/segment-your-business-marketing-lists-to-avoid-easy-mistakes0.jpg
+  "Business Marketing Segmentation Graph"
+
+[2]: http://commons.wikimedia.org/wiki/File:Kgs_rank_histogram.png
+  "KGS Go Server rank distributions by Walleye"
+
+[demographics]: http://www.merriam-webster.com/dictionary/demographics
+  "Click here to read a definition of demographics."
+
+[firmographics]: http://en.wikipedia.org/wiki/Firmographics
+  "Click here to read more about firmographics."
+
+[psychographics]: http://www.merriam-webster.com/dictionary/psychographics
+  "Click here to read a definition of psychographics."

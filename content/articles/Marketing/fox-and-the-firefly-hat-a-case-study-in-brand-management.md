@@ -1,20 +1,17 @@
 Title: Fox And The "Firefly" Hat: A Case Study in Brand Management
 Date: 2013-04-15 08:00
-Author: david-timmons
+Author: David Timmons
 Category: Marketing
 Slug: fox-and-the-firefly-hat-a-case-study-in-brand-management
 Status: published
 
-\[caption id="attachment\_1970" align="alignnone" width="580"\]![The
-'Firefly' Jayne Hat And Brand Management
-Overview](http://david.timmons.io/wp-content/uploads/2013/04/fox-and-the-firefly-hat-a-case-study-in-brand-management0.jpg "Fox And The 'Firefly' Hat: A Case Study in Brand Management"){.size-full
-.wp-image-1970 width="580" height="450"} Photo: [Ewen
-Roberts](http://www.flickr.com/photos/donabelandewen/3755969693/ "Cunning read by Ewen Roberts")
+![Cunning read][1]
+<span class="img-caption">
+  A healthy fan-brand relationship benefits everyone. Fox and "Firefly"
+  fans demonstrate what happens when that relationship becomes uneven.
 
-A healthy fan-brand relationship benefits everyone. Fox and "Firefly"
-fans demonstrate what happens when that relationship becomes uneven.
-
-\[/caption\]
+  Photo: "Cunning read" by [Ewen Roberts][2].
+</span>
 
 Fans grow brands. The most dedicated fans build unofficial communities,
 reveling in the joy that participation with a favorite brand provides.
@@ -29,13 +26,12 @@ This harmonious, delicately-balanced relationship quickly becomes
 noxious when one side demands more than the other side provides. In the
 worst cases, ill will leads to lost revenue, which harms everyone.
 
-### Fox and the 'Firefly' hat {#fox-and-the-firefly-hat .subhead}
+## Fox and the 'Firefly' hat
 
-[*Firefly*](http://www.imdb.com/title/tt0303461/ "Click here to read more about 'Firefly'.")
-remains a popular brand despite losing its place on the Fox Network in
-late 2002. This "space western" amassed a dedicated fanbase that adores
-*Firefly* more than 10 years after Fox cancelled the show. To them,
-*Firefly* is very special.
+*[Firefly][]* remains a popular brand despite losing its place on the
+Fox Network in late 2002. This "space western" amassed a dedicated
+fanbase that adores *Firefly* more than 10 years after Fox cancelled
+the show. To them, *Firefly* is very special.
 
 During one of the final *Firefly* episodes, a particular character
 (Jayne Cobb) dons an orange, knitted hat. The show's producers intended
@@ -49,7 +45,7 @@ passion.
 *Firefly* fans had a need. When the official brand neglected to fill
 that void, these same fans provided a solution.
 
-### Money talks {#money-talks .subhead}
+## Money talks
 
 In 2012 Fox licensed the right to sell official *Firefly* apparel. This
 includes the Jayne hat, which has been a staple among the fan community
@@ -76,7 +72,7 @@ defense or good will among the fan community?
 A brand's answer defines its attitude toward its fans more clearly than
 any mission statement or press release could ever do.
 
-### Brand management is tricky business {#brand-management-is-tricky-business .subhead}
+## Brand management is tricky business
 
 Fox recently chose to send cease and desist letters to *Firefly* fans
 selling Jayne hats.
@@ -90,20 +86,18 @@ develop.
 **Who is right?**
 
 This fan-brand relationship has become unbalanced, and predictably, ill
-will has already led to lost revenue. [One
-merchant](http://www.thinkgeek.com/blog/2013/04/nice-hat-jayne.html "Click here to read more about Think Geek's response.")
-even decided to donate all profit it earns on official Jayne hats in
-order to appease *Firefly* fans.
+will has already led to lost revenue. [One merchant][3] even decided to
+donate all profit it earns on official Jayne hats in order to appease
+*Firefly* fans.
 
 Brand management is tricky business.
 
-### Everyone can win {#everyone-can-win .subhead}
+## Everyone can win
 
 Today's fan-brand relationship is more participatory than ever before in
-history. [*Minecraft* fans and
-Mojang](http://www.tachmorn.com/why-minecraft-should-be-your-model-online-community/ "Click here to read more about 'Minecraft' and Mojang.")
-are just one example of a fan-brand relationship characterized by
-balanced participation; the results have benefited everyone.
+history. [*Minecraft* fans and Mojang][4] are just one example of a
+fan-brand relationship characterized by balanced participation; the
+results have benefited everyone.
 
 Ultimately the best, most profitable outcome occurs when fans and the
 brands they adore both work together, respecting one another,
@@ -113,7 +107,25 @@ And *that* mirrors *any* healthy relationship.
 
 Fox is within its legal rights to defend *Firefly* from possible
 infringement. But when the cost outweighs the benefit, why not let the
-fans have their say? [Read more about the situation
-here](http://www.buzzfeed.com/ellievhall/firefly-hat-triggers-corporate-crackdown "Click here to read more about the Jayne hat.").
+fans have their say? [Read more about the situation here][5].
 
 What do you think?
+
+
+[1]: {filename}/images/2013/04/fox-and-the-firefly-hat-a-case-study-in-brand-management0.jpg
+  "Fox And The 'Firefly' Hat: A Case Study in Brand Management"
+
+[2]: http://www.flickr.com/photos/donabelandewen/3755969693/
+  "View the original photo on Flickr."
+
+[3]: http://www.thinkgeek.com/blog/2013/04/nice-hat-jayne.html
+  "Click here to read more about Think Geek's response."
+
+[4]: {filename}./why-minecraft-should-be-your-model-online-community.md
+  "Click here to read more about 'Minecraft' and Mojang."
+
+[5]: http://www.buzzfeed.com/ellievhall/firefly-hat-triggers-corporate-crackdown
+  "Click here to read more about the Jayne hat."
+
+[Firefly]: http://www.imdb.com/title/tt0303461/
+  "Click here to read more about 'Firefly'."

@@ -1,20 +1,17 @@
 Title: Marketing, The Zombie Apocalypse, And You
 Date: 2013-05-18 18:20
-Author: david-timmons
+Author: David Timmons
 Category: Marketing
 Slug: marketing-the-zombie-apocalypse-and-you
 Status: published
 
-\[caption id="attachment\_2055" align="alignnone"
-width="580"\]![Marketing After The Zombie
-Apocalypse](http://david.timmons.io/wp-content/uploads/2013/05/marketing-the-zombie-apocalypse-and-you0.jpg "Marketing, The Zombie Apocalypse, And You"){.size-full
-.wp-image-2055 width="580" height="450"} Photo: [Nivaldo
-Arruda](http://www.flickr.com/photos/nivaldoarruda/4357660136/ "'Zombie Walk 2010 - Curitiba' by Nivaldo Arruda")
+![Zombie Walk 2010 - Curitiba][1]
+<span class="img-caption">
+  Marketing your business after the zombie apocalypse can be a living
+  nightmare, but have hope: Marketing theory is still valid!
 
-Marketing your business after the zombie apocalypse can be a living
-nightmare, but have hope: Marketing theory is still valid!
-
-\[/caption\]
+  Photo: "Zombie Walk 2010 - Curitiba" by [Nivaldo Arruda][2].
+</span>
 
 Marketing your business after the zombie apocalypse can be a *living
 nightmare*.
@@ -38,7 +35,7 @@ hygiene are all very real challenges marketing professionals must
 overcome to thrive after *Z-Day*. If you want your business to flourish
 in this brave new world, get back to marketing basics.
 
-### Post-Apocalypse Marketing Mix {#post-apocalypse-marketing-mix .subhead}
+## Post-Apocalypse Marketing Mix
 
 **Product.** Marketing starts with a product people want. Nobody that
 survives the zombie apocalypse has time for novelty vomit when you can
@@ -66,7 +63,7 @@ lonely travelers. Nostalgia sells! Just ignore the bloodthirsty
 cannibals that will break your shelves and misplace your restroom keys
 because if you can sell one more can of potted meat, you should.
 
-### A Valid Theory {#a-valid-theory .subhead}
+## A Valid Theory
 
 Life after *Z-Day* is tough. Creating an effective marketing mix that
 appeals to a diverse group of emotionally dead survivors is hard in any
@@ -80,3 +77,10 @@ Whenever you pine for easier times filled with social media tweets
 describing in excruciating detail the peanut butter sandwich your brand
 manager ate for lunch, just remember the "four Ps" is as relevant today
 as in the age of habitual bathing.
+
+
+[1]: {filename}/images/2013/05/marketing-the-zombie-apocalypse-and-you0.jpg
+  "Marketing After The Zombie Apocalypse"
+
+[2]: http://www.flickr.com/photos/nivaldoarruda/4357660136/
+  "View the original photo on Flickr."

@@ -1,21 +1,19 @@
 Title: Like a Sandcastle
 Date: 2012-11-22 07:30
-Author: david-timmons
+Author: David Timmons
 Category: Marketing
 Slug: its-like-a-sandcastle
 Status: published
 
-\[caption id="attachment\_1013" align="alignnone"
-width="580"\]![Marketing systems can be understood as
-sandcastles.](http://david.timmons.io/wp-content/uploads/2012/11/its-like-a-sandcastle0.jpg "Sandcastle Systems"){.size-full
-.wp-image-1013 width="580" height="450"} Photograph: [Benoit
-Rochon](http://commons.wikimedia.org/wiki/File:Chateau_de_sable2.jpg "'Sand art and play at île du Havre Aubert in Îles-de-la-Madeleine' by Benoit Rochon")
+![Sand art and play at île du Havre Aubert in Îles-de-la-Madeleine][1]
+<span class="img-caption">
+  Grains of sand form sandcastles just as small details form marketing
+  systems. Our marketing success depends on our understanding of this
+  complexity.
 
-Grains of sand form sandcastles just as small details form marketing
-systems. Our marketing success depends on our understanding of this
-complexity.
-
-\[/caption\]
+  Photo: "Sand art and play at île du Havre Aubert in Îles-de-la-Madeleine"
+  by [Benoit Rochon][2]
+</span>
 
 A system is a set of related ideas that works together. Systems produce
 marketing. Efficient marketing systems can produce good results, but it
@@ -60,3 +58,10 @@ failure with far greater ease.
 Intimate understanding of what we do and why we do it is a very
 pragmatic course of action toward building long-term results for your
 organization.
+
+
+[1]: {filename}/images/2012/11/its-like-a-sandcastle0.jpg
+  "Marketing systems can be understood as sandcastles."
+
+[2]: http://commons.wikimedia.org/wiki/File:Chateau_de_sable2.jpg
+  "View the original image on Wikimedia Commons."

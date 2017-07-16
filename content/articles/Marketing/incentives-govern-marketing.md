@@ -1,21 +1,19 @@
 Title: Incentives Govern Marketing
 Date: 2012-11-29 07:28
-Author: david-timmons
+Author: David Timmons
 Category: Marketing
 Slug: incentives-govern-marketing
 Status: published
 
-\[caption id="attachment\_1138" align="alignnone"
-width="580"\]![Marketing incentives are the levers that create
-action.](http://david.timmons.io/wp-content/uploads/2012/11/incentives-govern-marketing0.jpg "Marketing Incentives"){.size-full
-.wp-image-1138 width="580" height="450"} Image: [Florentine
-Codex](http://commons.wikimedia.org/wiki/File:Aztec_feast_4.jpg "Aztec feast illustration from the Florentine Codex, Late 16th century.")
+![Aztec feast illustration from the Florentine Codex][1]
+<span class="img-caption">
+  Marketing incentives are the levers that create action. Understanding
+  what these are and how to use them makes it easier to generate
+  conversions.
 
-Marketing incentives are the levers that create action. Understanding
-what these are and how to use them makes it easier to generate
-conversions.
-
-\[/caption\]
+  Image: "Aztec feast illustration from the Florentine Codex, Late 16th
+  century" courtesy of [Wikimedia Commons][2].
+</span>
 
 Did you ever wonder why so many stores use coupons or why a company will
 give shoes to a developing nation for every pair you purchase? These are
@@ -70,8 +68,17 @@ incentives is a challenge. That's right! Human behavior is complex.
 Here's a fun capstone video with all our concepts and all our complex
 human behavior nicely illustrated.
 
-<iframe width="580" height="326" src="http://www.youtube.com/embed/osUwukXSd0k?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="580" height="326"
+        src="http://www.youtube.com/embed/osUwukXSd0k?rel=0"
+        frameborder="0" allowfullscreen></iframe>
 
 Marketing seeks to impact human behavior, therefore incentives govern
 marketing. Finding the right levers for your brand should always be a
 core part of your marketing strategy.
+
+
+[1]: {filename}/images/2012/11/incentives-govern-marketing0.jpg
+  "Marketing incentives are the levers that create action."
+
+[2]: http://commons.wikimedia.org/wiki/File:Aztec_feast_4.jpg
+  "View the original image on Wikimedia Commons."

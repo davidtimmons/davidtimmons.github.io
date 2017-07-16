@@ -1,19 +1,16 @@
 Title: Humor is Not Always Funny
 Date: 2012-12-27 06:49
-Author: david-timmons
+Author: David Timmons
 Category: Marketing
 Slug: humor-is-not-always-funny
 Status: published
 
-\[caption id="attachment\_1353" align="alignnone" width="580"\]![Humor
-is not always
-funny.](http://david.timmons.io/wp-content/uploads/2012/12/humor-is-not-always-funny0.jpg "When it comes to humor in business, how much is too much?"){.size-full
-.wp-image-1353 width="580" height="450"} Photograph: [Keoni
-Cabral](http://www.flickr.com/photos/keoni101/5530280949/ "Katrina Killed the Klown by Keoni Cabral")
+![Katrina Killed the Klown][1]
+<span class="img-caption">
+  Humor is tricky when used in a business context. How much is too much?
 
-Humor is tricky when used in a business context. How much is too much?
-
-\[/caption\]
+  Photo: "Katrina Killed the Klown" by [Keoni Cabral][2].
+</span>
 
 Communication between two people always results in some amount of
 information loss. It can't be helped! Maybe the radio is too loud. Or
@@ -41,9 +38,8 @@ affairs.
 
 You will find organizations that know their audience very well can get
 away with *some* humor. For example, malware monitoring and cleanup
-service
-[Sucuri](http://sucuri.net/company "Click here to read more about Sucuri.")
-uses a touch of humor with their tagline *PROTECT YOUR INTERWEBS*.
+service [Sucuri][] uses a touch of humor with their tagline
+*PROTECT YOUR INTERWEBS*.
 
 However, even then, if your product is intended for business use, too
 much humor can leave an impression that your brand is a joke. And no
@@ -53,3 +49,13 @@ I would also add that no matter the industry and no matter the type of
 business in question, Bill Murray will *always* get a pass.
 
 But I'm guessing this exception applies in very limited cases.
+
+
+[1]: {filename}/images/2012/12/humor-is-not-always-funny0.jpg
+  "When it comes to humor in business, how much is too much?"
+
+[2]: http://www.flickr.com/photos/keoni101/5530280949/
+  "View the original photo on Flickr."
+
+[Sucuri]: http://sucuri.net/company
+  "Click here to read more about Sucuri."

@@ -8,7 +8,7 @@ Status: published
 ![IMG_4236][1]
 <span class="img-caption">
   Photo: "IMG_4236" image courtesy of [middlewick][2].
-</SPAN>
+</span>
 
 Bringing a Web application from the spark of an idea to a complete
 interactive experience is certainly a rite of passage. I finished

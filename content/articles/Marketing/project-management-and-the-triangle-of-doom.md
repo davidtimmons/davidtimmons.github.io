@@ -1,21 +1,18 @@
 Title: Project Management And The Triangle Of Doom
 Date: 2013-03-07 07:00
-Author: david-timmons
+Author: David Timmons
 Category: Marketing
 Slug: project-management-and-the-triangle-of-doom
 Status: published
 
-\[caption id="attachment\_1700" align="alignnone" width="580"\]![Project
-Management Triangle
-Overview](http://david.timmons.io/wp-content/uploads/2013/03/project-management-and-the-triangle-of-doom0.jpg "Project Management And The Triangle Of Doom"){.size-full
-.wp-image-1700 width="580" height="450"} Image:
-[Cosmocatalano](http://en.wikipedia.org/wiki/File:Project-triangle.svg "Project Triangle by Cosmocatalano")
+![Project Triangle][1]
+<span class="img-caption">
+  Project management must recognize and work within constraints. Resources
+  are always finite, and understanding the tradeoffs involved makes or
+  breaks a project.
 
-Project management must recognize and work within constraints. Resources
-are always finite, and understanding the tradeoffs involved makes or
-breaks a project.
-
-\[/caption\]
+  Image: "Project Triangle" by [Cosmocatalano][2].
+</span>
 
 Do your coworkers hide when they see you coming?
 
@@ -25,12 +22,11 @@ finite quantities. However, when your project management philosophy
 neglects this reality, you'll find yourself causing undue stress to your
 team and your stakeholders.
 
-The "[Project Management
-Triangle](http://en.wikipedia.org/wiki/Project_triangle "Click here to read more about the Project Management Triangle.")"
-is a model of constraints. *Time*, *Scope*, and *Cost* represent the
-three points of this triangle, and the job of a project management
-professional is to align a project against this triangle according to
-the project's business objectives. This isn't always easy.
+The "[Project Management Triangle][3]" is a model of constraints.
+*Time*, *Scope*, and *Cost* represent the three points of this triangle,
+and the job of a project management professional is to align a project
+against this triangle according to the project's business objectives.
+This isn't always easy.
 
 Have you heard the scenario that says a project can be characterized as
 *Fast*, *Good*, or *Cheap* but you can only pick two options? This is
@@ -65,3 +61,13 @@ no longer hide when they see you coming. They will welcome the project
 management process as an efficient way to achieve success.
 
 How do you manage constraints in your projects?
+
+
+[1]: {filename}/images/2013/03/project-management-and-the-triangle-of-doom0.jpg
+  "Project Management Triangle Overview"
+
+[2]: http://en.wikipedia.org/wiki/File:Project-triangle.svg
+  "View the original image on Wikipedia."
+
+[3]: http://en.wikipedia.org/wiki/Project_triangle
+  "Click here to read more about the Project Management Triangle."

@@ -1,22 +1,19 @@
 Title: Strong Mobile App Marketing
 Date: 2013-02-28 07:07
-Author: david-timmons
+Author: David Timmons
 Category: Marketing
 Slug: strong-mobile-app-marketing
 Status: published
 
-\[caption id="attachment\_2119" align="alignnone" width="580"\]![Mobile
-App Marketing
-Overview](http://david.timmons.io/wp-content/uploads/2013/02/strong-mobile-app-marketing-and-app-visibility0.jpg){.size-full
-.wp-image-2119 width="580" height="450"} Photo: [Yutaka
-Tsutano](http://www.flickr.com/photos/ivyfield/4731067716/ "'iPhone 4's Retina Display v.s. iPhone 3G' by Yutaka Tsutano")
+![iPhone 4's Retina Display v.s. iPhone 3G][1]
+<span class="img-caption">
+  A brand that builds a custom mobile app can create a great mechanism for
+  acquiring engaged users that contribute to ROI. But unless that brand
+  also takes a serious approach to mobile app marketing, very few people
+  will ever see that app.
 
-A brand that builds a custom mobile app can create a great mechanism for
-acquiring engaged users that contribute to ROI. But unless that brand
-also takes a serious approach to mobile app marketing, very few people
-will ever see that app.
-
-\[/caption\]
+  Photo: "iPhone 4's Retina Display v.s. iPhone 3G" by [Yutaka Tsutano][2].
+</span>
 
 It's no secret that modern marketing needs to incorporate mobile devices
 into the campaign mix. Creating a custom mobile app affords a great
@@ -26,14 +23,12 @@ also consider how you will optimize the components of mobile app
 marketing unique to your app.
 
 Mobile research company Yankee Group predicts as many as 1.3 billion
-mobile app *users* worldwide in 2013. Gartner Research [predicts 81.4
-billion mobile app *downloads* in
-2013](http://www.gartner.com/newsroom/id/2153215 "Click here to read the Gartner Research app store downloads forecast.").
-The market is there. Yet the quality of your mobile app marketing will
-determine your ultimate success.
+mobile app *users* worldwide in 2013. Gartner Research
+[predicts 81.4 billion mobile app *downloads* in 2013][3]. The market
+is there, yet the quality of your mobile app marketing will determine
+your ultimate success.
 
-Here's why:
-[775,000](http://www.apple.com/pr/library/2013/01/07App-Store-Tops-40-Billion-Downloads-with-Almost-Half-in-2012.html "Click here to view Apple's App Store statistics.").
+Here's why: [775,000][4].
 
 That's how many apps you compete against when you release a mobile app
 into the Apple App Store. Visibility is key, and one important mobile
@@ -78,3 +73,16 @@ quality users who will contribute to your ROI.
 
 Have you developed a mobile app for your brand, or have you thought
 about doing so? What promotion techniques would you use?
+
+
+[1]: {filename}/images/2013/02/strong-mobile-app-marketing-and-app-visibility0.jpg
+  "Mobile App Marketing Overview"
+
+[2]: http://www.flickr.com/photos/ivyfield/4731067716/
+  "View the original photo on Flickr."
+
+[3]: http://www.gartner.com/newsroom/id/2153215
+  "Click here to read the Gartner Research app store downloads forecast."
+
+[4]: http://www.apple.com/pr/library/2013/01/07App-Store-Tops-40-Billion-Downloads-with-Almost-Half-in-2012.html
+  "Click here to view Apple's App Store statistics."

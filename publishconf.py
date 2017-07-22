@@ -28,7 +28,13 @@ OUTPUT_PATH = 'output/'
 PATH = 'content'
 PAGE_PATHS = ['pages']
 ARTICLE_PATHS = ['articles']
-STATIC_PATHS = ['images', 'static']
+PLUGINS = [
+    #'deadlinks',
+    'sitemap'
+]
+PLUGIN_PATHS = ['plugins']
+STATIC_PATHS = ['demos', 'images', 'static']
+STATIC_EXCLUDES = ['wordpress-theme']
 SUMMARY_MAX_LENGTH = 40
 
 #######
@@ -56,7 +62,6 @@ MONTH_ARCHIVE_SAVE_AS = 'archives/{date:%Y}/{date:%m}/index.html'
 #################
 # Time and Date #
 #################
-TIMEZONE = 'America/Chicago'
 DEFAULT_DATE = 'fs'
 DEFAULT_DATE_FORMAT = '%B %d, %Y %X'
 
@@ -78,3 +83,26 @@ DEFAULT_PAGINATION = 10
 # Themes #
 ##########
 THEME = 'blue-penguin'
+
+###########
+# Plugins #
+###########
+DEADLINK_VALIDATION = True
+DEADLINK_OPTS = {
+    'archive': True,
+    'classes': ['disabled'],
+    'labels': False
+}
+SITEMAP = {
+    'format': 'xml',
+    'priorities': {
+        'articles': 0.5,
+        'indexes': 0.5,
+        'pages': 0.9
+    },
+    'changefreqs': {
+        'articles': 'monthly',
+        'indexes': 'monthly',
+        'pages': 'monthly'
+    }
+}

@@ -8,4 +8,5 @@ TIMEZONE = 'America/Chicago'
 DEFAULT_LANG = 'en'
 
 DISQUS_SITENAME = ''
+GITHUB_URL = ''
 GOOGLE_ANALYTICS = ''

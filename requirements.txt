@@ -1,8 +1,11 @@
 beautifulsoup4==4.6.0
 blinker==1.4
+certifi==2017.4.17
+chardet==3.0.4
 docutils==0.13.1
 feedgenerator==1.9
 feedparser==5.2.1
+idna==2.5
 Jinja2==2.9.6
 lxml==3.7.3
 Markdown==2.6.8
@@ -11,5 +14,7 @@ pelican==3.7.1
 Pygments==2.2.0
 python-dateutil==2.6.0
 pytz==2017.2
+requests==2.18.1
 six==1.10.0
 Unidecode==0.4.20
+urllib3==1.21.1

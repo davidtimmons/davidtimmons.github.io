@@ -6,6 +6,7 @@ BASEDIR=$(CURDIR)
 THEMEDIR=$(BASEDIR)/themes
 INPUTDIR=$(BASEDIR)/content
 OUTPUTDIR=$(BASEDIR)/output
+COPYDIR=$(INPUTDIR)/root
 CONFFILE=$(BASEDIR)/pelicanconf.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
 CONFIG=$(BASEDIR)/_config
@@ -71,7 +72,7 @@ theme_install:
 	cd $(THEMEDIR)/$(THEME) && pelican-themes --symlink $$(pwd) --verbose
 
 html:
-	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
+	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS) && cp -rv $(COPYDIR)/* $(OUTPUTDIR)
 
 clean:
 	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)
@@ -112,7 +113,7 @@ stopserver:
 	@echo 'Stopped Pelican and SimpleHTTPServer processes running in background.'
 
 publish:
-	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
+	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS) && cp -rv $(COPYDIR)/* $(OUTPUTDIR)
 
 ssh_upload: publish
 	scp -P $(SSH_PORT) -r $(OUTPUTDIR)/* $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)

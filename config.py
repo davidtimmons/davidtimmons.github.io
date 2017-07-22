@@ -7,6 +7,8 @@ SITEURL = '' # 'http://my-url.example'
 TIMEZONE = 'America/Chicago'
 DEFAULT_LANG = 'en'
 
+STATIC_EXCLUDES = []
+
 DISQUS_SITENAME = ''
 GITHUB_URL = ''
 GOOGLE_ANALYTICS = ''

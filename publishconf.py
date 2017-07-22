@@ -34,7 +34,6 @@ PLUGINS = [
 ]
 PLUGIN_PATHS = ['plugins']
 STATIC_PATHS = ['demos', 'images', 'static']
-STATIC_EXCLUDES = ['wordpress-theme']
 SUMMARY_MAX_LENGTH = 40
 
 #######

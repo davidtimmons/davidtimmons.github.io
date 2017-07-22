@@ -2,7 +2,7 @@
 
 AUTHOR = 'My Name'
 SITENAME = 'My Site Name'
-SITEURL = 'http://my-url.example'
+SITEURL = '' # 'http://my-url.example'
 
 TIMEZONE = 'America/Chicago'
 DEFAULT_LANG = 'en'

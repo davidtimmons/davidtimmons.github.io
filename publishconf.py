@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 import os
 import sys
 sys.path.append(os.curdir)
-from pelicanconf import *
+from _config import *
 
 
 #--------------------#
@@ -25,6 +25,7 @@ DISPLAY_CATEGORIES_ON_MENU = False
 DELETE_OUTPUT_DIRECTORY = True
 OUTPUT_RETENTION = ['.keep']
 OUTPUT_PATH = 'output/'
+PATH = 'content'
 PAGE_PATHS = ['pages']
 ARTICLE_PATHS = ['articles']
 STATIC_PATHS = ['images', 'static']
@@ -52,13 +53,28 @@ TAGS_SAVE_AS = ''
 ARCHIVES_SAVE_AS = 'archives.html'
 MONTH_ARCHIVE_SAVE_AS = 'archives/{date:%Y}/{date:%m}/index.html'
 
+#################
+# Time and Date #
+#################
+TIMEZONE = 'America/Chicago'
+DEFAULT_DATE = 'fs'
+DEFAULT_DATE_FORMAT = '%B %d, %Y %X'
+
 ########
 # Feed #
 ########
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
+TRANSLATION_FEED_ATOM = None
+AUTHOR_FEED_ATOM = None
+AUTHOR_FEED_RSS = None
+
+##############
+# Pagination #
+##############
+DEFAULT_PAGINATION = 10
 
 ##########
 # Themes #
 ##########
-THEME = 'notmyidea'
+THEME = 'blue-penguin'

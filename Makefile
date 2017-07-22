@@ -3,11 +3,14 @@ PELICAN?=pelican
 PELICANOPTS=
 
 BASEDIR=$(CURDIR)
+THEMEDIR=$(BASEDIR)/themes
 INPUTDIR=$(BASEDIR)/content
 OUTPUTDIR=$(BASEDIR)/output
 CONFFILE=$(BASEDIR)/pelicanconf.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
 CONFIG=$(BASEDIR)/_config
+
+THEME=$(shell awk -F '=' '/THEME/ {print $$2}' < $(CONFIG))
 
 FTP_HOST=$(shell awk -F '=' '/FTP_HOST/ {print $$2}' < $(CONFIG))
 FTP_USER=$(shell awk -F '=' '/FTP_USER/ {print $$2}' < $(CONFIG))
@@ -42,6 +45,7 @@ help:
 	@echo 'Makefile for a pelican Web site                                           '
 	@echo '                                                                          '
 	@echo 'Usage:                                                                    '
+	@echo '   make theme_install                  symlink the site theme             '
 	@echo '   make html                           (re)generate the web site          '
 	@echo '   make clean                          remove the generated files         '
 	@echo '   make regenerate                     regenerate files upon modification '
@@ -49,6 +53,7 @@ help:
 	@echo '   make serve [PORT=8000]              serve site at http://localhost:8000'
 	@echo '   make serve-global [SERVER=0.0.0.0]  serve (as root) to $(SERVER):80    '
 	@echo '   make devserver [PORT=8000]          start/restart develop_server.sh    '
+	@echo '   make devserver-pubish [PORT=8000]   <devserver> with publish config    '
 	@echo '   make stopserver                     stop local server                  '
 	@echo '   make ssh_upload                     upload the web site via SSH        '
 	@echo '   make rsync_upload                   upload the web site via rsync+ssh  '
@@ -61,6 +66,9 @@ help:
 	@echo 'Set the DEBUG variable to 1 to enable debugging, e.g. make DEBUG=1 html   '
 	@echo 'Set the RELATIVE variable to 1 to enable relative urls                    '
 	@echo '                                                                          '
+
+theme_install:
+	cd $(THEMEDIR)/$(THEME) && pelican-themes --symlink $$(pwd) --verbose
 
 html:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
@@ -85,12 +93,18 @@ else
 	cd $(OUTPUTDIR) && $(PY) -m pelican.server 80 0.0.0.0
 endif
 
-
 devserver:
+ifdef PORT
+	$(BASEDIR)/develop_server.sh restart $(PORT) dev
+else
+	$(BASEDIR)/develop_server.sh restart 8000 dev
+endif
+
+devserver-publish:
 ifdef PORT
 	$(BASEDIR)/develop_server.sh restart $(PORT)
 else
-	$(BASEDIR)/develop_server.sh restart
+	$(BASEDIR)/develop_server.sh restart 8000
 endif
 
 stopserver:

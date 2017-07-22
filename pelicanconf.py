@@ -1,7 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
-from _config import *
+
+import os
+import sys
+sys.path.append(os.curdir)
+import _config
 
 PATH = 'content'
 DEFAULT_PAGINATION = 10

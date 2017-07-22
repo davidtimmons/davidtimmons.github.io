@@ -10,6 +10,7 @@ BASEDIR=$(pwd)
 INPUTDIR=$BASEDIR/content
 OUTPUTDIR=$BASEDIR/output
 CONFFILE=$BASEDIR/pelicanconf.py
+PUBLISHCONF=$BASEDIR/publishconf.py
 
 ###
 # Don't change stuff below here unless you are sure
@@ -19,7 +20,7 @@ SRV_PID=$BASEDIR/srv.pid
 PELICAN_PID=$BASEDIR/pelican.pid
 
 function usage(){
-  echo "usage: $0 (stop) (start) (restart) [port]"
+  echo "usage: $0 (stop) (start) (restart) [port] [publish_flag=dev]"
   echo "This starts Pelican in debug and reload mode and then launches"
   echo "an HTTP server to help site development. It doesn't read"
   echo "your Pelican settings, so if you edit any paths in your Makefile"
@@ -61,9 +62,11 @@ function shut_down(){
 
 function start_up(){
   local port=$1
+  local publish_opts=$PUBLISHCONF
   echo "Starting up Pelican and HTTP server"
   shift
-  $PELICAN --debug --autoreload -r $INPUTDIR -o $OUTPUTDIR -s $CONFFILE $PELICANOPTS &
+  if [[ $2 -eq "dev" ]]; then opts=$CONFFILE; fi
+  $PELICAN --debug --autoreload -r $INPUTDIR -o $OUTPUTDIR -s $publish_opts $PELICANOPTS &
   pelican_pid=$!
   echo $pelican_pid > $PELICAN_PID
   mkdir -p $OUTPUTDIR && cd $OUTPUTDIR
@@ -85,17 +88,19 @@ function start_up(){
 ###
 #  MAIN
 ###
-[[ ($# -eq 0) || ($# -gt 2) ]] && usage
+[[ ($# -eq 0) || ($# -gt 3) ]] && usage
 port=''
+publish_flag=''
 [[ $# -eq 2 ]] && port=$2
+[[ $# -eq 3 ]] && port=$2 && publish_flag=$3
 
 if [[ $1 == "stop" ]]; then
   shut_down
 elif [[ $1 == "restart" ]]; then
   shut_down
-  start_up $port
+  start_up $port $publish_flag
 elif [[ $1 == "start" ]]; then
-  if ! start_up $port; then
+  if ! start_up $port $publish_flag; then
     shut_down
   fi
 else

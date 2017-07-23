@@ -81,7 +81,7 @@ DEFAULT_PAGINATION = 10
 ##########
 # Themes #
 ##########
-THEME = 'blue-penguin'
+THEME = 'dt-custom'
 
 ###########
 # Plugins #

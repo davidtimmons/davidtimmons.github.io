@@ -11,7 +11,7 @@ CONFFILE=$(BASEDIR)/pelicanconf.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
 CONFIG=$(BASEDIR)/_config
 
-THEME=$(shell awk -F '=' '/THEME/ {print $$2}' < $(CONFIG))
+THEME=simple
 
 FTP_HOST=$(shell awk -F '=' '/FTP_HOST/ {print $$2}' < $(CONFIG))
 FTP_USER=$(shell awk -F '=' '/FTP_USER/ {print $$2}' < $(CONFIG))
@@ -46,7 +46,7 @@ help:
 	@echo 'Makefile for a pelican Web site                                           '
 	@echo '                                                                          '
 	@echo 'Usage:                                                                    '
-	@echo '   make theme_install                  symlink the site theme             '
+	@echo '   make theme_install [THEME=]         symlink the site theme             '
 	@echo '   make html                           (re)generate the web site          '
 	@echo '   make clean                          remove the generated files         '
 	@echo '   make regenerate                     regenerate files upon modification '

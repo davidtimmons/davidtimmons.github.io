@@ -1,7 +1,5 @@
 NOTE: Rename this file to "_config" and enter desired key values when cloning this project.
 
-THEME=blue-penguin
-
 FTP_HOST=my_ftp_host
 FTP_USER=my_ftp_user
 FTP_TARGET_DIR=/

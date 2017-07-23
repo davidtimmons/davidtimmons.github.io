@@ -1,6 +1,7 @@
 # Application settings / secrets
 _config*
 todo.txt
+themes/dt-custom/static/fonts/museo*
 
 # Pelican defaults
 themes/simple/

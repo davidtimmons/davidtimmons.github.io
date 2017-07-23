@@ -1,0 +1,1 @@
+Install Museo Sans font.

@@ -1,9 +1,11 @@
-Title: Virtual Reality for the Tech-Savvy Business
-Date: 2016-08-03 17:59
-Author: David Timmons
-Category: Technology
-Slug: virtual-reality-tech-savvy-business
-Status: published
+---
+title: Virtual Reality for the Tech-Savvy Business
+date: 2016-08-03 17:59
+author: David Timmons
+category: Technology
+slug: virtual-reality-tech-savvy-business
+draft: false
+---
 
 ![Photo courtesy of Ascend Marketing][1]
 <span class="img-caption">

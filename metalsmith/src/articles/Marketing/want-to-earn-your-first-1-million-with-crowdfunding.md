@@ -1,9 +1,11 @@
-Title: Want To Earn Your First $1 Million With Crowdfunding?
-Date: 2013-03-14 07:00
-Author: David Timmons
-Category: Marketing
-Slug: want-to-earn-your-first-1-million-with-crowdfunding
-Status: published
+---
+title: Want To Earn Your First $1 Million With Crowdfunding?
+date: 2013-03-14 07:00
+author: David Timmons
+category: Marketing
+slug: want-to-earn-your-first-1-million-with-crowdfunding
+draft: false
+---
 
 ![crowd][1]
 <span class="img-caption">

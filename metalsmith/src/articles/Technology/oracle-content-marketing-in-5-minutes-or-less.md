@@ -1,9 +1,11 @@
-Title: Oracle Content Marketing in 5 Minutes or Less
-Date: 2016-04-28 18:14
-Author: David Timmons
-Category: Technology
-Slug: oracle-content-marketing-in-5-minutes-or-less
-Status: published
+---
+title: Oracle Content Marketing in 5 Minutes or Less
+date: 2016-04-28 18:14
+author: David Timmons
+category: Technology
+slug: oracle-content-marketing-in-5-minutes-or-less
+draft: false
+---
 
 ![Photo courtesy of Ascend Marketing][1]
 <span class="img-caption">

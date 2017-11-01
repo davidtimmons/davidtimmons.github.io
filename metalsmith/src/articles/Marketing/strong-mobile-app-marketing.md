@@ -1,9 +1,11 @@
-Title: Strong Mobile App Marketing
-Date: 2013-02-28 07:07
-Author: David Timmons
-Category: Marketing
-Slug: strong-mobile-app-marketing
-Status: published
+---
+title: Strong Mobile App Marketing
+date: 2013-02-28 07:07
+author: David Timmons
+category: Marketing
+slug: strong-mobile-app-marketing
+draft: false
+---
 
 ![iPhone 4's Retina Display v.s. iPhone 3G][1]
 <span class="img-caption">

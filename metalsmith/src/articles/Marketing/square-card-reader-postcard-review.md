@@ -1,9 +1,11 @@
-Title: A Square Postcard? Reviewing Square Card Reader Marketing
-Date: 2012-12-20 07:01
-Author: David Timmons
-Category: Marketing
-Slug: square-card-reader-postcard-review
-Status: published
+---
+title: A Square Postcard? Reviewing Square Card Reader Marketing
+date: 2012-12-20 07:01
+author: David Timmons
+category: Marketing
+slug: square-card-reader-postcard-review
+draft: false
+---
 
 ![A postcard advertising the Square card reader][1]
 <span class="img-caption">

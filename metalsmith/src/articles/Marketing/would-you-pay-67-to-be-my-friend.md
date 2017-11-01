@@ -1,9 +1,11 @@
-Title: Would You Pay $67 To Be My Friend?
-Date: 2013-04-08 16:30
-Author: David Timmons
-Category: Marketing
-Slug: would-you-pay-67-to-be-my-friend
-Status: published
+---
+title: Would You Pay $67 To Be My Friend?
+date: 2013-04-08 16:30
+author: David Timmons
+category: Marketing
+slug: would-you-pay-67-to-be-my-friend
+draft: false
+---
 
 ![Currency In Marketing][1]
 <span class="img-caption">

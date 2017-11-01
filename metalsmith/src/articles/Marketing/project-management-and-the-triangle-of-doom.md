@@ -1,9 +1,11 @@
-Title: Project Management And The Triangle Of Doom
-Date: 2013-03-07 07:00
-Author: David Timmons
-Category: Marketing
-Slug: project-management-and-the-triangle-of-doom
-Status: published
+---
+title: Project Management And The Triangle Of Doom
+date: 2013-03-07 07:00
+author: David Timmons
+category: Marketing
+slug: project-management-and-the-triangle-of-doom
+draft: false
+---
 
 ![Project Triangle][1]
 <span class="img-caption">

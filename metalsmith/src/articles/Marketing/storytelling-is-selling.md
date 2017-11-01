@@ -1,9 +1,11 @@
-Title: Storytelling Is Selling
-Date: 2013-03-28 07:00
-Author: David Timmons
-Category: Marketing
-Slug: storytelling-is-selling
-Status: published
+---
+title: Storytelling Is Selling
+date: 2013-03-28 07:00
+author: David Timmons
+category: Marketing
+slug: storytelling-is-selling
+draft: false
+---
 
 ![Der Grossvater erzählt eine Geschichte][1]
 <span class="img-caption">

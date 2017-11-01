@@ -1,9 +1,11 @@
-Title: Segment Your Business Marketing Lists to Avoid Easy Mistakes
-Date: 2013-01-17 06:59
-Author: David Timmons
-Category: Marketing
-Slug: segment-your-business-marketing-lists-to-avoid-easy-mistakes
-Status: published
+---
+title: Segment Your Business Marketing Lists to Avoid Easy Mistakes
+date: 2013-01-17 06:59
+author: David Timmons
+category: Marketing
+slug: segment-your-business-marketing-lists-to-avoid-easy-mistakes
+draft: false
+---
 
 ![KGS Go Server rank distributions][1]
 <span class="img-caption">

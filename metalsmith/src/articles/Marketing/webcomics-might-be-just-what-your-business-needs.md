@@ -1,9 +1,11 @@
-Title: Webcomics Might Be Just What Your Business Needs
-Date: 2013-01-31 07:00
-Author: David Timmons
-Category: Marketing
-Slug: webcomics-might-be-just-what-your-business-needs
-Status: published
+---
+title: Webcomics Might Be Just What Your Business Needs
+date: 2013-01-31 07:00
+author: David Timmons
+category: Marketing
+slug: webcomics-might-be-just-what-your-business-needs
+draft: false
+---
 
 ![Agency Life Webcomics Sketch][1]
 <span class="img-caption">

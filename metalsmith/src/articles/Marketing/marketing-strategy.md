@@ -1,9 +1,11 @@
-Title: Marketing Strategy
-Date: 2013-05-16 02:19
-Author: David Timmons
-Category: Marketing
-Slug: marketing-strategy
-Status: published
+---
+title: Marketing Strategy
+date: 2013-05-16 02:19
+author: David Timmons
+category: Marketing
+slug: marketing-strategy
+draft: false
+---
 
 ![ZMOT by Google][1]
 <span class="img-caption">

@@ -1,9 +1,11 @@
-Title: Good Software Hygiene Prevents Bad Code Smell
-Date: 2016-09-17 11:50
-Author: David Timmons
-Category: Technology
-Slug: good-software-hygiene-prevents-bad-code-smell
-Status: published
+---
+title: Good Software Hygiene Prevents Bad Code Smell
+date: 2016-09-17 11:50
+author: David Timmons
+category: Technology
+slug: good-software-hygiene-prevents-bad-code-smell
+draft: false
+---
 
 ![Photo courtesy of Ascend Marketing][1]
 <span class="img-caption">

@@ -1,9 +1,11 @@
-Title: How To Create Compelling Social Media Marketing
-Date: 2013-03-21 07:00
-Author: David Timmons
-Category: Marketing
-Slug: how-to-create-compelling-social-media-marketing
-Status: published
+---
+title: How To Create Compelling Social Media Marketing
+date: 2013-03-21 07:00
+author: David Timmons
+category: Marketing
+slug: how-to-create-compelling-social-media-marketing
+draft: false
+---
 
 ![SAAB B-engine][1]
 <span class="img-caption">

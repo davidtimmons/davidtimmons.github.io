@@ -1,9 +1,11 @@
-Title: Have you met Docker's cousin Vagrant?
-Date: 2016-05-25 16:58
-Author: David Timmons
-Category: Technology
-Slug: have-you-met-dockers-cousin-vagrant
-Status: published
+---
+title: Have you met Docker's cousin Vagrant?
+date: 2016-05-25 16:58
+author: David Timmons
+category: Technology
+slug: have-you-met-dockers-cousin-vagrant
+draft: false
+---
 
 ![Photo courtesy of Ascend Marketing][1]
 <span class="img-caption">

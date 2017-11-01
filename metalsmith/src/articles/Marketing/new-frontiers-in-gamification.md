@@ -1,9 +1,11 @@
-Title: New Frontiers In Gamification
-Date: 2013-04-25 07:00
-Author: David Timmons
-Category: Marketing
-Slug: new-frontiers-in-gamification
-Status: published
+---
+title: New Frontiers In Gamification
+date: 2013-04-25 07:00
+author: David Timmons
+category: Marketing
+slug: new-frontiers-in-gamification
+draft: false
+---
 
 ![Cosplay - AWA14 - Shyguy, Mario and Princess Peach][1]
 <span class="img-caption">

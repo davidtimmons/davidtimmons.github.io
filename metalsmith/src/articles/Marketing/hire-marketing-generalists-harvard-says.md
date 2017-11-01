@@ -1,9 +1,11 @@
-Title: Hire Marketing Generalists, Harvard Says
-Date: 2013-05-09 17:01
-Author: David Timmons
-Category: Marketing
-Slug: hire-marketing-generalists-harvard-says
-Status: published
+---
+title: Hire Marketing Generalists, Harvard Says
+date: 2013-05-09 17:01
+author: David Timmons
+category: Marketing
+slug: hire-marketing-generalists-harvard-says
+draft: false
+---
 
 ![UG][1]
 <span class="img-caption">

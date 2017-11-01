@@ -1,9 +1,11 @@
-Title: Your Understanding Is Anchored In Negativity
-Date: 2013-04-04 07:00
-Author: David Timmons
-Category: Marketing
-Slug: your-understanding-is-anchored-in-negativity
-Status: published
+---
+title: Your Understanding Is Anchored In Negativity
+date: 2013-04-04 07:00
+author: David Timmons
+category: Marketing
+slug: your-understanding-is-anchored-in-negativity
+draft: false
+---
 
 ![Trolls][1]
 <span class="img-caption">

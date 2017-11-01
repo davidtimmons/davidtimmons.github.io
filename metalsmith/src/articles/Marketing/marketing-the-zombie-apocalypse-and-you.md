@@ -1,9 +1,11 @@
-Title: Marketing, The Zombie Apocalypse, And You
-Date: 2013-05-18 18:20
-Author: David Timmons
-Category: Marketing
-Slug: marketing-the-zombie-apocalypse-and-you
-Status: published
+---
+title: Marketing, The Zombie Apocalypse, And You
+date: 2013-05-18 18:20
+author: David Timmons
+category: Marketing
+slug: marketing-the-zombie-apocalypse-and-you
+draft: false
+---
 
 ![Zombie Walk 2010 - Curitiba][1]
 <span class="img-caption">

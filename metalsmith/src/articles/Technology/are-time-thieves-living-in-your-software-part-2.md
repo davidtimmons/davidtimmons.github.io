@@ -1,9 +1,11 @@
-Title: Are Time-Thieves Living in Your Software? (Part 2)
-Date: 2016-11-12 01:16
-Author: David Timmons
-Category: Technology
-Slug: are-time-thieves-living-in-your-software-part-2
-Status: published
+---
+title: Are Time-Thieves Living in Your Software? (Part 2)
+date: 2016-11-12 01:16
+author: David Timmons
+category: Technology
+slug: are-time-thieves-living-in-your-software-part-2
+draft: false
+---
 
 ![CoCo 3 with DriveWire][1]
 <span class="img-caption">

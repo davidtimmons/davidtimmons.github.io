@@ -1,8 +1,10 @@
-Title: About
-Date: 2014-05-29 23:19
-Author: David Timmons
-Slug: about
-Status: published
+---
+title: About
+date: 2014-05-29 23:19
+author: David Timmons
+slug: about
+draft: false
+---
 
 ![David Timmons][1]
 

@@ -1,9 +1,11 @@
-Title: Why Minecraft Should Be Your Model Online Community
-Date: 2013-01-10 07:00
-Author: David Timmons
-Category: Marketing
-Slug: why-minecraft-should-be-your-model-online-community
-Status: published
+---
+title: Why Minecraft Should Be Your Model Online Community
+date: 2013-01-10 07:00
+author: David Timmons
+category: Marketing
+slug: why-minecraft-should-be-your-model-online-community
+draft: false
+---
 
 ![Minecraft Floating Island][1]
 <span class="img-caption">

@@ -1,9 +1,11 @@
-Title: How To Use Google Analytics To Predict Sales Success
-Date: 2013-02-21 07:00
-Author: David Timmons
-Category: Marketing
-Slug: how-to-use-google-analytics-to-predict-sales-success
-Status: published
+---
+title: How To Use Google Analytics To Predict Sales Success
+date: 2013-02-21 07:00
+author: David Timmons
+category: Marketing
+slug: how-to-use-google-analytics-to-predict-sales-success
+draft: false
+---
 
 ![Google Analytics Sales Prediction Overview][1]
 <span class="img-caption">

@@ -1,9 +1,11 @@
-Title: Buying the Initrode Experience
-Date: 2012-12-06 07:27
-Author: David Timmons
-Category: Marketing
-Slug: buying-the-initrode-experience
-Status: draft
+---
+title: Buying the Initrode Experience
+date: 2012-12-06 07:27
+author: David Timmons
+category: Marketing
+slug: buying-the-initrode-experience
+draft: true
+---
 
 ![Two network switches and CAT5 cable][1]
 <span class="img-caption">

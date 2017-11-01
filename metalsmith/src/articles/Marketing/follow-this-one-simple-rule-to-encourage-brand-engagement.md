@@ -1,9 +1,11 @@
-Title: Follow This One Simple Rule To Encourage Brand Engagement
-Date: 2013-05-02 07:00
-Author: David Timmons
-Category: Marketing
-Slug: follow-this-one-simple-rule-to-encourage-brand-engagement
-Status: published
+---
+title: Follow This One Simple Rule To Encourage Brand Engagement
+date: 2013-05-02 07:00
+author: David Timmons
+category: Marketing
+slug: follow-this-one-simple-rule-to-encourage-brand-engagement
+draft: false
+---
 
 ![Playing The Hero][1]
 <span class="img-caption">

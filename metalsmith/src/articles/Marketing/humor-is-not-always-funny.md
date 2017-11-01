@@ -1,9 +1,11 @@
-Title: Humor is Not Always Funny
-Date: 2012-12-27 06:49
-Author: David Timmons
-Category: Marketing
-Slug: humor-is-not-always-funny
-Status: published
+---
+title: Humor is Not Always Funny
+date: 2012-12-27 06:49
+author: David Timmons
+category: Marketing
+slug: humor-is-not-always-funny
+draft: false
+---
 
 ![Katrina Killed the Klown][1]
 <span class="img-caption">

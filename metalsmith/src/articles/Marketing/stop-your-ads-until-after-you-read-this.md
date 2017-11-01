@@ -1,9 +1,11 @@
-Title: Stop Your Ads Until After You Read This
-Date: 2013-02-07 07:00
-Author: David Timmons
-Category: Marketing
-Slug: stop-your-ads-until-after-you-read-this
-Status: published
+---
+title: Stop Your Ads Until After You Read This
+date: 2013-02-07 07:00
+author: David Timmons
+category: Marketing
+slug: stop-your-ads-until-after-you-read-this
+draft: false
+---
 
 ![America's Best Comics page][1]
 <span class="img-caption">

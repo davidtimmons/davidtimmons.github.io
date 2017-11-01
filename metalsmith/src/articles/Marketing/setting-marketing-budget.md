@@ -1,9 +1,11 @@
-Title: Setting a Marketing Budget
-Date: 2012-10-08 02:27
-Author: David Timmons
-Category: Marketing
-Slug: setting-marketing-budget
-Status: published
+---
+title: Setting a Marketing Budget
+date: 2012-10-08 02:27
+author: David Timmons
+category: Marketing
+slug: setting-marketing-budget
+draft: false
+---
 
 ![Marketing seen at GUM (Main Universal Store) in Moscow by A. Savin][1]
 <span class="img-caption">

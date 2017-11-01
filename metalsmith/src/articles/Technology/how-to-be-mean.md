@@ -1,9 +1,11 @@
-Title: How to be MEAN!
-Date: 2015-10-08 02:05
-Author: David Timmons
-Category: Technology
-Slug: how-to-be-mean
-Status: published
+---
+title: How to be MEAN!
+date: 2015-10-08 02:05
+author: David Timmons
+category: Technology
+slug: how-to-be-mean
+draft: false
+---
 
 ![IMG_4236][1]
 <span class="img-caption">

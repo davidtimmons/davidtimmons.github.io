@@ -1,9 +1,11 @@
-Title: Are Time-Thieves Living in Your Software? (Part 1)
-Date: 2016-10-13 18:00
-Author: David Timmons
-Category: Technology
-Slug: are-time-thieves-living-in-your-software-part-1
-Status: published
+---
+title: Are Time-Thieves Living in Your Software? (Part 1)
+date: 2016-10-13 18:00
+author: David Timmons
+category: Technology
+slug: are-time-thieves-living-in-your-software-part-1
+draft: false
+---
 
 ![Time Bandit for Sanyo MBC-55][1]
 <span class="img-caption">

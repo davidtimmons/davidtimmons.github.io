@@ -1,9 +1,11 @@
-Title: Like a Sandcastle
-Date: 2012-11-22 07:30
-Author: David Timmons
-Category: Marketing
-Slug: its-like-a-sandcastle
-Status: published
+---
+title: Like a Sandcastle
+date: 2012-11-22 07:30
+author: David Timmons
+category: Marketing
+slug: its-like-a-sandcastle
+draft: false
+---
 
 ![Sand art and play at île du Havre Aubert in Îles-de-la-Madeleine][1]
 <span class="img-caption">

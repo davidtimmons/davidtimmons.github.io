@@ -1,9 +1,11 @@
-Title: Fox And The "Firefly" Hat: A Case Study in Brand Management
-Date: 2013-04-15 08:00
-Author: David Timmons
-Category: Marketing
-Slug: fox-and-the-firefly-hat-a-case-study-in-brand-management
-Status: published
+---
+title: "Fox And The \"Firefly\" Hat: A Case Study in Brand Management"
+date: 2013-04-15 08:00
+author: David Timmons
+category: Marketing
+slug: fox-and-the-firefly-hat-a-case-study-in-brand-management
+draft: false
+---
 
 ![Cunning read][1]
 <span class="img-caption">

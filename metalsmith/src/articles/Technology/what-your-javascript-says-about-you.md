@@ -1,9 +1,11 @@
-Title: What Your JavaScript Says About You
-Date: 2016-06-01 08:33
-Author: David Timmons
-Category: Technology
-Slug: what-your-javascript-says-about-you
-Status: published
+---
+title: What Your JavaScript Says About You
+date: 2016-06-01 08:33
+author: David Timmons
+category: Technology
+slug: what-your-javascript-says-about-you
+draft: false
+---
 
 ![Photo courtesy of Ascend Marketing][1]
 <span class="img-caption">

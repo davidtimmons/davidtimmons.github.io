@@ -1,8 +1,10 @@
-Title: Projects
-Date: 2014-05-29 23:19
-Author: David Timmons
-Slug: projects
-Status: published
+---
+title: Projects
+date: 2014-05-29 23:19
+author: David Timmons
+slug: projects
+draft: false
+---
 
 These projects are highlights from my past and current development work.
 I love the creative challenge inherent in problem solving and

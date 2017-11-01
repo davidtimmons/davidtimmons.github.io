@@ -1,9 +1,11 @@
-Title: Incentives Govern Marketing
-Date: 2012-11-29 07:28
-Author: David Timmons
-Category: Marketing
-Slug: incentives-govern-marketing
-Status: published
+---
+title: Incentives Govern Marketing
+date: 2012-11-29 07:28
+author: David Timmons
+category: Marketing
+slug: incentives-govern-marketing
+draft: false
+---
 
 ![Aztec feast illustration from the Florentine Codex][1]
 <span class="img-caption">

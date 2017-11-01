@@ -1,0 +1,13 @@
+{
+  "name": "david.timmons.io",
+  "version": "1.0.0",
+  "description": "A personal website built by and for David Timmons.",
+  "main": "index.js",
+  "repository": "https://github.com/davidtimmons/david-timmons-io",
+  "author": "David Timmons",
+  "license": "CC BY-NC 4.0",
+  "private": true,
+  "devDependencies": {
+    "metalsmith": "^2.3.0"
+  }
+}

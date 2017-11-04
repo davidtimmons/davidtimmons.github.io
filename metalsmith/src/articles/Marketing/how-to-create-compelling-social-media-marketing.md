@@ -25,7 +25,7 @@ advice of [Strunk & White][3]: **omit needless words!**
 Everything you communicate must strengthen your core idea.
 
 
-[1]: {filename}/images/2013/03/how-to-create-compelling-social-media-marketing0.jpg
+[1]: {{rootPath}}images/2013/03/how-to-create-compelling-social-media-marketing0.jpg
   "How To Create Compelling Social Media Marketing"
 
 [2]: http://www.flickr.com/photos/liftarn/1438863938/

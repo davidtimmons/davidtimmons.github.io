@@ -81,7 +81,7 @@ manager ate for lunch, just remember the "four Ps" is as relevant today
 as in the age of habitual bathing.
 
 
-[1]: {filename}/images/2013/05/marketing-the-zombie-apocalypse-and-you0.jpg
+[1]: {{rootPath}}images/2013/05/marketing-the-zombie-apocalypse-and-you0.jpg
   "Marketing After The Zombie Apocalypse"
 
 [2]: http://www.flickr.com/photos/nivaldoarruda/4357660136/

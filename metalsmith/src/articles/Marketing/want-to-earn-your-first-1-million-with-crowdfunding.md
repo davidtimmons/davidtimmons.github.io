@@ -69,7 +69,7 @@ be impossible regularly launch into the marketplace.
 Have you participated in crowdfunding?
 
 
-[1]: {filename}/images/2013/03/want-to-earn-your-first-1-million-with-crowdfunding0.jpg
+[1]: {{rootPath}}images/2013/03/want-to-earn-your-first-1-million-with-crowdfunding0.jpg
   "Want To Earn Your First $1 Million With Crowdfunding?"
 
 [2]: http://www.flickr.com/photos/ausnahmezustand/7624312056/

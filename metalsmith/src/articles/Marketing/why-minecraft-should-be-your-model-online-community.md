@@ -65,7 +65,7 @@ What do you think of *Minecraft*? Have you seen another passionate
 community build up around a brand?
 
 
-[1]: {filename}/images/2013/01/why-minecraft-should-be-your-model-online-community0.jpg
+[1]: {{rootPath}}images/2013/01/why-minecraft-should-be-your-model-online-community0.jpg
   "Why Minecraft Should Be Your Model Online Community"
 
 [2]: http://www.minecraftforum.net/forums/show-your-creation/fan-art/1576932-minecraft-wallpaper-in-hd

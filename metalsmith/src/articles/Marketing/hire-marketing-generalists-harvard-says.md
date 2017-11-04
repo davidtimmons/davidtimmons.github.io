@@ -100,7 +100,7 @@ What do you think -- generalists or specialists for your marketing
 department?
 
 
-[1]: {filename}/images/2013/05/hire-marketing-generalists-harvard-says0.jpg
+[1]: {{rootPath}}images/2013/05/hire-marketing-generalists-harvard-says0.jpg
   "Hire Marketing Generalists, Harvard Says"
 
 [2]: http://www.flickr.com/photos/justinplwrites/5311302376/

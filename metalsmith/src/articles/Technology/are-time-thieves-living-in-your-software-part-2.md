@@ -80,13 +80,13 @@ pursue these thieves one-by-one, your time will remain your own and the
 people who use your application will thank you.
 
 
-[1]: {filename}/images/2016/11/time-thieves-pt2.jpg
+[1]: {{rootPath}}images/2016/11/time-thieves-pt2.jpg
   "This workstation is deep in the heart of time thief territory."
 
 [2]: https://www.flickr.com/photos/blakespot/6801747991/
   "View the original photo on Flickr."
 
-[3]: {filename}are-time-thieves-living-in-your-software-part-1.md
+[3]: {{rootPath}}are-time-thieves-living-in-your-software-part-1/
   "Are Time-Thieves Living in Your Software? (Part 1)"
 
 [4]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop

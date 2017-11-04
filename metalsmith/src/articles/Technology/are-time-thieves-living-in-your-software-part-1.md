@@ -61,7 +61,7 @@ to enforce law and order in your digital domain. Your time depends
 on it!
 
 
-[1]: {filename}/images/2016/11/time-thieves-pt1.jpg
+[1]: {{rootPath}}images/2016/11/time-thieves-pt1.jpg
   "I see two time-thieves in the corner up to no good!"
 
 [2]: https://www.flickr.com/photos/blakespot/8613889824
@@ -73,5 +73,5 @@ on it!
 [4]: http://discrete.gr/complexity/
   "Visit discrete.gr."
 
-[5]: {filename}are-time-thieves-living-in-your-software-part-2.md
+[5]: {{rootPath}}are-time-thieves-living-in-your-software-part-2/
   "Are Time-Thieves Living in Your Software? (Part 2)"

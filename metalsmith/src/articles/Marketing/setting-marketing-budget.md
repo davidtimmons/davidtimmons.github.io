@@ -55,7 +55,7 @@ With a budget firmly in hand you gain a much better sense which
 marketing activities fit your business.
 
 
-[1]: {filename}/images/2012/11/our-world-is-a-big-place0.jpg
+[1]: {{rootPath}}images/2012/11/our-world-is-a-big-place0.jpg
   "Setting a Marketing Budget"
 
 [2]: http://commons.wikimedia.org/wiki/File:Moscow_GUM_Middle_Line_view_from_2nd_floor.jpg

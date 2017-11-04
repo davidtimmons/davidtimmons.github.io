@@ -270,7 +270,7 @@ this discussion helpful! Now, in the words of Seth Godin, "Go make
 something happen."
 
 
-[1]: {filename}/images/2014/05/2-image-zmot.png
+[1]: {{rootPath}}images/2014/05/2-image-zmot.png
   "Google ZMOT Marketing Strategy Framework"
 
 [2]: https://www.thinkwithgoogle.com/marketing-resources/micro-moments/zero-moment-truth/
@@ -288,13 +288,13 @@ something happen."
 [6]: http://www.thinkwithgoogle.com/insights/library/studies/the-zero-moment-of-truth-macro-study/
   "Click here to view the 'Zero Moment of Truth Macro Study, U.S.' report."
 
-[7]: {filename}/images/2014/05/2-image-zmot.png
+[7]: {{rootPath}}images/2014/05/2-image-zmot.png
   "Google ZMOT Equation"
 
-[8]: {filename}/images/2014/05/2-image-ecosystem.png
+[8]: {{rootPath}}images/2014/05/2-image-ecosystem.png
   "Marketing Strategy Ecosystem"
 
-[9]: {filename}/images/2014/05/2-image-infoflow.png
+[9]: {{rootPath}}images/2014/05/2-image-infoflow.png
   "Marketing Strategy Information Flow"
 
 [AMA]: http://www.marketingpower.com/

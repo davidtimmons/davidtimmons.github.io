@@ -57,7 +57,7 @@ What other advise would you give to organizations promoting themselves
 with modern media tactics?
 
 
-[1]: {filename}/images/2013/02/stop-your-lubbock-ads-until-after-you-read-this0.jpg
+[1]: {{rootPath}}images/2013/02/stop-your-lubbock-ads-until-after-you-read-this0.jpg
   "Stop Your Ads Until After You Read This"
 
 [2]: http://commons.wikimedia.org/wiki/File:AmericasBestComics2403.jpg
@@ -66,5 +66,5 @@ with modern media tactics?
 [3]: https://www.thinkwithgoogle.com/marketing-resources/micro-moments/2011-winning-zmot-ebook/
   "Click here to read the 'Winning the Zero Moment of Truth' ebook."
 
-[4]: {filename}./marketing-strategy.md
+[4]: {{rootPath}}./marketing-strategy/
   "Click here to read more about marketing strategy."

@@ -1,6 +1,7 @@
 # Application configuration and reference files
 todo.txt
 examples/
+build/
 
 # Logs
 logs

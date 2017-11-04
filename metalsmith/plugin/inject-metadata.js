@@ -1,0 +1,124 @@
+const Multimatch = require('multimatch');
+
+
+/////////////
+// PRIVATE //
+/////////////
+
+/**
+ * Check an argument type and return the argument converted to a desired type.
+ * If the argument is not a desired or accepted type, return a default value.
+ *
+ * @param {*} arg - Argument used to check types.
+ * @param {function} desiredType - Type constructor the arg should use.
+ * @param {function} acceptedType - Type constructor the arg can use before conversion.
+ * @param {*} defaultValue - Default value if the arg is an unaccepted type.
+ * @return {*} - Original argument of the desired type or a default value.
+ */
+function _setArgumentDefaults(arg, desiredType, acceptedType, defaultValue) {
+    if (arg instanceof desiredType || typeof arg === typeof desiredType('')) {
+        return arg;
+    } else if (arg instanceof acceptedType || typeof arg === typeof acceptedType('')) {
+        return desiredType(arg);
+    } else {
+        return defaultValue;
+    }
+}
+
+/**
+ * Search text for a specific value then replace it wherever found.
+ *
+ * @param {string} text - Search text.
+ * @param {string} search - Search value.
+ * @param {string} replace - Replacement value.
+ */
+function _searchAndReplace(text, search, replace) {
+    let startIndex = text.indexOf('{{');
+    while (startIndex >= 0) {
+        let endIndex = text.indexOf('}}')
+          , value = text.substring(startIndex + 2, endIndex).trim();
+        if (value === search) {
+            text = text.substring(0, startIndex) + replace + text.substring(endIndex + 2);
+        }
+        startIndex = text.indexOf('{{');
+    }
+    return text;
+}
+
+
+////////////
+// PUBLIC //
+////////////
+
+/**
+ * Inject metadata key-values into file key-values where there is a match between the
+ * metadata key name and file content enclosed in double curly brackets. For example,
+ * if there is a metadata key-value of <rootPath: 'http://my.example'> and a {{ rootPath }}
+ * or {{rootPath}} value in the file content, <{{ rootPath }}> would become <http://my.example>.
+ *
+ * @param {object} opts - Plugin configuration object.
+ * @property {string[]|string} [pattern] - Pattern used to match file names; defaults to all.
+ * @property {string[]|string} [fileKeys] - File keys with data to search; defaults to all.
+ * @property {string[]|string} [metadataKeys] - Metadata keys to inject; defaults to all.
+ * @example <caption>Example plugin argument.</caption>
+ *   {
+ *     pattern: '**\/*.md',
+ *     fileKeys: ['title', 'contents'],
+ *     metadataKeys: '*',
+ *   }
+ */
+function plugin(opts) {
+    // Assign default argument values to prevent object access errors.
+    opts = opts || {};
+    opts.pattern = _setArgumentDefaults(opts.pattern, Array, String, ['**/*']);
+    opts.fileKeys = _setArgumentDefaults(opts.fileKeys, Array, String, ['*']);
+    opts.metadataKeys = _setArgumentDefaults(opts.metadataKeys, Array, String, ['*']);
+
+    return function (files, Metalsmith, done) {
+        setImmediate(done);
+        let injectSet = Multimatch(Object.keys(files), opts.pattern);
+        let metadata = Metalsmith.metadata();
+
+        // Default to wildcard metadata search-and-replace.
+        if (injectSet.length > 0) {
+            if (opts.metadataKeys[0] === '*') {
+                opts.metadataKeys = Object.keys(metadata);
+            }
+        }
+
+        // Look in every file that matches the search pattern.
+        injectSet.map(file => {
+            let fileData = files[file];
+
+            // Default to wildcard file data search-and-replace.
+            if (opts.fileKeys[0] === '*') {
+                opts.fileKeys = Object.keys(fileData);
+            }
+
+            // Examine every metadata key given in the function argument.
+            opts.fileKeys.map(fileKey => {
+                if (fileKey in fileData) {
+
+                    // Replace every instance of a matching metadata key in the file value.
+                    opts.metadataKeys.map(metaKey => {
+                        if (Buffer.isBuffer(fileData[fileKey])) {
+                            let text = fileData[fileKey].toString();
+                            text = _searchAndReplace(text, metaKey, metadata[metaKey]);
+                            fileData[fileKey] = Buffer.from(text);
+                        } else {
+                            fileData[fileKey] =
+                                _searchAndReplace(fileData[fileKey], metaKey, metadata[metaKey]);
+                        }
+                    });
+                }
+            });
+        });
+    }
+}
+
+
+/////////
+// API //
+/////////
+
+module.exports = plugin;

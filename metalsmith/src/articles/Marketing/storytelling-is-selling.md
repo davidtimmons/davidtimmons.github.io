@@ -94,7 +94,7 @@ you close another deal. Your sale is at stake.
 How do you use storytelling to aid your presentations?
 
 
-[1]: {filename}/images/2013/03/storytelling-is-selling0.jpg
+[1]: {{rootPath}}images/2013/03/storytelling-is-selling0.jpg
   "Storytelling and the Sales Process"
 
 [2]: http://commons.wikimedia.org/wiki/File:Anker_Grossvater.png

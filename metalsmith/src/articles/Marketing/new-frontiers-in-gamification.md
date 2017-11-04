@@ -69,7 +69,7 @@ Have you used gamification to shift internal processes at your
 organization?
 
 
-[1]: {filename}/images/2013/04/new-frontiers-in-gamification0.jpg
+[1]: {{rootPath}}images/2013/04/new-frontiers-in-gamification0.jpg
   "New Frontiers In Gamification"
 
 [2]: http://www.flickr.com/photos/28208534@N07/2873787163/

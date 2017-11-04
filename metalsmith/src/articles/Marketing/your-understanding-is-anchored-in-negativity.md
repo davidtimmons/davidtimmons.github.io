@@ -75,7 +75,7 @@ moderating and participation.
 Does negative commentary impact your opinions?
 
 
-[1]: {filename}/images/2013/04/your-understanding-is-anchored-in-negativity0.jpg
+[1]: {{rootPath}}images/2013/04/your-understanding-is-anchored-in-negativity0.jpg
   "Online Comments Anchor Our Understanding"
 
 [2]: http://www.flickr.com/photos/kewl/8449115207/

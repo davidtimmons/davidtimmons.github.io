@@ -29,5 +29,24 @@ do
         -e 's/Status:\(.*\)/status:\1\n---/' \
         -e 's/status: draft/draft: true/'    \
         -e 's/status:\(.*\)/draft: false/'   \
+        -e 's/{filename}\//{filename}/'      \
+        -e 's/{filename}/{{rootPath}}/'      \
+        -e 's/{{rootPath}}\(.*\)\.md/{{rootPath}}\1\//' \
     "$file"
 done
+
+# Add template layout setting.
+# See: https://www.linuxquestions.org/questions/programming-9/replace-2nd-occurrence-of-a-string-in-a-file-sed-or-awk-800171/
+# for article in $ARTICLES
+# do
+#     sed -i \
+#         -e '0,/---/! {0,/---/ s/---/layout: article.html\n---/}' \
+#     "$article"
+# done
+
+# for page in $PAGES
+# do
+#     sed -i \
+#         -e '0,/---/! {0,/---/ s/---/layout: page.html\n---/}' \
+#     "$page"
+# done

@@ -16,24 +16,23 @@ let permalinks     = require('metalsmith-permalinks');
 ///////////
 
 Metalsmith(__dirname)
-.metadata({
-  title: "My Static Site & Blog",
-  description: "It's about saying »Hello« to the World.",
-  generator: "Metalsmith",
-  url: "http://www.metalsmith.io/",
-  rootPath: 'http://david.timmons.io/',
-})
-.source('./src')
-.destination('./build')
-.ignore([
-  'demos',
-  'root',
-])
-.clean(true)
-.use(debug()) // See: https://github.com/mahnunchik/metalsmith-debug
-.use(drafts()) // See: https://github.com/segmentio/metalsmith-drafts
-.use(defaultValues([ // See: https://github.com/woodyrew/metalsmith-default-values
-  {
+  .metadata({
+    title: "My Static Site & Blog",
+    description: "It's about saying »Hello« to the World.",
+    generator: "Metalsmith",
+    url: "http://www.metalsmith.io/",
+    rootPath: 'http://david.timmons.io/',
+  })
+  .source('./src')
+  .destination('./build')
+  .ignore([
+    'root',
+  ])
+  .clean(true)
+  .use(debug()) // See: https://github.com/mahnunchik/metalsmith-debug
+  .use(drafts()) // See: https://github.com/segmentio/metalsmith-drafts
+  .use(defaultValues([ // See: https://github.com/woodyrew/metalsmith-default-values
+    {
       pattern: 'articles/**/*.md',
       defaults: {
         layout: 'article.html',
@@ -62,6 +61,16 @@ Metalsmith(__dirname)
   .use(layouts({ // See: https://github.com/superwolff/metalsmith-layouts
     engine: 'handlebars',
   }))
+  .build(function(err, files) {
+    if (err) { throw err; }
+  });
+
+
+// Move root files to the build directory.
+Metalsmith(__dirname)
+  .source('./src/root')
+  .destination('./build')
+  .clean(false)
   .build(function(err, files) {
     if (err) { throw err; }
   });

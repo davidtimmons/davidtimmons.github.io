@@ -32,13 +32,18 @@ Metalsmith(__dirname)
   .source('./src')
   .destination(BUILD_DIR)
   .ignore([
-    'root',
     'wordpress-theme',
   ])
   .clean(true)
   .use(debug()) // See: https://github.com/mahnunchik/metalsmith-debug
   .use(drafts()) // See: https://github.com/segmentio/metalsmith-drafts
   .use(defaultValues([ // See: https://github.com/woodyrew/metalsmith-default-values
+    {
+      pattern: 'index.md',
+      defaults: {
+        layout: 'page.html',
+      }
+    },
     {
       pattern: 'articles/**/*.md',
       defaults: {
@@ -73,16 +78,6 @@ Metalsmith(__dirname)
     omitIndex: true,
     pattern: ['**/*.html', '!**/bower_components/**'],
   }))
-  .build(function(err, files) {
-    if (err) { throw err; }
-  });
-
-
-// Move root files to the build directory.
-Metalsmith(__dirname)
-  .source('./src/root')
-  .destination(BUILD_DIR)
-  .clean(true)
   .build(function(err, files) {
     if (err) { throw err; }
   });

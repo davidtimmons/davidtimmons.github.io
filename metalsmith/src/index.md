@@ -4,6 +4,7 @@ date: 2014-05-29 23:19
 author: David Timmons
 slug: about
 draft: false
+permalink: false
 ---
 
 ![David Timmons][1]

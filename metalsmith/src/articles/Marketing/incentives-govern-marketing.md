@@ -79,7 +79,7 @@ marketing. Finding the right levers for your brand should always be a
 core part of your marketing strategy.
 
 
-[1]: {{rootPath}}images/2012/11/incentives-govern-marketing0.jpg
+[1]: {{imagePath}}2012/11/incentives-govern-marketing0.jpg
   "Marketing incentives are the levers that create action."
 
 [2]: http://commons.wikimedia.org/wiki/File:Aztec_feast_4.jpg

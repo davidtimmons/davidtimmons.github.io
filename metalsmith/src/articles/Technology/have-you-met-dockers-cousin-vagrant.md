@@ -82,7 +82,7 @@ when you really need a saw. A virtual machine solution like Vagrant can
 be that saw.
 
 
-[1]: {{rootPath}}images/2016/07/dockers-cousin-vagrant.jpg
+[1]: {{imagePath}}2016/07/dockers-cousin-vagrant.jpg
   "It's a little-known fact that Docker's cousin Vagrant likes V-neck sweaters."
 
 [2]: http://thinking.ascend.marketing/have-you-met-dockers-cousin-vagrant

@@ -133,7 +133,7 @@ conversions. Brand gravity increases the velocity of goal conversions.
 What else would you suggest for our hypothetical IT services company?
 
 
-[1]: {{rootPath}}images/2012/12/buying-the-initrode-experience0.jpg
+[1]: {{imagePath}}2012/12/buying-the-initrode-experience0.jpg
   "This is not a network switch. It is ease-of-use and security."
 
 [2]: http://commons.wikimedia.org/wiki/File:Network_switches.jpg

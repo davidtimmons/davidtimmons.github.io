@@ -56,7 +56,7 @@ Feel free to look around, and if you have any questions or want to talk,
 [please send me an email][3].
 
 
-[1]: {{rootPath}}images/2014/05/david-timmons.jpg
+[1]: {{imagePath}}2014/05/david-timmons.jpg
   "That's me, David Timmons."
 
 [2]: http://www.ascend.marketing/#welcome

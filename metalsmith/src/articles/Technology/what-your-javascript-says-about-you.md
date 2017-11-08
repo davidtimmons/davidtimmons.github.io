@@ -71,7 +71,7 @@ months. You can then make an informed decision to select tools that work
 well within your own team's skills and world view.
 
 
-[1]: {{rootPath}}images/2016/07/javascript-and-you.jpg
+[1]: {{imagePath}}2016/07/javascript-and-you.jpg
   "A wild JavaScript 'Radical' and 'Traditionalist' spotted on safari."
 
 [2]: http://thinking.ascend.marketing/what-does-your-javascript-say-about-you

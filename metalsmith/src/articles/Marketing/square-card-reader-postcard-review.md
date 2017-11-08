@@ -82,7 +82,7 @@ So what's the lesson here? **Know your audience**.
 How would you critique this Square card reader postcard?
 
 
-[1]: {{rootPath}}images/2012/12/square-card-reader-postcard-review0.jpg
+[1]: {{imagePath}}2012/12/square-card-reader-postcard-review0.jpg
   "A Square postcard? Reviewing Square card reader marketing."
 
 [2]: https://squareup.com/

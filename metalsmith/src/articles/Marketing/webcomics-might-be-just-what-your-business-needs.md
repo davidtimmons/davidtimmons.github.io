@@ -65,7 +65,7 @@ line.
 What creative marketing ideas have you tried at your organization?
 
 
-[1]: {{rootPath}}images/2013/01/webcomics-might-be-just-what-your-business-needs0.jpg
+[1]: {{imagePath}}2013/01/webcomics-might-be-just-what-your-business-needs0.jpg
   "Webcomics Might Be Just What Your Business Needs"
 
 [2]: http://david.timmons.io
@@ -80,10 +80,10 @@ What creative marketing ideas have you tried at your organization?
 [5]: http://www.facebook.com/TachmornMarketing
   "Click here to visit the Tachmorn Marketing Facebook community."
 
-[6]: {{rootPath}}images/2013/01/webcomics-might-be-just-what-your-business-needs1.jpg
+[6]: {{imagePath}}2013/01/webcomics-might-be-just-what-your-business-needs1.jpg
   "Agency Life: 'Client Delivery' (1 of 2)"
 
-[7]: {{rootPath}}images/2013/01/webcomics-might-be-just-what-your-business-needs2.jpg
+[7]: {{imagePath}}2013/01/webcomics-might-be-just-what-your-business-needs2.jpg
   "Agency Life: 'Project Estimate' (2 of 2)"
 
 [Webcomics]: http://en.wikipedia.org/wiki/Webcomic

@@ -225,7 +225,7 @@ take your own journey to build a Web application from scratch, good luck
 to you. Just remember it takes longer than two weeks!
 
 
-[1]: {{rootPath}}images/2015/10/hf-robot-blog.jpg
+[1]: {{imagePath}}2015/10/hf-robot-blog.jpg
   "Be MEAN! Build a Web app."
 
 [2]: http://www.morguefile.com/archive/display/208246

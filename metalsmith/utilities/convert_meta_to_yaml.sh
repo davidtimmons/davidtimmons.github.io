@@ -32,6 +32,7 @@ do
         -e 's/{filename}\//{filename}/'      \
         -e 's/{filename}/{{rootPath}}/'      \
         -e 's/{{rootPath}}\(.*\)\.md/{{rootPath}}\1\//' \
+        -e 's/{{rootPath}}images\//{{imagePath}}/' \
     "$file"
 done
 

@@ -65,7 +65,7 @@ all decisions, win.
 So how do you encourage engagement with *your* brand?
 
 
-[1]: {{rootPath}}images/2013/05/follow-this-one-simple-rule-to-encourage-brand-engagement0.jpg
+[1]: {{imagePath}}2013/05/follow-this-one-simple-rule-to-encourage-brand-engagement0.jpg
   "Follow this one simple rule to encourage brand engagement."
 
 [2]: http://www.flickr.com/photos/jdhancock/4320973853/

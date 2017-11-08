@@ -65,7 +65,7 @@ management process as an efficient way to achieve success.
 How do you manage constraints in your projects?
 
 
-[1]: {{rootPath}}images/2013/03/project-management-and-the-triangle-of-doom0.jpg
+[1]: {{imagePath}}2013/03/project-management-and-the-triangle-of-doom0.jpg
   "Project Management Triangle Overview"
 
 [2]: http://en.wikipedia.org/wiki/File:Project-triangle.svg

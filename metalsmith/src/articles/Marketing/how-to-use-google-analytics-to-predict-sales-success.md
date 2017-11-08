@@ -97,19 +97,19 @@ your marketing success.
 What web analytics methods or tools do you use with *your* website?
 
 
-[1]: {{rootPath}}images/2013/02/how-to-use-google-analytics-to-predict-sales-success0.jpg
+[1]: {{imagePath}}2013/02/how-to-use-google-analytics-to-predict-sales-success0.jpg
   "How To Use Google Analytics To Predict Sales Success"
 
 [2]: http://www.google.com/analytics/
   "Click here to visit the Google Analytics website."
 
-[3]: {{rootPath}}images/2013/02/how-to-use-google-analytics-to-predict-sales-success1.jpg
+[3]: {{imagePath}}2013/02/how-to-use-google-analytics-to-predict-sales-success1.jpg
   "Google Analytics Overview: 'Pageviews' (1 of 3)"
 
-[4]: {{rootPath}}images/2013/02/how-to-use-google-analytics-to-predict-sales-success2.jpg
+[4]: {{imagePath}}2013/02/how-to-use-google-analytics-to-predict-sales-success2.jpg
   "Google Analytics Overview: 'Engagement' (2 of 3)"
 
-[5]: {{rootPath}}images/2013/02/how-to-use-google-analytics-to-predict-sales-success3.jpg
+[5]: {{imagePath}}2013/02/how-to-use-google-analytics-to-predict-sales-success3.jpg
   "Google Analytics Overview: 'Advanced Segmentation' (3 of 3)"
 
 [Google Analytics]: http://www.google.com/analytics/

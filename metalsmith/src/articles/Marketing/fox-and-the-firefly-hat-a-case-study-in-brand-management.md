@@ -114,7 +114,7 @@ fans have their say? [Read more about the situation here][5].
 What do you think?
 
 
-[1]: {{rootPath}}images/2013/04/fox-and-the-firefly-hat-a-case-study-in-brand-management0.jpg
+[1]: {{imagePath}}2013/04/fox-and-the-firefly-hat-a-case-study-in-brand-management0.jpg
   "Fox And The 'Firefly' Hat: A Case Study in Brand Management"
 
 [2]: http://www.flickr.com/photos/donabelandewen/3755969693/

@@ -80,7 +80,7 @@ pursue these thieves one-by-one, your time will remain your own and the
 people who use your application will thank you.
 
 
-[1]: {{rootPath}}images/2016/11/time-thieves-pt2.jpg
+[1]: {{imagePath}}2016/11/time-thieves-pt2.jpg
   "This workstation is deep in the heart of time thief territory."
 
 [2]: https://www.flickr.com/photos/blakespot/6801747991/

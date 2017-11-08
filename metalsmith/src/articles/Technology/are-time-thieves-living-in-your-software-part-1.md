@@ -61,7 +61,7 @@ to enforce law and order in your digital domain. Your time depends
 on it!
 
 
-[1]: {{rootPath}}images/2016/11/time-thieves-pt1.jpg
+[1]: {{imagePath}}2016/11/time-thieves-pt1.jpg
   "I see two time-thieves in the corner up to no good!"
 
 [2]: https://www.flickr.com/photos/blakespot/8613889824

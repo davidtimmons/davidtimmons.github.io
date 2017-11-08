@@ -57,7 +57,7 @@ What other advise would you give to organizations promoting themselves
 with modern media tactics?
 
 
-[1]: {{rootPath}}images/2013/02/stop-your-lubbock-ads-until-after-you-read-this0.jpg
+[1]: {{imagePath}}2013/02/stop-your-lubbock-ads-until-after-you-read-this0.jpg
   "Stop Your Ads Until After You Read This"
 
 [2]: http://commons.wikimedia.org/wiki/File:AmericasBestComics2403.jpg

@@ -77,7 +77,7 @@ Have you developed a mobile app for your brand, or have you thought
 about doing so? What promotion techniques would you use?
 
 
-[1]: {{rootPath}}images/2013/02/strong-mobile-app-marketing-and-app-visibility0.jpg
+[1]: {{imagePath}}2013/02/strong-mobile-app-marketing-and-app-visibility0.jpg
   "Mobile App Marketing Overview"
 
 [2]: http://www.flickr.com/photos/ivyfield/4731067716/

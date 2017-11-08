@@ -79,7 +79,7 @@ particular situation. However, until this tool can can deploy itself,
 keep these five quick tips in mind as you navigate the waters.
 
 
-[1]: {{rootPath}}images/2016/07/oracle-content-marketing.jpg
+[1]: {{imagePath}}2016/07/oracle-content-marketing.jpg
   "Nothing says '5 minutes or less' like a stopwatch!"
 
 [2]: http://thinking.ascend.marketing/oracle-content-marketing-in-5-minutes-or-less

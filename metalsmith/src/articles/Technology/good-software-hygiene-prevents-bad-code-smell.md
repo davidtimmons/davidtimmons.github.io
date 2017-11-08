@@ -92,7 +92,7 @@ code? Instead, our goal should be the fresh and clean scent of
 maintainable, hygienic software!
 
 
-[1]: {{rootPath}}images/2016/11/software-hygiene.jpg
+[1]: {{imagePath}}2016/11/software-hygiene.jpg
   "Just look at that code! Somebody crack a window..."
 
 [2]: http://thinking.ascend.marketing/good-software-hygiene-prevents-bad-code-smell

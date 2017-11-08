@@ -227,7 +227,7 @@ healthy dose of SEO.
 </div>
 
 
-[mam-img]: {{rootPath}}images/2016/02/mega-air-man.jpg
+[mam-img]: {{imagePath}}2016/02/mega-air-man.jpg
   "Mega Air Man"
 
 [mam-demo]: http://mega-air-man.timmons.io
@@ -236,7 +236,7 @@ healthy dose of SEO.
 [mam-code]: https://github.com/davidtimmons/mega-air-man
   "Click here to see the project code."
 
-[rcc-img]: {{rootPath}}images/2016/01/react-csv-component.jpg
+[rcc-img]: {{imagePath}}2016/01/react-csv-component.jpg
   "React CSV Component"
 
 [rcc-demo]: http://react-csv.timmons.io
@@ -245,7 +245,7 @@ healthy dose of SEO.
 [rcc-code]: https://github.com/davidtimmons/react-csv
   "Click here to see the project code."
 
-[haf-img]: {{rootPath}}images/2015/08/hackafinder-home.jpg
+[haf-img]: {{imagePath}}2015/08/hackafinder-home.jpg
   "Hacka_finder"
 
 [haf-demo]: http://hackafinder.timmons.io
@@ -254,31 +254,31 @@ healthy dose of SEO.
 [haf-code]: https://github.com/davidtimmons/hackafinder
   "Click here to see the project code."
 
-[ssc-img]: {{rootPath}}images/2014/08/simon-says-breadboard.jpg
+[ssc-img]: {{imagePath}}2014/08/simon-says-breadboard.jpg
   "Simon Says Circuit"
 
 [ssc-code]: https://github.com/davidtimmons/simon-says-circuit
   "Click here to see the project code."
 
-[tsa-img]: {{rootPath}}images/2014/08/text-scalpel-app-dashboard.png
+[tsa-img]: {{imagePath}}2014/08/text-scalpel-app-dashboard.png
   "Text Scalpel App"
 
 [tsa-code]: https://github.com/davidtimmons/text-scalpel-app
   "Click here to see the project code."
 
-[brc-img]: {{rootPath}}images/2014/08/browser-checklist.jpg
+[brc-img]: {{imagePath}}2014/08/browser-checklist.jpg
   "Browser Checklist"
 
 [brc-code]: https://github.com/davidtimmons/browser-checklist
   "Click here to see the project code."
 
-[fpt-img]: {{rootPath}}images/2014/05/fortune-100-pricing-tool.jpg
+[fpt-img]: {{imagePath}}2014/05/fortune-100-pricing-tool.jpg
   "Fortune 100 Pricing Tool"
 
-[wap-img]: {{rootPath}}images/2014/05/website-animation-control-panel.jpg
+[wap-img]: {{imagePath}}2014/05/website-animation-control-panel.jpg
   "Website Animation Control Panel"
 
-[few-img]: {{rootPath}}images/2014/05/front-end-web-development.jpg
+[few-img]: {{imagePath}}2014/05/front-end-web-development.jpg
   "Front-End Web Development"
 
 [Elm]: http://elm-lang.org/

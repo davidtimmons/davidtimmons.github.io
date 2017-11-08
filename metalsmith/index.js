@@ -10,6 +10,10 @@ let layouts        = require('metalsmith-layouts');
 let markdown       = require('metalsmith-markdown');
 let permalinks     = require('metalsmith-permalinks');
 
+// Define constants.
+const BUILD_DIR = './build';
+const ROOT_PATH = 'http://david.timmons.io/';
+
 
 ///////////
 // BUILD //
@@ -21,10 +25,11 @@ Metalsmith(__dirname)
     description: "It's about saying »Hello« to the World.",
     generator: "Metalsmith",
     url: "http://www.metalsmith.io/",
-    rootPath: 'http://david.timmons.io/',
+    rootPath: ROOT_PATH,
+    imagePath: ROOT_PATH + 'static/images/',
   })
   .source('./src')
-  .destination('./build')
+  .destination(BUILD_DIR)
   .ignore([
     'root',
   ])
@@ -48,7 +53,7 @@ Metalsmith(__dirname)
   .use(injectMetadata({
     pattern: '**/*.md',
     fileKeys: 'contents',
-    metadataKeys: 'rootPath',
+    metadataKeys: ['imagePath', 'rootPath'],
   }))
   .use(markdown({ // See: https://github.com/segmentio/metalsmith-markdown
     gfm: true,
@@ -69,8 +74,8 @@ Metalsmith(__dirname)
 // Move root files to the build directory.
 Metalsmith(__dirname)
   .source('./src/root')
-  .destination('./build')
-  .clean(false)
+  .destination(BUILD_DIR)
+  .clean(true)
   .build(function(err, files) {
     if (err) { throw err; }
   });

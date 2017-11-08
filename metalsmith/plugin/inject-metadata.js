@@ -35,12 +35,12 @@ function _setArgumentDefaults(arg, desiredType, acceptedType, defaultValue) {
 function _searchAndReplace(text, search, replace) {
     let startIndex = text.indexOf('{{');
     while (startIndex >= 0) {
-        let endIndex = text.indexOf('}}')
+        let endIndex = text.indexOf('}}', startIndex)
           , value = text.substring(startIndex + 2, endIndex).trim();
         if (value === search) {
             text = text.substring(0, startIndex) + replace + text.substring(endIndex + 2);
         }
-        startIndex = text.indexOf('{{');
+        startIndex = text.indexOf('{{', endIndex);
     }
     return text;
 }

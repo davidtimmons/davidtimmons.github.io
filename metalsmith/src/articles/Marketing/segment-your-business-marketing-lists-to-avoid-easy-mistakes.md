@@ -53,7 +53,7 @@ Business marketing segmentation through the use of firmographics helps
 you target your promotional efforts. This leads to greater success.
 
 
-[1]: {{rootPath}}images/2013/01/segment-your-business-marketing-lists-to-avoid-easy-mistakes0.jpg
+[1]: {{imagePath}}2013/01/segment-your-business-marketing-lists-to-avoid-easy-mistakes0.jpg
   "Business Marketing Segmentation Graph"
 
 [2]: http://commons.wikimedia.org/wiki/File:Kgs_rank_histogram.png

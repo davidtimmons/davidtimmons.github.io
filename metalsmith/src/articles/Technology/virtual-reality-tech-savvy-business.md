@@ -79,7 +79,7 @@ companies who prepare now are the ones who stand to gain the most when
 the tsunami hits.
 
 
-[1]: {{rootPath}}images/2016/11/vr-tech-savvy-biz.jpg
+[1]: {{imagePath}}2016/11/vr-tech-savvy-biz.jpg
   "Is virtual virtual reality just reality?"
 
 [2]: http://thinking.ascend.marketing/3-virtual-reality-tips-for-the-tech-savvy-business

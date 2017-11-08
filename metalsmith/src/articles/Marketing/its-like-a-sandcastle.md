@@ -62,7 +62,7 @@ pragmatic course of action toward building long-term results for your
 organization.
 
 
-[1]: {{rootPath}}images/2012/11/its-like-a-sandcastle0.jpg
+[1]: {{imagePath}}2012/11/its-like-a-sandcastle0.jpg
   "Marketing systems can be understood as sandcastles."
 
 [2]: http://commons.wikimedia.org/wiki/File:Chateau_de_sable2.jpg

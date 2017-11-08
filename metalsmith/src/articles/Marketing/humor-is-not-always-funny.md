@@ -53,7 +53,7 @@ business in question, Bill Murray will *always* get a pass.
 But I'm guessing this exception applies in very limited cases.
 
 
-[1]: {{rootPath}}images/2012/12/humor-is-not-always-funny0.jpg
+[1]: {{imagePath}}2012/12/humor-is-not-always-funny0.jpg
   "When it comes to humor in business, how much is too much?"
 
 [2]: http://www.flickr.com/photos/keoni101/5530280949/

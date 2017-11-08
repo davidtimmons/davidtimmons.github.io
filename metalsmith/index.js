@@ -9,6 +9,7 @@ let injectMetadata = require('./plugin/inject-metadata.js');
 let layouts        = require('metalsmith-layouts');
 let markdown       = require('metalsmith-markdown');
 let permalinks     = require('metalsmith-permalinks');
+let sitemap        = require('metalsmith-sitemap');
 
 // Define constants.
 const BUILD_DIR = './build';
@@ -32,6 +33,7 @@ Metalsmith(__dirname)
   .destination(BUILD_DIR)
   .ignore([
     'root',
+    'wordpress-theme',
   ])
   .clean(true)
   .use(debug()) // See: https://github.com/mahnunchik/metalsmith-debug
@@ -65,6 +67,11 @@ Metalsmith(__dirname)
   }))
   .use(layouts({ // See: https://github.com/superwolff/metalsmith-layouts
     engine: 'handlebars',
+  }))
+  .use(sitemap({ // See: https://github.com/ExtraHop/metalsmith-sitemap 
+    hostname: ROOT_PATH,
+    omitIndex: true,
+    pattern: ['**/*.html', '!**/bower_components/**'],
   }))
   .build(function(err, files) {
     if (err) { throw err; }

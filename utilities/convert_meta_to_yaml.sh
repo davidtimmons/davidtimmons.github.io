@@ -8,7 +8,7 @@
 THIS_DIRECTORY=$(cd `dirname $0` && pwd)
 
 # Substitute this directory name for the directory where the content is located.
-SRC_DIRECTORY=${THIS_DIRECTORY%`basename $THIS_DIRECTORY`}src
+SRC_DIRECTORY=${THIS_DIRECTORY%`basename $THIS_DIRECTORY`}metalsmith/src
 
 # Define paths to markdown files that should change.
 ARTICLES=$SRC_DIRECTORY/articles/*/*.md

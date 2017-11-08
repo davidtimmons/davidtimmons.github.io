@@ -2,14 +2,14 @@
   "name": "david.timmons.io",
   "version": "1.0.0",
   "description": "A personal website built by and for David Timmons.",
-  "main": "index.js",
+  "main": "metalsmith/index.js",
   "repository": "https://github.com/davidtimmons/david-timmons-io",
   "author": "David Timmons",
   "license": "CC BY-NC 4.0",
   "private": true,
   "scripts": {
-    "build": "node index.js",
-    "convert": "./utilities/convert_meta_to_yaml.sh",
+    "build": "node metalsmith/index.js",
+    "convert": "utilities/convert_meta_to_yaml.sh",
     "debug": "DEBUG=metalsmith:* node index.js"
   },
   "dependencies": {

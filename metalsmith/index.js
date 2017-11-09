@@ -22,12 +22,13 @@ const ROOT_PATH = 'http://david.timmons.io/';
 
 Metalsmith(__dirname)
   .metadata({
-    title: "My Static Site & Blog",
-    description: "It's about saying »Hello« to the World.",
-    generator: "Metalsmith",
-    url: "http://www.metalsmith.io/",
+    siteTitle: 'David Timmons',
     rootPath: ROOT_PATH,
     imagePath: ROOT_PATH + 'static/images/',
+    gaAccount: 'UA-19610273-1',
+    gaDomain: 'timmons.io',
+    keyBingWebmasterTools: 'D62CBC40FC8F577CAA5D68B79E806194',
+    keyGoogleSearchConsole: '24km3JXEzfZ0tKZah9epCVlDwLIepVGsQmuKgQi4hzo',
   })
   .source('./src')
   .destination(BUILD_DIR)
@@ -42,6 +43,12 @@ Metalsmith(__dirname)
       pattern: 'index.md',
       defaults: {
         layout: 'page.html',
+      }
+    },
+    {
+      pattern: '404.md',
+      defaults: {
+        layout: '404.html',
       }
     },
     {
@@ -72,6 +79,7 @@ Metalsmith(__dirname)
   }))
   .use(layouts({ // See: https://github.com/superwolff/metalsmith-layouts
     engine: 'handlebars',
+    partials: 'layouts/partials',
   }))
   .use(sitemap({ // See: https://github.com/ExtraHop/metalsmith-sitemap 
     hostname: ROOT_PATH,

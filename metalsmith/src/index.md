@@ -2,9 +2,12 @@
 title: About
 date: 2014-05-29 23:19
 author: David Timmons
-slug: about
 draft: false
 permalink: false
+image: 2014/05/david-timmons.jpg
+description: >-
+    My name is David Timmons. I&#039;m a technologist, entrepreneur, and business veteran.
+    Welcome to my home on the Web!
 ---
 
 ![David Timmons][1]

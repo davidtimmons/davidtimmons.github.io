@@ -1,0 +1,8 @@
+{
+    "icons": [{
+        "src": "touch.png",
+        "sizes": "144x144",
+        "type": "image/png"
+    }],
+    "start_url": "/"
+}

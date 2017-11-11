@@ -5,17 +5,19 @@ author: David Timmons
 category: Marketing
 slug: incentives-govern-marketing
 draft: false
+hero:
+  imgAlt: "Aztec feast illustration from the Florentine Codex"
+  imgUrlSrc: "{{ imagePath }}2012/11/incentives-govern-marketing0.jpg"
+  creditText: >-
+    Image: "Aztec feast illustration from the Florentine Codex, Late 16th century" courtesy of
+  creditUrlText: "Wikimedia Commons"
+  creditUrlSrc: "http://commons.wikimedia.org/wiki/File:Aztec_feast_4.jpg"
+  creditUrlTitle: "View the original image on Wikimedia Commons."
+  caption: >-
+    "Marketing incentives are the levers that create action. Understanding
+    what these are and how to use them makes it easier to generate
+    conversions."
 ---
-
-![Aztec feast illustration from the Florentine Codex][1]
-<span class="img-caption">
-  Marketing incentives are the levers that create action. Understanding
-  what these are and how to use them makes it easier to generate
-  conversions.
-
-  Image: "Aztec feast illustration from the Florentine Codex, Late 16th
-  century" courtesy of [Wikimedia Commons][2].
-</span>
 
 Did you ever wonder why so many stores use coupons or why a company will
 give shoes to a developing nation for every pair you purchase? These are
@@ -77,10 +79,3 @@ human behavior nicely illustrated.
 Marketing seeks to impact human behavior, therefore incentives govern
 marketing. Finding the right levers for your brand should always be a
 core part of your marketing strategy.
-
-
-[1]: {{imagePath}}2012/11/incentives-govern-marketing0.jpg
-  "Marketing incentives are the levers that create action."
-
-[2]: http://commons.wikimedia.org/wiki/File:Aztec_feast_4.jpg
-  "View the original image on Wikimedia Commons."

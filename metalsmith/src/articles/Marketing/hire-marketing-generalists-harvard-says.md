@@ -5,16 +5,18 @@ author: David Timmons
 category: Marketing
 slug: hire-marketing-generalists-harvard-says
 draft: false
+hero:
+  imgAlt: "UG"
+  imgUrlSrc: "{{ imagePath }}2013/05/hire-marketing-generalists-harvard-says0.jpg"
+  creditText: "Image: \"UG\" by"
+  creditUrlText: "Justin P. Lambert"
+  creditUrlSrc: "http://www.flickr.com/photos/justinplwrites/5311302376/"
+  creditUrlTitle: "View the original photo on Flickr."
+  caption: >-
+    "Like a tree, modern marketing continues to sprout new branches requiring
+    new knowledge to tend. Marketing generalists are the way to future-proof
+    your marketing department."
 ---
-
-![UG][1]
-<span class="img-caption">
-  Like a tree, modern marketing continues to sprout new branches requiring
-  new knowledge to tend. Marketing generalists are the way to future-proof
-  your marketing department.
-
-  Image: "UG" by [Justin P. Lambert][2].
-</span>
 
 Marketing was once easy. In fact, it was often synonymous with
 advertising. You hired an artist to depict happy people using your
@@ -99,12 +101,6 @@ lead-generating machine, and that grows your bottom line.
 What do you think -- generalists or specialists for your marketing
 department?
 
-
-[1]: {{imagePath}}2013/05/hire-marketing-generalists-harvard-says0.jpg
-  "Hire Marketing Generalists, Harvard Says"
-
-[2]: http://www.flickr.com/photos/justinplwrites/5311302376/
-  "View the original photo on Flickr."
 
 [3]: http://blogs.hbr.org/cs/2012/06/all_hail_the_generalist.html
   "Click here to read 'All Hail the Generalist' at the Harvard Business Review website."

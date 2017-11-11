@@ -5,15 +5,17 @@ author: David Timmons
 category: Marketing
 slug: marketing-the-zombie-apocalypse-and-you
 draft: false
+hero:
+  imgAlt: "Zombie Walk 2010 - Curitiba"
+  imgUrlSrc: "{{ imagePath }}2013/05/marketing-the-zombie-apocalypse-and-you0.jpg"
+  creditText: "Photo: \"Zombie Walk 2010 - Curitiba\" by"
+  creditUrlText: "Nivaldo Arruda"
+  creditUrlSrc: "http://www.flickr.com/photos/nivaldoarruda/4357660136/"
+  creditUrlTitle: "View the original photo on Flickr."
+  caption: >-
+    "Marketing your business after the zombie apocalypse can be a living
+    nightmare, but have hope: Marketing theory is still valid!"
 ---
-
-![Zombie Walk 2010 - Curitiba][1]
-<span class="img-caption">
-  Marketing your business after the zombie apocalypse can be a living
-  nightmare, but have hope: Marketing theory is still valid!
-
-  Photo: "Zombie Walk 2010 - Curitiba" by [Nivaldo Arruda][2].
-</span>
 
 Marketing your business after the zombie apocalypse can be a *living
 nightmare*.
@@ -79,10 +81,3 @@ Whenever you pine for easier times filled with social media tweets
 describing in excruciating detail the peanut butter sandwich your brand
 manager ate for lunch, just remember the "four Ps" is as relevant today
 as in the age of habitual bathing.
-
-
-[1]: {{imagePath}}2013/05/marketing-the-zombie-apocalypse-and-you0.jpg
-  "Marketing After The Zombie Apocalypse"
-
-[2]: http://www.flickr.com/photos/nivaldoarruda/4357660136/
-  "View the original photo on Flickr."

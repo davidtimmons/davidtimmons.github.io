@@ -5,12 +5,15 @@ author: David Timmons
 category: Technology
 slug: how-to-be-mean
 draft: false
+hero:
+  imgAlt: "IMG_4236"
+  imgUrlSrc: "{{ imagePath }}2015/10/hf-robot-blog.jpg"
+  creditText: "Photo: \"IMG_4236\" image courtesy of"
+  creditUrlText: "middlewick"
+  creditUrlSrc: "http://www.morguefile.com/archive/display/208246"
+  creditUrlTitle: "View the original photo on Morguefile."
+  caption: "Be MEAN! Build a Web app."
 ---
-
-![IMG_4236][1]
-<span class="img-caption">
-  Photo: "IMG_4236" image courtesy of [middlewick][2].
-</span>
 
 Bringing a Web application from the spark of an idea to a complete
 interactive experience is certainly a rite of passage. I finished
@@ -224,12 +227,6 @@ value. It was definitely worth the effort. If you decide to be MEAN and
 take your own journey to build a Web application from scratch, good luck
 to you. Just remember it takes longer than two weeks!
 
-
-[1]: {{imagePath}}2015/10/hf-robot-blog.jpg
-  "Be MEAN! Build a Web app."
-
-[2]: http://www.morguefile.com/archive/display/208246
-  "View the original photo on Morguefile."
 
 [3]: http://hackafinder.timmons.io/
   "View the Hacka_finder demo here."

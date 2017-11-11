@@ -5,14 +5,15 @@ author: David Timmons
 category: Marketing
 slug: humor-is-not-always-funny
 draft: false
+hero:
+  imgAlt: "Katrina Killed the Klown"
+  imgUrlSrc: "{{ imagePath }}2012/12/humor-is-not-always-funny0.jpg"
+  creditText: "Photo: \"Katrina Killed the Klown\" by"
+  creditUrlText: "Keoni Cabral"
+  creditUrlSrc: "http://www.flickr.com/photos/keoni101/5530280949/"
+  creditUrlTitle: "View the original photo on Flickr."
+  caption: "Humor is tricky when used in a business context. How much is too much?"
 ---
-
-![Katrina Killed the Klown][1]
-<span class="img-caption">
-  Humor is tricky when used in a business context. How much is too much?
-
-  Photo: "Katrina Killed the Klown" by [Keoni Cabral][2].
-</span>
 
 Communication between two people always results in some amount of
 information loss. It can't be helped! Maybe the radio is too loud. Or
@@ -52,12 +53,6 @@ business in question, Bill Murray will *always* get a pass.
 
 But I'm guessing this exception applies in very limited cases.
 
-
-[1]: {{imagePath}}2012/12/humor-is-not-always-funny0.jpg
-  "When it comes to humor in business, how much is too much?"
-
-[2]: http://www.flickr.com/photos/keoni101/5530280949/
-  "View the original photo on Flickr."
 
 [Sucuri]: http://sucuri.net/company
   "Click here to read more about Sucuri."

@@ -5,12 +5,15 @@ author: David Timmons
 category: Technology
 slug: what-your-javascript-says-about-you
 draft: false
+hero:
+  imgAlt: "Photo courtesy of Ascend Marketing"
+  imgUrlSrc: "{{ imagePath }}2016/07/javascript-and-you.jpg"
+  creditText: "Photo: Courtesy of"
+  creditUrlText: "Ascend Marketing"
+  creditUrlSrc: "http://thinking.ascend.marketing/what-does-your-javascript-say-about-you"
+  creditUrlTitle: "View this post on the Ascend Marketing blog."
+  caption: "A wild JavaScript 'Radical' and 'Traditionalist' spotted on safari."
 ---
-
-![Photo courtesy of Ascend Marketing][1]
-<span class="img-caption">
-  Photo: Courtesy of [Ascend Marketing][2].
-</span>
 
 There is a growing philosophical divide between front-end Web
 application developers. JavaScript is the one front-end language that
@@ -70,12 +73,6 @@ the new JavaScript tools that inevitably grab attention every six
 months. You can then make an informed decision to select tools that work
 well within your own team's skills and world view.
 
-
-[1]: {{imagePath}}2016/07/javascript-and-you.jpg
-  "A wild JavaScript 'Radical' and 'Traditionalist' spotted on safari."
-
-[2]: http://thinking.ascend.marketing/what-does-your-javascript-say-about-you
-  "View this post on the Ascend Marketing blog."
 
 [3]: http://www.ecma-international.org/ecma-262/6.0/index.html
   "Visit www.ecma-international.org."

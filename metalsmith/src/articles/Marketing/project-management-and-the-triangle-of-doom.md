@@ -5,16 +5,18 @@ author: David Timmons
 category: Marketing
 slug: project-management-and-the-triangle-of-doom
 draft: false
+hero:
+  imgAlt: "Project Triangle"
+  imgUrlSrc: "{{ imagePath }}2013/03/project-management-and-the-triangle-of-doom0.jpg"
+  creditText: "Image: \"Project Triangle\" by"
+  creditUrlText: "Cosmocatalano"
+  creditUrlSrc: "http://en.wikipedia.org/wiki/File:Project-triangle.svg"
+  creditUrlTitle: "View the original image on Wikipedia."
+  caption: >-
+    "Project management must recognize and work within constraints. Resources
+    are always finite, and understanding the tradeoffs involved makes or
+    breaks a project."
 ---
-
-![Project Triangle][1]
-<span class="img-caption">
-  Project management must recognize and work within constraints. Resources
-  are always finite, and understanding the tradeoffs involved makes or
-  breaks a project.
-
-  Image: "Project Triangle" by [Cosmocatalano][2].
-</span>
 
 Do your coworkers hide when they see you coming?
 
@@ -64,12 +66,6 @@ management process as an efficient way to achieve success.
 
 How do you manage constraints in your projects?
 
-
-[1]: {{imagePath}}2013/03/project-management-and-the-triangle-of-doom0.jpg
-  "Project Management Triangle Overview"
-
-[2]: http://en.wikipedia.org/wiki/File:Project-triangle.svg
-  "View the original image on Wikipedia."
 
 [3]: http://en.wikipedia.org/wiki/Project_triangle
   "Click here to read more about the Project Management Triangle."

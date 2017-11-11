@@ -5,15 +5,17 @@ author: David Timmons
 category: Marketing
 slug: would-you-pay-67-to-be-my-friend
 draft: false
+hero:
+  imgAlt: "Currency In Marketing"
+  imgUrlSrc: "{{ imagePath }}2013/04/would-you-pay-67-to-be-my-friend0.jpg"
+  creditText: "Photo: \"Forex Money for Exchange in Currency Bank\" by"
+  creditUrlText: "epSos.de"
+  creditUrlSrc: "http://www.flickr.com/photos/epsos/8463683689/"
+  creditUrlTitle: "View the original photo on Flickr."
+  caption: >-
+    "Every marketing 'call to action' has an associated cost to your prospect.
+    How much does yours cost?"
 ---
-
-![Currency In Marketing][1]
-<span class="img-caption">
-  Every marketing "call to action" has an associated cost to your
-  prospect. How much does yours cost?
-
-  Photo: "Forex Money for Exchange in Currency Bank" by [epSos.de][2].
-</span>
 
 Marketing communicates the value of your product or service. This often
 leads to a transaction. We shout our "call to action" and hope the money
@@ -74,10 +76,3 @@ price tag only a "millionaire" could afford.
 
 How do you minimize virtual currency costs in your marketing approach?
 **Leave your comments below** *(+ 2 VC)*.
-
-
-[1]: http://david.timmons.io/wp-content/uploads/2013/04/would-you-pay-67-to-be-my-friend0.jpg
-  "Will You Pay Me $67 To Be My Friend?"
-
-[2]: http://www.flickr.com/photos/epsos/8463683689/
-  "View the original photo on Flickr."

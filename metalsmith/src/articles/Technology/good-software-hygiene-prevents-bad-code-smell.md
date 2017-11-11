@@ -5,12 +5,15 @@ author: David Timmons
 category: Technology
 slug: good-software-hygiene-prevents-bad-code-smell
 draft: false
+hero:
+  imgAlt: "Photo courtesy of Ascend Marketing"
+  imgUrlSrc: "{{ imagePath }}2016/11/software-hygiene.jpg"
+  creditText: "Photo: Courtesy of"
+  creditUrlText: "Ascend Marketing"
+  creditUrlSrc: "http://thinking.ascend.marketing/good-software-hygiene-prevents-bad-code-smell"
+  creditUrlTitle: "View this post on the Ascend Marketing blog."
+  caption: "Just look at that code! Somebody crack a window..."
 ---
-
-![Photo courtesy of Ascend Marketing][1]
-<span class="img-caption">
-  Photo: Courtesy of [Ascend Marketing][2].
-</span>
 
 Johann Wolfgang von Goethe once wrote, "In der Beschränkung zeigt sich
 erst der Meister." Put another way, "Masters of their craft know that
@@ -91,12 +94,6 @@ smell". Who wants a reputation as the person who never washes his or her
 code? Instead, our goal should be the fresh and clean scent of
 maintainable, hygienic software!
 
-
-[1]: {{imagePath}}2016/11/software-hygiene.jpg
-  "Just look at that code! Somebody crack a window..."
-
-[2]: http://thinking.ascend.marketing/good-software-hygiene-prevents-bad-code-smell
-  "View this post on the Ascend Marketing blog."
 
 [3]: https://www.sig.eu/en/building-maintainable-software
   "Visit www.sig.eu."

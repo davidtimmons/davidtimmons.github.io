@@ -5,15 +5,17 @@ author: David Timmons
 category: Marketing
 slug: webcomics-might-be-just-what-your-business-needs
 draft: false
+hero:
+  imgAlt: "Agency Life Webcomics Sketch"
+  imgUrlSrc: "{{ imagePath }}2013/01/webcomics-might-be-just-what-your-business-needs0.jpg"
+  creditText: "Image: \"Agency Life Webcomics Sketch\" by"
+  creditUrlText: "David Timmons"
+  creditUrlSrc: "http://david.timmons.io"
+  creditUrlTitle: "Click here to view my website."
+  caption: >-
+    "Webcomics such as our 'Agency Life' example have been used in marketing
+    plans from NBC to Zappos and beyond."
 ---
-
-![Agency Life Webcomics Sketch][1]
-<span class="img-caption">
-  Webcomics such as our "Agency Life" example have been used in marketing
-  plans from NBC, Zappos, and beyond.
-
-  Image: "Agency Life Webcomics Sketch" by [David Timmons][2].
-</span>
 
 Judicious use of creativity can set your business apart from others in
 your industry. While tolerance for unusual ideas may vary by company,
@@ -64,12 +66,6 @@ line.
 
 What creative marketing ideas have you tried at your organization?
 
-
-[1]: {{imagePath}}2013/01/webcomics-might-be-just-what-your-business-needs0.jpg
-  "Webcomics Might Be Just What Your Business Needs"
-
-[2]: http://david.timmons.io
-  "Click here to view my website."
 
 [3]: http://www.nbc.com/heroes/novels/
   "Click here to read some of the Heroes webcomics."

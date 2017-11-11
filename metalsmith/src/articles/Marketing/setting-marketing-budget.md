@@ -5,16 +5,18 @@ author: David Timmons
 category: Marketing
 slug: setting-marketing-budget
 draft: false
+hero:
+  imgAlt: "Marketing seen at GUM (Main Universal Store) in Moscow by A. Savin"
+  imgUrlSrc: "{{ imagePath }}2012/11/our-world-is-a-big-place0.jpg"
+  creditText: "Photo: \"GUM (Main Universal Store) in Moscow\" by"
+  creditUrlText: "A. Savin"
+  creditUrlSrc: "http://commons.wikimedia.org/wiki/File:Moscow_GUM_Middle_Line_view_from_2nd_floor.jpg"
+  creditUrlTitle: "View the original photo on Wikimedia Commons."
+  caption: >-
+    "Hundreds of marketing articles could describe the small details of this
+    big Moscow shopping center, but it all started with a proper marketing
+    budget."
 ---
-
-![Marketing seen at GUM (Main Universal Store) in Moscow by A. Savin][1]
-<span class="img-caption">
-  Hundreds of marketing articles could describe the small details of this
-  big Moscow shopping center, but it all started with a proper marketing
-  budget.
-
-  Photo: "GUM (Main Universal Store) in Moscow" by [A. Savin][2].
-</span>
 
 Having a marketing budget is just as important as knowing what
 activities to fund. When building a marketing program, start by doing
@@ -54,12 +56,6 @@ values presented here are used to give you an idea where to start.
 With a budget firmly in hand you gain a much better sense which
 marketing activities fit your business.
 
-
-[1]: {{imagePath}}2012/11/our-world-is-a-big-place0.jpg
-  "Setting a Marketing Budget"
-
-[2]: http://commons.wikimedia.org/wiki/File:Moscow_GUM_Middle_Line_view_from_2nd_floor.jpg
-  "View the original photo on Wikimedia Commons."
 
 [3]: https://www.sba.gov/blogs/how-set-marketing-budget-fits-your-business-goals-and-provides-high-return-investment
   "Click here to read the U.S. Small Business Administration article."

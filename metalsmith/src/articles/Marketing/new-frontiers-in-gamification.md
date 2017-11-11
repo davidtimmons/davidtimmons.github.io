@@ -5,15 +5,17 @@ author: David Timmons
 category: Marketing
 slug: new-frontiers-in-gamification
 draft: false
+hero:
+  imgAlt: "Cosplay - AWA14 - Shyguy, Mario and Princess Peach"
+  imgUrlSrc: "{{ imagePath }}2013/04/new-frontiers-in-gamification0.jpg"
+  creditText: "Photo: \"Cosplay - AWA14 - Shyguy, Mario and Princess Peach\" by"
+  creditUrlText: "Michael Mol"
+  creditUrlSrc: "http://www.flickr.com/photos/28208534@N07/2873787163/"
+  creditUrlTitle: "View the original photo on Flickr."
+  caption: >-
+    "How much more productive would your organization be if the entire day
+    felt like a game rather than work?"
 ---
-
-![Cosplay - AWA14 - Shyguy, Mario and Princess Peach][1]
-<span class="img-caption">
-  How much more productive would your organization be if the entire day
-  felt like a game rather than work?
-
-  Photo: "Cosplay - AWA14 - Shyguy, Mario and Princess Peach" by [Michael Mol][2].
-</span>
 
 "[Gamification][]" has been around a few years, and most marketers have at
 least *thought* about ways to incorporate this concept into their campaigns.
@@ -68,12 +70,6 @@ like a game? Plenty.
 Have you used gamification to shift internal processes at your
 organization?
 
-
-[1]: {{imagePath}}2013/04/new-frontiers-in-gamification0.jpg
-  "New Frontiers In Gamification"
-
-[2]: http://www.flickr.com/photos/28208534@N07/2873787163/
-  "View the original photo on Flickr."
 
 [3]: http://www.gamification.org/
   "Click here to learn more about gamification."

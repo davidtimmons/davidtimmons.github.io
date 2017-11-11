@@ -5,15 +5,17 @@ author: David Timmons
 category: Marketing
 slug: segment-your-business-marketing-lists-to-avoid-easy-mistakes
 draft: false
+hero:
+  imgAlt: "KGS Go Server rank distributions"
+  imgUrlSrc: "{{ imagePath }}2013/01/segment-your-business-marketing-lists-to-avoid-easy-mistakes0.jpg"
+  creditText: "Image: \"KGS Go Server rank distributions\" by"
+  creditUrlText: "Walleye"
+  creditUrlSrc: "http://commons.wikimedia.org/wiki/File:Kgs_rank_histogram.png"
+  creditUrlTitle: "View the original image on Wikimedia Commons."
+  caption: >-
+    "Business marketing segmentation can make the difference between a prospect who calls
+    <em>you</em> and a prospect who calls <em>your competition</em>."
 ---
-
-![KGS Go Server rank distributions][1]
-<span class="img-caption">
-  Business marketing segmentation can make the difference between a
-  prospect who calls *you* and a prospect who calls your *competition*.
-
-  Image: "KGS Go Server rank distributions" by [Walleye][2].
-</span>
 
 Business marketing principles often overlap with consumer marketing, but
 business marketing is unique because it focuses on an organizational
@@ -52,12 +54,6 @@ marketing decisions that maximize your response rate.
 Business marketing segmentation through the use of firmographics helps
 you target your promotional efforts. This leads to greater success.
 
-
-[1]: {{imagePath}}2013/01/segment-your-business-marketing-lists-to-avoid-easy-mistakes0.jpg
-  "Business Marketing Segmentation Graph"
-
-[2]: http://commons.wikimedia.org/wiki/File:Kgs_rank_histogram.png
-  "KGS Go Server rank distributions by Walleye"
 
 [demographics]: http://www.merriam-webster.com/dictionary/demographics
   "Click here to read a definition of demographics."

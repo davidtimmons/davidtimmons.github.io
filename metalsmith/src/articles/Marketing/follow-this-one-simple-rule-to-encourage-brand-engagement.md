@@ -5,14 +5,16 @@ author: David Timmons
 category: Marketing
 slug: follow-this-one-simple-rule-to-encourage-brand-engagement
 draft: false
+hero:
+  imgAlt: "Playing The Hero"
+  imgUrlSrc: "{{ imagePath }}2013/05/follow-this-one-simple-rule-to-encourage-brand-engagement0.jpg"
+  creditText: "Photo: \"Playing The Hero\" by"
+  creditUrlText: "JD Hancock"
+  creditUrlSrc: "http://www.flickr.com/photos/jdhancock/4320973853/"
+  creditUrlTitle: "View the original photo on Flickr."
+  caption: >-
+    "Brand engagement is the Holy Grail of business stakeholders everywhere. So how does it happen?"
 ---
-
-![Playing The Hero][1]
-<span class="img-caption">
-  Brand engagement is the Holy Grail of business stakeholders everywhere. So how does it happen?
-
-  Photo: "Playing The Hero" by [JD Hancock][2].
-</span>
 
 Brand engagement is the Holy Grail of business stakeholders everywhere.
 When customers interact with your brand -- shape it, play with it, make
@@ -64,12 +66,6 @@ all decisions, win.
 
 So how do you encourage engagement with *your* brand?
 
-
-[1]: {{imagePath}}2013/05/follow-this-one-simple-rule-to-encourage-brand-engagement0.jpg
-  "Follow this one simple rule to encourage brand engagement."
-
-[2]: http://www.flickr.com/photos/jdhancock/4320973853/
-  "View the original photo on Flickr."
 
 [3]: http://mashable.com/2013/05/01/engagement-buzzword/
   "Click here to read how marketers can misunderstand 'engagement'."

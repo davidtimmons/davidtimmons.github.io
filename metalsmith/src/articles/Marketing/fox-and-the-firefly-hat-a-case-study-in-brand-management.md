@@ -5,15 +5,17 @@ author: David Timmons
 category: Marketing
 slug: fox-and-the-firefly-hat-a-case-study-in-brand-management
 draft: false
+hero:
+  imgAlt: "Cunning read"
+  imgUrlSrc: "{{ imagePath }}2013/04/fox-and-the-firefly-hat-a-case-study-in-brand-management0.jpg"
+  creditText: "Photo: \"Cunning read\" by"
+  creditUrlText: "Ewen Roberts"
+  creditUrlSrc: "http://www.flickr.com/photos/donabelandewen/3755969693/"
+  creditUrlTitle: "View the original photo on Flickr."
+  caption: >-
+    "A healthy fan-brand relationship benefits everyone. Fox and 'Firefly'
+    fans demonstrate what happens when that relationship becomes uneven."
 ---
-
-![Cunning read][1]
-<span class="img-caption">
-  A healthy fan-brand relationship benefits everyone. Fox and "Firefly"
-  fans demonstrate what happens when that relationship becomes uneven.
-
-  Photo: "Cunning read" by [Ewen Roberts][2].
-</span>
 
 Fans grow brands. The most dedicated fans build unofficial communities,
 reveling in the joy that participation with a favorite brand provides.
@@ -114,16 +116,10 @@ fans have their say? [Read more about the situation here][5].
 What do you think?
 
 
-[1]: {{imagePath}}2013/04/fox-and-the-firefly-hat-a-case-study-in-brand-management0.jpg
-  "Fox And The 'Firefly' Hat: A Case Study in Brand Management"
-
-[2]: http://www.flickr.com/photos/donabelandewen/3755969693/
-  "View the original photo on Flickr."
-
 [3]: http://www.thinkgeek.com/blog/2013/04/nice-hat-jayne.html
   "Click here to read more about Think Geek's response."
 
-[4]: {{rootPath}}./why-minecraft-should-be-your-model-online-community/
+[4]: {{rootPath}}why-minecraft-should-be-your-model-online-community/
   "Click here to read more about 'Minecraft' and Mojang."
 
 [5]: http://www.buzzfeed.com/ellievhall/firefly-hat-triggers-corporate-crackdown

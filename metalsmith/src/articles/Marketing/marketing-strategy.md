@@ -5,15 +5,17 @@ author: David Timmons
 category: Marketing
 slug: marketing-strategy
 draft: false
+hero:
+  imgAlt: "ZMOT by Google"
+  imgUrlSrc: "{{ imagePath }}2014/05/2-image-zmot.png"
+  creditText: "Image: Google ZMOT Marketing Strategy Framework by"
+  creditUrlText: "Google, Inc."
+  creditUrlSrc: "https://www.thinkwithgoogle.com/marketing-resources/micro-moments/zero-moment-truth/"
+  creditUrlTitle: "Click here to read more about Google's ZMOT concept."
+  caption: >-
+    "When creating a marketing strategy, it is not always clear where to
+    begin. This resource provides you a framework to help ease the process."
 ---
-
-![ZMOT by Google][1]
-<span class="img-caption">
-  When creating a marketing strategy, it is not always clear where to
-  begin. This resource provides you a framework to help ease the process.
-
-  Image: "ZMOT" by [Google][2]
-</span>
 
 ## Summary
 
@@ -269,12 +271,6 @@ presented here should be viewed as a starting point. I hope you found
 this discussion helpful! Now, in the words of Seth Godin, "Go make
 something happen."
 
-
-[1]: {{imagePath}}2014/05/2-image-zmot.png
-  "Google ZMOT Marketing Strategy Framework"
-
-[2]: https://www.thinkwithgoogle.com/marketing-resources/micro-moments/zero-moment-truth/
-  "Click here to read more about Google's ZMOT concept."
 
 [3]: http://en.wikipedia.org/wiki/Mental_model
   "Click here to read more about mental models."

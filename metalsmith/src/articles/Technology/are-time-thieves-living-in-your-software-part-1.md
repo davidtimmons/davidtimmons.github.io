@@ -5,13 +5,15 @@ author: David Timmons
 category: Technology
 slug: are-time-thieves-living-in-your-software-part-1
 draft: false
+hero:
+  imgAlt: "Time Bandit for Sanyo MBC-55"
+  imgUrlSrc: "{{ imagePath }}2016/11/time-thieves-pt1.jpg"
+  creditText: "Photo: \"Time Bandit for Sanyo MBC-550\" image courtesy of"
+  creditUrlText: "Blake Patterson and Gerry Brophy"
+  creditUrlSrc: "https://www.flickr.com/photos/blakespot/8613889824"
+  creditUrlTitle: "View the original photo on Flickr."
+  caption: "I see two time-thieves in the corner up to no good!"
 ---
-
-![Time Bandit for Sanyo MBC-55][1]
-<span class="img-caption">
-  Photo: "Time Bandit for Sanyo MBC-550" image courtesy of
-  [Blake Patterson and Gerry Brophy][2]
-</span>
 
 What would you do if time was like spare change? You save a few seconds
 here and there and find an extra hour on Saturday afternoon. Or, you
@@ -60,12 +62,6 @@ manage. See *[Part 2][5]* for further instruction on what you can do
 to enforce law and order in your digital domain. Your time depends
 on it!
 
-
-[1]: {{imagePath}}2016/11/time-thieves-pt1.jpg
-  "I see two time-thieves in the corner up to no good!"
-
-[2]: https://www.flickr.com/photos/blakespot/8613889824
-  "View the original photo on Flickr."
 
 [3]: https://blog.kissmetrics.com/loading-time/
   "Visit blog.kissmetrics.com."

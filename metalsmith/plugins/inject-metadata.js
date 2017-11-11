@@ -67,17 +67,16 @@ function _searchAndReplace(text, search, replace) {
  *     metadataKeys: '*',
  *   }
  */
-function plugin(opts) {
+function plugin(opts={}) {
     // Assign default argument values to prevent object access errors.
-    opts = opts || {};
     opts.pattern = _setArgumentDefaults(opts.pattern, Array, String, ['**/*']);
     opts.fileKeys = _setArgumentDefaults(opts.fileKeys, Array, String, ['*']);
     opts.metadataKeys = _setArgumentDefaults(opts.metadataKeys, Array, String, ['*']);
 
     return function (files, Metalsmith, done) {
         setImmediate(done);
-        let injectSet = Multimatch(Object.keys(files), opts.pattern);
-        let metadata = Metalsmith.metadata();
+        const injectSet = Multimatch(Object.keys(files), opts.pattern);
+        const metadata = Metalsmith.metadata();
 
         // Default to wildcard metadata search-and-replace.
         if (injectSet.length > 0) {
@@ -87,7 +86,7 @@ function plugin(opts) {
         }
 
         // Look in every file that matches the search pattern.
-        injectSet.map(file => {
+        injectSet.forEach(file => {
             let fileData = files[file];
 
             // Default to wildcard file data search-and-replace.
@@ -96,18 +95,43 @@ function plugin(opts) {
             }
 
             // Examine every metadata key given in the function argument.
-            opts.fileKeys.map(fileKey => {
+            opts.fileKeys.forEach(fileKey => {
                 if (fileKey in fileData) {
 
                     // Replace every instance of a matching metadata key in the file value.
-                    opts.metadataKeys.map(metaKey => {
+                    opts.metadataKeys.forEach(metaKey => {
                         if (Buffer.isBuffer(fileData[fileKey])) {
+                            // Replace values in Metalsmith "contents", a Buffer type.
                             let text = fileData[fileKey].toString();
                             text = _searchAndReplace(text, metaKey, metadata[metaKey]);
                             fileData[fileKey] = Buffer.from(text);
+                        } else if (
+                            typeof fileData[fileKey] === 'object'
+                            && !Array.isArray(fileData[fileKey])
+                        ) {
+                            // Replace values in nested frontmatter objects.
+                            const mutateNestedMetadata = function(data, metaKey, metaValue) {
+                                Object.keys(data).forEach(key => {
+                                    const isArray = Array.isArray(data[key]);
+                                    if (!isArray && typeof data[key] === 'object') {
+                                        mutateNestedMetadata(data[key]);
+                                    } else if (!isArray) {
+                                        data[key] = _searchAndReplace(
+                                            data[key],
+                                            metaKey,
+                                            metaValue
+                                        );
+                                    }
+                                });
+                            };
+                            mutateNestedMetadata(fileData[fileKey], metaKey, metadata[metaKey]);
                         } else {
-                            fileData[fileKey] =
-                                _searchAndReplace(fileData[fileKey], metaKey, metadata[metaKey]);
+                            // Replace values in frontmatter strings.
+                            fileData[fileKey] = _searchAndReplace(
+                                fileData[fileKey],
+                                metaKey,
+                                metadata[metaKey]
+                            );
                         }
                     });
                 }

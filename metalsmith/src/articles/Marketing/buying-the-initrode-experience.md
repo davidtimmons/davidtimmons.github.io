@@ -5,15 +5,18 @@ author: David Timmons
 category: Marketing
 slug: buying-the-initrode-experience
 draft: true
+hero:
+  imgAlt: "Two network switches and CAT5 cable"
+  imgUrlSrc: "{{ imagePath }}2012/12/buying-the-initrode-experience0.jpg"
+  creditText: "Photo: \"Two network switches and CAT5 cables\" by"
+  creditUrlText: "Jon Davis"
+  creditUrlSrc: "http://commons.wikimedia.org/wiki/File:Network_switches.jpg"
+  creditUrlTitle: "View the original photo on Wikimedia Commons."
+  caption: >-
+    "Knowing how to frame the product you're selling and building a strategy
+    around it is the essence of marketing. This is not a network switch.
+    It is ease-of-use and security."
 ---
-
-![Two network switches and CAT5 cable][1]
-<span class="img-caption">
-  Knowing how to frame the product you're selling and building a strategy
-  around it is the essence of marketing.
-
-  Photo: "Two network switches and CAT5 cables" by [Jon Davis][2]
-</span>
 
 Your customer buys an experience, not your widgets. What are you
 selling? This is an important distinction because it can determine how
@@ -132,12 +135,6 @@ conversions. Brand gravity increases the velocity of goal conversions.
 
 What else would you suggest for our hypothetical IT services company?
 
-
-[1]: {{imagePath}}2012/12/buying-the-initrode-experience0.jpg
-  "This is not a network switch. It is ease-of-use and security."
-
-[2]: http://commons.wikimedia.org/wiki/File:Network_switches.jpg
-  "View the original photo on Wikimedia Commons."
 
 [3]: http://www.imdb.com/title/tt0151804/plotsummary
   "Click here to read more about Office Space."

@@ -5,17 +5,19 @@ author: David Timmons
 category: Marketing
 slug: strong-mobile-app-marketing
 draft: false
+hero:
+  imgAlt: "iPhone 4's Retina Display v.s. iPhone 3G"
+  imgUrlSrc: "{{ imagePath }}2013/02/strong-mobile-app-marketing-and-app-visibility0.jpg"
+  creditText: "Photo: \"iPhone 4's Retina Display v.s. iPhone 3G\" by"
+  creditUrlText: "Yutaka Tsutano"
+  creditUrlSrc: "http://www.flickr.com/photos/ivyfield/4731067716/"
+  creditUrlTitle: "View the original photo on Flickr."
+  caption: >-
+    "A brand that builds a custom mobile app can create a great mechanism for
+    acquiring engaged users that contribute to ROI. But unless that brand
+    also takes a serious approach to mobile app marketing, very few people
+    will ever see that app."
 ---
-
-![iPhone 4's Retina Display v.s. iPhone 3G][1]
-<span class="img-caption">
-  A brand that builds a custom mobile app can create a great mechanism for
-  acquiring engaged users that contribute to ROI. But unless that brand
-  also takes a serious approach to mobile app marketing, very few people
-  will ever see that app.
-
-  Photo: "iPhone 4's Retina Display v.s. iPhone 3G" by [Yutaka Tsutano][2].
-</span>
 
 It's no secret that modern marketing needs to incorporate mobile devices
 into the campaign mix. Creating a custom mobile app affords a great
@@ -76,12 +78,6 @@ quality users who will contribute to your ROI.
 Have you developed a mobile app for your brand, or have you thought
 about doing so? What promotion techniques would you use?
 
-
-[1]: {{imagePath}}2013/02/strong-mobile-app-marketing-and-app-visibility0.jpg
-  "Mobile App Marketing Overview"
-
-[2]: http://www.flickr.com/photos/ivyfield/4731067716/
-  "View the original photo on Flickr."
 
 [3]: http://www.gartner.com/newsroom/id/2153215
   "Click here to read the Gartner Research app store downloads forecast."

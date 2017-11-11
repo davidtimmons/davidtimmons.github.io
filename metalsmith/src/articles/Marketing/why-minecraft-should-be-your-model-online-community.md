@@ -5,16 +5,18 @@ author: David Timmons
 category: Marketing
 slug: why-minecraft-should-be-your-model-online-community
 draft: false
+hero:
+  imgAlt: "Minecraft Floating Island"
+  imgUrlSrc: "{{ imagePath }}2013/01/why-minecraft-should-be-your-model-online-community0.jpg"
+  creditText: "Image: \"Minecraft Floating Island\" by"
+  creditUrlText: "Drotth"
+  creditUrlSrc: "http://www.minecraftforum.net/forums/show-your-creation/fan-art/1576932-minecraft-wallpaper-in-hd"
+  creditUrlTitle: "View the original image on Minecraft Forum."
+  caption: >-
+    "<i>Minecraft</i> is an indie video game turned major enterprise based on the
+    passion of its community. This is one example of an online community to
+    which you should pay attention."
 ---
-
-![Minecraft Floating Island][1]
-<span class="img-caption">
-  *Minecraft* is an indie video game turned major enterprise based on the
-  passion of its community. This is one example of an online community to
-  which you should pay attention.
-
-  Image: "Minecraft Floating Island" by [Drotth][2].
-</span>
 
 *[Minecraft][]* is a video game well-known to indie gamers. Developed
 and published independent of major corporations, this is a virtual
@@ -64,12 +66,6 @@ brand just as much as the company.
 What do you think of *Minecraft*? Have you seen another passionate
 community build up around a brand?
 
-
-[1]: {{imagePath}}2013/01/why-minecraft-should-be-your-model-online-community0.jpg
-  "Why Minecraft Should Be Your Model Online Community"
-
-[2]: http://www.minecraftforum.net/forums/show-your-creation/fan-art/1576932-minecraft-wallpaper-in-hd
-  "View the original image on Minecraft Forum."
 
 [3]: https://ideas.lego.com/projects/4038
   "Click here to visit the Minecraft Lego Ideas page."

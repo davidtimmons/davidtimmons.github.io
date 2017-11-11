@@ -5,16 +5,18 @@ author: David Timmons
 category: Marketing
 slug: your-understanding-is-anchored-in-negativity
 draft: false
+hero:
+  imgAlt: "Trolls"
+  imgUrlSrc: "{{ imagePath }}2013/04/your-understanding-is-anchored-in-negativity0.jpg"
+  creditText: "Photo: \"Trolls\" by"
+  creditUrlText: "Tristan Schmurr"
+  creditUrlSrc: "http://www.flickr.com/photos/kewl/8449115207/"
+  creditUrlTitle: "View the original photo on Flickr."
+  caption: >-
+    "Online comments anchor our understanding when we encounter new
+    information. But how much should we rely on comments to form our
+    opinions?"
 ---
-
-![Trolls][1]
-<span class="img-caption">
-  Online comments anchor our understanding when we encounter new
-  information. But how much should we rely on comments to form our
-  opinions?
-
-  Photo: "Trolls" by [Tristan Schmurr][2].
-</span>
 
 Information floods every corner of our modern Internet. We're all in a
 hurry, and interpreting the tidal wave before us requires snap judgments
@@ -74,12 +76,6 @@ moderating and participation.
 
 Does negative commentary impact your opinions?
 
-
-[1]: {{imagePath}}2013/04/your-understanding-is-anchored-in-negativity0.jpg
-  "Online Comments Anchor Our Understanding"
-
-[2]: http://www.flickr.com/photos/kewl/8449115207/
-  "View the original photo on Flickr."
 
 [3]: http://onlinelibrary.wiley.com/doi/10.1111/jcc4.12009/full
   "Click here to read the study."

@@ -5,12 +5,15 @@ author: David Timmons
 category: Technology
 slug: oracle-content-marketing-in-5-minutes-or-less
 draft: false
+hero:
+  imgAlt: "Photo courtesy of Ascend Marketing"
+  imgUrlSrc: "{{ imagePath }}2016/07/oracle-content-marketing.jpg"
+  creditText: "Photo: Courtesy of"
+  creditUrlText: "Ascend Marketing"
+  creditUrlSrc: "http://thinking.ascend.marketing/oracle-content-marketing-in-5-minutes-or-less"
+  creditUrlTitle: "View this post on the Ascend Marketing blog."
+  caption: "Nothing says '5 minutes or less' like a stopwatch!"
 ---
-
-![Photo courtesy of Ascend Marketing][1]
-<span class="img-caption">
-  Photo: Courtesy of [Ascend Marketing][2].
-</span>
 
 Your company just purchased a license to use Oracle Content Marketing
 (previously known as Compendium), and your job as a developer is to get
@@ -78,12 +81,6 @@ flexibility to deploy the tool in the way that works best for your
 particular situation. However, until this tool can can deploy itself,
 keep these five quick tips in mind as you navigate the waters.
 
-
-[1]: {{imagePath}}2016/07/oracle-content-marketing.jpg
-  "Nothing says '5 minutes or less' like a stopwatch!"
-
-[2]: http://thinking.ascend.marketing/oracle-content-marketing-in-5-minutes-or-less
-  "View this post on the Ascend Marketing blog."
 
 [3]: https://vimeo.com/78224158
   "Visit vimeo.com."

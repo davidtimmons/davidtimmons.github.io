@@ -9,6 +9,7 @@ let injectMetadata = require('./plugins/inject-metadata.js');
 let layouts        = require('metalsmith-layouts');
 let markdown       = require('metalsmith-markdown');
 let permalinks     = require('metalsmith-permalinks');
+let preview        = require('./plugins/preview.js');
 let sitemap        = require('metalsmith-sitemap');
 
 // Define constants.
@@ -66,9 +67,10 @@ Metalsmith(__dirname)
   ]))
   .use(injectMetadata({
     pattern: '**/*.md',
-    fileKeys: 'contents',
+    fileKeys: ['contents', 'hero'],
     metadataKeys: ['imagePath', 'rootPath'],
   }))
+  .use(preview())
   .use(markdown({ // See: https://github.com/segmentio/metalsmith-markdown
     gfm: true,
     tables: true,

@@ -5,12 +5,15 @@ author: David Timmons
 category: Technology
 slug: have-you-met-dockers-cousin-vagrant
 draft: false
+hero:
+  imgAlt: "Photo courtesy of Ascend Marketing"
+  imgUrlSrc: "{{ imagePath }}2016/07/dockers-cousin-vagrant.jpg"
+  creditText: "Photo: Courtesy of"
+  creditUrlText: "Ascend Marketing"
+  creditUrlSrc: "http://thinking.ascend.marketing/have-you-met-dockers-cousin-vagrant"
+  creditUrlTitle: "View this post on the Ascend Marketing blog."
+  caption: "It's a little-known fact that Docker's cousin Vagrant likes V-neck sweaters."
 ---
-
-![Photo courtesy of Ascend Marketing][1]
-<span class="img-caption">
-  Photo: Courtesy of [Ascend Marketing][2].
-</span>
 
 The technology industry has long accepted virtualization as a great
 idea, but it’s important to use the right tool for the job.
@@ -81,12 +84,6 @@ containers. While a container is a valuable tool, it can be a hammer
 when you really need a saw. A virtual machine solution like Vagrant can
 be that saw.
 
-
-[1]: {{imagePath}}2016/07/dockers-cousin-vagrant.jpg
-  "It's a little-known fact that Docker's cousin Vagrant likes V-neck sweaters."
-
-[2]: http://thinking.ascend.marketing/have-you-met-dockers-cousin-vagrant
-  "View this post on the Ascend Marketing blog."
 
 [3]: http://stackoverflow.com/questions/16647069/should-i-use-vagrant-or-docker-for-creating-an-isolated-environment#answer-21314566
   "Visit stackoverflow.com."

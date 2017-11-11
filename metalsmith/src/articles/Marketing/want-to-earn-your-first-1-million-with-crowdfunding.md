@@ -5,15 +5,17 @@ author: David Timmons
 category: Marketing
 slug: want-to-earn-your-first-1-million-with-crowdfunding
 draft: false
+hero:
+  imgAlt: "crowd"
+  imgUrlSrc: "{{ imagePath }}2013/03/want-to-earn-your-first-1-million-with-crowdfunding0.jpg"
+  creditText: "Photo: \"crowd\" by "
+  creditUrlText: "Michael Dornbierer"
+  creditUrlSrc: "http://www.flickr.com/photos/ausnahmezustand/7624312056/"
+  creditUrlTitle: "View the original photo on Flickr."
+  caption: >-
+    "Crowdfunding is a way entrepreneurs can raise money without using
+    conventional financing. Could you use a few million dollars?"
 ---
-
-![crowd][1]
-<span class="img-caption">
-  Crowdfunding is a way entrepreneurs can raise money without using
-  conventional financing. Could you use a few million dollars?
-
-  Photo: "crowd" by [Michael Dornbierer][2].
-</span>
 
 [Crowdfunding][] is a way to bypass the sometimes onerous process of
 raising capital. Using this approach entrepreneurs can request monetary
@@ -68,12 +70,6 @@ be impossible regularly launch into the marketplace.
 
 Have you participated in crowdfunding?
 
-
-[1]: {{imagePath}}2013/03/want-to-earn-your-first-1-million-with-crowdfunding0.jpg
-  "Want To Earn Your First $1 Million With Crowdfunding?"
-
-[2]: http://www.flickr.com/photos/ausnahmezustand/7624312056/
-  "View the original photo on Flickr."
 
 [3]: http://www.kickstarter.com/blog/ouyas-big-day
   "Click here to read about Kickstarter projects that quickly earned millions of dollars."

@@ -5,16 +5,18 @@ author: David Timmons
 category: Marketing
 slug: how-to-use-google-analytics-to-predict-sales-success
 draft: false
+hero:
+  imgAlt: "Google Analytics Sales Prediction Overview"
+  imgUrlSrc: "{{ imagePath }}2013/02/how-to-use-google-analytics-to-predict-sales-success0.jpg"
+  creditText: "Image: Screenshots taken of Google Analytics by"
+  creditUrlText: "Google, Inc."
+  creditUrlSrc: "http://www.google.com/analytics/"
+  creditUrlTitle: "Click here to visit the Google Analytics website."
+  caption: >-
+    "Google Analytics is a complex tool. However, using it to read your
+    visitors' level of interest in your brand is easy if you know how to
+    look."
 ---
-
-![Google Analytics Sales Prediction Overview][1]
-<span class="img-caption">
-  Google Analytics is a complex tool. However, using it to read your
-  visitors' level of interest in your brand is easy if you know how to
-  look.
-
-  Image: [Google, Inc.][2].
-</span>
 
 [Google Analytics][] is a "crystal ball" in the right hands. It can
 predict customer intentions based on their interactions with your
@@ -96,12 +98,6 @@ your marketing success.
 
 What web analytics methods or tools do you use with *your* website?
 
-
-[1]: {{imagePath}}2013/02/how-to-use-google-analytics-to-predict-sales-success0.jpg
-  "How To Use Google Analytics To Predict Sales Success"
-
-[2]: http://www.google.com/analytics/
-  "Click here to visit the Google Analytics website."
 
 [3]: {{imagePath}}2013/02/how-to-use-google-analytics-to-predict-sales-success1.jpg
   "Google Analytics Overview: 'Pageviews' (1 of 3)"

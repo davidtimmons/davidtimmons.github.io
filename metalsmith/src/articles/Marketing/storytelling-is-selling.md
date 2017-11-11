@@ -5,16 +5,17 @@ author: David Timmons
 category: Marketing
 slug: storytelling-is-selling
 draft: false
+hero:
+  imgAlt: "Der Grossvater erzählt eine Geschichte"
+  imgUrlSrc: "{{ imagePath }}2013/03/storytelling-is-selling0.jpg"
+  creditText: "Image: \"Der Grossvater erzählt eine Geschichte\" by"
+  creditUrlText: "Albert Anker"
+  creditUrlSrc: "http://commons.wikimedia.org/wiki/File:Anker_Grossvater.png"
+  creditUrlTitle: "View the original image on Wikimedia Commons."
+  caption: >-
+    "Storytelling has been around since ancient humans gathered around the very first campfires.
+    Are you using these techniques in your sales process?"
 ---
-
-![Der Grossvater erzählt eine Geschichte][1]
-<span class="img-caption">
-  Storytelling has been around since ancient humans gathered around the
-  very first campfires. Are you using these techniques in your sales
-  process?
-
-  Image: "Der Grossvater erzählt eine Geschichte" by [Albert Anker][2].
-</span>
 
 > There are times when you get only **one** shot to make an impact. No
 > do-overs, no second chances. We all want to be the hero of a story.
@@ -93,12 +94,6 @@ you close another deal. Your sale is at stake.
 
 How do you use storytelling to aid your presentations?
 
-
-[1]: {{imagePath}}2013/03/storytelling-is-selling0.jpg
-  "Storytelling and the Sales Process"
-
-[2]: http://commons.wikimedia.org/wiki/File:Anker_Grossvater.png
-  "View the original photo on Wikimedia Commons."
 
 [3]: http://opinionator.blogs.nytimes.com/2010/10/24/stories-vs-statistics/
   "Click here to read more from The New York Times."

@@ -5,12 +5,17 @@ author: David Timmons
 category: Technology
 slug: are-time-thieves-living-in-your-software-part-2
 draft: false
+hero:
+  imgAlt: "CoCo 3 with DriveWire"
+  imgUrlSrc: "{{ imagePath }}2016/11/time-thieves-pt2.jpg"
+  creditText: "Photo: \"CoCo 3 with DriveWire\" image courtesy of"
+  creditUrlText: "Blake Patterson"
+  creditUrlSrc: "https://www.flickr.com/photos/blakespot/6801747991/"
+  creditUrlTitle: "View the original photo on Flickr."
+  caption: >-
+    "This workstation is deep in the heart of time
+    <del datetime="2016-11-12T07:46:19+00:00">bandit</del> thief territory."
 ---
-
-![CoCo 3 with DriveWire][1]
-<span class="img-caption">
-  Photo: "CoCo 3 with DriveWire" image courtesy of [Blake Patterson][2].
-</span>
 
 Time-thieves delight in stealing your seconds, so when they move into
 your software, you must protect your time from their sticky fingers.
@@ -79,12 +84,6 @@ movie, build your artificial lifeform, and save the world because if you
 pursue these thieves one-by-one, your time will remain your own and the
 people who use your application will thank you.
 
-
-[1]: {{imagePath}}2016/11/time-thieves-pt2.jpg
-  "This workstation is deep in the heart of time thief territory."
-
-[2]: https://www.flickr.com/photos/blakespot/6801747991/
-  "View the original photo on Flickr."
 
 [3]: {{rootPath}}are-time-thieves-living-in-your-software-part-1/
   "Are Time-Thieves Living in Your Software? (Part 1)"

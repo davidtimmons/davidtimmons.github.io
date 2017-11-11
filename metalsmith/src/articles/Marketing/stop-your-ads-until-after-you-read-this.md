@@ -5,15 +5,16 @@ author: David Timmons
 category: Marketing
 slug: stop-your-ads-until-after-you-read-this
 draft: false
+hero:
+  imgAlt: "America's Best Comics page"
+  imgUrlSrc: "{{ imagePath }}2013/02/stop-your-lubbock-ads-until-after-you-read-this0.jpg"
+  creditText: "Image: \"America's Best Comics page\" uploaded by"
+  creditUrlText: "Atomicsteve"
+  creditUrlSrc: "http://commons.wikimedia.org/wiki/File:AmericasBestComics2403.jpg"
+  creditUrlTitle: "View the original photo on Wikimedia Commons."
+  caption: >-
+    "Your ads should be part of a bigger marketing framework if you want them to be effective."
 ---
-
-![America's Best Comics page][1]
-<span class="img-caption">
-  Your ads should be part of a bigger marketing framework if you want them
-  to be effective.
-
-  Image: "America's Best Comics page" uploaded by [Atomicsteve][2].
-</span>
 
 What media comes to mind when you think about advertising? Many people
 think of television commercials. There are also plenty of billboards
@@ -57,14 +58,8 @@ What other advise would you give to organizations promoting themselves
 with modern media tactics?
 
 
-[1]: {{imagePath}}2013/02/stop-your-lubbock-ads-until-after-you-read-this0.jpg
-  "Stop Your Ads Until After You Read This"
-
-[2]: http://commons.wikimedia.org/wiki/File:AmericasBestComics2403.jpg
-  "View the original photo on Wikimedia Commons."
-
 [3]: https://www.thinkwithgoogle.com/marketing-resources/micro-moments/2011-winning-zmot-ebook/
   "Click here to read the 'Winning the Zero Moment of Truth' ebook."
 
-[4]: {{rootPath}}./marketing-strategy/
+[4]: {{rootPath}}/marketing-strategy/
   "Click here to read more about marketing strategy."

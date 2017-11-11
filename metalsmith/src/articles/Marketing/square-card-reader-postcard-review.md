@@ -5,15 +5,17 @@ author: David Timmons
 category: Marketing
 slug: square-card-reader-postcard-review
 draft: false
+hero:
+  imgAlt: "A postcard advertising the Square card reader"
+  imgUrlSrc: "{{ imagePath }}2012/12/square-card-reader-postcard-review0.jpg"
+  creditText: "Postcard: Design by"
+  creditUrlText: "Square, Inc."
+  creditUrlSrc: "https://squareup.com/"
+  creditUrlTitle: "Click here to visit the Square, Inc. website."
+  caption: >-
+    "This Square card reader postcard is a great piece of marketing.
+    Unfortunately, it only works if it lands in the right hands."
 ---
-
-![A postcard advertising the Square card reader][1]
-<span class="img-caption">
-  This Square card reader postcard is a great piece of marketing.
-  Unfortunately, it only works if it lands in the right hands.
-
-  Postcard: Design by [Square, Inc.][2].
-</span>
 
 Square sent me a postcard soon after registering Tachmorn Marketing, LLC
 with the Texas Secretary of State. I'm sure they also do this with other
@@ -80,10 +82,3 @@ actually is a nice piece of marketing.
 So what's the lesson here? **Know your audience**.
 
 How would you critique this Square card reader postcard?
-
-
-[1]: {{imagePath}}2012/12/square-card-reader-postcard-review0.jpg
-  "A Square postcard? Reviewing Square card reader marketing."
-
-[2]: https://squareup.com/
-  "Click here to visit the Square, Inc. website."

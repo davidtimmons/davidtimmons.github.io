@@ -5,12 +5,15 @@ author: David Timmons
 category: Technology
 slug: virtual-reality-tech-savvy-business
 draft: false
+hero:
+  imgAlt: "Photo courtesy of Ascend Marketing"
+  imgUrlSrc: "{{ imagePath }}2016/11/vr-tech-savvy-biz.jpg"
+  creditText: "Photo: Courtesy of"
+  creditUrlText: "Ascend Marketing"
+  creditUrlSrc: "http://thinking.ascend.marketing/3-virtual-reality-tips-for-the-tech-savvy-business"
+  creditUrlTitle: "View this post on the Ascend Marketing blog."
+  caption: "Is virtual virtual reality just reality?"
 ---
-
-![Photo courtesy of Ascend Marketing][1]
-<span class="img-caption">
-  Photo: Courtesy of [Ascend Marketing][2].
-</span>
 
 Virtual reality technology has come a long way in 20 years. Early
 advancements like Nintendo's 1995 *[Virtual Boy][3]* and Google's
@@ -78,12 +81,6 @@ and there will be many more as consumer VR adoption moves from the
 companies who prepare now are the ones who stand to gain the most when
 the tsunami hits.
 
-
-[1]: {{imagePath}}2016/11/vr-tech-savvy-biz.jpg
-  "Is virtual virtual reality just reality?"
-
-[2]: http://thinking.ascend.marketing/3-virtual-reality-tips-for-the-tech-savvy-business
-  "View this post on the Ascend Marketing blog."
 
 [3]: http://www.fastcompany.com/3050016/unraveling-the-enigma-of-nintendos-virtual-boy-20-years-later
   "Visit www.fastcompany.com."

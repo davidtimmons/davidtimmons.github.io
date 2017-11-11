@@ -5,17 +5,18 @@ author: David Timmons
 category: Marketing
 slug: its-like-a-sandcastle
 draft: false
+hero:
+  imgAlt: "Sand art and play at île du Havre Aubert in Îles-de-la-Madeleine"
+  imgUrlSrc: "{{ imagePath }}2012/11/its-like-a-sandcastle0.jpg"
+  creditText: "Photo: \"Sand art and play at île du Havre Aubert in Îles-de-la-Madeleine\" by"
+  creditUrlText: "Benoit Rochon"
+  creditUrlSrc: "http://commons.wikimedia.org/wiki/File:Chateau_de_sable2.jpg"
+  creditUrlTitle: "View the original image on Wikimedia Commons."
+  caption: >-
+    "Grains of sand form sandcastles just as small details form marketing
+    systems. Our marketing success depends on our understanding of this
+    complexity."
 ---
-
-![Sand art and play at île du Havre Aubert in Îles-de-la-Madeleine][1]
-<span class="img-caption">
-  Grains of sand form sandcastles just as small details form marketing
-  systems. Our marketing success depends on our understanding of this
-  complexity.
-
-  Photo: "Sand art and play at île du Havre Aubert in Îles-de-la-Madeleine"
-  by [Benoit Rochon][2]
-</span>
 
 A system is a set of related ideas that works together. Systems produce
 marketing. Efficient marketing systems can produce good results, but it
@@ -60,10 +61,3 @@ failure with far greater ease.
 Intimate understanding of what we do and why we do it is a very
 pragmatic course of action toward building long-term results for your
 organization.
-
-
-[1]: {{imagePath}}2012/11/its-like-a-sandcastle0.jpg
-  "Marketing systems can be understood as sandcastles."
-
-[2]: http://commons.wikimedia.org/wiki/File:Chateau_de_sable2.jpg
-  "View the original image on Wikimedia Commons."

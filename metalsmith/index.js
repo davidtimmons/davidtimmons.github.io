@@ -70,7 +70,10 @@ Metalsmith(__dirname)
     fileKeys: ['contents', 'hero'],
     metadataKeys: ['imagePath', 'rootPath'],
   }))
-  .use(preview())
+  .use(preview({
+    pattern: 'articles/**/*.md',
+    words: 40,
+  }))
   .use(markdown({ // See: https://github.com/segmentio/metalsmith-markdown
     gfm: true,
     tables: true,

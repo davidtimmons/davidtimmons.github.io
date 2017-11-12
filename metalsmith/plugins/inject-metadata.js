@@ -15,7 +15,7 @@ const Multimatch = require('multimatch');
  * @param {*} defaultValue - Default value if the arg is an unaccepted type.
  * @return {*} - Original argument of the desired type or a default value.
  */
-function _setArgumentDefaults(arg, desiredType, acceptedType, defaultValue) {
+function _setArgDefaults(arg, desiredType, acceptedType, defaultValue) {
     if (arg instanceof desiredType || typeof arg === typeof desiredType('')) {
         return arg;
     } else if (arg instanceof acceptedType || typeof arg === typeof acceptedType('')) {
@@ -62,16 +62,16 @@ function _searchAndReplace(text, search, replace) {
  * @property {string[]|string} [metadataKeys] - Metadata keys to inject; defaults to all.
  * @example <caption>Example plugin argument.</caption>
  *   {
- *     pattern: '**\/*.md',
+ *     pattern: '*.md',
  *     fileKeys: ['title', 'contents'],
  *     metadataKeys: '*',
  *   }
  */
 function plugin(opts={}) {
     // Assign default argument values to prevent object access errors.
-    opts.pattern = _setArgumentDefaults(opts.pattern, Array, String, ['**/*']);
-    opts.fileKeys = _setArgumentDefaults(opts.fileKeys, Array, String, ['*']);
-    opts.metadataKeys = _setArgumentDefaults(opts.metadataKeys, Array, String, ['*']);
+    opts.pattern = _setArgDefaults(opts.pattern, Array, String, ['**/*']);
+    opts.fileKeys = _setArgDefaults(opts.fileKeys, Array, String, ['*']);
+    opts.metadataKeys = _setArgDefaults(opts.metadataKeys, Array, String, ['*']);
 
     return function (files, Metalsmith, done) {
         setImmediate(done);

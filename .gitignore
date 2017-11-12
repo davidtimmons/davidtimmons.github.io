@@ -2,6 +2,7 @@
 todo.txt
 examples/
 build/
+tmp/
 
 # Logs
 logs

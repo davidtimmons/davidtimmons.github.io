@@ -5,6 +5,9 @@ author: David Timmons
 category: Technology
 slug: oracle-content-marketing-in-5-minutes-or-less
 draft: false
+metaDescription: >-
+  Here are five tips that will help you get the Oracle Content Marketing technology
+  (previously known as Compendium) up and running successfully.
 hero:
   imgAlt: "Photo courtesy of Ascend Marketing"
   imgUrlSrc: "{{ imagePath }}2016/07/oracle-content-marketing.jpg"

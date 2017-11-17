@@ -5,6 +5,7 @@ author: David Timmons
 category: Marketing
 slug: buying-the-initrode-experience
 draft: true
+metaDescription: Your customer buys an experience, not your widgets. What are you selling?
 hero:
   imgAlt: "Two network switches and CAT5 cable"
   imgUrlSrc: "{{ imagePath }}2012/12/buying-the-initrode-experience0.jpg"

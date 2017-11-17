@@ -5,6 +5,9 @@ author: David Timmons
 category: Technology
 slug: what-your-javascript-says-about-you
 draft: false
+metaDescription: >-
+  There is a growing philosophical divide between front-end Web application developers.
+  Do you identify as a Traditionalist or a Radical?
 hero:
   imgAlt: "Photo courtesy of Ascend Marketing"
   imgUrlSrc: "{{ imagePath }}2016/07/javascript-and-you.jpg"

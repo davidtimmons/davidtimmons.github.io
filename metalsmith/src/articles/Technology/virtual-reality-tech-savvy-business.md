@@ -5,6 +5,9 @@ author: David Timmons
 category: Technology
 slug: virtual-reality-tech-savvy-business
 draft: false
+metaDescription: >-
+  Virtual reality has finally arrived. Technology-savvy companies who prepare now for the
+  coming tidal wave are the ones who stand to gain the most.
 hero:
   imgAlt: "Photo courtesy of Ascend Marketing"
   imgUrlSrc: "{{ imagePath }}2016/11/vr-tech-savvy-biz.jpg"

@@ -5,6 +5,9 @@ author: David Timmons
 category: Technology
 slug: are-time-thieves-living-in-your-software-part-1
 draft: false
+metaDescription: >-
+  What do you do if the software you built takes a long time to load? Capture the time-thieves
+  out to steal your seconds!
 hero:
   imgAlt: "Time Bandit for Sanyo MBC-55"
   imgUrlSrc: "{{ imagePath }}2016/11/time-thieves-pt1.jpg"

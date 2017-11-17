@@ -5,6 +5,9 @@ author: David Timmons
 category: Marketing
 slug: its-like-a-sandcastle
 draft: false
+metaDescription: >-
+  Grains of sand form sandcastles just as small details form marketing systems.
+  Our marketing success depends on our understanding of this complexity.
 hero:
   imgAlt: "Sand art and play at île du Havre Aubert in Îles-de-la-Madeleine"
   imgUrlSrc: "{{ imagePath }}2012/11/its-like-a-sandcastle0.jpg"

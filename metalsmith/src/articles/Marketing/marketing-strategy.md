@@ -5,6 +5,9 @@ author: David Timmons
 category: Marketing
 slug: marketing-strategy
 draft: false
+metaDescription: >-
+  When creating a marketing strategy, it is not always clear where to begin.
+  This resource provides you a framework to help ease the process.
 hero:
   imgAlt: "ZMOT by Google"
   imgUrlSrc: "{{ imagePath }}2014/05/2-image-zmot.png"

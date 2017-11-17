@@ -5,6 +5,8 @@ author: David Timmons
 category: Marketing
 slug: would-you-pay-67-to-be-my-friend
 draft: false
+metaDescription: >-
+  Every marketing call to action has an associated cost to your prospect. How much does yours cost?
 hero:
   imgAlt: "Currency In Marketing"
   imgUrlSrc: "{{ imagePath }}2013/04/would-you-pay-67-to-be-my-friend0.jpg"

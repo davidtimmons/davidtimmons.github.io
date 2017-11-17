@@ -5,6 +5,7 @@ author: David Timmons
 category: Marketing
 slug: humor-is-not-always-funny
 draft: false
+metaDescription: Humor is tricky when used in a business context. How much is too much?
 hero:
   imgAlt: "Katrina Killed the Klown"
   imgUrlSrc: "{{ imagePath }}2012/12/humor-is-not-always-funny0.jpg"

@@ -5,6 +5,8 @@ author: David Timmons
 category: Marketing
 slug: how-to-create-compelling-social-media-marketing
 draft: false
+metaDescription: >-
+  A soaring signal-to-noise ratio from your social media marketing creates a relevant brand.
 hero:
   imgAlt: "SAAB B-engine"
   imgUrlSrc: "{{ imagePath }}2013/03/how-to-create-compelling-social-media-marketing0.jpg"

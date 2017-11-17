@@ -5,6 +5,9 @@ author: David Timmons
 category: Marketing
 slug: fox-and-the-firefly-hat-a-case-study-in-brand-management
 draft: false
+metaDescription: >-
+  A healthy fan-brand relationship benefits everyone. Fox and Firefly fans demonstrate what
+  happens when that relationship becomes uneven.
 hero:
   imgAlt: "Cunning read"
   imgUrlSrc: "{{ imagePath }}2013/04/fox-and-the-firefly-hat-a-case-study-in-brand-management0.jpg"

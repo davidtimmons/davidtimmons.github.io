@@ -5,6 +5,9 @@ author: David Timmons
 category: Marketing
 slug: marketing-the-zombie-apocalypse-and-you
 draft: false
+metaDescription: >-
+  Marketing your business after the zombie apocalypse can be a living nightmare,
+  but have hope: Marketing theory is still valid!
 hero:
   imgAlt: "Zombie Walk 2010 - Curitiba"
   imgUrlSrc: "{{ imagePath }}2013/05/marketing-the-zombie-apocalypse-and-you0.jpg"

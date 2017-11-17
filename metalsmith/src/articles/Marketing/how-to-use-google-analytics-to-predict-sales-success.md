@@ -5,6 +5,9 @@ author: David Timmons
 category: Marketing
 slug: how-to-use-google-analytics-to-predict-sales-success
 draft: false
+metaDescription: >-
+  Google Analytics is a crystal ball that can predict your sales success. Take a few minutes
+  to learn how.
 hero:
   imgAlt: "Google Analytics Sales Prediction Overview"
   imgUrlSrc: "{{ imagePath }}2013/02/how-to-use-google-analytics-to-predict-sales-success0.jpg"

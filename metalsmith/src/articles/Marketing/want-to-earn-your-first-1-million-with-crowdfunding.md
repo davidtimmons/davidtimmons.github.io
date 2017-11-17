@@ -5,6 +5,9 @@ author: David Timmons
 category: Marketing
 slug: want-to-earn-your-first-1-million-with-crowdfunding
 draft: false
+metaDescription: >-
+  Crowdfunding is a way entrepreneurs can raise money without using conventional financing.
+  Could you use a few million dollars?
 hero:
   imgAlt: "crowd"
   imgUrlSrc: "{{ imagePath }}2013/03/want-to-earn-your-first-1-million-with-crowdfunding0.jpg"

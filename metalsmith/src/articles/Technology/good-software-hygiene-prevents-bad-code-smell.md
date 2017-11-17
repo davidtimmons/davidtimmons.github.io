@@ -5,6 +5,9 @@ author: David Timmons
 category: Technology
 slug: good-software-hygiene-prevents-bad-code-smell
 draft: false
+metaDescription: >-
+  The health of a software system is often improved not by what you put in to it but rather
+  what you leave out of it.
 hero:
   imgAlt: "Photo courtesy of Ascend Marketing"
   imgUrlSrc: "{{ imagePath }}2016/11/software-hygiene.jpg"

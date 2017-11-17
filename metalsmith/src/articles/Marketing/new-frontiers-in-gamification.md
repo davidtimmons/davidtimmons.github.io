@@ -5,6 +5,9 @@ author: David Timmons
 category: Marketing
 slug: new-frontiers-in-gamification
 draft: false
+metaDescription: >-
+  How much more productive would your organization be if the entire day felt like
+  a game rather than work?
 hero:
   imgAlt: "Cosplay - AWA14 - Shyguy, Mario and Princess Peach"
   imgUrlSrc: "{{ imagePath }}2013/04/new-frontiers-in-gamification0.jpg"

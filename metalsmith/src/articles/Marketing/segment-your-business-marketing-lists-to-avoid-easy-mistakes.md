@@ -5,6 +5,9 @@ author: David Timmons
 category: Marketing
 slug: segment-your-business-marketing-lists-to-avoid-easy-mistakes
 draft: false
+metaDescription: >-
+  Business marketing segmentation can make the difference between a prospect who calls you
+  and a prospect who calls your competition.
 hero:
   imgAlt: "KGS Go Server rank distributions"
   imgUrlSrc: "{{ imagePath }}2013/01/segment-your-business-marketing-lists-to-avoid-easy-mistakes0.jpg"

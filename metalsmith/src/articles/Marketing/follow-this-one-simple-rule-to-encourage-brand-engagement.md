@@ -5,6 +5,8 @@ author: David Timmons
 category: Marketing
 slug: follow-this-one-simple-rule-to-encourage-brand-engagement
 draft: false
+metaDescription: >-
+  Brand engagement is the Holy Grail of business stakeholders everywhere. So how does it happen?
 hero:
   imgAlt: "Playing The Hero"
   imgUrlSrc: "{{ imagePath }}2013/05/follow-this-one-simple-rule-to-encourage-brand-engagement0.jpg"

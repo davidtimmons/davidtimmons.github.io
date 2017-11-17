@@ -5,6 +5,9 @@ author: David Timmons
 category: Marketing
 slug: your-understanding-is-anchored-in-negativity
 draft: false
+metaDescription: >-
+  Online comments anchor our understanding when we encounter new information.
+  But how much should we rely on comments to form our opinions?
 hero:
   imgAlt: "Trolls"
   imgUrlSrc: "{{ imagePath }}2013/04/your-understanding-is-anchored-in-negativity0.jpg"

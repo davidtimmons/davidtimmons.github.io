@@ -5,6 +5,9 @@ author: David Timmons
 category: Technology
 slug: have-you-met-dockers-cousin-vagrant
 draft: false
+metaDescription: >-
+  It's important to use the right virtualization tool for the job. Vagrant could be just
+  the tool you need.
 hero:
   imgAlt: "Photo courtesy of Ascend Marketing"
   imgUrlSrc: "{{ imagePath }}2016/07/dockers-cousin-vagrant.jpg"

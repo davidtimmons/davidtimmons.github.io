@@ -5,6 +5,8 @@ author: David Timmons
 category: Marketing
 slug: why-minecraft-should-be-your-model-online-community
 draft: false
+metaDescription: >-
+  Minecraft is one example of a successful online community. You would do well to study it!
 hero:
   imgAlt: "Minecraft Floating Island"
   imgUrlSrc: "{{ imagePath }}2013/01/why-minecraft-should-be-your-model-online-community0.jpg"

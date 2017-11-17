@@ -4,6 +4,7 @@ date: 2014-05-29 23:19
 author: David Timmons
 slug: projects
 draft: false
+metaDescription: These projects are highlights from my past and current development work.
 ---
 
 These projects are highlights from my past and current development work.

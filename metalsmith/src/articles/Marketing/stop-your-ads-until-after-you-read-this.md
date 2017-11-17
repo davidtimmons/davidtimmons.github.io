@@ -5,6 +5,7 @@ author: David Timmons
 category: Marketing
 slug: stop-your-ads-until-after-you-read-this
 draft: false
+metaDescription: Ads are only effective if you follow this advice.
 hero:
   imgAlt: "America's Best Comics page"
   imgUrlSrc: "{{ imagePath }}2013/02/stop-your-lubbock-ads-until-after-you-read-this0.jpg"

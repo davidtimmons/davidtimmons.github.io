@@ -5,6 +5,9 @@ author: David Timmons
 category: Marketing
 slug: project-management-and-the-triangle-of-doom
 draft: false
+metaDescription: >-
+  Do your coworkers hide when they see you coming? Project management can reduce stress
+  by recognizing project constraints.
 hero:
   imgAlt: "Project Triangle"
   imgUrlSrc: "{{ imagePath }}2013/03/project-management-and-the-triangle-of-doom0.jpg"

@@ -5,6 +5,9 @@ author: David Timmons
 category: Marketing
 slug: square-card-reader-postcard-review
 draft: false
+metaDescription: >-
+  This Square card reader postcard is a great piece of marketing. Unfortunately, it only works
+  if it lands in the right hands.
 hero:
   imgAlt: "A postcard advertising the Square card reader"
   imgUrlSrc: "{{ imagePath }}2012/12/square-card-reader-postcard-review0.jpg"

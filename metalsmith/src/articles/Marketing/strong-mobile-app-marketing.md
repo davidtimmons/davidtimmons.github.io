@@ -5,6 +5,8 @@ author: David Timmons
 category: Marketing
 slug: strong-mobile-app-marketing
 draft: false
+metaDescription: >-
+  Can your mobile app marketing cut through the noise of 775,000 App Store competitors?
 hero:
   imgAlt: "iPhone 4's Retina Display v.s. iPhone 3G"
   imgUrlSrc: "{{ imagePath }}2013/02/strong-mobile-app-marketing-and-app-visibility0.jpg"

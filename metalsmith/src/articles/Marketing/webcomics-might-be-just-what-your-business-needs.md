@@ -5,6 +5,9 @@ author: David Timmons
 category: Marketing
 slug: webcomics-might-be-just-what-your-business-needs
 draft: false
+metaDescription: >-
+  Webcomics have been used in marketing plans from NBC, Zappos, and beyond. They might be just
+  what you need to build buzz around your brand.
 hero:
   imgAlt: "Agency Life Webcomics Sketch"
   imgUrlSrc: "{{ imagePath }}2013/01/webcomics-might-be-just-what-your-business-needs0.jpg"

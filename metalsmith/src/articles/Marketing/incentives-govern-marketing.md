@@ -5,6 +5,9 @@ author: David Timmons
 category: Marketing
 slug: incentives-govern-marketing
 draft: false
+metaDescription: >-
+  Marketing incentives are the levers that create action. Understanding what these are and how
+  to use them makes it easier to generate conversions.
 hero:
   imgAlt: "Aztec feast illustration from the Florentine Codex"
   imgUrlSrc: "{{ imagePath }}2012/11/incentives-govern-marketing0.jpg"

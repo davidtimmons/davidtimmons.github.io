@@ -5,6 +5,9 @@ author: David Timmons
 category: Marketing
 slug: setting-marketing-budget
 draft: false
+metaDescription: >-
+  Allocating the correct amount of revenue to your marketing budget enables your success.
+  Read what the SBA and other experts recommend.
 hero:
   imgAlt: "Marketing seen at GUM (Main Universal Store) in Moscow by A. Savin"
   imgUrlSrc: "{{ imagePath }}2012/11/our-world-is-a-big-place0.jpg"

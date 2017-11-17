@@ -5,6 +5,9 @@ author: David Timmons
 category: Technology
 slug: are-time-thieves-living-in-your-software-part-2
 draft: false
+metaDescription: >-
+  Time-thieves will do their best to steal your precious seconds whenever you build software,
+  but once you know their sneaky tricks, you can lay down the law.
 hero:
   imgAlt: "CoCo 3 with DriveWire"
   imgUrlSrc: "{{ imagePath }}2016/11/time-thieves-pt2.jpg"

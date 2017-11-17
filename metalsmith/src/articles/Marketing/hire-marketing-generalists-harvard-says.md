@@ -5,6 +5,9 @@ author: David Timmons
 category: Marketing
 slug: hire-marketing-generalists-harvard-says
 draft: false
+metaDescription: >-
+  Like a tree, modern marketing continues to sprout new branches requiring new knowledge to tend.
+  Marketing generalists future-proof your organization.
 hero:
   imgAlt: "UG"
   imgUrlSrc: "{{ imagePath }}2013/05/hire-marketing-generalists-harvard-says0.jpg"

@@ -5,6 +5,9 @@ author: David Timmons
 category: Technology
 slug: how-to-be-mean
 draft: false
+metaDescription: >-
+  Bringing a Web application from the spark of an idea to a complete interactive experience is
+  a rite of passage. Be MEAN! Build a Web app.
 hero:
   imgAlt: "IMG_4236"
   imgUrlSrc: "{{ imagePath }}2015/10/hf-robot-blog.jpg"

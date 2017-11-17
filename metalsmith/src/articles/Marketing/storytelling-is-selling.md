@@ -5,6 +5,9 @@ author: David Timmons
 category: Marketing
 slug: storytelling-is-selling
 draft: false
+metaDescription: >-
+  Storytelling has been around since ancient humans gathered around the very first campfires.
+  Are you using these techniques in your sales process?
 hero:
   imgAlt: "Der Grossvater erzählt eine Geschichte"
   imgUrlSrc: "{{ imagePath }}2013/03/storytelling-is-selling0.jpg"

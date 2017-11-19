@@ -2,7 +2,7 @@
 title: Incentives Govern Marketing
 date: 2012-11-29 07:28
 author: David Timmons
-category: Marketing
+category: marketing
 slug: incentives-govern-marketing
 draft: false
 metaDescription: >-

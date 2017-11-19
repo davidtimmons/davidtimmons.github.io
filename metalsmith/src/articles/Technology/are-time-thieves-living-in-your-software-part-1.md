@@ -2,7 +2,7 @@
 title: Are Time-Thieves Living in Your Software? (Part 1)
 date: 2016-10-13 18:00
 author: David Timmons
-category: Technology
+category: technology
 slug: are-time-thieves-living-in-your-software-part-1
 draft: false
 metaDescription: >-
@@ -66,11 +66,8 @@ to enforce law and order in your digital domain. Your time depends
 on it!
 
 
-[3]: https://blog.kissmetrics.com/loading-time/
-  "Visit blog.kissmetrics.com."
+[3]: https://blog.kissmetrics.com/loading-time/ "Visit blog.kissmetrics.com."
 
-[4]: http://discrete.gr/complexity/
-  "Visit discrete.gr."
+[4]: http://discrete.gr/complexity/ "Visit discrete.gr."
 
-[5]: {{rootPath}}are-time-thieves-living-in-your-software-part-2/
-  "Are Time-Thieves Living in Your Software? (Part 2)"
+[5]: {{buildPath}}are-time-thieves-living-in-your-software-part-2/ "Are Time-Thieves Living in Your Software? (Part 2)"

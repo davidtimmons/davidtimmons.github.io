@@ -1,17 +1,71 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns#">
+
     {{> head }}
-    <body>
+
+    <body class="article post-template-default single single-post single-format-standard">
         <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
 
-        <h1>{{ title }}</h1>
-        <time>{{ date }}</time>
+        <!-- wrapper -->
+        <div class="wrapper shadow shadow-inset">
 
-        {{> hero }}
-        {{{ contents }}}
+            {{> header }}
 
-        {{> footer }}
+            <main role="main">
+                <section>
+                    <article class="post type-post category-{{ category }} status-publish format-standard has-post-thumbnail hentry">
+            
+                        <!-- post details -->
+                        <div class="single-header">
+                            <h1>
+                                <span class="headline-image">»</span>
+                                <a href="#" title="{{ title }}">{{ title }}</a>
+                            </h1>
+                            <time class="date">{{prettyDate date }}</time>
+                            <p class="single-category-featured rotate">
+                                categorized in: <a href="{{ buildPath }}blog/">{{sentenceCase category }}</a>
+                            </p>
+                        </div>
+            
+                        <!-- post content -->
+                        <div class="single-content">
+
+                            {{> hero }}
+                            {{{ contents }}}
+
+                            <!-- post navigation -->
+                            <div class="posts-nav shadow">
+                                <h3>Other Thoughts</h3>
+                                <p>
+                                    <span class="posts-nav-next">next:</span>
+                                    {{#if this.next.path }}
+                                    <a class="posts-nav-link" href="{{ buildPath }}{{ this.next.path }}/" rel="next">{{ this.next.title }}</a>
+                                    {{/if}}
+                                </p>
+                                <p>
+                                    <span class="posts-nav-prev">previous:</span>
+                                    {{#if this.previous.path}}
+                                    <a class="posts-nav-link" href="{{ buildPath }}{{ this.previous.path }}/" rel="prev">{{ this.previous.title }}</a>
+                                    {{/if}}
+                                </p>
+                            </div>
+
+                        <!-- /post content -->
+                        </div>
+
+                        <br class="clearfix">
+                    </article>
+                </section>
+            </main>
+
+            {{> footer }}
+
+        <!-- /wrapper -->
+        </div>
+
+        {{> scripts-footer }}
+
     </body>
 </html>

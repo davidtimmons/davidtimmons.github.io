@@ -31,8 +31,23 @@ function _setArgDefaults(arg, desiredType, acceptedType, defaultValue) {
  * @param {string} text - Search text.
  * @param {string} search - Search value.
  * @param {string} replace - Replacement value.
+ * @param {object} [metadata] - Contains all metadata.
  */
-function _searchAndReplace(text, search, replace) {
+function _searchAndReplace(text, search, replace, metadata={}) {
+    // Reset the replace value when the searched key is nested.
+    let meta = metadata;
+    let nestedSearch = search.indexOf('.') >= 0 ? search.split('.') : search;
+    while (nestedSearch instanceof Array && nestedSearch.length > 1) {
+        let subKey = nestedSearch.shift();
+        if (subKey in meta) {
+            meta = meta[subKey];
+        }
+        if (nestedSearch.length === 1) {
+            replace = meta[nestedSearch];
+        }
+    }
+
+    // Replace matches in the search text.
     let startIndex = text.indexOf('{{');
     while (startIndex >= 0) {
         let endIndex = text.indexOf('}}', startIndex)
@@ -103,34 +118,53 @@ function plugin(opts={}) {
                         if (Buffer.isBuffer(fileData[fileKey])) {
                             // Replace values in Metalsmith "contents", a Buffer type.
                             let text = fileData[fileKey].toString();
-                            text = _searchAndReplace(text, metaKey, metadata[metaKey]);
+                            text = _searchAndReplace(
+                                text,
+                                metaKey,
+                                metadata[metaKey],
+                                Metalsmith.metadata()
+                            );
                             fileData[fileKey] = Buffer.from(text);
                         } else if (
                             typeof fileData[fileKey] === 'object'
                             && !Array.isArray(fileData[fileKey])
                         ) {
                             // Replace values in nested frontmatter objects.
-                            const mutateNestedMetadata = function(data, metaKey, metaValue) {
+                            const mutateNestedMetadata = function(
+                                data,
+                                metaKey,
+                                metaValue,
+                                Metalsmith
+                            ) {
                                 Object.keys(data).forEach(key => {
-                                    const isArray = Array.isArray(data[key]);
-                                    if (!isArray && typeof data[key] === 'object') {
-                                        mutateNestedMetadata(data[key]);
-                                    } else if (!isArray) {
-                                        data[key] = _searchAndReplace(
-                                            data[key],
-                                            metaKey,
-                                            metaValue
-                                        );
+                                    if (data[key] !== null && data[key] !== undefined) {
+                                        const isArray = Array.isArray(data[key]);
+                                        if (!isArray && typeof data[key] === 'object') {
+                                            mutateNestedMetadata(data[key]);
+                                        } else if (!isArray) {
+                                            data[key] = _searchAndReplace(
+                                                data[key],
+                                                metaKey,
+                                                metaValue,
+                                                Metalsmith.metadata()
+                                            );
+                                        }
                                     }
                                 });
                             };
-                            mutateNestedMetadata(fileData[fileKey], metaKey, metadata[metaKey]);
+                            mutateNestedMetadata(
+                                fileData[fileKey],
+                                metaKey,
+                                metadata[metaKey],
+                                Metalsmith
+                            );
                         } else {
                             // Replace values in frontmatter strings.
                             fileData[fileKey] = _searchAndReplace(
                                 fileData[fileKey],
                                 metaKey,
-                                metadata[metaKey]
+                                metadata[metaKey],
+                                Metalsmith.metadata()
                             );
                         }
                     });

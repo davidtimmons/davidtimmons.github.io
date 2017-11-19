@@ -1,20 +1,57 @@
 // Import libraries.
-let Metalsmith  = require('metalsmith');
+const Handlebars = require('handlebars');
+const Metalsmith = require('metalsmith');
+const Moment     = require('moment');
 
 // Import plugins.
-let debug          = require('metalsmith-debug');
-let defaultValues  = require('metalsmith-default-values');
-let drafts         = require('metalsmith-drafts');
-let injectMetadata = require('./plugins/inject-metadata.js');
-let layouts        = require('metalsmith-layouts');
-let markdown       = require('metalsmith-markdown');
-let permalinks     = require('metalsmith-permalinks');
-let preview        = require('./plugins/preview.js');
-let sitemap        = require('metalsmith-sitemap');
+const collections    = require('metalsmith-collections');
+const debug          = require('metalsmith-debug');
+const defaultValues  = require('metalsmith-default-values');
+const drafts         = require('metalsmith-drafts');
+const injectMetadata = require('./plugins/inject-metadata');
+const layouts        = require('metalsmith-layouts');
+const markdown       = require('metalsmith-markdown');
+const permalinks     = require('metalsmith-permalinks');
+const preview        = require('./plugins/preview');
+const sitemap        = require('metalsmith-sitemap');
 
 // Define constants.
 const BUILD_DIR = './build';
-const ROOT_PATH = 'http://david.timmons.io/';
+const HOST = 'david.timmons.io';
+const ROOT_PATH = `http://${HOST}/`;
+const BUILD_PATH = process.env.DEV ? process.env.ROOT : ROOT_PATH;
+const IMAGE_PATH = BUILD_PATH + 'static/images/';
+
+
+/////////////
+// HELPERS //
+/////////////
+
+// Note: Metalsmith page objects can be accessed from inside Handlebars helper functions.
+// They are stored as the final argument under <arg.data.root>.
+
+Handlebars.registerHelper('eachReverse', function(context, options) {
+  let ret = '';
+  for(let i = context.length - 1, j = 0; i >= j; i--) {
+    ret = ret + options.fn(context[i]);
+  }
+  return ret;
+});
+
+Handlebars.registerHelper('getAny', function(...args) {
+  args.forEach(arg => {
+    if (arg) return arg;
+  })
+  return null;
+});
+
+Handlebars.registerHelper('prettyDate', function(dateStr) {
+  return Moment(dateStr).format('MMMM D, YYYY h:mma');
+});  
+
+Handlebars.registerHelper('sentenceCase', function(str) {
+  return str[0].toUpperCase() + str.substring(1);
+});
 
 
 ///////////
@@ -24,12 +61,22 @@ const ROOT_PATH = 'http://david.timmons.io/';
 Metalsmith(__dirname)
   .metadata({
     siteTitle: 'David Timmons',
+    host: HOST,
     rootPath: ROOT_PATH,
-    imagePath: ROOT_PATH + 'static/images/',
-    gaAccount: 'UA-19610273-1',
-    gaDomain: 'timmons.io',
-    keyBingWebmasterTools: 'D62CBC40FC8F577CAA5D68B79E806194',
-    keyGoogleSearchConsole: '24km3JXEzfZ0tKZah9epCVlDwLIepVGsQmuKgQi4hzo',
+    buildPath: BUILD_PATH,
+    imagePath: IMAGE_PATH,
+    now: Moment().format('YYYY-MM-DD HH:mm'),
+    social: {
+      email: '&#100;&#064;&#116;&#105;&#109;&#109;&#111;&#110;&#115;&#046;&#105;&#111;',
+      github: 'https://github.com/davidtimmons',
+      linkedin: 'https://www.linkedin.com/in/davidtimmons',
+    },
+    tools: {
+      gaAccount: 'UA-19610273-1',
+      gaDomain: 'timmons.io',
+      keyBingWebmasterTools: 'D62CBC40FC8F577CAA5D68B79E806194',
+      keyGoogleSearchConsole: '24km3JXEzfZ0tKZah9epCVlDwLIepVGsQmuKgQi4hzo',
+    },
   })
   .source('./src')
   .destination(BUILD_DIR)
@@ -41,38 +88,50 @@ Metalsmith(__dirname)
   .use(drafts()) // See: https://github.com/segmentio/metalsmith-drafts
   .use(defaultValues([ // See: https://github.com/woodyrew/metalsmith-default-values
     {
-      pattern: 'index.md',
-      defaults: {
-        layout: 'page.html',
-      }
-    },
-    {
-      pattern: '404.md',
-      defaults: {
-        layout: '404.html',
-      }
-    },
-    {
       pattern: 'articles/**/*.md',
       defaults: {
         layout: 'article.html',
-      }
+      },
     },
     {
-      pattern: 'pages/**/*.md',
+      pattern: ['index.md', 'pages/**/*.md'],
       defaults: {
         layout: 'page.html',
-      }
+        image: IMAGE_PATH + '2014/05/david-timmons.jpg',
+      },
     },
   ]))
   .use(injectMetadata({
     pattern: '**/*.md',
-    fileKeys: ['contents', 'hero'],
-    metadataKeys: ['imagePath', 'rootPath'],
+    fileKeys: ['contents', 'date', 'hero'],
+    metadataKeys: ['buildPath', 'social.email', 'imagePath', 'now'],
   }))
   .use(preview({
     pattern: 'articles/**/*.md',
     words: 40,
+  }))
+  .use(collections({ // See: https://github.com/segmentio/metalsmith-collections
+    articles: {
+      pattern: ['articles/**/*.md'],
+      sortBy: 'date',
+      metadata: {
+        title: 'Articles',
+      },
+    },
+    errors: {
+      pattern: ['404.md'],
+      sortBy: 'title',
+      metadata: {
+        title: 'Errors',
+      },
+    },
+    pages: {
+      pattern: ['index.md', 'pages/**/*.md'],
+      sortBy: 'title',
+      metadata: {
+        title: 'Pages',
+      },
+    },
   }))
   .use(markdown({ // See: https://github.com/segmentio/metalsmith-markdown
     gfm: true,

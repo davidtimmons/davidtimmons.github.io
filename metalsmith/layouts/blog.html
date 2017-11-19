@@ -1,0 +1,61 @@
+<!doctype html>
+<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns#">
+
+    {{> head }}
+
+    <body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+        <!-- wrapper -->
+        <div class="wrapper shadow shadow-inset">
+
+            {{> header }}
+
+            <main role="main">
+                <section class="blog-feed">
+                    <h1>Latest Thoughts</h1>
+                    
+                    {{#eachReverse collections.articles}}
+                    <article class="clearfix post type-post status-publish format-standard has-post-thumbnail hentry category-{{ category }}">
+
+                        <!-- post details -->
+                        <div class="blog-feed-post-details">
+                            <h2>
+                                <span class="headline-image">»</span>
+                                <a href="{{ @root.buildPath }}{{ this.slug }}/" title="{{ this.title }}">
+                                    {{ this.title }}
+                                </a>
+                            </h2>
+                            <time class="date">{{prettyDate this.date}}</time>
+                        </div>
+
+                        <!-- post thumbnail -->
+                        <div class="blog-feed-featured-image wp-post-image">
+                            <a href="{{ @root.buildPath }}{{ this.slug }}/" title="{{ this.title }}">
+                                <img src="{{ this.hero.imgUrlSrc }}" alt="{{ this.title }}">
+                            </a>
+                        </div>
+            
+                        <!-- post preview -->
+                        <p>
+                            {{ this.preview }} <a class="view-article" href="{{ @root.buildPath }}{{ this.slug }}/">Keep Reading »</a>
+                        </p>
+
+                    </article>
+                    {{/eachReverse}}
+
+                    <br class="clearfix">
+                </section>
+            </main>
+
+            {{> footer }}
+
+        <!-- /wrapper -->
+        </div>
+
+        {{> scripts-footer }}
+
+    </body>
+</html>

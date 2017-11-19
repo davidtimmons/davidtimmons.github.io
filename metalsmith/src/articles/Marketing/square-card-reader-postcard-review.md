@@ -2,7 +2,7 @@
 title: A Square Postcard? Reviewing Square Card Reader Marketing
 date: 2012-12-20 07:01
 author: David Timmons
-category: Marketing
+category: marketing
 slug: square-card-reader-postcard-review
 draft: false
 metaDescription: >-

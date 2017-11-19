@@ -2,7 +2,7 @@
 title: How to be MEAN!
 date: 2015-10-08 02:05
 author: David Timmons
-category: Technology
+category: technology
 slug: how-to-be-mean
 draft: false
 metaDescription: >-
@@ -231,38 +231,26 @@ take your own journey to build a Web application from scratch, good luck
 to you. Just remember it takes longer than two weeks!
 
 
-[3]: http://hackafinder.timmons.io/
-  "View the Hacka_finder demo here."
+[3]: {{ buildPath }}demos/hackafinder/ "View the Hacka_finder demo here."
 
-[4]: https://github.com/davidtimmons/hackafinder
-  "View the Hacka_finder code here."
+[4]: https://github.com/davidtimmons/hackafinder "View the Hacka_finder code here."
 
-[AngularJS]: https://angularjs.org/
-  "Click here to visit the official AngularJS website."
+[AngularJS]: https://angularjs.org/ "Click here to visit the official AngularJS website."
 
-[Aurelia]: http://aurelia.io/
-  "Click here to visit the official Aurelia website."
+[Aurelia]: http://aurelia.io/ "Click here to visit the official Aurelia website."
 
-[Axure]: http://www.axure.com/
-  "Click here to visit the official Axure website."
+[Axure]: http://www.axure.com/ "Click here to visit the official Axure website."
 
-[Balsamiq]: https://balsamiq.com/
-  "Click here to visit the official Balsamiq website."
+[Balsamiq]: https://balsamiq.com/ "Click here to visit the official Balsamiq website."
 
-[Chai]: http://chaijs.com/
-  "Click here to visit the official Chai website."
+[Chai]: http://chaijs.com/ "Click here to visit the official Chai website."
 
-[Express]: http://expressjs.com/
-  "Click here to visit the official Express website."
+[Express]: http://expressjs.com/ "Click here to visit the official Express website."
 
-[Mocha]: http://mochajs.org/
-  "Click here to visit the official Mocha website."
+[Mocha]: http://mochajs.org/ "Click here to visit the official Mocha website."
 
-[MongoDB]: https://www.mongodb.org/
-  "Click here to visit the official MongoDB website."
+[MongoDB]: https://www.mongodb.org/ "Click here to visit the official MongoDB website."
 
-[Node.js]: https://nodejs.org/en/
-  "Click here to visit the official Node.js website."
+[Node.js]: https://nodejs.org/en/ "Click here to visit the official Node.js website."
 
-[Yeoman]: http://yeoman.io/
-  "Click here to visit the official Yeoman website."
+[Yeoman]: http://yeoman.io/ "Click here to visit the official Yeoman website."

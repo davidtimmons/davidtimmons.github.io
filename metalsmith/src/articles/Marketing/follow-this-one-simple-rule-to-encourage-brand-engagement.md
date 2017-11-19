@@ -2,7 +2,7 @@
 title: Follow This One Simple Rule To Encourage Brand Engagement
 date: 2013-05-02 07:00
 author: David Timmons
-category: Marketing
+category: marketing
 slug: follow-this-one-simple-rule-to-encourage-brand-engagement
 draft: false
 metaDescription: >-
@@ -69,8 +69,6 @@ all decisions, win.
 So how do you encourage engagement with *your* brand?
 
 
-[3]: http://mashable.com/2013/05/01/engagement-buzzword/
-  "Click here to read how marketers can misunderstand 'engagement'."
+[3]: http://mashable.com/2013/05/01/engagement-buzzword/ "Click here to read how marketers can misunderstand 'engagement'."
 
-[4]: http://textsfromsuperheroes.com/
-  "Click here to read what super heroes text to one another when not fighting crime."
+[4]: http://textsfromsuperheroes.com/ "Click here to read what super heroes text to one another when not fighting crime."

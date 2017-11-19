@@ -2,7 +2,7 @@
 title: Strong Mobile App Marketing
 date: 2013-02-28 07:07
 author: David Timmons
-category: Marketing
+category: marketing
 slug: strong-mobile-app-marketing
 draft: false
 metaDescription: >-
@@ -81,8 +81,6 @@ Have you developed a mobile app for your brand, or have you thought
 about doing so? What promotion techniques would you use?
 
 
-[3]: http://www.gartner.com/newsroom/id/2153215
-  "Click here to read the Gartner Research app store downloads forecast."
+[3]: http://www.gartner.com/newsroom/id/2153215 "Click here to read the Gartner Research app store downloads forecast."
 
-[4]: http://www.apple.com/pr/library/2013/01/07App-Store-Tops-40-Billion-Downloads-with-Almost-Half-in-2012.html
-  "Click here to view Apple's App Store statistics."
+[4]: http://www.apple.com/pr/library/2013/01/07App-Store-Tops-40-Billion-Downloads-with-Almost-Half-in-2012.html "Click here to view Apple's App Store statistics."

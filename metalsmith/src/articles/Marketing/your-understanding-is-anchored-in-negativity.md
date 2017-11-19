@@ -2,7 +2,7 @@
 title: Your Understanding Is Anchored In Negativity
 date: 2013-04-04 07:00
 author: David Timmons
-category: Marketing
+category: marketing
 slug: your-understanding-is-anchored-in-negativity
 draft: false
 metaDescription: >-
@@ -80,8 +80,6 @@ moderating and participation.
 Does negative commentary impact your opinions?
 
 
-[3]: http://onlinelibrary.wiley.com/doi/10.1111/jcc4.12009/full
-  "Click here to read the study."
+[3]: http://onlinelibrary.wiley.com/doi/10.1111/jcc4.12009/full "Click here to read the study."
 
-[4]: http://www.npr.org/2013/03/11/174027294/the-nasty-effect-how-comments-color-comprehension?ft=1&f=1007
-  "Click here to read the NPR interview."
+[4]: http://www.npr.org/2013/03/11/174027294/the-nasty-effect-how-comments-color-comprehension?ft=1&f=1007 "Click here to read the NPR interview."

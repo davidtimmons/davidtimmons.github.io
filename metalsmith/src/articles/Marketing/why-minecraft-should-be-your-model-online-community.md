@@ -2,7 +2,7 @@
 title: Why Minecraft Should Be Your Model Online Community
 date: 2013-01-10 07:00
 author: David Timmons
-category: Marketing
+category: marketing
 slug: why-minecraft-should-be-your-model-online-community
 draft: false
 metaDescription: >-
@@ -69,23 +69,16 @@ What do you think of *Minecraft*? Have you seen another passionate
 community build up around a brand?
 
 
-[3]: https://ideas.lego.com/projects/4038
-  "Click here to visit the Minecraft Lego Ideas page."
+[3]: https://ideas.lego.com/projects/4038 "Click here to visit the Minecraft Lego Ideas page."
 
-[4]: http://mineconparis.tumblr.com/
-  "Click here to visit the MineCon Tumblr blog."
+[4]: http://mineconparis.tumblr.com/ "Click here to visit the MineCon Tumblr blog."
 
-[5]: https://www.threadless.com/cartoon-tv-characters/minecraft
-  "Click here to visit the Minecraft Threadless store."
+[5]: https://www.threadless.com/cartoon-tv-characters/minecraft "Click here to visit the Minecraft Threadless store."
 
-[6]: http://shop.lego.com/en-US/Minecraft-21102
-  "Click here to visit the Minecraft Lego Shop page."
+[6]: http://shop.lego.com/en-US/Minecraft-21102 "Click here to visit the Minecraft Lego Shop page."
 
-[7]: http://c418.bandcamp.com/album/minecraft-volume-alpha
-  "Click here to visit the Minecraft soundtrack page."
+[7]: http://c418.bandcamp.com/album/minecraft-volume-alpha "Click here to visit the Minecraft soundtrack page."
 
-[Lego Ideas]: https://ideas.lego.com/
-  "Click here to visit the official Lego Ideas community."
+[Lego Ideas]: https://ideas.lego.com/ "Click here to visit the official Lego Ideas community."
 
-[Minecraft]: https://minecraft.net/
-  "Click here to visit the official Minecraft website."
+[Minecraft]: https://minecraft.net/ "Click here to visit the official Minecraft website."

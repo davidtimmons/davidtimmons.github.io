@@ -2,7 +2,7 @@
 title: Marketing, The Zombie Apocalypse, And You
 date: 2013-05-18 18:20
 author: David Timmons
-category: Marketing
+category: marketing
 slug: marketing-the-zombie-apocalypse-and-you
 draft: false
 metaDescription: >-

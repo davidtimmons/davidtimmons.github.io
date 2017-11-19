@@ -2,7 +2,7 @@
 title: What Your JavaScript Says About You
 date: 2016-06-01 08:33
 author: David Timmons
-category: Technology
+category: technology
 slug: what-your-javascript-says-about-you
 draft: false
 metaDescription: >-
@@ -77,26 +77,18 @@ months. You can then make an informed decision to select tools that work
 well within your own team's skills and world view.
 
 
-[3]: http://www.ecma-international.org/ecma-262/6.0/index.html
-  "Visit www.ecma-international.org."
+[3]: http://www.ecma-international.org/ecma-262/6.0/index.html "Visit www.ecma-international.org."
 
-[AngularJS]: https://angularjs.org/
-  "Click here to visit the official AngularJS website."
+[AngularJS]: https://angularjs.org/ "Click here to visit the official AngularJS website."
 
-[Cycle.js]: http://cycle.js.org/
-  "Click here to visit the official Cycle.js website."
+[Cycle.js]: http://cycle.js.org/ "Click here to visit the official Cycle.js website."
 
-[Elm]: http://elm-lang.org/
-  "Click here to visit the official Elm website."
+[Elm]: http://elm-lang.org/ "Click here to visit the official Elm website."
 
-[React]: https://facebook.github.io/react/
-  "Click here to visit the official React website."
+[React]: https://facebook.github.io/react/ "Click here to visit the official React website."
 
-[Redux]: http://redux.js.org/
-  "Click here to visit the official Redux website."
+[Redux]: http://redux.js.org/ "Click here to visit the official Redux website."
 
-[TypeScript]: http://www.typescriptlang.org/
-  "Click here to visit the official TypeScript website."
+[TypeScript]: http://www.typescriptlang.org/ "Click here to visit the official TypeScript website."
 
-[WebAssembly]: https://webassembly.github.io/
-  "Click here to visit the official WebAssembly website."
+[WebAssembly]: https://webassembly.github.io/ "Click here to visit the official WebAssembly website."

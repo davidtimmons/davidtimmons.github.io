@@ -2,7 +2,7 @@
 title: How To Create Compelling Social Media Marketing
 date: 2013-03-21 07:00
 author: David Timmons
-category: Marketing
+category: marketing
 slug: how-to-create-compelling-social-media-marketing
 draft: false
 metaDescription: >-
@@ -28,5 +28,4 @@ advice of [Strunk & White][3]: **omit needless words!**
 Everything you communicate must strengthen your core idea.
 
 
-[3]: http://www.nytimes.com/2009/04/22/books/22elem.html?_r=0
-  "Click here to read more about Strunk & White and 'The Elements of Style'."
+[3]: http://www.nytimes.com/2009/04/22/books/22elem.html?_r=0 "Click here to read more about Strunk & White and 'The Elements of Style'."

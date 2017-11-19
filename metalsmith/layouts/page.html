@@ -1,13 +1,36 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns#">
+
     {{> head }}
-    <body>
+
+    <body class="page-template-default page {{ slug }}">
         <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
+            
+        <!-- wrapper -->
+        <div class="wrapper shadow shadow-inset">
 
-        {{{ contents }}}
+            {{> header }}
 
-        {{> footer }}
+            <main role="main">
+                <section>
+                    <h1>{{ title }}</h1>
+                    <article class="page type-page status-publish hentry">
+
+                        {{{ contents }}}
+
+                        <br class="clearfix">
+                    </article>
+                </section>
+            </main>
+
+            {{> footer }}
+
+        <!-- /wrapper -->
+        </div>
+
+        {{> scripts-footer }}
+
     </body>
 </html>

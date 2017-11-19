@@ -1,6 +1,6 @@
 ---
 title: Projects
-date: 2014-05-29 23:19
+date: {{ now }}
 author: David Timmons
 slug: projects
 draft: false
@@ -14,26 +14,48 @@ projects here are proprietary, many are not. Everything below is my own
 work unless specifically stated otherwise.
 
 ## » Mega Air Man
----
-![Mega Air Man][mam-img]
+<p>
+  <img src="{{ imagePath }}2016/02/mega-air-man.jpg"
+       alt="Mega Air Man"
+       class="project-img shadow aligncenter size-full"
+       srcset="{{ imagePath }}2016/02/mega-air-man.jpg 648w"
+       sizes="(max-width: 648px) 100vw, 648px">
+</p>
 
 *Mega Air Man* is a game demo written in *[Elm][]* and based on the NES
 classic *Mega Man 2*. *Elm* is a cutting-edge ML-style language similar
 to *Haskell* that natively supports a functional reactive architecture
 in client-side Web applications.
 
-<span class="project-details">
-  Technology<br />
-  Elm
-
-  Link<br />
-  [Demo][mam-demo] . [GitHub][mam-code]
-</span>
+<div class="posts-nav shadow project-details">
+  <p class="project-tag">Technology</p>
+  <p class="project-tech">
+    Elm
+  </p>
+  <p class="project-tag">Link</p>
+  <p class="project-link">
+    <a class="posts-nav-link"
+       href="{{ buildPath }}demos/mega-air-man/"
+       title="Click here to play the demo.">
+      Demo
+    </a> .
+    <a class="posts-nav-link"
+       href="https://github.com/davidtimmons/mega-air-man"
+       title="Click here to see the project code.">
+      GitHub
+    </a>
+  </p>
+</div>
 
 
 ## » React CSV Component
----
-![React CSV Component][rcc-img]
+<p>
+  <img src="{{ imagePath }}2016/01/react-csv-component.jpg"
+       alt="React CSV Component"
+       class="project-img shadow aligncenter size-full"
+       srcset="{{ imagePath }}2016/01/react-csv-component.jpg 648w"
+       sizes="(max-width: 648px) 100vw, 648px">
+</p>
 
 This is a React/Flux module written in *JSX* and *Javascript (ES2015)*
 that simulates a CSV (Comma-Separated Value) spreadsheet. It features
@@ -42,18 +64,35 @@ redo state tracking, customizable row and column counts, an optional
 highlighted footer row, and data export into a CSV file (for modern
 browsers.)
 
-<span class="project-details">
-  Technology<br />
-  React . Flux . JSX. JavaScript (ES2015)
-
-  Link<br />
-  [Demo][rcc-demo] . [GitHub][rcc-code]
-</span>
+<div class="posts-nav shadow project-details">
+  <p class="project-tag">Technology</p>
+  <p class="project-tech">
+    React . Flux . JSX . JavaScript (ES2015)
+  </p>
+  <p class="project-tag">Link</p>
+  <p class="project-link">
+    <a class="posts-nav-link"
+       href="{{ buildPath }}demos/react-csv/"
+       title="Click here to see the demo.">
+      Demo
+    </a> .
+    <a class="posts-nav-link"
+       href="https://github.com/davidtimmons/react-csv"
+       title="Click here to see the project code.">
+      GitHub
+    </a>
+  </p>
+</div>
 
 
 ## » Hacka\_finder
----
-![Hacka\_finder][haf-img]
+<p>
+  <img src="{{ imagePath }}2015/08/hackafinder-home.jpg"
+       alt="Hacka_finder"
+       class="project-img shadow aligncenter size-full"
+       srcset="{{ imagePath }}2015/08/hackafinder-home.jpg 648w"
+       sizes="(max-width: 648px) 100vw, 648px">
+</p>
 
 *Hacka\_finder* is a single-page Web application (SPA) that matches
 registered users into hackathon teams based on skills, event goals, and
@@ -71,19 +110,35 @@ criteria.
 six books and many API references to learn all the technologies then
 started building. This is the result!
 
-<span class="project-details">
-  Technology<br />
-  MongoDB . Express . AngularJS . Node.js . Bootstrap . SASS . Mocha .
-  Chai . Grunt . Yeoman
-
-  Link<br />
-  [Demo][haf-demo] . [GitHub][haf-code]
-</span>
+<div class="posts-nav shadow project-details">
+  <p class="project-tag">Technology</p>
+  <p class="project-tech">
+    MongoDB . Express . AngularJS . Node.js . Bootstrap . SASS . Mocha . Chai . Grunt . Yeoman
+  </p>
+  <p class="project-tag">Link</p>
+  <p class="project-link">
+    <a class="posts-nav-link"
+       href="{{ buildPath }}demos/hackafinder/"
+       title="Click here to see the demo.">
+      Demo
+    </a> .
+    <a class="posts-nav-link"
+       href="https://github.com/davidtimmons/hackafinder"
+       title="Click here to see the project code.">
+      GitHub
+    </a>
+  </p>
+</div>
 
 
 ## » Simon Says Circuit
----
-![Simon Says Circuit][ssc-img]
+<p>
+  <img src="{{ imagePath }}2014/08/simon-says-breadboard.jpg"
+       alt="Simon Says Circuit"
+       class="project-img shadow aligncenter size-full"
+       srcset="{{ imagePath }}2014/08/simon-says-breadboard.jpg 648w"
+       sizes="(max-width: 648px) 100vw, 648px">
+</p>
 
 This *Arduino* project is similar to the electronic memory games made
 popular in the 1980s. It uses a microcontroller and a variant of the C
@@ -95,18 +150,30 @@ This version gives the player three chances. After entering an incorrect
 pattern three times, the game is over. The player can reset the game by
 moving the board to activate the tilt switch.
 
-<span class="project-details">
-  Technology<br />
-  Arduino . Circuit Design . C
-
-  Link<br />
-  [GitHub][ssc-code]
-</span>
+<div class="posts-nav shadow project-details">
+  <p class="project-tag">Technology</p>
+  <p class="project-tech">
+    Arduino . Circuit Design . C
+  </p>
+  <p class="project-tag">Link</p>
+  <p class="project-link">
+    <a class="posts-nav-link"
+       href="https://github.com/davidtimmons/simon-says-circuit"
+       title="Click here to see the project code.">
+      GitHub
+    </a>
+  </p>
+</div>
 
 
 ## » Text Scalpel App
----
-![Text Scalpel App][tsa-img]
+<p>
+  <img src="{{ imagePath }}2014/08/text-scalpel-app-dashboard.png"
+       alt="Text Scalpel App"
+       class="project-img shadow aligncenter size-full"
+       srcset="{{ imagePath }}2014/08/text-scalpel-app-dashboard.png 648w"
+       sizes="(max-width: 648px) 100vw, 648px">
+</p>
 
 *Text Scalpel App* is a Python *Flask* Web application designed using
 the MVC architecture pattern.
@@ -117,18 +184,30 @@ common words. It also generates a random text paragraph using words
 pulled from the file. Results are stored in a *SQLite* database using
 relational tables that link users to their text analysis results.
 
-<span class="project-details">
-  Technology<br />
-  Python . Flask
-
-  Link<br />
-  [GitHub][tsa-code]
-</span>
+<div class="posts-nav shadow project-details">
+  <p class="project-tag">Technology</p>
+  <p class="project-tech">
+    Python . Flask . SQLite
+  </p>
+  <p class="project-tag">Link</p>
+  <p class="project-link">
+    <a class="posts-nav-link"
+       href="https://github.com/davidtimmons/text-scalpel-app"
+       title="Click here to see the project code.">
+      GitHub
+    </a>
+  </p>
+</div>
 
 
 ## » Browser Checklist
----
-![Browser Checklist][brc-img]
+<p>
+  <img src="{{ imagePath }}2014/08/browser-checklist.jpg"
+       alt="Browser Checklist"
+       class="project-img shadow aligncenter size-full"
+       srcset="{{ imagePath }}2014/08/browser-checklist.jpg 648w"
+       sizes="(max-width: 648px) 100vw, 648px">
+</p>
 
 JavaScript drives this checklist application. It provides users an
 interactive todo list using vanilla JavaScript, local storage,
@@ -137,18 +216,30 @@ JavaScript libraries. *Modernizr* detects available browser features.
 The application attempts to save tasks to local storage and falls back
 to cookies when local storage is unavailable.
 
-<span class="project-details">
-  Technology<br />
-  JavaScript . Modernizr . Google Maps
-
-  Link<br />
-  [GitHub][brc-code]
-</span>
+<div class="posts-nav shadow project-details">
+  <p class="project-tag">Technology</p>
+  <p class="project-tech">
+    JavaScript . Modernizr . Google Maps
+  </p>
+  <p class="project-tag">Link</p>
+  <p class="project-link">
+    <a class="posts-nav-link"
+       href="https://github.com/davidtimmons/browser-checklist"
+       title="Click here to see the project code.">
+      GitHub
+    </a>
+  </p>
+</div>
 
 
 ## » Fortune 100 Pricing Tool
----
-![Fortune 100 Pricing Tool][fpt-img]
+<p>
+  <img src="{{ imagePath }}2014/05/fortune-100-pricing-tool.jpg"
+       alt="Fortune 100 Pricing Tool"
+       class="project-img shadow aligncenter size-full"
+       srcset="{{ imagePath }}2014/05/fortune-100-pricing-tool.jpg 648w"
+       sizes="(max-width: 648px) 100vw, 648px">
+</p>
 
 This tool suite supports the sales function at a *Fortune 100*
 corporation. It determines customer eligibility for current promotional
@@ -168,18 +259,26 @@ I built this tool entirely in *Microsoft Excel* using a
 4.  Updates the hidden database worksheets and the visible interface
     worksheets based on user interactions that access the VBA code.
 
-<span class="project-details">
-  Technology<br />
-  Microsoft VBA . Microsoft Excel
-
-  Link<br />
-  Closed-source software project
-</span>
+<div class="posts-nav shadow project-details">
+  <p class="project-tag">Technology</p>
+  <p class="project-tech">
+    Microsoft VBA . Microsoft Excel
+  </p>
+  <p class="project-tag">Link</p>
+  <p class="project-link">
+    Closed-source software project
+  </p>
+</div>
 
 
 ## » Website Animation Control Panel
----
-![Website Animation Control Panel][wap-img]
+<p>
+  <img src="{{ imagePath }}2014/05/website-animation-control-panel.jpg"
+       alt="Website Animation Control Panel"
+       class="project-img shadow aligncenter size-full"
+       srcset="{{ imagePath }}2014/05/website-animation-control-panel.jpg 648w"
+       sizes="(max-width: 648px) 100vw, 648px">
+</p>
 
 This animation control panel enables non-technical content managers to
 enter desired text within a modified *WordPress* interface then select a
@@ -198,18 +297,26 @@ code. Here's how it works:
 5.  Recursively plays each animation according to the options stored in
     the queued object.
 
-<span class="project-details">
-  Technology<br />
-  JavaScript . jQuery . PHP
-
-  Link<br />
-  Closed-source software project
+<div class="posts-nav shadow project-details">
+  <p class="project-tag">Technology</p>
+  <p class="project-tech">
+    JavaScript . jQuery . PHP
+  </p>
+  <p class="project-tag">Link</p>
+  <p class="project-link">
+    Closed-source software project
+  </p>
 </div>
 
 
 ## » Front-End Web Development
----
-![Front End Web Development][few-img]
+<p>
+  <img src="{{ imagePath }}2014/05/front-end-web-development.jpg"
+       alt="Front-End Web Development"
+       class="project-img shadow aligncenter size-full"
+       srcset="{{ imagePath }}2014/05/front-end-web-development.jpg 648w"
+       sizes="(max-width: 648px) 100vw, 648px">
+</p>
 
 My experience with front-end Web development includes responsive and
 fluid design, landing pages, email templates, and *WordPress* themes.
@@ -219,68 +326,16 @@ circumvent the many browser quirks confronting modern Web development.
 My Web projects often include *jQuery* or vanilla JavaScript and a
 healthy dose of SEO.
 
-<span class="project-details">
-  Technology<br />
-  HTML . CSS . JavaScript . jQuery . PHP
-
-  Link<br />
-  Various projects
+<div class="posts-nav shadow project-details">
+  <p class="project-tag">Technology</p>
+  <p class="project-tech">
+    HTML . CSS . JavaScript . jQuery . PHP
+  </p>
+  <p class="project-tag">Link</p>
+  <p class="project-link">
+    Various projects
+  </p>
 </div>
 
 
-[mam-img]: {{imagePath}}2016/02/mega-air-man.jpg
-  "Mega Air Man"
-
-[mam-demo]: http://mega-air-man.timmons.io
-  "Click here to play the demo."
-
-[mam-code]: https://github.com/davidtimmons/mega-air-man
-  "Click here to see the project code."
-
-[rcc-img]: {{imagePath}}2016/01/react-csv-component.jpg
-  "React CSV Component"
-
-[rcc-demo]: http://react-csv.timmons.io
-  "Click here to see a demo."
-
-[rcc-code]: https://github.com/davidtimmons/react-csv
-  "Click here to see the project code."
-
-[haf-img]: {{imagePath}}2015/08/hackafinder-home.jpg
-  "Hacka_finder"
-
-[haf-demo]: http://hackafinder.timmons.io
-  "Click here to see a demo."
-
-[haf-code]: https://github.com/davidtimmons/hackafinder
-  "Click here to see the project code."
-
-[ssc-img]: {{imagePath}}2014/08/simon-says-breadboard.jpg
-  "Simon Says Circuit"
-
-[ssc-code]: https://github.com/davidtimmons/simon-says-circuit
-  "Click here to see the project code."
-
-[tsa-img]: {{imagePath}}2014/08/text-scalpel-app-dashboard.png
-  "Text Scalpel App"
-
-[tsa-code]: https://github.com/davidtimmons/text-scalpel-app
-  "Click here to see the project code."
-
-[brc-img]: {{imagePath}}2014/08/browser-checklist.jpg
-  "Browser Checklist"
-
-[brc-code]: https://github.com/davidtimmons/browser-checklist
-  "Click here to see the project code."
-
-[fpt-img]: {{imagePath}}2014/05/fortune-100-pricing-tool.jpg
-  "Fortune 100 Pricing Tool"
-
-[wap-img]: {{imagePath}}2014/05/website-animation-control-panel.jpg
-  "Website Animation Control Panel"
-
-[few-img]: {{imagePath}}2014/05/front-end-web-development.jpg
-  "Front-End Web Development"
-
-[Elm]: http://elm-lang.org/
-  "Click here to learn more about Elm."
+[Elm]: http://elm-lang.org/ "Click here to learn more about Elm."

@@ -2,7 +2,7 @@
 title: Marketing Strategy
 date: 2013-05-16 02:19
 author: David Timmons
-category: Marketing
+category: marketing
 slug: marketing-strategy
 draft: false
 metaDescription: >-
@@ -275,38 +275,26 @@ this discussion helpful! Now, in the words of Seth Godin, "Go make
 something happen."
 
 
-[3]: http://en.wikipedia.org/wiki/Mental_model
-  "Click here to read more about mental models."
+[3]: http://en.wikipedia.org/wiki/Mental_model "Click here to read more about mental models."
 
-[4]: http://www.marketingpower.com/AboutAMA/Pages/DefinitionofMarketing.aspx
-  "Click here to read the American Marketing Association's definition of marketing."
+[4]: http://www.marketingpower.com/AboutAMA/Pages/DefinitionofMarketing.aspx "Click here to read the American Marketing Association's definition of marketing."
 
-[5]: https://www.thinkwithgoogle.com/marketing-resources/micro-moments/2011-winning-zmot-ebook/
-  "Click here to read the 'Winning the Zero Moment of Truth' ebook."
+[5]: https://www.thinkwithgoogle.com/marketing-resources/micro-moments/2011-winning-zmot-ebook/ "Click here to read the 'Winning the Zero Moment of Truth' ebook."
 
-[6]: http://www.thinkwithgoogle.com/insights/library/studies/the-zero-moment-of-truth-macro-study/
-  "Click here to view the 'Zero Moment of Truth Macro Study, U.S.' report."
+[6]: http://www.thinkwithgoogle.com/insights/library/studies/the-zero-moment-of-truth-macro-study/ "Click here to view the 'Zero Moment of Truth Macro Study, U.S.' report."
 
-[7]: {{imagePath}}2014/05/2-image-zmot.png
-  "Google ZMOT Equation"
+[7]: {{imagePath}}2014/05/2-image-zmot.png "Google ZMOT Equation"
 
-[8]: {{imagePath}}2014/05/2-image-ecosystem.png
-  "Marketing Strategy Ecosystem"
+[8]: {{imagePath}}2014/05/2-image-ecosystem.png "Marketing Strategy Ecosystem"
 
-[9]: {{imagePath}}2014/05/2-image-infoflow.png
-  "Marketing Strategy Information Flow"
+[9]: {{imagePath}}2014/05/2-image-infoflow.png "Marketing Strategy Information Flow"
 
-[AMA]: http://www.marketingpower.com/
-  "Click here to visit the American Marketing Association (AMA)."
+[AMA]: http://www.marketingpower.com/ "Click here to visit the American Marketing Association (AMA)."
 
-[Jim Lecinski]: https://twitter.com/JimLecinski
-  "Click here to visit Jim Lecinski's Twitter feed."
+[Jim Lecinski]: https://twitter.com/JimLecinski "Click here to visit Jim Lecinski's Twitter feed."
 
-[Kim Kadlec]: https://twitter.com/kkadlec17
-  "Click here to visit Kim Kadlec's Twitter feed."
+[Kim Kadlec]: https://twitter.com/kkadlec17 "Click here to visit Kim Kadlec's Twitter feed."
 
-[RFP]: http://en.wikipedia.org/wiki/Request_for_proposal
-  "Click here to read more about proposal requests."
+[RFP]: http://en.wikipedia.org/wiki/Request_for_proposal "Click here to read more about proposal requests."
 
-[share of voice]: http://en.wikipedia.org/wiki/Share_of_voice
-  "Click here to read more about share of voice."
+[share of voice]: http://en.wikipedia.org/wiki/Share_of_voice "Click here to read more about share of voice."

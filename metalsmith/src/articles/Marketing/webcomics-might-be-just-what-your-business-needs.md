@@ -2,7 +2,7 @@
 title: Webcomics Might Be Just What Your Business Needs
 date: 2013-01-31 07:00
 author: David Timmons
-category: Marketing
+category: marketing
 slug: webcomics-might-be-just-what-your-business-needs
 draft: false
 metaDescription: >-
@@ -70,20 +70,14 @@ line.
 What creative marketing ideas have you tried at your organization?
 
 
-[3]: http://www.nbc.com/heroes/novels/
-  "Click here to read some of the Heroes webcomics."
+[3]: http://www.nbc.com/heroes/novels/ "Click here to read some of the Heroes webcomics."
 
-[4]: http://blogs.zappos.com/blogs/inside-zappos/2009/10/20/zappos-employee-handbook
-  "Click here to learn more about the Zappos employee handbook."
+[4]: http://blogs.zappos.com/blogs/inside-zappos/2009/10/20/zappos-employee-handbook "Click here to learn more about the Zappos employee handbook."
 
-[5]: http://www.facebook.com/TachmornMarketing
-  "Click here to visit the Tachmorn Marketing Facebook community."
+[5]: http://www.facebook.com/TachmornMarketing "Click here to visit the Tachmorn Marketing Facebook community."
 
-[6]: {{imagePath}}2013/01/webcomics-might-be-just-what-your-business-needs1.jpg
-  "Agency Life: 'Client Delivery' (1 of 2)"
+[6]: {{imagePath}}2013/01/webcomics-might-be-just-what-your-business-needs1.jpg "Agency Life: 'Client Delivery' (1 of 2)"
 
-[7]: {{imagePath}}2013/01/webcomics-might-be-just-what-your-business-needs2.jpg
-  "Agency Life: 'Project Estimate' (2 of 2)"
+[7]: {{imagePath}}2013/01/webcomics-might-be-just-what-your-business-needs2.jpg "Agency Life: 'Project Estimate' (2 of 2)"
 
-[Webcomics]: http://en.wikipedia.org/wiki/Webcomic
-  "Click here to learn more about webcomics."
+[Webcomics]: http://en.wikipedia.org/wiki/Webcomic "Click here to learn more about webcomics."

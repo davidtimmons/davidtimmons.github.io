@@ -2,7 +2,7 @@
 title: Like a Sandcastle
 date: 2012-11-22 07:30
 author: David Timmons
-category: Marketing
+category: marketing
 slug: its-like-a-sandcastle
 draft: false
 metaDescription: >-

@@ -2,7 +2,7 @@
 title: Virtual Reality for the Tech-Savvy Business
 date: 2016-08-03 17:59
 author: David Timmons
-category: Technology
+category: technology
 slug: virtual-reality-tech-savvy-business
 draft: false
 metaDescription: >-
@@ -85,14 +85,10 @@ companies who prepare now are the ones who stand to gain the most when
 the tsunami hits.
 
 
-[3]: http://www.fastcompany.com/3050016/unraveling-the-enigma-of-nintendos-virtual-boy-20-years-later
-  "Visit www.fastcompany.com."
+[3]: http://www.fastcompany.com/3050016/unraveling-the-enigma-of-nintendos-virtual-boy-20-years-later "Visit www.fastcompany.com."
 
-[4]: http://www.computerhistory.org/atchm/going-places-a-history-of-google-maps-with-street-view/
-  "Visit www.computerhistory.org."
+[4]: http://www.computerhistory.org/atchm/going-places-a-history-of-google-maps-with-street-view/ "Visit www.computerhistory.org."
 
-[A-Frame]: https://aframe.io/
-  "Click here to visit the official A-Frame website."
+[A-Frame]: https://aframe.io/ "Click here to visit the official A-Frame website."
 
-[JanusVR]: http://www.janusvr.com/
-  "Click here to visit the official JanusVR website."
+[JanusVR]: http://www.janusvr.com/ "Click here to visit the official JanusVR website."

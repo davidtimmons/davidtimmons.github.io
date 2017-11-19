@@ -2,7 +2,7 @@
 title: Want To Earn Your First $1 Million With Crowdfunding?
 date: 2013-03-14 07:00
 author: David Timmons
-category: Marketing
+category: marketing
 slug: want-to-earn-your-first-1-million-with-crowdfunding
 draft: false
 metaDescription: >-
@@ -74,14 +74,10 @@ be impossible regularly launch into the marketplace.
 Have you participated in crowdfunding?
 
 
-[3]: http://www.kickstarter.com/blog/ouyas-big-day
-  "Click here to read about Kickstarter projects that quickly earned millions of dollars."
+[3]: http://www.kickstarter.com/blog/ouyas-big-day "Click here to read about Kickstarter projects that quickly earned millions of dollars."
 
-[4]: http://www.kickstarter.com/projects/ouya/ouya-a-new-kind-of-video-game-console?ref=live
-  "Click here to visit the OUYA Kickstarter page."
+[4]: http://www.kickstarter.com/projects/ouya/ouya-a-new-kind-of-video-game-console?ref=live "Click here to visit the OUYA Kickstarter page."
 
-[Crowdfunding]: http://en.wikipedia.org/wiki/Crowdfunding
-  "Click here to learn more about crowdfunding."
+[Crowdfunding]: http://en.wikipedia.org/wiki/Crowdfunding "Click here to learn more about crowdfunding."
 
-[OUYA]: http://www.ouya.tv/
-  "Click here to learn more about OUYA."
+[OUYA]: http://www.ouya.tv/ "Click here to learn more about OUYA."

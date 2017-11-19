@@ -2,7 +2,7 @@
 title: Humor is Not Always Funny
 date: 2012-12-27 06:49
 author: David Timmons
-category: Marketing
+category: marketing
 slug: humor-is-not-always-funny
 draft: false
 metaDescription: Humor is tricky when used in a business context. How much is too much?
@@ -55,5 +55,4 @@ business in question, Bill Murray will *always* get a pass.
 But I'm guessing this exception applies in very limited cases.
 
 
-[Sucuri]: http://sucuri.net/company
-  "Click here to read more about Sucuri."
+[Sucuri]: http://sucuri.net/company "Click here to read more about Sucuri."

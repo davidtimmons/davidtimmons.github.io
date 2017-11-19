@@ -1,0 +1,59 @@
+<!-- header -->
+<header role="banner">
+    
+    <!-- profiles -->
+    <div id = "header-profile">
+
+        <!-- logo -->
+        <div class="logo">
+            <a href="{{ buildPath }}" title="Definitely probably not working on an AI that can enslave the human race." class="logo-img">
+                <img src="{{ imagePath }}timmons-logo.svg" alt="Logo">
+            </a>
+        </div>
+
+        <!-- social -->
+        <div id="header-social" class="clearfix">
+            <a href="{{ social.github }}" title="David Timmons on GitHub" target="_blank" class="github">
+                <img src="{{ imagePath }}github-mark.svg" alt="My GitHub">
+            </a>
+            <a href="{{ social.linkedin }}" title="David Timmons on LinkedIn" target="_blank">
+                <img src="{{ imagePath }}linkedin-mark.svg" alt="My LinkedIn">
+            </a>
+        </div>
+
+    </div>
+    <!-- /profiles -->
+
+    <!-- search -->
+    <script>
+        function searchDuckDuckGo() {
+            var input = document.getElementById("search-input");
+            if (input && input.value) {
+                var searchString = encodeURIComponent(input.value).replace('%20', '+');
+                var query = [encodeURIComponent('site:{{ host }}'), searchString].join('+');
+                window.location.href = 'https://duckduckgo.com/?q=' + query;
+            }
+        }
+    </script>
+
+    <form class="search-form" onsubmit="searchDuckDuckGo()" action="javascript:void(0)" role="search">
+        <input id="search-input" type="search" name="q" placeholder="search here..."><button class="search-submit" type="submit" role="button">Search</button>
+    </form>
+
+    <!-- nav -->
+    <!-- current-menu-item page_item current_page_item current_page_parent -->
+    <nav class="nav shadow" role="navigation">
+        <ul>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                <a href="{{ buildPath }}projects/">Projects</a>
+            </li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                <a href="{{ buildPath }}blog/">Blog</a>
+            </li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                <a href="{{ buildPath }}site-map/">Site map</a>
+            </li>
+        </ul>
+    </nav>
+
+</header>

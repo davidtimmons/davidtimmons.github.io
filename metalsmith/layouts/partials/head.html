@@ -3,25 +3,25 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>{{ siteTitle }} »{{ title }}«</title>
 
-    <meta name="description" content="{{ description }}">
+    <meta name="description" content="{{ metaDescription }}">
     <meta name="robots" content="noodp,noydir">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="msvalidate.01" content="{{ keyBingWebmasterTools }}">
-    <meta name="google-site-verification" content="{{ keyGoogleSearchConsole }}">
+    <meta name="msvalidate.01" content="{{ tools.keyBingWebmasterTools }}">
+    <meta name="google-site-verification" content="{{ tools.keyGoogleSearchConsole }}">
 
-    <link rel="canonical" href="{{ rootPath }}{{ slug }}">
-    <link rel="manifest" href="{{ rootPath }}site.webmanifest">
-    <link rel="shortcut icon" href="{{ rootPath }}favicon.ico">
-    <link rel="apple-touch-icon" href="{{ rootPath }}touch.png">
+    <link rel="canonical" href="{{ buildPath }}{{ slug }}">
+    <link rel="manifest" href="{{ buildPath }}site.webmanifest">
+    <link rel="shortcut icon" href="{{ buildPath }}favicon.ico">
+    <link rel="apple-touch-icon" href="{{ buildPath }}touch.png">
 
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="website">
     <meta property="og:title" content="{{ siteTitle }} »{{ title }}«">
-    <meta property="og:description" content="{{ description }}">
-    <meta property="og:url" content="{{ rootPath }}{{ slug }}">
+    <meta property="og:description" content="{{ metaDescription }}">
+    <meta property="og:url" content="{{ buildPath }}{{ slug }}">
     <meta property="og:site_name" content="{{ siteTitle }}">
-    <meta property="og:image" content="{{ imagePath }}{{ image }}">
+    <meta property="og:image" content="{{getAny image hero.imgUrlSrc }}">
 
-    <link rel="stylesheet" href="{{ rootPath }}static/css/normalize.css">
-    <link rel="stylesheet" href="{{ rootPath }}static/css/main.css">
+    <link rel="stylesheet" href="{{ buildPath }}static/css/normalize.css">
+    <link rel="stylesheet" href="{{ buildPath }}static/css/style.css">
 </head>

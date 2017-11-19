@@ -1,0 +1,55 @@
+<!doctype html>
+<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns#">
+
+    {{> head }}
+
+	<body class="page-template page-template-page-archive page site-map">
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+        <!-- wrapper -->
+        <div class="wrapper shadow shadow-inset">
+
+            {{> header }}
+
+            <main role="main">
+                <section>
+                    <h1>{{ title }}</h1>
+                    <article class="page type-page status-publish hentry">
+                    
+                        <!-- site pages -->
+                        <div class="archive-group archive-pages">
+                            <h2>{{ collections.pages.metadata.title }}:</h2>
+                            <ul>
+                            {{#each collections.pages}}
+                                <li>
+                                    <a href="{{ @root.buildPath }}{{ this.slug }}">{{ title }}</a>
+                                </li>
+                            {{/each}}
+                            </ul>
+                        </div>
+
+                        <!-- site posts -->
+                        <div class="archive-group archive-posts">
+                            <h2>{{ collections.articles.metadata.title }}:</h2>
+                            <ul>
+                            {{#eachReverse collections.articles}}
+                                <li>
+                                    <a href="{{ @root.buildPath }}{{ this.path }}">{{ title }}</a>
+                                </li>
+                            {{/eachReverse}}
+                            </ul>
+                        </div>
+
+                    </article>
+                </section>
+            </main>
+
+        <!-- /wrapper -->
+        </div>
+
+        {{> scripts-footer }}
+
+    </body>
+</html>

@@ -2,7 +2,7 @@
 title: Hire Marketing Generalists, Harvard Says
 date: 2013-05-09 17:01
 author: David Timmons
-category: Marketing
+category: marketing
 slug: hire-marketing-generalists-harvard-says
 draft: false
 metaDescription: >-
@@ -105,8 +105,6 @@ What do you think -- generalists or specialists for your marketing
 department?
 
 
-[3]: http://blogs.hbr.org/cs/2012/06/all_hail_the_generalist.html
-  "Click here to read 'All Hail the Generalist' at the Harvard Business Review website."
+[3]: http://blogs.hbr.org/cs/2012/06/all_hail_the_generalist.html "Click here to read 'All Hail the Generalist' at the Harvard Business Review website."
 
-[4]: http://www.geekwire.com/2013/commentary-startup-marketing-minds-aka-fullstack-marketers/
-  "Click here to read about 'full-stack marketers' at GeekWire."
+[4]: http://www.geekwire.com/2013/commentary-startup-marketing-minds-aka-fullstack-marketers/ "Click here to read about 'full-stack marketers' at GeekWire."

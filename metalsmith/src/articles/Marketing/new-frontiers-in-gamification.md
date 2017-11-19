@@ -2,7 +2,7 @@
 title: New Frontiers In Gamification
 date: 2013-04-25 07:00
 author: David Timmons
-category: Marketing
+category: marketing
 slug: new-frontiers-in-gamification
 draft: false
 metaDescription: >-
@@ -74,11 +74,8 @@ Have you used gamification to shift internal processes at your
 organization?
 
 
-[3]: http://www.gamification.org/
-  "Click here to learn more about gamification."
+[3]: http://www.gamification.org/ "Click here to learn more about gamification."
 
-[Foursquare]: https://foursquare.com/
-  "Click here to learn more about Foursquare."
+[Foursquare]: https://foursquare.com/ "Click here to learn more about Foursquare."
 
-[Gamification]: http://en.wikipedia.org/wiki/Gamification
-  "Click here to read more about gamification."
+[Gamification]: http://en.wikipedia.org/wiki/Gamification "Click here to read more about gamification."

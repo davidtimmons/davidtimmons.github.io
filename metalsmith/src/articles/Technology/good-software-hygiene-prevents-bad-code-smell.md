@@ -2,7 +2,7 @@
 title: Good Software Hygiene Prevents Bad Code Smell
 date: 2016-09-17 11:50
 author: David Timmons
-category: Technology
+category: technology
 slug: good-software-hygiene-prevents-bad-code-smell
 draft: false
 metaDescription: >-
@@ -98,11 +98,8 @@ code? Instead, our goal should be the fresh and clean scent of
 maintainable, hygienic software!
 
 
-[3]: https://www.sig.eu/en/building-maintainable-software
-  "Visit www.sig.eu."
+[3]: https://www.sig.eu/en/building-maintainable-software "Visit www.sig.eu."
 
-[4]: https://www.iso.org/obp/ui/#iso:std:iso-iec:25010:ed-1:v1:en
-  "Visit www.iso.org."
+[4]: https://www.iso.org/obp/ui/#iso:std:iso-iec:25010:ed-1:v1:en "Visit www.iso.org."
 
-[5]: http://nvie.com/posts/a-successful-git-branching-model/
-  "Visit nvie.com."
+[5]: http://nvie.com/posts/a-successful-git-branching-model/ "Visit nvie.com."

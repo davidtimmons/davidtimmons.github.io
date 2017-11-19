@@ -2,7 +2,7 @@
 title: Storytelling Is Selling
 date: 2013-03-28 07:00
 author: David Timmons
-category: Marketing
+category: marketing
 slug: storytelling-is-selling
 draft: false
 metaDescription: >-
@@ -98,8 +98,6 @@ you close another deal. Your sale is at stake.
 How do you use storytelling to aid your presentations?
 
 
-[3]: http://opinionator.blogs.nytimes.com/2010/10/24/stories-vs-statistics/
-  "Click here to read more from The New York Times."
+[3]: http://opinionator.blogs.nytimes.com/2010/10/24/stories-vs-statistics/ "Click here to read more from The New York Times."
 
-[4]: http://www.entrepreneur.com/article/225778
-  "Click here to read more from Entrepreneur."
+[4]: http://www.entrepreneur.com/article/225778 "Click here to read more from Entrepreneur."

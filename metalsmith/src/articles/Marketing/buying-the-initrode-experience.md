@@ -2,7 +2,7 @@
 title: Buying the Initrode Experience
 date: 2012-12-06 07:27
 author: David Timmons
-category: Marketing
+category: marketing
 slug: buying-the-initrode-experience
 draft: true
 metaDescription: Your customer buys an experience, not your widgets. What are you selling?
@@ -137,5 +137,4 @@ conversions. Brand gravity increases the velocity of goal conversions.
 What else would you suggest for our hypothetical IT services company?
 
 
-[3]: http://www.imdb.com/title/tt0151804/plotsummary
-  "Click here to read more about Office Space."
+[3]: http://www.imdb.com/title/tt0151804/plotsummary "Click here to read more about Office Space."

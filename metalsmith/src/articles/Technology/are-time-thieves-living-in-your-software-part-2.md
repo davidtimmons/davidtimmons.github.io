@@ -2,7 +2,7 @@
 title: Are Time-Thieves Living in Your Software? (Part 2)
 date: 2016-11-12 01:16
 author: David Timmons
-category: Technology
+category: technology
 slug: are-time-thieves-living-in-your-software-part-2
 draft: false
 metaDescription: >-
@@ -88,11 +88,8 @@ pursue these thieves one-by-one, your time will remain your own and the
 people who use your application will thank you.
 
 
-[3]: {{rootPath}}are-time-thieves-living-in-your-software-part-1/
-  "Are Time-Thieves Living in Your Software? (Part 1)"
+[3]: {{buildPath}}are-time-thieves-living-in-your-software-part-1/ "Are Time-Thieves Living in Your Software? (Part 1)"
 
-[4]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop
-  "Visit developer.mozilla.org."
+[4]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop "Visit developer.mozilla.org."
 
-[5]: http://www.phpied.com/rendering-repaint-reflowrelayout-restyle/
-  "Visit www.phpied.com."
+[5]: http://www.phpied.com/rendering-repaint-reflowrelayout-restyle/ "Visit www.phpied.com."

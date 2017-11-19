@@ -2,7 +2,7 @@
 title: Stop Your Ads Until After You Read This
 date: 2013-02-07 07:00
 author: David Timmons
-category: Marketing
+category: marketing
 slug: stop-your-ads-until-after-you-read-this
 draft: false
 metaDescription: Ads are only effective if you follow this advice.
@@ -59,8 +59,6 @@ What other advise would you give to organizations promoting themselves
 with modern media tactics?
 
 
-[3]: https://www.thinkwithgoogle.com/marketing-resources/micro-moments/2011-winning-zmot-ebook/
-  "Click here to read the 'Winning the Zero Moment of Truth' ebook."
+[3]: https://www.thinkwithgoogle.com/marketing-resources/micro-moments/2011-winning-zmot-ebook/ "Click here to read the 'Winning the Zero Moment of Truth' ebook."
 
-[4]: {{rootPath}}/marketing-strategy/
-  "Click here to read more about marketing strategy."
+[4]: {{buildPath}}/marketing-strategy/ "Click here to read more about marketing strategy."

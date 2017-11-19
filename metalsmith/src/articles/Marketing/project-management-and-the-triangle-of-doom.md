@@ -2,7 +2,7 @@
 title: Project Management And The Triangle Of Doom
 date: 2013-03-07 07:00
 author: David Timmons
-category: Marketing
+category: marketing
 slug: project-management-and-the-triangle-of-doom
 draft: false
 metaDescription: >-
@@ -70,5 +70,4 @@ management process as an efficient way to achieve success.
 How do you manage constraints in your projects?
 
 
-[3]: http://en.wikipedia.org/wiki/Project_triangle
-  "Click here to read more about the Project Management Triangle."
+[3]: http://en.wikipedia.org/wiki/Project_triangle "Click here to read more about the Project Management Triangle."

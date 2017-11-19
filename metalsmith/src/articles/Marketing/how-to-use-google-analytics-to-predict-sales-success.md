@@ -2,7 +2,7 @@
 title: How To Use Google Analytics To Predict Sales Success
 date: 2013-02-21 07:00
 author: David Timmons
-category: Marketing
+category: marketing
 slug: how-to-use-google-analytics-to-predict-sales-success
 draft: false
 metaDescription: >-
@@ -102,14 +102,10 @@ your marketing success.
 What web analytics methods or tools do you use with *your* website?
 
 
-[3]: {{imagePath}}2013/02/how-to-use-google-analytics-to-predict-sales-success1.jpg
-  "Google Analytics Overview: 'Pageviews' (1 of 3)"
+[3]: {{imagePath}}2013/02/how-to-use-google-analytics-to-predict-sales-success1.jpg "Google Analytics Overview: 'Pageviews' (1 of 3)"
 
-[4]: {{imagePath}}2013/02/how-to-use-google-analytics-to-predict-sales-success2.jpg
-  "Google Analytics Overview: 'Engagement' (2 of 3)"
+[4]: {{imagePath}}2013/02/how-to-use-google-analytics-to-predict-sales-success2.jpg "Google Analytics Overview: 'Engagement' (2 of 3)"
 
-[5]: {{imagePath}}2013/02/how-to-use-google-analytics-to-predict-sales-success3.jpg
-  "Google Analytics Overview: 'Advanced Segmentation' (3 of 3)"
+[5]: {{imagePath}}2013/02/how-to-use-google-analytics-to-predict-sales-success3.jpg "Google Analytics Overview: 'Advanced Segmentation' (3 of 3)"
 
-[Google Analytics]: http://www.google.com/analytics/
-  "Click here to visit the Google Analytics website."
+[Google Analytics]: http://www.google.com/analytics/ "Click here to visit the Google Analytics website."

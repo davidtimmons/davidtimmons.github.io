@@ -2,7 +2,7 @@
 title: Have you met Docker's cousin Vagrant?
 date: 2016-05-25 16:58
 author: David Timmons
-category: Technology
+category: technology
 slug: have-you-met-dockers-cousin-vagrant
 draft: false
 metaDescription: >-
@@ -88,5 +88,4 @@ when you really need a saw. A virtual machine solution like Vagrant can
 be that saw.
 
 
-[3]: http://stackoverflow.com/questions/16647069/should-i-use-vagrant-or-docker-for-creating-an-isolated-environment#answer-21314566
-  "Visit stackoverflow.com."
+[3]: http://stackoverflow.com/questions/16647069/should-i-use-vagrant-or-docker-for-creating-an-isolated-environment#answer-21314566 "Visit stackoverflow.com."

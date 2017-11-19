@@ -2,7 +2,7 @@
 title: Oracle Content Marketing in 5 Minutes or Less
 date: 2016-04-28 18:14
 author: David Timmons
-category: Technology
+category: technology
 slug: oracle-content-marketing-in-5-minutes-or-less
 draft: false
 metaDescription: >-
@@ -85,14 +85,10 @@ particular situation. However, until this tool can can deploy itself,
 keep these five quick tips in mind as you navigate the waters.
 
 
-[3]: https://vimeo.com/78224158
-  "Visit vimeo.com."
+[3]: https://vimeo.com/78224158 "Visit vimeo.com."
 
-[4]: http://docs.oracle.com/cloud/latest/marketingcs_gs/OMCBD/
-  "Visit docs.oracle.com."
+[4]: http://docs.oracle.com/cloud/latest/marketingcs_gs/OMCBD/ "Visit docs.oracle.com."
 
-[5]: http://docs.oracle.com/cloud/latest/marketingcs_gs/OMCBC/index.html
-  "Visit docs.oracle.com."
+[5]: http://docs.oracle.com/cloud/latest/marketingcs_gs/OMCBC/index.html "Visit docs.oracle.com."
 
-[Twig]: http://twig.sensiolabs.org/
-  "Click here to visit the official Twig website."
+[Twig]: http://twig.sensiolabs.org/ "Click here to visit the official Twig website."

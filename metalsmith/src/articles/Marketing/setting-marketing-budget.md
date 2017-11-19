@@ -2,7 +2,7 @@
 title: Setting a Marketing Budget
 date: 2012-10-08 02:27
 author: David Timmons
-category: Marketing
+category: marketing
 slug: setting-marketing-budget
 draft: false
 metaDescription: >-
@@ -60,8 +60,6 @@ With a budget firmly in hand you gain a much better sense which
 marketing activities fit your business.
 
 
-[3]: https://www.sba.gov/blogs/how-set-marketing-budget-fits-your-business-goals-and-provides-high-return-investment
-  "Click here to read the U.S. Small Business Administration article."
+[3]: https://www.sba.gov/blogs/how-set-marketing-budget-fits-your-business-goals-and-provides-high-return-investment "Click here to read the U.S. Small Business Administration article."
 
-[4]: http://www.brandrepublic.com/news/1155718/Six-marketing-lessons-Red-Bull-Stratos
-  "Click here to read the article 'Six marketing lessons from Red Bull Stratos'."
+[4]: http://www.brandrepublic.com/news/1155718/Six-marketing-lessons-Red-Bull-Stratos "Click here to read the article 'Six marketing lessons from Red Bull Stratos'."

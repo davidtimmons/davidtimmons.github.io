@@ -9,13 +9,14 @@
   "private": true,
   "scripts": {
     "build": "node metalsmith/index.js",
-    "convert": "utilities/convert_meta_to_yaml.sh",
-    "debug": "DEBUG=metalsmith:* node index.js"
+    "build:dev": "DEV=1 ROOT=\"file://$(pwd)/metalsmith/build/\" node metalsmith/index.js",
+    "debug:all": "DEBUG=metalsmith:* yarn run build:dev"
   },
   "dependencies": {
     "debug": "^3.1.0",
     "handlebars": "^4.0.11",
     "metalsmith": "^2.3.0",
+    "metalsmith-collections": "^0.9.0",
     "metalsmith-debug": "^1.1.0",
     "metalsmith-default-values": "^2.0.0",
     "metalsmith-drafts": "^0.0.1",
@@ -23,6 +24,7 @@
     "metalsmith-markdown": "^0.2.1",
     "metalsmith-permalinks": "^0.5.0",
     "metalsmith-sitemap": "^1.2.0",
+    "moment": "^2.19.2",
     "multimatch": "^2.1.0"
   }
 }

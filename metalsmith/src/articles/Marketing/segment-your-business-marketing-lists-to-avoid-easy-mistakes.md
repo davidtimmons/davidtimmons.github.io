@@ -2,7 +2,7 @@
 title: Segment Your Business Marketing Lists to Avoid Easy Mistakes
 date: 2013-01-17 06:59
 author: David Timmons
-category: Marketing
+category: marketing
 slug: segment-your-business-marketing-lists-to-avoid-easy-mistakes
 draft: false
 metaDescription: >-
@@ -58,11 +58,8 @@ Business marketing segmentation through the use of firmographics helps
 you target your promotional efforts. This leads to greater success.
 
 
-[demographics]: http://www.merriam-webster.com/dictionary/demographics
-  "Click here to read a definition of demographics."
+[demographics]: http://www.merriam-webster.com/dictionary/demographics "Click here to read a definition of demographics."
 
-[firmographics]: http://en.wikipedia.org/wiki/Firmographics
-  "Click here to read more about firmographics."
+[firmographics]: http://en.wikipedia.org/wiki/Firmographics "Click here to read more about firmographics."
 
-[psychographics]: http://www.merriam-webster.com/dictionary/psychographics
-  "Click here to read a definition of psychographics."
+[psychographics]: http://www.merriam-webster.com/dictionary/psychographics "Click here to read a definition of psychographics."

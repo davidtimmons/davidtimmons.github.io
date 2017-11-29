@@ -16,8 +16,8 @@
             <main role="main">
                 <section class="blog-feed">
                     <h1>Latest Thoughts</h1>
-                    
-                    {{#eachReverse collections.articles}}
+
+                    {{#each pagination.files}}
                     <article class="clearfix post type-post status-publish format-standard has-post-thumbnail hentry category-{{ category }}">
 
                         <!-- post details -->
@@ -37,14 +37,28 @@
                                 <img src="{{ this.hero.imgUrlSrc }}" alt="{{ this.title }}">
                             </a>
                         </div>
-            
+
                         <!-- post preview -->
                         <p>
                             {{ this.preview }} <a class="view-article" href="{{ @root.buildPath }}{{ this.slug }}/">Keep Reading »</a>
                         </p>
 
                     </article>
-                    {{/eachReverse}}
+                    {{/each}}
+
+                    <!-- pagination -->
+                    <div class="pagination shadow">
+                        {{#if pagination.previous}}
+                        <a href="{{ buildPath }}{{ pagination.previous.path }}" class="posts-link" title="Click to read newer content.">
+                            « newer
+                        </a>
+                        {{/if}}
+                        {{#if pagination.next}}
+                        <a href="{{ buildPath }}{{ pagination.next.path }}" class="posts-link" title="Click to read older content.">
+                            older »
+                        </a>
+                        {{/if}}
+                    </div>
 
                     <br class="clearfix">
                 </section>

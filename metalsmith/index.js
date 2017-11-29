@@ -11,6 +11,7 @@ const drafts         = require('metalsmith-drafts');
 const injectMetadata = require('./plugins/inject-metadata');
 const layouts        = require('metalsmith-layouts');
 const markdown       = require('metalsmith-markdown');
+const pagination     = require('metalsmith-pagination');
 const permalinks     = require('metalsmith-permalinks');
 const preview        = require('./plugins/preview');
 const sitemap        = require('metalsmith-sitemap');
@@ -21,6 +22,7 @@ const HOST = 'david.timmons.io';
 const ROOT_PATH = `http://${HOST}/`;
 const BUILD_PATH = process.env.DEV ? process.env.ROOT : ROOT_PATH;
 const IMAGE_PATH = BUILD_PATH + 'static/images/';
+const NOW =  Moment().format('YYYY-MM-DD HH:mm');
 
 
 /////////////
@@ -65,7 +67,7 @@ Metalsmith(__dirname)
     rootPath: ROOT_PATH,
     buildPath: BUILD_PATH,
     imagePath: IMAGE_PATH,
-    now: Moment().format('YYYY-MM-DD HH:mm'),
+    now: NOW,
     social: {
       email: '&#100;&#064;&#116;&#105;&#109;&#109;&#111;&#110;&#115;&#046;&#105;&#111;',
       github: 'https://github.com/davidtimmons',
@@ -114,6 +116,7 @@ Metalsmith(__dirname)
     articles: {
       pattern: ['articles/**/*.md'],
       sortBy: 'date',
+      reverse: true,
       metadata: {
         title: 'Articles',
       },
@@ -132,6 +135,24 @@ Metalsmith(__dirname)
         title: 'Pages',
       },
     },
+  }))
+  .use(pagination({ // See: https://github.com/blakeembrey/metalsmith-pagination
+    'collections.articles': {
+      perPage: 10,
+      layout: 'blog.html',
+      first: 'blog/index.html',
+      path: 'blog/page/:num/index.html',
+      noPageOne: true,
+      pageMetadata: {
+        title: 'Blog',
+        date: NOW,
+        author: 'David Timmons',
+        slug: 'blog',
+        draft: false,
+        metaDescription: 'My blog is a collection of thoughts spanning topics from technology to marketing.',
+        permalink: false,
+      },
+    }
   }))
   .use(markdown({ // See: https://github.com/segmentio/metalsmith-markdown
     gfm: true,

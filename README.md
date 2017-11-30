@@ -1,15 +1,23 @@
-# david-timmons-io
+david-timmons-io
+====================
+_**Author:** David Timmons ([http://david.timmons.io](http://david.timmons.io "Visit my website!"))_
 
-TODO: During project initialization, modify "config" and "config.py".
+This is my personal website. It uses the static site generator _Metalsmith_ to convert _Markdown_
+files and _Handlebars_ templates into published content. Utility tools include _Python_ and
+_Bash_ webscrapers that pull content from the previous _WordPress_ site and convert it into the
+new format.
 
-Start Python Virtual Environment:
+## Features:
 
-```Bash
-source venv/bin/activate
-```
+* Blog articles.
+* Project demos.
+* Project descriptions.
 
-Exit Python Virtual Environment:
+## Dependencies (Development Only)
 
-```Bash
-deactivate
-```
+* [Metalsmith:](http://www.metalsmith.io "Visit the Metalsmith website.") Generates static content.
+* [Handlebars:](http://handlebarsjs.com "Visit the Handlebars website.") Supports HTML templates.
+
+## Production
+
+See the live website [**here**](http://david.timmons.io "Visit my website!")!

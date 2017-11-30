@@ -17,7 +17,7 @@ const preview        = require('./plugins/preview');
 const sitemap        = require('metalsmith-sitemap');
 
 // Define constants.
-const BUILD_DIR = './build';
+const BUILD_DIR = process.env.DEV ? './build' : '../../davidtimmons.github.io';
 const HOST = 'david.timmons.io';
 const ROOT_PATH = `http://${HOST}/`;
 const BUILD_PATH = process.env.DEV ? process.env.ROOT : ROOT_PATH;

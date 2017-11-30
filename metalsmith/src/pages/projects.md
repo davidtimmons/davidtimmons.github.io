@@ -13,7 +13,7 @@ continually teach myself new skills to expand my repertoire. While some
 projects here are proprietary, many are not. Everything below is my own
 work unless specifically stated otherwise.
 
-## » Mega Air Man
+<h2><span class="headline-image">»</span> Mega Air Man</h2>
 <p>
   <img src="{{ imagePath }}2016/02/mega-air-man.jpg"
        alt="Mega Air Man"
@@ -48,7 +48,7 @@ in client-side Web applications.
 </div>
 
 
-## » React CSV Component
+<h2><span class="headline-image">»</span> React CSV Component</h2>
 <p>
   <img src="{{ imagePath }}2016/01/react-csv-component.jpg"
        alt="React CSV Component"
@@ -85,7 +85,7 @@ browsers.)
 </div>
 
 
-## » Hacka\_finder
+<h2><span class="headline-image">»</span> Hacka_finder</h2>
 <p>
   <img src="{{ imagePath }}2015/08/hackafinder-home.jpg"
        alt="Hacka_finder"
@@ -131,7 +131,7 @@ started building. This is the result!
 </div>
 
 
-## » Simon Says Circuit
+<h2><span class="headline-image">»</span> Simon Says Circuit</h2>
 <p>
   <img src="{{ imagePath }}2014/08/simon-says-breadboard.jpg"
        alt="Simon Says Circuit"
@@ -166,7 +166,7 @@ moving the board to activate the tilt switch.
 </div>
 
 
-## » Text Scalpel App
+<h2><span class="headline-image">»</span> Text Scalpel App</h2>
 <p>
   <img src="{{ imagePath }}2014/08/text-scalpel-app-dashboard.png"
        alt="Text Scalpel App"
@@ -200,7 +200,7 @@ relational tables that link users to their text analysis results.
 </div>
 
 
-## » Browser Checklist
+<h2><span class="headline-image">»</span> Browser Checklist</h2>
 <p>
   <img src="{{ imagePath }}2014/08/browser-checklist.jpg"
        alt="Browser Checklist"
@@ -232,7 +232,7 @@ to cookies when local storage is unavailable.
 </div>
 
 
-## » Fortune 100 Pricing Tool
+<h2><span class="headline-image">»</span> Fortune 100 Pricing Tool</h2>
 <p>
   <img src="{{ imagePath }}2014/05/fortune-100-pricing-tool.jpg"
        alt="Fortune 100 Pricing Tool"
@@ -271,7 +271,7 @@ I built this tool entirely in *Microsoft Excel* using a
 </div>
 
 
-## » Website Animation Control Panel
+<h2><span class="headline-image">»</span> Website Animation Control Panel</h2>
 <p>
   <img src="{{ imagePath }}2014/05/website-animation-control-panel.jpg"
        alt="Website Animation Control Panel"
@@ -309,7 +309,7 @@ code. Here's how it works:
 </div>
 
 
-## » Front-End Web Development
+<h2><span class="headline-image">»</span> Front-End Web Development</h2>
 <p>
   <img src="{{ imagePath }}2014/05/front-end-web-development.jpg"
        alt="Front-End Web Development"

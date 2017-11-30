@@ -2,6 +2,7 @@
 title: About
 date: {{ now }}
 author: David Timmons
+slug: about
 draft: false
 metaDescription: >-
     My name is David Timmons. I'm a technologist, entrepreneur, and business veteran.
@@ -22,10 +23,12 @@ My name is **David Timmons**. Software engineering and entrepreneurship
 are my passions. I particularly love studying new programming languages,
 exploring new business ideas, and of course, building software.
 
-**Current favorite technologies:**
-Python, JavaScript \[ES2015+, Node.js\], Rust, SQL
+**Current favorite technologies:**<br>
+JavaScript \[ES2015+, Node.js\], Python, Rust, SQL
 
-<h3 class="subhead">Background</h3>
+<div class="single-content">
+  <h3 class="subhead">Background</h3>
+</div>
 
 My career approach has always been motivated by a strong, innate desire
 to learn. I am continually driven to seek new ideas, acquire new skills,
@@ -86,3 +89,5 @@ contribute to our mobile product.
 
 Feel free to look around, and if you have any questions or want to talk,
 [please send me an email](mailto:{{ social.email }} "Click here to email me.").
+
+<br class="clearfix">

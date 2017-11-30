@@ -31,7 +31,7 @@ html {
     font-size:62.5%;
 }
 body {
-    font:300 16px/2.000 'Museo Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font:400 16px/2.000 'Ubuntu', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-shadow: 0 0 1px #dddddd;
     color: #2f3133;
     background: #000000 repeat url('../images/timmons-logo-pattern.png');
@@ -562,28 +562,6 @@ img.about-portrait {
 /*------------------------------------*\
     TYPOGRAPHY
 \*------------------------------------*/
-
-/* Source: Jos Buivenga of exljbris (http://www.exljbris.com/museosans.html) */
-@font-face {
-    font-family:'Museo Sans';
-    src:url('fonts/museosans_500-webfont.eot');
-    src:url('fonts/museosans_500-webfont.eot?#iefix') format('embedded-opentype'),
-        url('fonts/museosans_500-webfont.woff') format('woff'),
-        url('fonts/museosans_500-webfont.ttf') format('truetype'),
-        url('fonts/museosans_500-webfont.svg#font-name') format('svg');
-    font-weight:normal;
-    font-style:normal;
-}
-@font-face {
-    font-family:'Museo Sans';
-    src:url('fonts/museosans_500_italic-webfont.eot');
-    src:url('fonts/museosans_500_italic-webfont.eot?#iefix') format('embedded-opentype'),
-    url('fonts/museosans_500_italic-webfont.woff') format('woff'),
-    url('fonts/museosans_500_italic-webfont.ttf') format('truetype'),
-    url('fonts/museosans_500_italic-webfont.svg#font-name') format('svg');
-    font-weight:normal;
-    font-style:italic;
-}
 
 /* first letter stylization */
 .about section p:first-of-type::first-letter,

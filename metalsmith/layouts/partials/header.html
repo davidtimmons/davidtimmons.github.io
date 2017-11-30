@@ -41,19 +41,32 @@
     </form>
 
     <!-- nav -->
-    <!-- current-menu-item page_item current_page_item current_page_parent -->
     <nav class="nav shadow" role="navigation">
         <ul>
-            <li class="menu-item menu-item-type-post_type menu-item-object-page">
+            <li id="menu-item-1" class="menu-item menu-item-type-post_type menu-item-object-page page_item">
                 <a href="{{ buildPath }}projects/">Projects</a>
             </li>
-            <li class="menu-item menu-item-type-post_type menu-item-object-page">
+            <li id="menu-item-2" class="menu-item menu-item-type-post_type menu-item-object-page page_item">
                 <a href="{{ buildPath }}blog/">Blog</a>
             </li>
-            <li class="menu-item menu-item-type-post_type menu-item-object-page">
+            <li id="menu-item-3" class="menu-item menu-item-type-post_type menu-item-object-page page_item">
                 <a href="{{ buildPath }}site-map/">Site map</a>
             </li>
         </ul>
     </nav>
+
+    <script>
+        // Add a special CSS class to the navigation menu item for the current page.
+        var pageTitle = document.title.toLowerCase();
+        var activeClass = ' current-menu-item current_page_item';
+
+        if (pageTitle.indexOf('projects') >= 0) {
+            document.getElementById('menu-item-1').className += activeClass;
+        } else if (pageTitle.indexOf('blog') >= 0) {
+            document.getElementById('menu-item-2').className += activeClass;
+        } else if (pageTitle.indexOf('site map') >= 0) {
+            document.getElementById('menu-item-3').className += activeClass;
+        }
+    </script>
 
 </header>

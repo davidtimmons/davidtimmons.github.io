@@ -31,28 +31,25 @@
             
                         <!-- post content -->
                         <div class="single-content">
-
                             {{> hero }}
                             {{{ contents }}}
+                        </div>
 
-                            <!-- post navigation -->
-                            <div class="posts-nav shadow">
-                                <h3>Other Thoughts</h3>
-                                <p>
-                                    <span class="posts-nav-next">next:</span>
-                                    {{#if this.next.path }}
-                                    <a class="posts-nav-link" href="{{ buildPath }}{{ this.next.path }}/" rel="next">{{ this.next.title }}</a>
-                                    {{/if}}
-                                </p>
-                                <p>
-                                    <span class="posts-nav-prev">previous:</span>
-                                    {{#if this.previous.path}}
-                                    <a class="posts-nav-link" href="{{ buildPath }}{{ this.previous.path }}/" rel="prev">{{ this.previous.title }}</a>
-                                    {{/if}}
-                                </p>
-                            </div>
-
-                        <!-- /post content -->
+                        <!-- post navigation -->
+                        <div class="posts-nav shadow">
+                            <h3>Other Thoughts</h3>
+                            {{#if this.previous.path}}
+                            <p>
+                                <span class="posts-nav-prev">next:</span>
+                                <a class="posts-nav-link" href="{{ buildPath }}{{ this.previous.path }}/" rel="prev">{{ this.previous.title }}</a>
+                            </p>
+                            {{/if}}
+                            {{#if this.next.path }}
+                            <p>
+                                <span class="posts-nav-next">previous:</span>
+                                <a class="posts-nav-link" href="{{ buildPath }}{{ this.next.path }}/" rel="next">{{ this.next.title }}</a>
+                            </p>
+                            {{/if}}
                         </div>
 
                         <br class="clearfix">

@@ -34,11 +34,11 @@
                         <div class="archive-group archive-posts">
                             <h2>{{ collections.articles.metadata.title }}:</h2>
                             <ul>
-                            {{#eachReverse collections.articles}}
+                            {{#each collections.articles}}
                                 <li>
                                     <a href="{{ @root.buildPath }}{{ this.path }}">{{ title }}</a>
                                 </li>
-                            {{/eachReverse}}
+                            {{/each}}
                             </ul>
                         </div>
 

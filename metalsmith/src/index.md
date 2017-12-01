@@ -83,7 +83,7 @@ programming languages and browser technologies is particularly
 fascinating to me.
 
 I currently work as a full stack software engineer at Roll Forward, creator
-of the Towny mobile app. I work with Node.js, MariaDB, ReactNative, and
+of the Towny mobile app. I work with Node.js, MariaDB, React Native, and
 AngularJS to maintain our backend systems, support our business users, and
 contribute to our mobile product.
 

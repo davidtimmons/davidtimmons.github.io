@@ -32,10 +32,11 @@ repetition, every student of technology interested in the Web should
 build a full app at least once. It's worth it.
 
 If life is a road continually traveled, I look back now and marvel at
-the distance I covered these past months. Finishing the [Hacka\_finder][3]
-[prototype][4] was very gratifying. Taking on a solo project this large
-taught me more than I ever learned in a classroom, and I want to share
-with my fellow adventurers some of what I discovered along the way.
+the distance I covered these past months. Finishing the
+[Hacka\_finder prototype][4] was very gratifying. Taking on a solo project
+this large taught me more than I ever learned in a classroom, and I want
+to share with my fellow adventurers some of what I discovered along
+the way.
 
 ## Finding Your Footing
 
@@ -230,8 +231,6 @@ value. It was definitely worth the effort. If you decide to be MEAN and
 take your own journey to build a Web application from scratch, good luck
 to you. Just remember it takes longer than two weeks!
 
-
-[3]: {{ buildPath }}demos/hackafinder/ "View the Hacka_finder demo here."
 
 [4]: https://github.com/davidtimmons/hackafinder "View the Hacka_finder code here."
 

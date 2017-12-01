@@ -118,11 +118,6 @@ started building. This is the result!
   <p class="project-tag">Link</p>
   <p class="project-link">
     <a class="posts-nav-link"
-       href="{{ buildPath }}demos/hackafinder/"
-       title="Click here to see the demo.">
-      Demo
-    </a> .
-    <a class="posts-nav-link"
        href="https://github.com/davidtimmons/hackafinder"
        title="Click here to see the project code.">
       GitHub

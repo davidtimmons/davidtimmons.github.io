@@ -106,7 +106,14 @@ Metalsmith(__dirname)
   .use(injectMetadata({
     pattern: '**/*.md',
     fileKeys: ['contents', 'date', 'hero'],
-    metadataKeys: ['buildPath', 'social.email', 'imagePath', 'now'],
+    metadataKeys: [
+      'buildPath',
+      'imagePath',
+      'now',
+      'social.email',
+      'social.github',
+      'social.linkedin',
+    ],
   }))
   .use(preview({
     pattern: 'articles/**/*.md',

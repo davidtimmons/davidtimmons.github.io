@@ -13,7 +13,7 @@ const layouts        = require('metalsmith-layouts');
 const markdown       = require('metalsmith-markdown');
 const pagination     = require('metalsmith-pagination');
 const permalinks     = require('metalsmith-permalinks');
-const preview        = require('./plugins/preview');
+const preview        = require('metalsmith-preview');
 const sitemap        = require('metalsmith-sitemap');
 
 // Define constants.
@@ -115,7 +115,7 @@ Metalsmith(__dirname)
       'social.linkedin',
     ],
   }))
-  .use(preview({
+  .use(preview({ // See: https://github.com/davidtimmons/metalsmith-preview
     pattern: 'articles/**/*.md',
     words: 40,
   }))

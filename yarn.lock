@@ -156,15 +156,15 @@ consolidate@^0.14.0:
   dependencies:
     bluebird "^3.1.1"
 
-debug@^2.2.0, debug@^2.6.8:
-  version "2.6.9"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.9.tgz#5d128515df134ff327e90a4c93f4e077a536341f"
+debug@3.1.x, debug@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
   dependencies:
     ms "2.0.0"
 
-debug@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
+debug@^2.2.0, debug@^2.6.8:
+  version "2.6.9"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.9.tgz#5d128515df134ff327e90a4c93f4e077a536341f"
   dependencies:
     ms "2.0.0"
 
@@ -501,6 +501,13 @@ metalsmith-permalinks@^0.5.0:
     slug-component "~1.1.0"
     substitute "https://github.com/segmentio/substitute/archive/0.0.1.tar.gz"
 
+metalsmith-preview@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/metalsmith-preview/-/metalsmith-preview-1.0.2.tgz#5fe4491657a490cd1a74db44651ba431cd09d69b"
+  dependencies:
+    debug "3.1.x"
+    multimatch "2.1.x"
+
 metalsmith-sitemap@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/metalsmith-sitemap/-/metalsmith-sitemap-1.2.0.tgz#778fb5c3c1782daeaa20ecfcde23937d05d55b1d"
@@ -562,7 +569,7 @@ ms@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
 
-multimatch@^2.0.0, multimatch@^2.1.0:
+multimatch@2.1.x, multimatch@^2.0.0, multimatch@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/multimatch/-/multimatch-2.1.0.tgz#9c7906a22fb4c02919e2f5f75161b4cdbd4b2a2b"
   dependencies:

@@ -445,8 +445,8 @@ metalsmith-collections@^0.9.0:
     uniq "^1.0.1"
 
 metalsmith-debug@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/metalsmith-debug/-/metalsmith-debug-1.1.0.tgz#6490225703bf45df96cae485b41838022f696849"
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/metalsmith-debug/-/metalsmith-debug-1.2.0.tgz#481987987a2ece12b761dc0cc533cf92e5f16bb8"
   dependencies:
     debug "^2.2.0"
     multimatch "^2.1.0"
@@ -466,8 +466,8 @@ metalsmith-drafts@^0.0.1:
   resolved "https://registry.yarnpkg.com/metalsmith-drafts/-/metalsmith-drafts-0.0.1.tgz#727858ba266934a37a287013beca9b6033272f77"
 
 metalsmith-inject-metadata@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/metalsmith-inject-metadata/-/metalsmith-inject-metadata-1.0.1.tgz#7b1d783000138d3e80936b837e863235db60500d"
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/metalsmith-inject-metadata/-/metalsmith-inject-metadata-1.0.3.tgz#21768a81bbef390ca081dea353fdcba210b8c43a"
   dependencies:
     debug "3.1.x"
     multimatch "2.1.x"
@@ -509,8 +509,8 @@ metalsmith-permalinks@^0.5.0:
     substitute "https://github.com/segmentio/substitute/archive/0.0.1.tar.gz"
 
 metalsmith-preview@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/metalsmith-preview/-/metalsmith-preview-1.0.2.tgz#5fe4491657a490cd1a74db44651ba431cd09d69b"
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/metalsmith-preview/-/metalsmith-preview-1.0.4.tgz#ece632d60fd61394e9e1459fe96181c4574d9fb8"
   dependencies:
     debug "3.1.x"
     multimatch "2.1.x"
@@ -565,8 +565,8 @@ minimist@~0.0.1:
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-0.0.10.tgz#de3f98543dbf96082be48ad1a0c7cda836301dcf"
 
 moment@^2.19.2:
-  version "2.19.2"
-  resolved "https://registry.yarnpkg.com/moment/-/moment-2.19.2.tgz#8a7f774c95a64550b4c7ebd496683908f9419dbe"
+  version "2.20.1"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.20.1.tgz#d6eb1a46cbcc14a2b2f9434112c1ff8907f313fd"
 
 moment@^2.5.1:
   version "2.19.1"

@@ -13,6 +13,116 @@ continually teach myself new skills to expand my repertoire. While some
 projects here are proprietary, many are not. Everything below is my own
 work unless specifically stated otherwise.
 
+
+<h2><span class="headline-image">»</span> Metalsmith Plugin: Inject Metadata</h2>
+<p>
+  <img src="{{ imagePath }}projects/metalsmith-inject-metadata.jpg"
+       alt="Metalsmith Plugin: Inject Metadata"
+       class="project-img shadow aligncenter size-full"
+       srcset="{{ imagePath }}projects/metalsmith-inject-metadata.jpg 648w"
+       sizes="(max-width: 648px) 100vw, 648px">
+</p>
+
+*Inject Metadata* is a plugin for *[Metalsmith][]*, a Node.js static site generator.
+This plugin injects Metalsmith metadata values into source file data during the build process.
+Metadata values can be used as program constants containing such things as file paths or
+configuration settings. Whereas template plugins pull data from the file object, this plugin
+injects data into the file object before the template build step occurs.
+
+<div class="posts-nav shadow project-details">
+  <p class="project-tag">Technology</p>
+  <p class="project-tech">
+    Node.js . Metalsmith . TDD [Mocha, Chai, Sinon, Rewire, Travis CI]
+  </p>
+  <p class="project-tag">Link</p>
+  <p class="project-link">
+    <a class="posts-nav-link"
+       href="https://github.com/davidtimmons/metalsmith-inject-metadata"
+       title="Click here to see the project code.">
+      GitHub
+    </a>
+  </p>
+  <p class="project-tag">NPM</p>
+  <p>
+    <a href="https://www.npmjs.com/package/metalsmith-inject-metadata" rel="nofollow">
+      <img alt="NPM version" src="https://img.shields.io/npm/v/metalsmith-inject-metadata.svg" style="max-width:100%;">
+    </a>
+    <a href="https://www.npmjs.com/package/metalsmith-inject-metadata" rel="nofollow">
+      <img alt="downloads" src="https://img.shields.io/npm/dm/metalsmith-inject-metadata.svg" style="max-width:100%;">
+    </a>
+  </p>
+</div>
+
+
+<h2><span class="headline-image">»</span> Metalsmith Plugin: Preview</h2>
+<p>
+  <img src="{{ imagePath }}projects/metalsmith-preview.jpg"
+       alt="Metalsmith Plugin: Preview"
+       class="project-img shadow aligncenter size-full"
+       srcset="{{ imagePath }}projects/metalsmith-preview.jpg 648w"
+       sizes="(max-width: 648px) 100vw, 648px">
+</p>
+
+*Preview* is a plugin for *[Metalsmith][]*, a Node.js static site generator.
+This plugin generates a customizable text preview for each HTML, Markdown, or plain text
+source file. Previews can be generated based on word count, character count, or custom markers
+placed within the source text.
+
+<div class="posts-nav shadow project-details">
+  <p class="project-tag">Technology</p>
+  <p class="project-tech">
+    Node.js . Metalsmith . TDD [Mocha, Chai, Sinon, Rewire, Travis CI]
+  </p>
+  <p class="project-tag">Link</p>
+  <p class="project-link">
+    <a class="posts-nav-link"
+       href="https://github.com/davidtimmons/metalsmith-preview"
+       title="Click here to see the project code.">
+      GitHub
+    </a>
+  </p>
+  <p class="project-tag">NPM</p>
+  <p>
+    <a href="https://www.npmjs.com/package/metalsmith-preview" rel="nofollow">
+      <img alt="NPM version" src="https://img.shields.io/npm/v/metalsmith-preview.svg" style="max-width:100%;">
+    </a>
+    <a href="https://www.npmjs.com/package/metalsmith-preview" rel="nofollow">
+      <img alt="downloads" src="https://img.shields.io/npm/dm/metalsmith-preview.svg" style="max-width:100%;">
+    </a>
+  </p>
+</div>
+
+
+<h2><span class="headline-image">»</span> Bowling Score</h2>
+<p>
+  <img src="{{ imagePath }}projects/bowling-score.jpg"
+       alt="Bowling Score"
+       class="project-img shadow aligncenter size-full"
+       srcset="{{ imagePath }}projects/bowling-score.jpg 648w"
+       sizes="(max-width: 648px) 100vw, 648px">
+</p>
+
+*Bowling Score* is a Python service that manages a bowling game for multiple players.
+The service takes in pins knocked down, tracks frame scores, and calculates a running total
+for each player. Scoring mechanics are based on the overview found at the *ThoughtCo.*
+["Bowling Scoring"](https://www.thoughtco.com/bowling-scoring-420895) article.
+
+<div class="posts-nav shadow project-details">
+  <p class="project-tag">Technology</p>
+  <p class="project-tech">
+    Python 3
+  </p>
+  <p class="project-tag">Link</p>
+  <p class="project-link">
+    <a class="posts-nav-link"
+       href="https://github.com/davidtimmons/bowling-score"
+       title="Click here to see the project code.">
+      GitHub
+    </a>
+  </p>
+</div>
+
+
 <h2><span class="headline-image">»</span> Mega Air Man</h2>
 <p>
   <img src="{{ imagePath }}2016/02/mega-air-man.jpg"
@@ -22,9 +132,9 @@ work unless specifically stated otherwise.
        sizes="(max-width: 648px) 100vw, 648px">
 </p>
 
-*Mega Air Man* is a game demo written in *[Elm][]* and based on the NES
-classic *Mega Man 2*. *Elm* is a cutting-edge ML-style language similar
-to *Haskell* that natively supports a functional reactive architecture
+*Mega Air Man* is a game demo written in [Elm][] and based on the NES
+classic *Mega Man 2*. Elm is a cutting-edge ML-style language similar
+to Haskell that natively supports a functional reactive architecture
 in client-side Web applications.
 
 <div class="posts-nav shadow project-details">
@@ -57,7 +167,7 @@ in client-side Web applications.
        sizes="(max-width: 648px) 100vw, 648px">
 </p>
 
-This is a React/Flux module written in *JSX* and *Javascript (ES2015)*
+This is a React/Flux module written in JSX and Javascript (ES2015)
 that simulates a CSV (Comma-Separated Value) spreadsheet. It features
 arithmetic string parsing using the shunting-yard algorithm, undo and
 redo state tracking, customizable row and column counts, an optional
@@ -99,9 +209,9 @@ registered users into hackathon teams based on skills, event goals, and
 location.
 
 This app uses a modern approach to Web application design where most of
-the "heavy lifting" is done on the client side. *AngularJS* and
-*Bootstrap* power the front end while *Node.js* with *Express* and
-*MongoDB* power the back end. Registered users search for upcoming
+the "heavy lifting" is done on the client side. AngularJS and
+Bootstrap power the front end while Node.js with Express and
+MongoDB power the back end. Registered users search for upcoming
 hackathons then find a team to join based on their unique search
 criteria.
 
@@ -170,13 +280,13 @@ moving the board to activate the tilt switch.
        sizes="(max-width: 648px) 100vw, 648px">
 </p>
 
-*Text Scalpel App* is a Python *Flask* Web application designed using
-the MVC architecture pattern.
+*Text Scalpel App* is a Python Web application designed using
+Flask and the MVC architecture pattern.
 
 A user enters his or her name then uploads a text document. The app
 parses this file to find word counts and display a list of the most
 common words. It also generates a random text paragraph using words
-pulled from the file. Results are stored in a *SQLite* database using
+pulled from the file. Results are stored in a SQLite database using
 relational tables that link users to their text analysis results.
 
 <div class="posts-nav shadow project-details">
@@ -207,7 +317,7 @@ relational tables that link users to their text analysis results.
 JavaScript drives this checklist application. It provides users an
 interactive todo list using vanilla JavaScript, local storage,
 geolocation, and the *Google Maps* API without the overhead of extensive
-JavaScript libraries. *Modernizr* detects available browser features.
+JavaScript libraries. Modernizr detects available browser features.
 The application attempts to save tasks to local storage and falls back
 to cookies when local storage is unavailable.
 
@@ -242,7 +352,7 @@ offers based on geography and product selection then exports a price
 quote into a standalone document.
 
 I built this tool entirely in *Microsoft Excel* using a
-*Model-View-Controller* (MVC) pattern. Here's how it works:
+Model-View-Controller (MVC) pattern. Here's how it works:
 
 1.  Shows current prices and user interaction controls on visible
     worksheets.
@@ -276,7 +386,7 @@ I built this tool entirely in *Microsoft Excel* using a
 </p>
 
 This animation control panel enables non-technical content managers to
-enter desired text within a modified *WordPress* interface then select a
+enter desired text within a modified WordPress interface then select a
 custom animation style and timing for each entered phrase. Animated
 phrases appear on the homepage in specified order with the custom
 animations applied. The project weight is approximately 200 lines of
@@ -314,11 +424,11 @@ code. Here's how it works:
 </p>
 
 My experience with front-end Web development includes responsive and
-fluid design, landing pages, email templates, and *WordPress* themes.
+fluid design, landing pages, email templates, and WordPress themes.
 While I build certain projects from scratch, I base many others on
-standards-compliant frameworks, such as *HTML5 Boilerplate*, to
+standards-compliant frameworks, such as HTML5 Boilerplate, to
 circumvent the many browser quirks confronting modern Web development.
-My Web projects often include *jQuery* or vanilla JavaScript and a
+My Web projects often include jQuery or vanilla JavaScript and a
 healthy dose of SEO.
 
 <div class="posts-nav shadow project-details">
@@ -334,3 +444,4 @@ healthy dose of SEO.
 
 
 [Elm]: http://elm-lang.org/ "Click here to learn more about Elm."
+[Metalsmith]: http://www.metalsmith.io/ "Click here to learn more about Metalsmith."

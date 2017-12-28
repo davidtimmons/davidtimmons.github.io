@@ -8,8 +8,8 @@
   "license": "CC BY-NC 4.0",
   "private": true,
   "scripts": {
-    "build": "node metalsmith/index.js",
-    "build:dev": "DEV=1 ROOT=\"file://$(pwd)/metalsmith/build/\" node metalsmith/index.js",
+    "build": "node app/index.js",
+    "build:dev": "DEV=1 ROOT=\"file://$(pwd)/app/build/\" node app/index.js",
     "debug:all": "DEBUG=metalsmith:* yarn run build:dev"
   },
   "dependencies": {

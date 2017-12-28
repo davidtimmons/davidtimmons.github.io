@@ -30,7 +30,7 @@ fi
 
 # Set defaults.
 THIS_DIRECTORY="$(cd `dirname $0` && pwd)"
-SRC_DIRECTORY="${THIS_DIRECTORY%`basename $THIS_DIRECTORY`}metalsmith/src"
+SRC_DIRECTORY="${THIS_DIRECTORY%`basename $THIS_DIRECTORY`}app/src"
 ARTICLES="$SRC_DIRECTORY/articles/*/*.md"
 PAGES="$SRC_DIRECTORY/pages/*.md $SRC_DIRECTORY/*.md"
 FILES="$(ls -d -1 $ARTICLES $PAGES)"

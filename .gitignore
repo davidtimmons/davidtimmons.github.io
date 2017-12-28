@@ -3,7 +3,7 @@
 #######
 todo
 examples/
-metalsmith/build/
+app/build/
 
 
 ###########

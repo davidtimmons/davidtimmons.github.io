@@ -121,7 +121,7 @@ What do you think?
 
 [3]: http://www.thinkgeek.com/blog/2013/04/nice-hat-jayne.html "Click here to read more about Think Geek's response."
 
-[4]: {{buildPath}}why-minecraft-should-be-your-model-online-community/ "Click here to read more about 'Minecraft' and Mojang."
+[4]: {{ buildPath }}why-minecraft-should-be-your-model-online-community/ "Click here to read more about 'Minecraft' and Mojang."
 
 [5]: http://www.buzzfeed.com/ellievhall/firefly-hat-triggers-corporate-crackdown "Click here to read more about the Jayne hat."
 

@@ -283,11 +283,11 @@ something happen."
 
 [6]: http://www.thinkwithgoogle.com/insights/library/studies/the-zero-moment-of-truth-macro-study/ "Click here to view the 'Zero Moment of Truth Macro Study, U.S.' report."
 
-[7]: {{imagePath}}2014/05/2-image-zmot.png "Google ZMOT Equation"
+[7]: {{ imagePath }}2014/05/2-image-zmot.png "Google ZMOT Equation"
 
-[8]: {{imagePath}}2014/05/2-image-ecosystem.png "Marketing Strategy Ecosystem"
+[8]: {{ imagePath }}2014/05/2-image-ecosystem.png "Marketing Strategy Ecosystem"
 
-[9]: {{imagePath}}2014/05/2-image-infoflow.png "Marketing Strategy Information Flow"
+[9]: {{ imagePath }}2014/05/2-image-infoflow.png "Marketing Strategy Information Flow"
 
 [AMA]: http://www.marketingpower.com/ "Click here to visit the American Marketing Association (AMA)."
 

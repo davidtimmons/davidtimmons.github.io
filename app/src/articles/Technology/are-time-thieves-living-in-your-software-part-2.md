@@ -88,7 +88,7 @@ pursue these thieves one-by-one, your time will remain your own and the
 people who use your application will thank you.
 
 
-[3]: {{buildPath}}are-time-thieves-living-in-your-software-part-1/ "Are Time-Thieves Living in Your Software? (Part 1)"
+[3]: {{ buildPath }}are-time-thieves-living-in-your-software-part-1/ "Are Time-Thieves Living in Your Software? (Part 1)"
 
 [4]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop "Visit developer.mozilla.org."
 

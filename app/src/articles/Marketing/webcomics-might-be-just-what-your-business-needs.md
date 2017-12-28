@@ -76,8 +76,8 @@ What creative marketing ideas have you tried at your organization?
 
 [5]: http://www.facebook.com/TachmornMarketing "Click here to visit the Tachmorn Marketing Facebook community."
 
-[6]: {{imagePath}}2013/01/webcomics-might-be-just-what-your-business-needs1.jpg "Agency Life: 'Client Delivery' (1 of 2)"
+[6]: {{ imagePath }}2013/01/webcomics-might-be-just-what-your-business-needs1.jpg "Agency Life: 'Client Delivery' (1 of 2)"
 
-[7]: {{imagePath}}2013/01/webcomics-might-be-just-what-your-business-needs2.jpg "Agency Life: 'Project Estimate' (2 of 2)"
+[7]: {{ imagePath }}2013/01/webcomics-might-be-just-what-your-business-needs2.jpg "Agency Life: 'Project Estimate' (2 of 2)"
 
 [Webcomics]: http://en.wikipedia.org/wiki/Webcomic "Click here to learn more about webcomics."

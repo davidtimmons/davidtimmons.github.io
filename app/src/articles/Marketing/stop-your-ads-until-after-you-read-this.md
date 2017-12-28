@@ -61,4 +61,4 @@ with modern media tactics?
 
 [3]: https://www.thinkwithgoogle.com/marketing-resources/micro-moments/2011-winning-zmot-ebook/ "Click here to read the 'Winning the Zero Moment of Truth' ebook."
 
-[4]: {{buildPath}}/marketing-strategy/ "Click here to read more about marketing strategy."
+[4]: {{ buildPath }}/marketing-strategy/ "Click here to read more about marketing strategy."

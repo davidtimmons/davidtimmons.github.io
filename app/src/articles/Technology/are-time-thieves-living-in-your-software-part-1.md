@@ -70,4 +70,4 @@ on it!
 
 [4]: http://discrete.gr/complexity/ "Visit discrete.gr."
 
-[5]: {{buildPath}}are-time-thieves-living-in-your-software-part-2/ "Are Time-Thieves Living in Your Software? (Part 2)"
+[5]: {{ buildPath }}are-time-thieves-living-in-your-software-part-2/ "Are Time-Thieves Living in Your Software? (Part 2)"

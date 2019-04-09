@@ -9,85 +9,129 @@ metaDescription: >-
     Welcome to my home on the Web!
 permalink: false
 ---
-
-<div>
-  <img src="{{ imagePath }}2014/05/david-timmons.jpg"
-       alt="David Timmons"
-       title="That's me, David Timmons."
-       class="about-portrait shadow alignleft size-full"
-       srcset="{{ imagePath }}2014/05/david-timmons.jpg 200w"
-       sizes="(max-width: 200px) 100vw, 200px">
+<div class="flex flex-wrap md:flex-no-wrap mb-2">
+  <div class="bg-dark-tar hidden mr-2 rounded-lg xl:flex xl:items-center">
+    <div
+      style="min-height: 200px; min-width: 200px;"
+      class="bg-img-portrait bg-no-repeat block m-6 rounded-lg"
+      >
+    </div>
+  </div>
+  <div class="bg-dark-tar mr-0 md:mr-2 p-6 rounded-lg">
+    <h3 class="border-b border-dark-coal leading-snug mixin:text-headline text-2xl">
+      tl;dr
+    </h3>
+    <p>
+      My name is David. I'm a full-stack software engineer with deep experience in
+      front-end engineering and marketing technology. Check out my
+      [GitHub]({{ social.github }} "David Timmons on GitHub")
+      profile to explore my open-source work or
+      [LinkedIn]({{ social.linkedin }} "David Timmons on LinkedIn")
+      to learn more about my career.
+    </p>
+  </div>
+  <div class="bg-dark-tar md:bg-img-pattern flex-grow mt-2 md:mt-0 p-6 rounded-lg text-shadow-darker whitespace-no-wrap">
+    <h3 class="border-b border-dark-coal leading-snug mb-4 text-2xl mixin:text-headline md:border-none md:mb-0 md:text-base">
+      Favorite tech:
+    </h3>
+    <ul class="list-custom list-custom-clear-light">
+      <li>JavaScript</li>
+      <li>Node.js</li>
+      <li>Go (Golang)</li>
+      <li>CSS</li>
+      <li>functional programming</li>
+    </ul>
+  </div>
 </div>
 
-My name is **David Timmons**. Software engineering and entrepreneurship
-are my passions. I particularly love studying new programming languages,
-exploring new business ideas, and of course, building software.
+<div class="flex flex-wrap sm:flex-no-wrap">
+  <div class="bg-dark-tar sm:mr-2 p-6 rounded-lg">
+    <h3 class="border-b border-dark-coal leading-snug mixin:text-headline text-2xl">
+      Bio
+    </h3>
+    <p>
+      I am motivated by curiosity. I have a strong, innate desire to learn and continually
+      seek new ideas, acquire new skills, and refine existing abilities. Software engineering
+      is my primary focus, though I also have experience in business with an emphasis on
+      technology and marketing.
+    </p>
+    <p>
+      I have career experience at startups and enterprises as well as my own business
+      ventures. My engineering experience spans the entire software stack (i.e. front-end,
+      back-end, database, and some mobile).
+    </p>
+    <p>
+      A focus on strong front-end engineering methodologies combined with a drive toward
+      quality and best practice in all things defines my professional approach.
+    </p>
+  </div>
 
-**Current favorite technologies:**<br>
-JavaScript \[ES2015+, Node.js\], Python, Rust, SQL
-
-<div class="single-content">
-  <h3 class="subhead">Background</h3>
+  <div class="bg-img-pattern mt-2 sm:mt-0 sm:max-w-sm p-6 rounded-lg text-shadow-darker w-full">
+    <h3 class="leading-snug mixin:text-headline">
+      Name:
+    </h3>
+    <p class="mt-0 mb-4">
+      David Timmons
+    </p>
+    <h3 class="leading-snug mixin:text-headline">
+      Location:
+    </h3>
+    <p class="leading-snug mt-0 mb-4 whitespace-no-wrap">
+      Austin, TX <span class="mx-1 text-clear-light">•</span> USA
+    </p>
+    <h3 class="leading-snug mixin:text-headline">
+      Work:
+    </h3>
+    <p class="mt-0 mb-4">
+        Software Engineer
+        <span class="whitespace-no-wrap">
+          <span class="mx-1 text-clear-light">@</span>
+          <a
+            class="no-underline hover:text-purple text-aqua"
+            href="https://www.abrigo.com/"
+            rel="nofollow"
+            target="_blank"
+            >
+            Abrigo
+          </a>
+        </span>
+    </p>
+    <h3 class="leading-snug mixin:text-headline">
+      Email:
+    </h3>
+    <p class="mt-0 mb-4">
+      <a
+        class="no-underline hover:text-purple text-aqua"
+        href="mailto:{{ social.email }}"
+        title="Click here to email me."
+        >
+        {{ social.email }}
+      </a>
+    </p>
+    <h3 class="leading-snug mixin:text-headline">
+      Social:
+    </h3>
+    <ul class="list-custom-inline list-custom-clear-light whitespace-no-wrap">
+      <li>
+        <a
+          class="no-underline hover:text-purple text-aqua"
+          href="{{ social.github }}"
+          title="Click here to visit my GitHub profile."
+          target="_blank"
+          >
+          GitHub
+        </a>
+      </li>
+      <li>
+        <a
+          class="no-underline hover:text-purple text-aqua"
+          href="{{ social.linkedin }}"
+          title="Click here to visit my LinkedIn profile."
+          target="_blank"
+          >
+          LinkedIn
+        </a>
+      </li>
+    </ul>
+  </div>
 </div>
-
-My career approach has always been motivated by a strong, innate desire
-to learn. I am continually driven to seek new ideas, acquire new skills,
-and refine existing abilities. Software engineering is my primary focus,
-though my career spans many years in business with an emphasis on
-technology, data, and marketing. I have worked at startups, been
-embedded in teams at Verizon, and have run my own business.
-
-<div class="posts-nav about-bio project-details shadow">
-  <p class="project-tag">Name</p>
-  <p class="about-name">David Timmons</p>
-  <p class="project-tag">Location</p>
-  <p class="about-location">Austin, TX . USA</p>
-  <p class="project-tag">Work</p>
-  <p class="about-status">
-    Full Stack Engineer<br>
-    <a class="posts-nav-link"
-       href="https://towny.com/"
-       rel="nofollow"
-       target="_blank">
-      @ Roll Forward (Towny)
-    </a>
-  </p>
-  <p class="project-tag">Email</p>
-  <p class="about-email project-link">
-    <a class="posts-nav-link"
-       href="mailto:{{ social.email }}"
-       title="Click here to email me.">
-      {{ social.email }}
-    </a>
-  </p>
-  <p class="project-tag">Social</p>
-  <p class="project-link">
-    <a class="posts-nav-link"
-       href="{{ social.github }}"
-       title="Click here to visit my GitHub profile."
-       target="_blank">
-      GitHub
-    </a> .
-    <a class="posts-nav-link"
-       href="{{ social.linkedin }}"
-       title="Click here to visit my LinkedIn profile."
-       target="_blank">
-      LinkedIn
-    </a>
-  </p>
-</div>
-
-I can work throughout the software stack and enjoy each subject area,
-including front-end, back-end, database, and operations. Studying new
-programming languages and browser technologies is particularly
-fascinating to me.
-
-I currently work as a full stack software engineer at Roll Forward, creator
-of the Towny mobile app. I work with Node.js, MariaDB, React Native, and
-AngularJS to maintain our backend systems, support our business users, and
-contribute to our mobile product.
-
-Feel free to look around, and if you have any questions or want to talk,
-[please send me an email](mailto:{{ social.email }} "Click here to email me.").
-
-<br class="clearfix">

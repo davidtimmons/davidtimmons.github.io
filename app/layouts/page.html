@@ -1,34 +1,53 @@
 <!doctype html>
-<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns#">
+<html class="no-js" lang="en-US" prefix="og:http://ogp.me/ns#">
 
     {{> head }}
 
-    <body class="page-template-default page {{ slug }}">
+    <body class="page {{ slug }}">
         <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
-            
-        <!-- wrapper -->
-        <div class="wrapper shadow shadow-inset">
 
+        <div class="sm:min-w-page">
             {{> header }}
-
-            <main role="main">
-                <section>
-                    <h1>{{ title }}</h1>
-                    <article class="page type-page status-publish hentry">
-
-                        {{{ contents }}}
-
-                        <br class="clearfix">
-                    </article>
-                </section>
-            </main>
-
-            {{> footer }}
-
-        <!-- /wrapper -->
         </div>
+
+        <main
+            class="mt-6 text-shadow-dark"
+            role="main"
+            >
+            <!-- Awesome image by Fancycrave.com (https://www.pexels.com/photo/green-and-black-computer-motherboard-825258/) -->
+            <section class="bg-cover bg-img-hero flex flex-col h-screen justify-center px-8 lg:px-48">
+                <div class="-ml-6 text-0">
+                    <div class="bg-clear-dark px-6 font-bold inline-block leading-snug m-0 rounded-lg text-xs text-aqua text-shadow-darker tracking-wider sm:leading-normal sm:truncate lg:text-base">
+                        I'm a full-Stack, quality-oriented, design-loving, entrepreneurial, well-rounded
+                    </div>
+                    <br>
+                    <div class="mt-1 text-base">
+                        <div class="bg-dark-tar inline-block -ml-1 px-6 rounded-lg text-2/3 truncate sm:text-full lg:text-3/2">
+                            <h1 class="relative font-bold font-mono leading-tight select-none text-dark-concrete text-r5xl tracking-tight whitespace-no-wrap">
+                                software engineer <span style="top: calc(50% - 0.5em);" class="absolute ani-cursor-blink border-aqua h-r4 ml-1"></span>
+                            </h1>
+                        <div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="bg-dark-tar border-b border-t border-dark-coal my-1 px-8 lg:px-48">
+                    <h2 class="font-bold font-mono leading-none lowercase my-2 select-none text-4xl text-aqua tracking-wide">
+                        {{ title }}
+                    </h2>
+                </div>
+                <article class="bg-dark-street px-8 py-4 text-dark-concrete lg:px-48">
+                    <div class="sm:min-w-page">
+                        {{{ contents }}}
+                    </div>
+                </article>
+            </section>
+        </main>
+
+        {{> footer }}
 
         {{> scripts-footer }}
 

@@ -17,11 +17,13 @@ const preview        = require('metalsmith-preview');
 const sitemap        = require('metalsmith-sitemap');
 
 // Define constants.
-const BUILD_DIR = process.env.DEV ? './build' : '../../davidtimmons.github.io';
+const { FILES } = require('./constants.js');
+const BUILD_DIR = './build';
 const HOST = 'david.timmons.io';
 const ROOT_PATH = `http://${HOST}/`;
 const BUILD_PATH = process.env.DEV ? process.env.ROOT : ROOT_PATH;
 const IMAGE_PATH = BUILD_PATH + 'static/images/';
+const STYLE_FILE = process.env.DEV ? FILES.css.staged : FILES.css.build;
 const NOW =  Moment().format('YYYY-MM-DD HH:mm');
 
 
@@ -49,7 +51,7 @@ Handlebars.registerHelper('getAny', function(...args) {
 
 Handlebars.registerHelper('prettyDate', function(dateStr) {
   return Moment(dateStr).format('MMMM D, YYYY h:mma');
-});  
+});
 
 Handlebars.registerHelper('sentenceCase', function(str) {
   return str[0].toUpperCase() + str.substring(1);
@@ -67,6 +69,7 @@ Metalsmith(__dirname)
     rootPath: ROOT_PATH,
     buildPath: BUILD_PATH,
     imagePath: IMAGE_PATH,
+    styleFile: STYLE_FILE,
     now: NOW,
     social: {
       email: '&#100;&#064;&#116;&#105;&#109;&#109;&#111;&#110;&#115;&#046;&#105;&#111;',
@@ -173,7 +176,7 @@ Metalsmith(__dirname)
     engine: 'handlebars',
     partials: 'layouts/partials',
   }))
-  .use(sitemap({ // See: https://github.com/ExtraHop/metalsmith-sitemap 
+  .use(sitemap({ // See: https://github.com/ExtraHop/metalsmith-sitemap
     hostname: ROOT_PATH,
     omitIndex: true,
     pattern: ['**/*.html', '!**/bower_components/**'],

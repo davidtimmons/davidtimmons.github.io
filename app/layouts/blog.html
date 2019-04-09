@@ -3,71 +3,90 @@
 
     {{> head }}
 
-    <body>
+    <body class="blog">
         <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
 
-        <!-- wrapper -->
-        <div class="wrapper shadow shadow-inset">
-
+        <div class="sm:min-w-page">
             {{> header }}
+        </div>
 
-            <main role="main">
-                <section class="blog-feed">
-                    <h1>Latest Thoughts</h1>
+        <main
+            class="bg-dark-street mt-16 text-shadow-dark"
+            role="main"
+            >
+            <section>
+                <div class="bg-dark-tar border-b border-t border-dark-coal my-1 px-8 lg:px-48">
+                    <h1 class="font-bold font-mono leading-none lowercase my-2 select-none text-4xl text-aqua tracking-wide">
+                        Blog
+                    </h1>
+                </div>
 
+                <div class="my-4 px-8 lg:px-48">
                     {{#each pagination.files}}
-                    <article class="clearfix post type-post status-publish format-standard has-post-thumbnail hentry category-{{ category }}">
-
-                        <!-- post details -->
-                        <div class="blog-feed-post-details">
-                            <h2>
-                                <span class="headline-image">»</span>
-                                <a href="{{ @root.buildPath }}{{ this.slug }}/" title="{{ this.title }}">
-                                    {{ this.title }}
-                                </a>
-                            </h2>
-                            <time class="date">{{prettyDate this.date}}</time>
-                        </div>
+                    <article class="category-{{ category }} bg-dark-tar flex flex-wrap md:flex-no-wrap mb-2 p-6 rounded-lg text-dark-concrete">
 
                         <!-- post thumbnail -->
-                        <div class="blog-feed-featured-image wp-post-image">
-                            <a href="{{ @root.buildPath }}{{ this.slug }}/" title="{{ this.title }}">
-                                <img src="{{ this.hero.imgUrlSrc }}" alt="{{ this.title }}">
+                        <div class="bg-img-pattern flex-shrink-0 mr-6 mb-6 md:mb-0 w-full md:w-1/3 lg:w-1/4 float-left md:float-none">
+                            <a
+                                href="{{ @root.buildPath }}{{ this.slug }}/"
+                                title="{{ this.title }}"
+                                >
+                                <img
+                                    class="inline-block w-full"
+                                    src="{{ this.hero.imgUrlSrc }}"
+                                    alt="{{ this.title }}"
+                                    >
                             </a>
                         </div>
 
-                        <!-- post preview -->
-                        <p>
-                            {{ this.preview }} <a class="view-article" href="{{ @root.buildPath }}{{ this.slug }}/">Keep Reading »</a>
-                        </p>
+                        <div class="flex-shrink">
+                            <!-- post details -->
+                            <div>
+                                <h2 class="border-b border-dark-coal leading-snug mixin:text-headline text-2xl">
+                                    <a
+                                        href="{{ @root.buildPath }}{{ this.slug }}/"
+                                        title="{{ this.title }}"
+                                        >
+                                        {{ this.title }}
+                                    </a>
+                                </h2>
+                                <time class="text-purple text-sm">
+                                    {{prettyDate this.date}}
+                                </time>
+                            </div>
+
+                            <!-- post preview -->
+                            <p class="mt-2 mb-0">
+                                {{ this.preview }} </span><a class="whitespace-no-wrap" href="{{ @root.buildPath }}{{ this.slug }}/">[ Keep Reading ]</a>
+                            </p>
+                        </div>
 
                     </article>
                     {{/each}}
+                </div>
 
-                    <!-- pagination -->
-                    <div class="pagination shadow">
+                <!-- pagination -->
+                <div class="bg-dark-street -mt-2 pb-4 px-8 lg:px-48">
+                    <div class="bg-dark-tar px-6 rounded-lg text-dark-concrete">
                         {{#if pagination.previous}}
                         <a href="{{ buildPath }}{{ pagination.previous.path }}" class="posts-link" title="Click to read newer content.">
-                            « newer
+                            ⥢ newer
                         </a>
+                        <span class="inline-block mx-2 text-purple-lilac">...</span>
                         {{/if}}
                         {{#if pagination.next}}
                         <a href="{{ buildPath }}{{ pagination.next.path }}" class="posts-link" title="Click to read older content.">
-                            older »
+                            older ⥤
                         </a>
                         {{/if}}
                     </div>
+                </div>
+            </section>
+        </main>
 
-                    <br class="clearfix">
-                </section>
-            </main>
-
-            {{> footer }}
-
-        <!-- /wrapper -->
-        </div>
+        {{> footer }}
 
         {{> scripts-footer }}
 

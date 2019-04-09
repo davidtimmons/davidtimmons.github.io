@@ -1,0 +1,336 @@
+<!doctype html>
+<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns#">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>David Timmons ➞ [ Are Time-Thieves Living in Your Software? (Part 1) ]</title>
+    
+        <meta name="description" content="What do you do if the software you built takes a long time to load? Capture the time-thieves out to steal your seconds!">
+        <meta name="robots" content="noodp,noydir">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="msvalidate.01" content="D62CBC40FC8F577CAA5D68B79E806194">
+        <meta name="google-site-verification" content="24km3JXEzfZ0tKZah9epCVlDwLIepVGsQmuKgQi4hzo">
+    
+        <link rel="canonical" href="http://david.timmons.io/are-time-thieves-living-in-your-software-part-1">
+        <link rel="manifest" href="http://david.timmons.io/site.webmanifest">
+        <link rel="shortcut icon" href="http://david.timmons.io/favicon.ico">
+        <link rel="apple-touch-icon" href="http://david.timmons.io/touch.png">
+    
+        <meta property="og:locale" content="en_US">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="David Timmons »Are Time-Thieves Living in Your Software? (Part 1)«">
+        <meta property="og:description" content="What do you do if the software you built takes a long time to load? Capture the time-thieves out to steal your seconds!">
+        <meta property="og:url" content="http://david.timmons.io/are-time-thieves-living-in-your-software-part-1">
+        <meta property="og:site_name" content="David Timmons">
+        <meta property="og:image" content="">
+    
+        <link rel="stylesheet" href="http://david.timmons.io/static/css/style.css">
+    
+        <!-- Do not wait for the Google Fonts stylesheet to load before rendering the page. -->
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Ubuntu:400,400i,700"
+            media="void"
+            onload="if (media !== 'all') media='all'"
+            >
+            <noscript>
+                <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:400,400i,700">
+            </noscript>
+    </head>
+
+    <body class="article">
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+        <div class="sm:min-w-page">
+            <!-- header -->
+            <header
+                class="bg-dark-concrete border-t-8 border-purple fixed px-8 shadow top-0 w-full z-50 lg:px-48"
+                role="banner"
+                >
+                <div class="flex py-1 sm:min-w-page">
+            
+                    <!-- logo -->
+                    <div class="flex-shrink-0 -ml-1 w-40">
+                        <a
+                            href="http://david.timmons.io/"
+                            title="Definitely probably not working on an AI that can enslave the human race."
+                            >
+                            <img
+                                class="mixin:ani-heartbeat -mt-2"
+                                src="http://david.timmons.io/static/images/timmons-logo.svg"
+                                alt="Logo"
+                                >
+                        </a>
+                    </div>
+            
+                    <!-- div class="flex justify-end overflow-hidden sm:overflow-auto" -->
+                    <div class="flex-grow flex items-center justify-end">
+                        <!-- nav -->
+                        <nav
+                            class="xs:mr-6"
+                            role="navigation"
+                            >
+                            <ul class="whitespace-no-wrap">
+                                <li
+                                    id="menu-item-1"
+                                    class="inline-block mr-2 text-base"
+                                    >
+                                    <a
+                                        class="hover:text-aqua text-purple"
+                                        href="http://david.timmons.io/blog/"
+                                        >
+                                        Blog
+                                    </a>
+                                </li>
+                                <li
+                                    id="menu-item-2"
+                                    class="inline-block text-base"
+                                    >
+                                    <a
+                                        class="hover:text-aqua text-purple"
+                                        href="http://david.timmons.io/site-map/"
+                                        >
+                                        Site map
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+            
+                        <!-- search -->
+                        <form
+                            class="hidden md:inline-block md:mr-6"
+                            onsubmit="searchDuckDuckGo()"
+                            action="javascript:void(0)"
+                            role="search"
+                            >
+                            <div class="text-0 whitespace-no-wrap t-width">
+                                <input
+                                    id="search-input"
+                                    class="bg-dark-street pl-3 rounded-l-full text-sm text-dark-concrete text-shadow-dark t-width w-28 focus:w-56 hover:w-56"
+                                    type="search"
+                                    name="q"
+                                    placeholder="search here..."
+                                    >
+                                <button
+                                    class="bg-dark-coal border-dark-concrete border-l lowercase px-2 rounded-r-full text-sm hover:text-aqua text-dark-concrete text-shadow-dark"
+                                    type="submit"
+                                    role="button"
+                                    >
+                                    Search
+                                </button>
+                            </div>
+                        </form>
+            
+                        <!-- social -->
+                        <div class="hidden xs:flex-shrink-0 xs:flex xs:items-center">
+                            <div class="mr-3 text-0">
+                                <a
+                                    href="https://github.com/davidtimmons"
+                                    title="David Timmons on GitHub"
+                                    target="_blank"
+                                    >
+                                    <img
+                                        class="mixin:ani-heartbeat-lg min-w-8 w-8"
+                                        src="http://david.timmons.io/static/images/github-mark.svg"
+                                        alt="My GitHub"
+                                        >
+                                </a>
+                            </div>
+                            <div class="text-0">
+                                <a
+                                    href="https://www.linkedin.com/in/davidtimmons"
+                                    title="David Timmons on LinkedIn"
+                                    target="_blank"
+                                    >
+                                    <img
+                                        class="mixin:ani-heartbeat-lg min-w-8 w-8"
+                                        src="http://david.timmons.io/static/images/linkedin-mark.svg"
+                                        alt="My LinkedIn"
+                                        >
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <script>
+                    /**
+                     * This function uses DuckDuckGo to search this website for text content.
+                     */
+                    function searchDuckDuckGo() {
+                        var input = document.getElementById("search-input");
+                        if (input && input.value) {
+                            var searchString = encodeURIComponent(input.value).replace('%20', '+');
+                            var query = [encodeURIComponent('site:david.timmons.io'), searchString].join('+');
+                            window.location.href = 'https://duckduckgo.com/?q=' + query;
+                        }
+                    }
+            
+                    // Add a special CSS class to the navigation menu item for the current page.
+                    var pageTitle = document.title.toLowerCase();
+                    var activeClass = ' current-menu-item current_page_item';
+            
+                    if (pageTitle.indexOf('blog') >= 0) {
+                        document.getElementById('menu-item-1').className += activeClass;
+                    } else if (pageTitle.indexOf('site map') >= 0) {
+                        document.getElementById('menu-item-2').className += activeClass;
+                    }
+                </script>
+            </header>
+        </div>
+
+        <main
+            class="bg-dark-street mt-16 text-shadow-dark"
+            role="main"
+            >
+            <section>
+                <article class="category-technology text-dark-concrete">
+
+                    <!-- post details -->
+                    <div class="bg-dark-tar border-b border-t border-dark-coal mt-1 mb-4 px-8 lg:px-48 pb-2">
+                        <h1 class="font-bold font-mono leading-none lowercase my-2 select-none text-4xl text-aqua tracking-wide sm:min-w-page">
+                            Are Time-Thieves Living in Your Software? (Part 1)
+                        </h1>
+                        <time class="block leading-snug text-purple text-sm">
+                            October 13, 2016 6:00pm
+                        </time>
+                        <div class="block text-purple-lilac text-sm">
+                            category ➞ Technology
+                        </div>
+                    </div>
+
+                    <!-- post content -->
+                    <div class="pb-4 px-8 lg:px-48">
+                        <div class="bg-dark-tar px-6 pt-4 pb-2 rounded-lg text-dark-concrete">
+                            <div class="hero text-center text-xs">
+                                <div class="">
+                                    <div class="bg-img-pattern mb-2 rounded-lg">
+                                        <img
+                                            class="border-purple border-b-4 inline-block rounded-lg"
+                                            alt="Time Bandit for Sanyo MBC-55"
+                                            src="http://david.timmons.io/static/images/2016/11/time-thieves-pt1.jpg"
+                                            srcset="http://david.timmons.io/static/images/2016/11/time-thieves-pt1.jpg 648w"
+                                            sizes="(max-width: 648px) 100vw, 648px"
+                                            >
+                                    </div>
+                                    <p class="leading-tight m-0 mb-2 text-purple">
+                                        Photo: &quot;Time Bandit for Sanyo MBC-550&quot; image courtesy of
+                                        <a href="https://www.flickr.com/photos/blakespot/8613889824"
+                                        title="View the original photo on Flickr.">
+                                        Blake Patterson and Gerry Brophy
+                                        </a>.
+                                    </p>
+                                    <p class="font-bold leading-tight m-0 text-purple-lilac">
+                                        I see two time-thieves in the corner up to no good!
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="text-lg">
+                                <p>What would you do if time was like spare change? You save a few seconds
+here and there and find an extra hour on Saturday afternoon. Or, you
+might collect otherwise unproductive minutes and use them on days when
+you are at your most creative. So much can happen in a few seconds that
+time, like spare change, is a resource to protect. When you rely on
+software for work or entertainment, the last thing you want is to stare
+at a spinning icon while the application loads. After all, you could be
+watching a movie, creating the next Skynet, or even pulling your
+neighbor from a burning building. A slow application is a real drag for
+everyone. In fact, <a href="https://blog.kissmetrics.com/loading-time/" title="Visit blog.kissmetrics.com.">Kissmetrics says</a> &quot;47% of consumers expect a
+[Web] page to load in 2 seconds or less.&quot; Web applications are no
+exception. So what do you do if the software you built takes a long
+time to load? Capture the time-thieves out to steal your seconds.</p>
+<p>There are five common time-thieves. This guild of temporal robbers takes
+residence in your software and is out to slow your application to a
+crawl. However, these thieves are not so tough when confronted
+one-by-one. The first thief is slow <a href="http://discrete.gr/complexity/" title="Visit discrete.gr.">asymptotic time complexity</a>. It
+sounds mysterious, like a swarthy stranger from a faraway land, but
+underneath the exotic clothing is a sloppy algorithm. Some algorithms
+legitimately take time to run. Generating all subsets from a set of
+values is going to take a few CPU cycles. In contrast, finding all
+values in a list less than a defined input value should not. Review the
+algorithms that generate output for a slow feature to see if they can be
+optimized to run faster.</p>
+<p>The second time-thief is slow database access. This thief is a chronic
+hoarder and encourages you to pull all records from your database on
+every query. After all, if a few records solve one problem, every record
+solves every problem, right? Wrong. That&#39;s just what this thief wants
+you to think. In fact, the more of your query you can push into the
+database layer the better. Databases are built to be fast, so lean on
+that. Consider writing direct query code to handle complex requests,
+like SQL for a MySQL database, to get exactly what you need in exactly
+the format you need it before data ever hits the application layer.
+Node.js, Django, Rails, Play, and other frameworks are a great
+foundation, but let the database do database things.</p>
+<p>These are only the first two time-thieves you will face when clearing
+your lethargic software of villains. Defending your time against these
+robbers continues with optimizing your &quot;XML and HTTP Request&quot; calls,
+compressing big static assets in a variety of clever ways, and
+requesting &quot;Document Object Model&quot; updates at a pace your browser can
+manage. See <em><a href="http://david.timmons.io/are-time-thieves-living-in-your-software-part-2/" title="Are Time-Thieves Living in Your Software? (Part 2)">Part 2</a></em> for further instruction on what you can do
+to enforce law and order in your digital domain. Your time depends
+on it!</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- post navigation -->
+                <div class="pb-4 px-8 lg:px-48">
+                    <div class="bg-dark-tar px-6 pt-4 pb-2 rounded-lg text-dark-concrete">
+                            <h3 class="leading-snug mixin:text-headline">
+                                next:
+                            </h3>
+                            <a
+                                href="http://david.timmons.io/are-time-thieves-living-in-your-software-part-2/"
+                                rel="prev"
+                                >
+                                Are Time-Thieves Living in Your Software? (Part 2)
+                            </a>
+                                <div class="mt-4">
+
+                            <h3 class="leading-snug mixin:text-headline">
+                                previous:
+                            </h3>
+                            <a
+                                href="http://david.timmons.io/good-software-hygiene-prevents-bad-code-smell/"
+                                rel="next"
+                                >
+                                Good Software Hygiene Prevents Bad Code Smell
+                            </a>
+
+                                </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer
+            class="bg-dark-tar border-t border-dark-coal mt-1 px-8 py-1 text-shadow-dark w-full lg:px-48"
+            role="contentinfo"
+            >
+            <div class="text-xs sm:min-w-page sm:text-sm">
+                <p class="leading-snug my-2 text-purple sm:mb-0">
+                    &copy; 2017 - 2019 David Timmons. All rights reserved.
+                </p>
+                <p class="leading-snug m-0 mb-2 text-dark-silver">
+                    <b>Disclaimer:</b> My views do not necessarily reflect those of my employer.
+                </p>
+            </div>
+        </footer>
+
+        <!-- Google Analytics -->
+        <script>
+            window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+            ga('create', 'UA-19610273-1', 'timmons.io'); // Modified to track the subdomain.
+            ga('require', 'displayfeatures');
+            ga('send', 'pageview');
+        </script>
+        <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+
+    </body>
+</html>

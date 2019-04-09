@@ -4,6 +4,8 @@
 todo
 examples/
 app/build/
+app/src/static/css/
+!app/src/static/css/main.css
 
 
 ###########

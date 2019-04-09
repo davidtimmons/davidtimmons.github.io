@@ -1,0 +1,366 @@
+<!doctype html>
+<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns#">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>David Timmons ➞ [ Good Software Hygiene Prevents Bad Code Smell ]</title>
+    
+        <meta name="description" content="The health of a software system is often improved not by what you put in to it but rather what you leave out of it.">
+        <meta name="robots" content="noodp,noydir">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="msvalidate.01" content="D62CBC40FC8F577CAA5D68B79E806194">
+        <meta name="google-site-verification" content="24km3JXEzfZ0tKZah9epCVlDwLIepVGsQmuKgQi4hzo">
+    
+        <link rel="canonical" href="http://david.timmons.io/good-software-hygiene-prevents-bad-code-smell">
+        <link rel="manifest" href="http://david.timmons.io/site.webmanifest">
+        <link rel="shortcut icon" href="http://david.timmons.io/favicon.ico">
+        <link rel="apple-touch-icon" href="http://david.timmons.io/touch.png">
+    
+        <meta property="og:locale" content="en_US">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="David Timmons »Good Software Hygiene Prevents Bad Code Smell«">
+        <meta property="og:description" content="The health of a software system is often improved not by what you put in to it but rather what you leave out of it.">
+        <meta property="og:url" content="http://david.timmons.io/good-software-hygiene-prevents-bad-code-smell">
+        <meta property="og:site_name" content="David Timmons">
+        <meta property="og:image" content="">
+    
+        <link rel="stylesheet" href="http://david.timmons.io/static/css/style.css">
+    
+        <!-- Do not wait for the Google Fonts stylesheet to load before rendering the page. -->
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Ubuntu:400,400i,700"
+            media="void"
+            onload="if (media !== 'all') media='all'"
+            >
+            <noscript>
+                <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:400,400i,700">
+            </noscript>
+    </head>
+
+    <body class="article">
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+        <div class="sm:min-w-page">
+            <!-- header -->
+            <header
+                class="bg-dark-concrete border-t-8 border-purple fixed px-8 shadow top-0 w-full z-50 lg:px-48"
+                role="banner"
+                >
+                <div class="flex py-1 sm:min-w-page">
+            
+                    <!-- logo -->
+                    <div class="flex-shrink-0 -ml-1 w-40">
+                        <a
+                            href="http://david.timmons.io/"
+                            title="Definitely probably not working on an AI that can enslave the human race."
+                            >
+                            <img
+                                class="mixin:ani-heartbeat -mt-2"
+                                src="http://david.timmons.io/static/images/timmons-logo.svg"
+                                alt="Logo"
+                                >
+                        </a>
+                    </div>
+            
+                    <!-- div class="flex justify-end overflow-hidden sm:overflow-auto" -->
+                    <div class="flex-grow flex items-center justify-end">
+                        <!-- nav -->
+                        <nav
+                            class="xs:mr-6"
+                            role="navigation"
+                            >
+                            <ul class="whitespace-no-wrap">
+                                <li
+                                    id="menu-item-1"
+                                    class="inline-block mr-2 text-base"
+                                    >
+                                    <a
+                                        class="hover:text-aqua text-purple"
+                                        href="http://david.timmons.io/blog/"
+                                        >
+                                        Blog
+                                    </a>
+                                </li>
+                                <li
+                                    id="menu-item-2"
+                                    class="inline-block text-base"
+                                    >
+                                    <a
+                                        class="hover:text-aqua text-purple"
+                                        href="http://david.timmons.io/site-map/"
+                                        >
+                                        Site map
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+            
+                        <!-- search -->
+                        <form
+                            class="hidden md:inline-block md:mr-6"
+                            onsubmit="searchDuckDuckGo()"
+                            action="javascript:void(0)"
+                            role="search"
+                            >
+                            <div class="text-0 whitespace-no-wrap t-width">
+                                <input
+                                    id="search-input"
+                                    class="bg-dark-street pl-3 rounded-l-full text-sm text-dark-concrete text-shadow-dark t-width w-28 focus:w-56 hover:w-56"
+                                    type="search"
+                                    name="q"
+                                    placeholder="search here..."
+                                    >
+                                <button
+                                    class="bg-dark-coal border-dark-concrete border-l lowercase px-2 rounded-r-full text-sm hover:text-aqua text-dark-concrete text-shadow-dark"
+                                    type="submit"
+                                    role="button"
+                                    >
+                                    Search
+                                </button>
+                            </div>
+                        </form>
+            
+                        <!-- social -->
+                        <div class="hidden xs:flex-shrink-0 xs:flex xs:items-center">
+                            <div class="mr-3 text-0">
+                                <a
+                                    href="https://github.com/davidtimmons"
+                                    title="David Timmons on GitHub"
+                                    target="_blank"
+                                    >
+                                    <img
+                                        class="mixin:ani-heartbeat-lg min-w-8 w-8"
+                                        src="http://david.timmons.io/static/images/github-mark.svg"
+                                        alt="My GitHub"
+                                        >
+                                </a>
+                            </div>
+                            <div class="text-0">
+                                <a
+                                    href="https://www.linkedin.com/in/davidtimmons"
+                                    title="David Timmons on LinkedIn"
+                                    target="_blank"
+                                    >
+                                    <img
+                                        class="mixin:ani-heartbeat-lg min-w-8 w-8"
+                                        src="http://david.timmons.io/static/images/linkedin-mark.svg"
+                                        alt="My LinkedIn"
+                                        >
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <script>
+                    /**
+                     * This function uses DuckDuckGo to search this website for text content.
+                     */
+                    function searchDuckDuckGo() {
+                        var input = document.getElementById("search-input");
+                        if (input && input.value) {
+                            var searchString = encodeURIComponent(input.value).replace('%20', '+');
+                            var query = [encodeURIComponent('site:david.timmons.io'), searchString].join('+');
+                            window.location.href = 'https://duckduckgo.com/?q=' + query;
+                        }
+                    }
+            
+                    // Add a special CSS class to the navigation menu item for the current page.
+                    var pageTitle = document.title.toLowerCase();
+                    var activeClass = ' current-menu-item current_page_item';
+            
+                    if (pageTitle.indexOf('blog') >= 0) {
+                        document.getElementById('menu-item-1').className += activeClass;
+                    } else if (pageTitle.indexOf('site map') >= 0) {
+                        document.getElementById('menu-item-2').className += activeClass;
+                    }
+                </script>
+            </header>
+        </div>
+
+        <main
+            class="bg-dark-street mt-16 text-shadow-dark"
+            role="main"
+            >
+            <section>
+                <article class="category-technology text-dark-concrete">
+
+                    <!-- post details -->
+                    <div class="bg-dark-tar border-b border-t border-dark-coal mt-1 mb-4 px-8 lg:px-48 pb-2">
+                        <h1 class="font-bold font-mono leading-none lowercase my-2 select-none text-4xl text-aqua tracking-wide sm:min-w-page">
+                            Good Software Hygiene Prevents Bad Code Smell
+                        </h1>
+                        <time class="block leading-snug text-purple text-sm">
+                            September 17, 2016 11:50am
+                        </time>
+                        <div class="block text-purple-lilac text-sm">
+                            category ➞ Technology
+                        </div>
+                    </div>
+
+                    <!-- post content -->
+                    <div class="pb-4 px-8 lg:px-48">
+                        <div class="bg-dark-tar px-6 pt-4 pb-2 rounded-lg text-dark-concrete">
+                            <div class="hero text-center text-xs">
+                                <div class="">
+                                    <div class="bg-img-pattern mb-2 rounded-lg">
+                                        <img
+                                            class="border-purple border-b-4 inline-block rounded-lg"
+                                            alt="Photo courtesy of Ascend Marketing"
+                                            src="http://david.timmons.io/static/images/2016/11/software-hygiene.jpg"
+                                            srcset="http://david.timmons.io/static/images/2016/11/software-hygiene.jpg 648w"
+                                            sizes="(max-width: 648px) 100vw, 648px"
+                                            >
+                                    </div>
+                                    <p class="leading-tight m-0 mb-2 text-purple">
+                                        Photo: Courtesy of
+                                        <a href="http://thinking.ascend.marketing/good-software-hygiene-prevents-bad-code-smell"
+                                        title="View this post on the Ascend Marketing blog.">
+                                        Ascend Marketing
+                                        </a>.
+                                    </p>
+                                    <p class="font-bold leading-tight m-0 text-purple-lilac">
+                                        Just look at that code! Somebody crack a window...
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="text-lg">
+                                <p>Johann Wolfgang von Goethe once wrote, &quot;In der Beschränkung zeigt sich
+erst der Meister.&quot; Put another way, &quot;Masters of their craft know that
+less is more.&quot; While Goethe was not talking about software development,
+building software is a craft. The joy of solving problems and writing
+algorithms is tantalizing for many developers; when a developer can
+quickly transmute an idea into a prototype, the reward is immediate and
+tangible. However, software has a tendency to stick around once built.
+Joost Visser writes in <em><a href="https://www.sig.eu/en/building-maintainable-software" title="Visit www.sig.eu.">Building Maintainable Software</a></em> that
+&quot;the maintenance phase of a software system often spans 10 years or
+more.&quot; It&#39;s quite easy to build software without a plan, but without
+good software hygiene, system components quickly become tangled and
+difficult to maintain. Therefore, the health of a software system is
+often improved not by what you put in to it but rather what you leave
+out of it.</p>
+<p>ISO, the International Organization for Standardization, defines eight
+characteristics they believe contribute to software quality. The
+<a href="https://www.iso.org/obp/ui/#iso:std:iso-iec:25010:ed-1:v1:en" title="Visit www.iso.org.">ISO 25010</a> standard lists these as functional suitability,
+reliability, performance, efficiency, usability, security, compatibility,
+maintainability, and portability. Measuring these qualities is not
+always easy, but at the very least, developers should keep these tenets
+firmly in mind when architecting a software product. Software hygiene
+impacts each category to varying degrees; maintainability is, perhaps,
+most obvious. A highly maintainable system allows for fast bug patching
+and faster feature development. Since a software system will eventually
+grow beyond what a single developer can maintain, every technologist on
+a team has an important role to play. We are not just writing code for
+ourselves, we are writing it for every developer that comes after us.</p>
+<p>Good software hygiene starts at the code repository. A development team
+needs a solid strategy for collaborating on a software project because
+without one, it is never quite clear who is doing what and which version
+of the code is current. Vincent Driessen presents a great Git strategy
+in his &quot;<a href="http://nvie.com/posts/a-successful-git-branching-model/" title="Visit nvie.com.">A successful Git branching model</a>&quot; article
+that suggests a team organize its repository around a master branch,
+develop branch, feature branches, and hotfix branches. This model and
+others like it improves the velocity of new development through
+maintaining clear workflows. It is much easier to pay off existing
+technical debt when you know how to jump in and contribute.</p>
+<p>Server application code provides access to a traditional database,
+computationally expensive application features, or both, so good
+software hygiene here is a launchpad for building advanced features.
+Hygienic code should be as simple as possible. It should be brief,
+balanced, and loosely coupled with other parts of the system. Code that
+does two different things should not be in the same function, class, or
+file; it should be in two different functions, classes, or files. If you
+have to duplicate a code block more than twice, it&#39;s time to refactor it
+into a reusable and modular component. Documentation is also important.
+Since we develop code in teams, everybody should be able to understand
+what something does by viewing comments, studying unit tests, or reading
+highly descriptive naming conventions. Documentation based on all three
+is even better!</p>
+<p>Front-end assets also need good software hygiene. Building a Web
+application requires having a foot in each of two worlds, the browser
+and the server. It can be easy to focus on server code because server
+code is predictable. We control the machine, the environment, and the
+application. Browsers are not nearly as simple. Developing software that
+works with a browser is challenging because unlike server code, we have
+almost no control over how a user accesses the Web. Good software
+hygiene for front-end assets includes building JavaScript features in
+modules that only load when necessary and only live in global state when
+absolutely required. It includes structuring CSS and Sass stylesheets in
+logical order (and sometimes in partial stylesheets) against a common
+styleguide so styles are readable and do not overlap. It includes
+compressing everything possible to reduce page load time. A hygienic and
+maintainable front-end is critical for the application as a whole
+because it reduces oversights that can produce severe performance
+penalties.</p>
+<p>Good software hygiene is not an afterthought. Prototypes are one thing,
+but when it comes to building a lasting software product, developers
+must be ever vigilant in their foundational software engineering
+practices. Only with good software hygiene can we prevent &quot;bad code
+smell&quot;. Who wants a reputation as the person who never washes his or her
+code? Instead, our goal should be the fresh and clean scent of
+maintainable, hygienic software!</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- post navigation -->
+                <div class="pb-4 px-8 lg:px-48">
+                    <div class="bg-dark-tar px-6 pt-4 pb-2 rounded-lg text-dark-concrete">
+                            <h3 class="leading-snug mixin:text-headline">
+                                next:
+                            </h3>
+                            <a
+                                href="http://david.timmons.io/are-time-thieves-living-in-your-software-part-1/"
+                                rel="prev"
+                                >
+                                Are Time-Thieves Living in Your Software? (Part 1)
+                            </a>
+                                <div class="mt-4">
+
+                            <h3 class="leading-snug mixin:text-headline">
+                                previous:
+                            </h3>
+                            <a
+                                href="http://david.timmons.io/virtual-reality-tech-savvy-business/"
+                                rel="next"
+                                >
+                                Virtual Reality for the Tech-Savvy Business
+                            </a>
+
+                                </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer
+            class="bg-dark-tar border-t border-dark-coal mt-1 px-8 py-1 text-shadow-dark w-full lg:px-48"
+            role="contentinfo"
+            >
+            <div class="text-xs sm:min-w-page sm:text-sm">
+                <p class="leading-snug my-2 text-purple sm:mb-0">
+                    &copy; 2017 - 2019 David Timmons. All rights reserved.
+                </p>
+                <p class="leading-snug m-0 mb-2 text-dark-silver">
+                    <b>Disclaimer:</b> My views do not necessarily reflect those of my employer.
+                </p>
+            </div>
+        </footer>
+
+        <!-- Google Analytics -->
+        <script>
+            window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+            ga('create', 'UA-19610273-1', 'timmons.io'); // Modified to track the subdomain.
+            ga('require', 'displayfeatures');
+            ga('send', 'pageview');
+        </script>
+        <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+
+    </body>
+</html>

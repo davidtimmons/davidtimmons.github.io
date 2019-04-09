@@ -1,7 +1,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>{{ siteTitle }} »{{ title }}«</title>
+    <title>{{ siteTitle }} ➞ [ {{ title }} ]</title>
 
     <meta name="description" content="{{ metaDescription }}">
     <meta name="robots" content="noodp,noydir">
@@ -22,7 +22,16 @@
     <meta property="og:site_name" content="{{ siteTitle }}">
     <meta property="og:image" content="{{getAny image hero.imgUrlSrc }}">
 
-    <link rel="stylesheet" href="{{ buildPath }}static/css/normalize.css">
-    <link rel="stylesheet" href="{{ buildPath }}static/css/style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:400,400i,700"> 
+    <link rel="stylesheet" href="{{ buildPath }}static/css/{{ styleFile }}">
+
+    <!-- Do not wait for the Google Fonts stylesheet to load before rendering the page. -->
+    <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Ubuntu:400,400i,700"
+        media="void"
+        onload="if (media !== 'all') media='all'"
+        >
+        <noscript>
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:400,400i,700">
+        </noscript>
 </head>

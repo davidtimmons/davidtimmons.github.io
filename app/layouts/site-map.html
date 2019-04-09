@@ -3,51 +3,61 @@
 
     {{> head }}
 
-	<body class="page-template page-template-page-archive page site-map">
+	<body class="site-map">
         <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
 
-        <!-- wrapper -->
-        <div class="wrapper shadow shadow-inset">
-
+        <div class="sm:min-w-page">
             {{> header }}
-
-            <main role="main">
-                <section>
-                    <h1>{{ title }}</h1>
-                    <article class="page type-page status-publish hentry">
-                    
-                        <!-- site pages -->
-                        <div class="archive-group archive-pages">
-                            <h2>{{ collections.pages.metadata.title }}:</h2>
-                            <ul>
-                            {{#each collections.pages}}
-                                <li>
-                                    <a href="{{ @root.buildPath }}{{ this.slug }}">{{ title }}</a>
-                                </li>
-                            {{/each}}
-                            </ul>
-                        </div>
-
-                        <!-- site posts -->
-                        <div class="archive-group archive-posts">
-                            <h2>{{ collections.articles.metadata.title }}:</h2>
-                            <ul>
-                            {{#each collections.articles}}
-                                <li>
-                                    <a href="{{ @root.buildPath }}{{ this.path }}">{{ title }}</a>
-                                </li>
-                            {{/each}}
-                            </ul>
-                        </div>
-
-                    </article>
-                </section>
-            </main>
-
-        <!-- /wrapper -->
         </div>
+
+        <main
+            class="mt-16 mb-8"
+            role="main"
+            >
+            <section>
+                <div class="bg-dark-tar border-b border-t border-dark-coal my-1 px-8 lg:px-48">
+                    <h1 class="font-bold font-mono leading-none lowercase my-2 select-none text-4xl text-aqua tracking-wide">
+                        {{ title }}
+                    </h1>
+                </div>
+
+                <article class="px-8 text-shadow-darker lg:px-48">
+
+                    <!-- site pages -->
+                    <div class="mt-8">
+                        <h2 class="leading-snug mixin:text-headline">
+                            {{ collections.pages.metadata.title }}:
+                        </h2>
+                        <ul>
+                        {{#each collections.pages}}
+                            <li>
+                                <a href="{{ @root.buildPath }}{{ this.slug }}">{{ title }}</a>
+                            </li>
+                        {{/each}}
+                        </ul>
+                    </div>
+
+                    <!-- site posts -->
+                    <div class="mt-8">
+                        <h2 class="leading-snug mixin:text-headline">
+                            {{ collections.articles.metadata.title }}:
+                        </h2>
+                        <ul>
+                        {{#each collections.articles}}
+                            <li>
+                                <a href="{{ @root.buildPath }}{{ this.path }}">{{ title }}</a>
+                            </li>
+                        {{/each}}
+                        </ul>
+                    </div>
+
+                </article>
+            </section>
+        </main>
+
+        {{> footer }}
 
         {{> scripts-footer }}
 

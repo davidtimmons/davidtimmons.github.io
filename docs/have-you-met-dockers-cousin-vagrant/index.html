@@ -1,0 +1,354 @@
+<!doctype html>
+<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns#">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>David Timmons ➞ [ Have you met Docker&#x27;s cousin Vagrant? ]</title>
+    
+        <meta name="description" content="It&#x27;s important to use the right virtualization tool for the job. Vagrant could be just the tool you need.">
+        <meta name="robots" content="noodp,noydir">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="msvalidate.01" content="D62CBC40FC8F577CAA5D68B79E806194">
+        <meta name="google-site-verification" content="24km3JXEzfZ0tKZah9epCVlDwLIepVGsQmuKgQi4hzo">
+    
+        <link rel="canonical" href="http://david.timmons.io/have-you-met-dockers-cousin-vagrant">
+        <link rel="manifest" href="http://david.timmons.io/site.webmanifest">
+        <link rel="shortcut icon" href="http://david.timmons.io/favicon.ico">
+        <link rel="apple-touch-icon" href="http://david.timmons.io/touch.png">
+    
+        <meta property="og:locale" content="en_US">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="David Timmons »Have you met Docker&#x27;s cousin Vagrant?«">
+        <meta property="og:description" content="It&#x27;s important to use the right virtualization tool for the job. Vagrant could be just the tool you need.">
+        <meta property="og:url" content="http://david.timmons.io/have-you-met-dockers-cousin-vagrant">
+        <meta property="og:site_name" content="David Timmons">
+        <meta property="og:image" content="">
+    
+        <link rel="stylesheet" href="http://david.timmons.io/static/css/style.css">
+    
+        <!-- Do not wait for the Google Fonts stylesheet to load before rendering the page. -->
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Ubuntu:400,400i,700"
+            media="void"
+            onload="if (media !== 'all') media='all'"
+            >
+            <noscript>
+                <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:400,400i,700">
+            </noscript>
+    </head>
+
+    <body class="article">
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+        <div class="sm:min-w-page">
+            <!-- header -->
+            <header
+                class="bg-dark-concrete border-t-8 border-purple fixed px-8 shadow top-0 w-full z-50 lg:px-48"
+                role="banner"
+                >
+                <div class="flex py-1 sm:min-w-page">
+            
+                    <!-- logo -->
+                    <div class="flex-shrink-0 -ml-1 w-40">
+                        <a
+                            href="http://david.timmons.io/"
+                            title="Definitely probably not working on an AI that can enslave the human race."
+                            >
+                            <img
+                                class="mixin:ani-heartbeat -mt-2"
+                                src="http://david.timmons.io/static/images/timmons-logo.svg"
+                                alt="Logo"
+                                >
+                        </a>
+                    </div>
+            
+                    <!-- div class="flex justify-end overflow-hidden sm:overflow-auto" -->
+                    <div class="flex-grow flex items-center justify-end">
+                        <!-- nav -->
+                        <nav
+                            class="xs:mr-6"
+                            role="navigation"
+                            >
+                            <ul class="whitespace-no-wrap">
+                                <li
+                                    id="menu-item-1"
+                                    class="inline-block mr-2 text-base"
+                                    >
+                                    <a
+                                        class="hover:text-aqua text-purple"
+                                        href="http://david.timmons.io/blog/"
+                                        >
+                                        Blog
+                                    </a>
+                                </li>
+                                <li
+                                    id="menu-item-2"
+                                    class="inline-block text-base"
+                                    >
+                                    <a
+                                        class="hover:text-aqua text-purple"
+                                        href="http://david.timmons.io/site-map/"
+                                        >
+                                        Site map
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+            
+                        <!-- search -->
+                        <form
+                            class="hidden md:inline-block md:mr-6"
+                            onsubmit="searchDuckDuckGo()"
+                            action="javascript:void(0)"
+                            role="search"
+                            >
+                            <div class="text-0 whitespace-no-wrap t-width">
+                                <input
+                                    id="search-input"
+                                    class="bg-dark-street pl-3 rounded-l-full text-sm text-dark-concrete text-shadow-dark t-width w-28 focus:w-56 hover:w-56"
+                                    type="search"
+                                    name="q"
+                                    placeholder="search here..."
+                                    >
+                                <button
+                                    class="bg-dark-coal border-dark-concrete border-l lowercase px-2 rounded-r-full text-sm hover:text-aqua text-dark-concrete text-shadow-dark"
+                                    type="submit"
+                                    role="button"
+                                    >
+                                    Search
+                                </button>
+                            </div>
+                        </form>
+            
+                        <!-- social -->
+                        <div class="hidden xs:flex-shrink-0 xs:flex xs:items-center">
+                            <div class="mr-3 text-0">
+                                <a
+                                    href="https://github.com/davidtimmons"
+                                    title="David Timmons on GitHub"
+                                    target="_blank"
+                                    >
+                                    <img
+                                        class="mixin:ani-heartbeat-lg min-w-8 w-8"
+                                        src="http://david.timmons.io/static/images/github-mark.svg"
+                                        alt="My GitHub"
+                                        >
+                                </a>
+                            </div>
+                            <div class="text-0">
+                                <a
+                                    href="https://www.linkedin.com/in/davidtimmons"
+                                    title="David Timmons on LinkedIn"
+                                    target="_blank"
+                                    >
+                                    <img
+                                        class="mixin:ani-heartbeat-lg min-w-8 w-8"
+                                        src="http://david.timmons.io/static/images/linkedin-mark.svg"
+                                        alt="My LinkedIn"
+                                        >
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <script>
+                    /**
+                     * This function uses DuckDuckGo to search this website for text content.
+                     */
+                    function searchDuckDuckGo() {
+                        var input = document.getElementById("search-input");
+                        if (input && input.value) {
+                            var searchString = encodeURIComponent(input.value).replace('%20', '+');
+                            var query = [encodeURIComponent('site:david.timmons.io'), searchString].join('+');
+                            window.location.href = 'https://duckduckgo.com/?q=' + query;
+                        }
+                    }
+            
+                    // Add a special CSS class to the navigation menu item for the current page.
+                    var pageTitle = document.title.toLowerCase();
+                    var activeClass = ' current-menu-item current_page_item';
+            
+                    if (pageTitle.indexOf('blog') >= 0) {
+                        document.getElementById('menu-item-1').className += activeClass;
+                    } else if (pageTitle.indexOf('site map') >= 0) {
+                        document.getElementById('menu-item-2').className += activeClass;
+                    }
+                </script>
+            </header>
+        </div>
+
+        <main
+            class="bg-dark-street mt-16 text-shadow-dark"
+            role="main"
+            >
+            <section>
+                <article class="category-technology text-dark-concrete">
+
+                    <!-- post details -->
+                    <div class="bg-dark-tar border-b border-t border-dark-coal mt-1 mb-4 px-8 lg:px-48 pb-2">
+                        <h1 class="font-bold font-mono leading-none lowercase my-2 select-none text-4xl text-aqua tracking-wide sm:min-w-page">
+                            Have you met Docker&#x27;s cousin Vagrant?
+                        </h1>
+                        <time class="block leading-snug text-purple text-sm">
+                            May 25, 2016 4:58pm
+                        </time>
+                        <div class="block text-purple-lilac text-sm">
+                            category ➞ Technology
+                        </div>
+                    </div>
+
+                    <!-- post content -->
+                    <div class="pb-4 px-8 lg:px-48">
+                        <div class="bg-dark-tar px-6 pt-4 pb-2 rounded-lg text-dark-concrete">
+                            <div class="hero text-center text-xs">
+                                <div class="">
+                                    <div class="bg-img-pattern mb-2 rounded-lg">
+                                        <img
+                                            class="border-purple border-b-4 inline-block rounded-lg"
+                                            alt="Photo courtesy of Ascend Marketing"
+                                            src="http://david.timmons.io/static/images/2016/07/dockers-cousin-vagrant.jpg"
+                                            srcset="http://david.timmons.io/static/images/2016/07/dockers-cousin-vagrant.jpg 648w"
+                                            sizes="(max-width: 648px) 100vw, 648px"
+                                            >
+                                    </div>
+                                    <p class="leading-tight m-0 mb-2 text-purple">
+                                        Photo: Courtesy of
+                                        <a href="http://thinking.ascend.marketing/have-you-met-dockers-cousin-vagrant"
+                                        title="View this post on the Ascend Marketing blog.">
+                                        Ascend Marketing
+                                        </a>.
+                                    </p>
+                                    <p class="font-bold leading-tight m-0 text-purple-lilac">
+                                        It's a little-known fact that Docker's cousin Vagrant likes V-neck sweaters.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="text-lg">
+                                <p>The technology industry has long accepted virtualization as a great
+idea, but it’s important to use the right tool for the job.</p>
+<p>Containers as a virtualization approach have grown in popularity from a
+niche Unix concept to widespread use in the form of tools like Docker.
+Cloud computing makes it easy to load our software into prepackaged
+virtual environments that can pop in and out of existence as needed,
+which helps with everything from load balancing on a live production
+server to testing software against the experimental branch of our
+favorite libraries. Containers work really well for these examples.
+However, containers are not always the best tool for the job; sometimes
+a different virtualization tool is helpful. Virtual machines are another
+option, and Vagrant is an excellent choice.</p>
+<p>In <a href="http://stackoverflow.com/questions/16647069/should-i-use-vagrant-or-docker-for-creating-an-isolated-environment#answer-21314566" title="Visit stackoverflow.com.">the words</a> of Vagrant creator Mitchell Hashimoto, &quot;Vagrant is for
+managing development environments.&quot; It doesn&#39;t get as much press as its\
+cousin Docker, but Vagrant can make your job easier when correctly
+applied. It creates a fully encapsulated development environment useful
+in many different situations, such as aligning a team around a single
+development environment or performing a test update of a production
+website.</p>
+<p>There are times when using Vagrant makes more sense than using Docker.
+My small team is currently developing a web application. When we first
+started, we were developing our software within a VirtualBox file we
+copied and shared across the team. It contained our application files
+(which we could refresh from a Bitbucket account) as well as a server
+environment similar to the one in which the app would be running.
+Whenever we changed something in our box, we had to communicate exactly
+what we did to all team members so each of us could update our own
+virtual machine instance. Our fallback option was to create a new
+virtual machine file to share across the network. While this got the job
+done, trading VirtualBox files and configuration instructions is one of
+those things a team only does when &quot;kicking the tires&quot; on a new project
+before switching to a more permanent solution.</p>
+<p>Vagrant provides a much cleaner way to solve the inefficiencies we
+experienced. A single Vagrant text file and the Bash command &quot;vagrant
+up&quot; can produce an exact virtual copy of an application development
+environment. Just add some settings and tie it to a shell script or an
+automation solution to quickly get it going.</p>
+<p>We added a similar setup to our own app repository. Now, the entire team
+can easily work against the same server configuration, and if that
+configuration changes, we just update the Vagrant file and the team can
+quickly provision a new box. This approach saves time and reduces
+human-based error.</p>
+<p>From the viewpoint of a software developer, just one or two Bash
+commands are needed to use Vagrant. Vagrant setup is completely
+abstracted away, which is nice because many developers want the
+provisioning details to be a footnote in the development process. Behind
+the scenes a Unix shell script installs exactly the software that is
+needed, updates the application database to the latest schema, and
+starts a server daemon so the software runs once Vagrant cranks up. A
+developer on the project can pop open a browser and go to something like
+<code>http://localhost:1234</code> to find the running application without any
+knowledge of how the magic happens. Since Vagrant can share files
+between the host and guest machines, everyone can use whichever
+development tools are desired to get work done in the host while the
+guest runs the server and the application. Vagrant makes life so much
+easier.</p>
+<p>There are other use cases I could share in which Vagrant is a great
+choice, but the key point is virtualization encompasses more than just
+containers. While a container is a valuable tool, it can be a hammer
+when you really need a saw. A virtual machine solution like Vagrant can
+be that saw.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- post navigation -->
+                <div class="pb-4 px-8 lg:px-48">
+                    <div class="bg-dark-tar px-6 pt-4 pb-2 rounded-lg text-dark-concrete">
+                            <h3 class="leading-snug mixin:text-headline">
+                                next:
+                            </h3>
+                            <a
+                                href="http://david.timmons.io/what-your-javascript-says-about-you/"
+                                rel="prev"
+                                >
+                                What Your JavaScript Says About You
+                            </a>
+                                <div class="mt-4">
+
+                            <h3 class="leading-snug mixin:text-headline">
+                                previous:
+                            </h3>
+                            <a
+                                href="http://david.timmons.io/oracle-content-marketing-in-5-minutes-or-less/"
+                                rel="next"
+                                >
+                                Oracle Content Marketing in 5 Minutes or Less
+                            </a>
+
+                                </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer
+            class="bg-dark-tar border-t border-dark-coal mt-1 px-8 py-1 text-shadow-dark w-full lg:px-48"
+            role="contentinfo"
+            >
+            <div class="text-xs sm:min-w-page sm:text-sm">
+                <p class="leading-snug my-2 text-purple sm:mb-0">
+                    &copy; 2017 - 2019 David Timmons. All rights reserved.
+                </p>
+                <p class="leading-snug m-0 mb-2 text-dark-silver">
+                    <b>Disclaimer:</b> My views do not necessarily reflect those of my employer.
+                </p>
+            </div>
+        </footer>
+
+        <!-- Google Analytics -->
+        <script>
+            window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+            ga('create', 'UA-19610273-1', 'timmons.io'); // Modified to track the subdomain.
+            ga('require', 'displayfeatures');
+            ga('send', 'pageview');
+        </script>
+        <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+
+    </body>
+</html>

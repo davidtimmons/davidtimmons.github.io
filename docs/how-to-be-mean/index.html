@@ -1,0 +1,475 @@
+<!doctype html>
+<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns#">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>David Timmons ➞ [ How to be MEAN! ]</title>
+    
+        <meta name="description" content="Bringing a Web application from the spark of an idea to a complete interactive experience is a rite of passage. Be MEAN! Build a Web app.">
+        <meta name="robots" content="noodp,noydir">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="msvalidate.01" content="D62CBC40FC8F577CAA5D68B79E806194">
+        <meta name="google-site-verification" content="24km3JXEzfZ0tKZah9epCVlDwLIepVGsQmuKgQi4hzo">
+    
+        <link rel="canonical" href="http://david.timmons.io/how-to-be-mean">
+        <link rel="manifest" href="http://david.timmons.io/site.webmanifest">
+        <link rel="shortcut icon" href="http://david.timmons.io/favicon.ico">
+        <link rel="apple-touch-icon" href="http://david.timmons.io/touch.png">
+    
+        <meta property="og:locale" content="en_US">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="David Timmons »How to be MEAN!«">
+        <meta property="og:description" content="Bringing a Web application from the spark of an idea to a complete interactive experience is a rite of passage. Be MEAN! Build a Web app.">
+        <meta property="og:url" content="http://david.timmons.io/how-to-be-mean">
+        <meta property="og:site_name" content="David Timmons">
+        <meta property="og:image" content="">
+    
+        <link rel="stylesheet" href="http://david.timmons.io/static/css/style.css">
+    
+        <!-- Do not wait for the Google Fonts stylesheet to load before rendering the page. -->
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Ubuntu:400,400i,700"
+            media="void"
+            onload="if (media !== 'all') media='all'"
+            >
+            <noscript>
+                <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:400,400i,700">
+            </noscript>
+    </head>
+
+    <body class="article">
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+        <div class="sm:min-w-page">
+            <!-- header -->
+            <header
+                class="bg-dark-concrete border-t-8 border-purple fixed px-8 shadow top-0 w-full z-50 lg:px-48"
+                role="banner"
+                >
+                <div class="flex py-1 sm:min-w-page">
+            
+                    <!-- logo -->
+                    <div class="flex-shrink-0 -ml-1 w-40">
+                        <a
+                            href="http://david.timmons.io/"
+                            title="Definitely probably not working on an AI that can enslave the human race."
+                            >
+                            <img
+                                class="mixin:ani-heartbeat -mt-2"
+                                src="http://david.timmons.io/static/images/timmons-logo.svg"
+                                alt="Logo"
+                                >
+                        </a>
+                    </div>
+            
+                    <!-- div class="flex justify-end overflow-hidden sm:overflow-auto" -->
+                    <div class="flex-grow flex items-center justify-end">
+                        <!-- nav -->
+                        <nav
+                            class="xs:mr-6"
+                            role="navigation"
+                            >
+                            <ul class="whitespace-no-wrap">
+                                <li
+                                    id="menu-item-1"
+                                    class="inline-block mr-2 text-base"
+                                    >
+                                    <a
+                                        class="hover:text-aqua text-purple"
+                                        href="http://david.timmons.io/blog/"
+                                        >
+                                        Blog
+                                    </a>
+                                </li>
+                                <li
+                                    id="menu-item-2"
+                                    class="inline-block text-base"
+                                    >
+                                    <a
+                                        class="hover:text-aqua text-purple"
+                                        href="http://david.timmons.io/site-map/"
+                                        >
+                                        Site map
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+            
+                        <!-- search -->
+                        <form
+                            class="hidden md:inline-block md:mr-6"
+                            onsubmit="searchDuckDuckGo()"
+                            action="javascript:void(0)"
+                            role="search"
+                            >
+                            <div class="text-0 whitespace-no-wrap t-width">
+                                <input
+                                    id="search-input"
+                                    class="bg-dark-street pl-3 rounded-l-full text-sm text-dark-concrete text-shadow-dark t-width w-28 focus:w-56 hover:w-56"
+                                    type="search"
+                                    name="q"
+                                    placeholder="search here..."
+                                    >
+                                <button
+                                    class="bg-dark-coal border-dark-concrete border-l lowercase px-2 rounded-r-full text-sm hover:text-aqua text-dark-concrete text-shadow-dark"
+                                    type="submit"
+                                    role="button"
+                                    >
+                                    Search
+                                </button>
+                            </div>
+                        </form>
+            
+                        <!-- social -->
+                        <div class="hidden xs:flex-shrink-0 xs:flex xs:items-center">
+                            <div class="mr-3 text-0">
+                                <a
+                                    href="https://github.com/davidtimmons"
+                                    title="David Timmons on GitHub"
+                                    target="_blank"
+                                    >
+                                    <img
+                                        class="mixin:ani-heartbeat-lg min-w-8 w-8"
+                                        src="http://david.timmons.io/static/images/github-mark.svg"
+                                        alt="My GitHub"
+                                        >
+                                </a>
+                            </div>
+                            <div class="text-0">
+                                <a
+                                    href="https://www.linkedin.com/in/davidtimmons"
+                                    title="David Timmons on LinkedIn"
+                                    target="_blank"
+                                    >
+                                    <img
+                                        class="mixin:ani-heartbeat-lg min-w-8 w-8"
+                                        src="http://david.timmons.io/static/images/linkedin-mark.svg"
+                                        alt="My LinkedIn"
+                                        >
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <script>
+                    /**
+                     * This function uses DuckDuckGo to search this website for text content.
+                     */
+                    function searchDuckDuckGo() {
+                        var input = document.getElementById("search-input");
+                        if (input && input.value) {
+                            var searchString = encodeURIComponent(input.value).replace('%20', '+');
+                            var query = [encodeURIComponent('site:david.timmons.io'), searchString].join('+');
+                            window.location.href = 'https://duckduckgo.com/?q=' + query;
+                        }
+                    }
+            
+                    // Add a special CSS class to the navigation menu item for the current page.
+                    var pageTitle = document.title.toLowerCase();
+                    var activeClass = ' current-menu-item current_page_item';
+            
+                    if (pageTitle.indexOf('blog') >= 0) {
+                        document.getElementById('menu-item-1').className += activeClass;
+                    } else if (pageTitle.indexOf('site map') >= 0) {
+                        document.getElementById('menu-item-2').className += activeClass;
+                    }
+                </script>
+            </header>
+        </div>
+
+        <main
+            class="bg-dark-street mt-16 text-shadow-dark"
+            role="main"
+            >
+            <section>
+                <article class="category-technology text-dark-concrete">
+
+                    <!-- post details -->
+                    <div class="bg-dark-tar border-b border-t border-dark-coal mt-1 mb-4 px-8 lg:px-48 pb-2">
+                        <h1 class="font-bold font-mono leading-none lowercase my-2 select-none text-4xl text-aqua tracking-wide sm:min-w-page">
+                            How to be MEAN!
+                        </h1>
+                        <time class="block leading-snug text-purple text-sm">
+                            October 8, 2015 2:05am
+                        </time>
+                        <div class="block text-purple-lilac text-sm">
+                            category ➞ Technology
+                        </div>
+                    </div>
+
+                    <!-- post content -->
+                    <div class="pb-4 px-8 lg:px-48">
+                        <div class="bg-dark-tar px-6 pt-4 pb-2 rounded-lg text-dark-concrete">
+                            <div class="hero text-center text-xs">
+                                <div class="">
+                                    <div class="bg-img-pattern mb-2 rounded-lg">
+                                        <img
+                                            class="border-purple border-b-4 inline-block rounded-lg"
+                                            alt="IMG_4236"
+                                            src="http://david.timmons.io/static/images/2015/10/hf-robot-blog.jpg"
+                                            srcset="http://david.timmons.io/static/images/2015/10/hf-robot-blog.jpg 648w"
+                                            sizes="(max-width: 648px) 100vw, 648px"
+                                            >
+                                    </div>
+                                    <p class="leading-tight m-0 mb-2 text-purple">
+                                        Photo: &quot;IMG_4236&quot; image courtesy of
+                                        <a href="http://www.morguefile.com/archive/display/208246"
+                                        title="View the original photo on Morguefile.">
+                                        middlewick
+                                        </a>.
+                                    </p>
+                                    <p class="font-bold leading-tight m-0 text-purple-lilac">
+                                        Be MEAN! Build a Web app.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="text-lg">
+                                <p>Bringing a Web application from the spark of an idea to a complete
+interactive experience is certainly a rite of passage. I finished
+programming my first complete Web application this week using the MEAN
+stack (<a href="https://www.mongodb.org/" title="Click here to visit the official MongoDB website.">MongoDB</a>, <a href="http://expressjs.com/" title="Click here to visit the official Express website.">Express</a>, <a href="https://angularjs.org/" title="Click here to visit the official AngularJS website.">AngularJS</a>, <a href="https://nodejs.org/en/" title="Click here to visit the official Node.js website.">Node.js</a>), and while
+I can already see what I would do differently next time, my time spent
+with this project has had tremendous value.</p>
+<p>Building a Web application is a journey that requires familiarity with
+so many topics that at the end you feel as if no concept in this domain
+is beyond reach. While it&#39;s true that genuine expertise requires
+repetition, every student of technology interested in the Web should
+build a full app at least once. It&#39;s worth it.</p>
+<p>If life is a road continually traveled, I look back now and marvel at
+the distance I covered these past months. Finishing the
+<a href="https://github.com/davidtimmons/hackafinder" title="View the Hacka_finder code here.">Hacka_finder prototype</a> was very gratifying. Taking on a solo project
+this large taught me more than I ever learned in a classroom, and I want
+to share with my fellow adventurers some of what I discovered along
+the way.</p>
+<h2 id="finding-your-footing">Finding Your Footing</h2>
+<p>Having the idea for an app is easy. Everybody has ideas. However,
+building that idea into an application is a monumental task, so much so
+that planning your first expedition into the unknown is daunting. There
+is not one single book that teaches everything needed for this project.
+This would be like looking for a book that teaches how to paint every
+imaginable kind of picture. I submit that both development and painting
+are art fused with craft except one skill set produces an application
+and one produces a painting.</p>
+<p>As with anything complex, take it one step at a time. I researched which
+technologies interested me before writing a single line of code. I
+found, borrowed, and purchased six different books on topics ranging
+from MongoDB database administration to building a front-end with
+AngularJS, not to mention the many API references for tools like Grunt
+and Yeoman that I knew through research to be essential. Understanding
+what a tool can do before using it can only lead to stronger craft.</p>
+<p>When looking for a concrete place to begin, <a href="http://yeoman.io/" title="Click here to visit the official Yeoman website.">Yeoman</a> is an excellent
+tool. The generators it sports are not all perfect, but I found it very
+helpful to see an opinion on how to scaffold a large project while
+planning my own.</p>
+<h2 id="the-red-pill">The Red Pill</h2>
+<p>One thing six books and countless API documents did <em>not</em> tell me is
+this: Code that runs a Web application like this consists of <strong>95%</strong>
+connective boilerplate to support the <strong>5%</strong> that runs the core idea
+behind an app. Building the <a href="https://github.com/davidtimmons/hackafinder" title="View the Hacka_finder code here.">Hacka_finder prototype</a> took me a
+little over 2 months from start to finish. I wrote code to work with
+MongoDB, code to authenticate user sessions, code to manage the API
+requests and responses, but perhaps only <em>three</em> functions total that
+actually search the user data for a query match. This was quite eye
+opening!</p>
+<h2 id="front-or-back">Front or Back</h2>
+<p>Single-page applications (SPA) run mostly in the browser. This is
+different from a more traditional approach that puts everything on the
+server. For most people and most projects, I suspect the approach taken
+is largely irrelevant. Just use the technologies you like best. I chose
+the MEAN stack because I love functional programming, and JavaScript is
+both ubiquitous and rides the line between functional and
+object-oriented styles. If I could have built the entire stack in
+Haskell or Python, I may have done that instead, but I wanted to place
+my focus squarely on learning <em>how</em> to build an application rather than
+pushing the edges of possibility. &quot;One language to rule them all&quot; on
+both the client and the server appealed to me.</p>
+<p>An important consideration when building an SPA is security. In short,
+nothing you do at the browser is safe. API responses can be intercepted,
+code can be viewed, and if not careful, data from application users can
+be harvested. However, SPAs are <em>great</em> for pushing the processing
+requirements for an app out of your server and onto the computers of
+your app users. This is why SPA architecture has become popular. Just be
+careful how you handle your sensitive data!</p>
+<h2 id="a-schema-is-a-road-map">A Schema is a Road Map</h2>
+<p>Create the database schema first. MongoDB does not require a schema per
+se unlike the more traditional SQL-style databases, but for me, knowing
+what data points I wanted to store made all the difference in how easy
+it was to visualize my data structure when writing functions. I put my
+schema into a spreadsheet so I knew what my data models looked like at a
+glance. At any given time I understood which part of the database would
+be active and what the response from the database would contain. MongoDB
+itself was quite easy to use; I would use it again.</p>
+<h2 id="branding">Branding</h2>
+<p>My business roots are going to show here, but branding is important. The
+graphic design of your app flows entirely from the logo. It defines the
+colors, personality, and feelings a visitor has when viewing your app,
+so spend some time on the logo. Good design, like good program
+architecture, is not an afterthought. It makes business sense because
+well-reasoned graphic design is more memorable. There is so much
+application saturation between all the competing Web apps, mobile apps,
+video game software, and so on that you cannot afford to give users a
+reason to hate the experience. Branding is much more than graphic
+design, but it does start there, so spend a dime to buy some time.</p>
+<h2 id="front-end">Front End</h2>
+<p>I have planned website projects with <a href="https://balsamiq.com/" title="Click here to visit the official Balsamiq website.">Balsamiq</a>, <a href="http://www.axure.com/" title="Click here to visit the official Axure website.">Axure</a>, Photoshop,
+and Illustrator. While these are all good tools, theme design in this
+project worked best with vanilla HTML and Sass. Here&#39;s the thing:
+While you can build a design in these other tools, you still have
+to program it at some point. I found that by starting with code, it was
+much faster to port the design into my JavaScript framework. The
+stylesheets carry over as is. If you remember to base your responsive
+theme styles on the mobile experience first and layer rules for other
+screen sizes on top using media query breakpoints, nothing more has to
+be done when porting. The HTML can be popped apart with relative ease
+for use with Angular&#39;s <code>ngInclude</code> directive. Starting the theme design
+in code was a good decision. Of course, designing for stakeholders is
+different from designing for yourself, so your mileage may vary.</p>
+<p>With regard to AngularJS, there are all kinds of opinions on whether
+two-way data binding is valuable and if AngularJS is faster or slower
+than other JavaScript framework options out there (and there are many
+options out there.) My opinion is if you like a &quot;batteries included&quot;
+approach, you will probably like the current AngularJS iteration. It has
+everything needed to build an app, and having this all in one place was
+quite helpful for my first time building a full-scale Web application. I
+cringe a little at mixing code and custom tags with vanilla HTML, but I
+found AngularJS easy to use and relatively easy to understand. AngularJS
+version 2.0 comes out soon, but when that happens, I will likely switch
+to Aurelia. The Angular 2.0 syntax does not appeal to me, and
+<a href="http://aurelia.io/" title="Click here to visit the official Aurelia website.">Aurelia</a> syntax is based on EcmaScript 6 which I want to explore
+anyway. The Aurelia creator was once even part of the Angular team, so
+there is that, too, if you like Angular 1.*.</p>
+<h2 id="back-end">Back End</h2>
+<p>Technically, Node.js is not a framework. It&#39;s a run-time environment.
+Express is the server framework in the MEAN stack though it just deals
+with routing. Nevertheless, I find myself thinking of Node as a
+framework since it sits on top of JavaScript much like Flask (a
+minimalist Python framework) sits on top of Python. If AngularJS is
+&quot;batteries included&quot;, the Node.js philosophy is &quot;go find your own
+batteries&quot;. I imagine this is great for teams that want to build
+everything custom or carefully choose components for every part of an
+application. But for me, since building a Web app requires lots of
+support code that everyone who builds a Web app has to write, I found
+myself wishing Node had more features. I could have easily used
+something like Sails.js, but since this was a learning project, I
+ultimately decided to &quot;build my own batteries&quot;. Next time, I will just
+find a framework that fits the project.</p>
+<p>Building batteries is educational in its own right, though for a
+production-ready app, I think the opposite may be a better approach for
+small teams. I once read you should never choose to build anything that
+is not core to your specific project. In other words, don&#39;t go building
+cryptographic hashing algorithms if that is not your specialty because
+it can and will blow up. This is probably why Node.js takes its
+particular philosophy and provides its package manager NPM to find what
+you need.</p>
+<p>On the other hand, it&#39;s much easier to find app components if you
+already know what you should be looking for. I had to learn what I
+needed the hard way, though I suppose the resulting lesson stays with
+you longer.</p>
+<h2 id="testing">Testing</h2>
+<p>Of all the concepts I learned during this project, test-driven
+development (TDD) and behavior-driven development (BDD) were the most
+profoundly fundamental lessons of them all. In short, build nothing
+without TDD/BDD! I found I prefer BDD for its syntax since it reads
+quite naturally. An example of a BDD test might be
+<code>expect(thisArray).to.be.empty;</code>. BDD makes it pretty clear what the
+code should be doing, and working with <a href="http://mochajs.org/" title="Click here to visit the official Mocha website.">Mocha</a> and <a href="http://chaijs.com/" title="Click here to visit the official Chai website.">Chai</a> was a dream.</p>
+<p>Writing test code is like writing an entirely separate program alongside
+the one you want to build. It takes lots of time, but from experience on
+this project, I can say the most difficult bugs in my code resulted from
+shortcutting the testing process. Once I took the time to go back, write
+proper tests, and refactor the code, everything broken then worked as it
+should. BDD makes it so much easier to spot mistakes and refactor your
+code without fear of breaking something somewhere else. Test, test,
+test, and be bold with your code!</p>
+<p>Perhaps the most difficult issue to debug involved learning that Node.js
+caches the result of its &quot;require&quot; expressions. I was utterly baffled
+that part of my code ran fine on its own but flamed out spectacularly
+when run in concert with other code. Through trial, error, and loads of
+testing, I finally discovered Node.js caching was causing the problem
+and I could then design a workaround. I would have never even suspected
+Node was the problem without writing unit tests to eliminate all other
+possibilities.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Building a full-scale Web application solo, and for the first time,
+while simultaneously teaching myself the technologies involved, was a
+fun challenge that taught me many valuable lessons.</p>
+<p>Just between you and me, I originally thought the <a href="https://github.com/davidtimmons/hackafinder" title="View the Hacka_finder code here.">Hacka_finder</a>
+prototype would take me about 2 weeks to finish. Shows what I knew! Here
+we are a little over two months later with the app just now completed.
+Clearly it&#39;s good policy to always double or triple your estimate for
+how long you think it will take to finish a project. I have worked in
+industry long enough to know most people (myself included), when scoping
+a project, have a tendency to grossly underestimate the amount of time
+it takes to finish something. Always budget for the unknown where
+possible.</p>
+<p>This project took a lot of work yet came with tremendous educational
+value. It was definitely worth the effort. If you decide to be MEAN and
+take your own journey to build a Web application from scratch, good luck
+to you. Just remember it takes longer than two weeks!</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- post navigation -->
+                <div class="pb-4 px-8 lg:px-48">
+                    <div class="bg-dark-tar px-6 pt-4 pb-2 rounded-lg text-dark-concrete">
+                            <h3 class="leading-snug mixin:text-headline">
+                                next:
+                            </h3>
+                            <a
+                                href="http://david.timmons.io/oracle-content-marketing-in-5-minutes-or-less/"
+                                rel="prev"
+                                >
+                                Oracle Content Marketing in 5 Minutes or Less
+                            </a>
+                                <div class="mt-4">
+
+                            <h3 class="leading-snug mixin:text-headline">
+                                previous:
+                            </h3>
+                            <a
+                                href="http://david.timmons.io/marketing-the-zombie-apocalypse-and-you/"
+                                rel="next"
+                                >
+                                Marketing, The Zombie Apocalypse, And You
+                            </a>
+
+                                </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer
+            class="bg-dark-tar border-t border-dark-coal mt-1 px-8 py-1 text-shadow-dark w-full lg:px-48"
+            role="contentinfo"
+            >
+            <div class="text-xs sm:min-w-page sm:text-sm">
+                <p class="leading-snug my-2 text-purple sm:mb-0">
+                    &copy; 2017 - 2019 David Timmons. All rights reserved.
+                </p>
+                <p class="leading-snug m-0 mb-2 text-dark-silver">
+                    <b>Disclaimer:</b> My views do not necessarily reflect those of my employer.
+                </p>
+            </div>
+        </footer>
+
+        <!-- Google Analytics -->
+        <script>
+            window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+            ga('create', 'UA-19610273-1', 'timmons.io'); // Modified to track the subdomain.
+            ga('require', 'displayfeatures');
+            ga('send', 'pageview');
+        </script>
+        <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+
+    </body>
+</html>

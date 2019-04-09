@@ -3,64 +3,86 @@
 
     {{> head }}
 
-    <body class="article post-template-default single single-post single-format-standard">
+    <body class="article">
         <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
 
-        <!-- wrapper -->
-        <div class="wrapper shadow shadow-inset">
-
+        <div class="sm:min-w-page">
             {{> header }}
-
-            <main role="main">
-                <section>
-                    <article class="post type-post category-{{ category }} status-publish format-standard has-post-thumbnail hentry">
-            
-                        <!-- post details -->
-                        <div class="single-header">
-                            <h1>
-                                <span class="headline-image">»</span>
-                                <a href="#" title="{{ title }}">{{ title }}</a>
-                            </h1>
-                            <time class="date">{{prettyDate date }}</time>
-                            <p class="single-category-featured rotate">
-                                categorized in: <a href="{{ buildPath }}blog/">{{sentenceCase category }}</a>
-                            </p>
-                        </div>
-            
-                        <!-- post content -->
-                        <div class="single-content">
-                            {{> hero }}
-                            {{{ contents }}}
-                        </div>
-
-                        <!-- post navigation -->
-                        <div class="posts-nav shadow">
-                            <h3>Other Thoughts</h3>
-                            {{#if this.previous.path}}
-                            <p>
-                                <span class="posts-nav-prev">next:</span>
-                                <a class="posts-nav-link" href="{{ buildPath }}{{ this.previous.path }}/" rel="prev">{{ this.previous.title }}</a>
-                            </p>
-                            {{/if}}
-                            {{#if this.next.path }}
-                            <p>
-                                <span class="posts-nav-next">previous:</span>
-                                <a class="posts-nav-link" href="{{ buildPath }}{{ this.next.path }}/" rel="next">{{ this.next.title }}</a>
-                            </p>
-                            {{/if}}
-                        </div>
-
-                        <br class="clearfix">
-                    </article>
-                </section>
-            </main>
-
-            {{> footer }}
-
-        <!-- /wrapper -->
         </div>
+
+        <main
+            class="bg-dark-street mt-16 text-shadow-dark"
+            role="main"
+            >
+            <section>
+                <article class="category-{{ category }} text-dark-concrete">
+
+                    <!-- post details -->
+                    <div class="bg-dark-tar border-b border-t border-dark-coal mt-1 mb-4 px-8 lg:px-48 pb-2">
+                        <h1 class="font-bold font-mono leading-none lowercase my-2 select-none text-4xl text-aqua tracking-wide sm:min-w-page">
+                            {{ title }}
+                        </h1>
+                        <time class="block leading-snug text-purple text-sm">
+                            {{prettyDate date }}
+                        </time>
+                        <div class="block text-purple-lilac text-sm">
+                            category ➞ {{sentenceCase category }}
+                        </div>
+                    </div>
+
+                    <!-- post content -->
+                    <div class="pb-4 px-8 lg:px-48">
+                        <div class="bg-dark-tar px-6 pt-4 pb-2 rounded-lg text-dark-concrete">
+                            {{> hero }}
+
+                            <div class="text-lg">
+                                {{{ contents }}}
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- post navigation -->
+                <div class="pb-4 px-8 lg:px-48">
+                    <div class="bg-dark-tar px-6 pt-4 pb-2 rounded-lg text-dark-concrete">
+                        {{#if this.previous.path}}
+                            <h3 class="leading-snug mixin:text-headline">
+                                next:
+                            </h3>
+                            <a
+                                href="{{ buildPath }}{{ this.previous.path }}/"
+                                rel="prev"
+                                >
+                                {{ this.previous.title }}
+                            </a>
+                        {{/if}}
+                        {{#if this.next.path }}
+                            {{#if this.previous.path}}
+                                <div class="mt-4">
+                            {{/if}}
+
+                            <h3 class="leading-snug mixin:text-headline">
+                                previous:
+                            </h3>
+                            <a
+                                href="{{ buildPath }}{{ this.next.path }}/"
+                                rel="next"
+                                >
+                                {{ this.next.title }}
+                            </a>
+
+                            {{#if this.previous.path}}
+                                </div>
+                            {{/if}}
+                        {{/if}}
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        {{> footer }}
 
         {{> scripts-footer }}
 

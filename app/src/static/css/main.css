@@ -1,232 +1,155 @@
-/*! HTML5 Boilerplate v6.0.1 | MIT License | https://html5boilerplate.com/ */
-
-/*
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- */
+/*! David Timmons Website | http://david.timmons.io | April 2019 */
 
 /* ==========================================================================
-   Base styles: opinionated defaults
+   Frameworks
    ========================================================================== */
 
-html {
-    color: #222;
-    font-size: 1em;
-    line-height: 1.4;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-/*
- * Remove text-shadow in selection highlight:
- * https://twitter.com/miketaylr/status/12228805301
- *
- * Vendor-prefixed and regular ::selection selectors cannot be combined:
- * https://stackoverflow.com/a/16982510/7133471
- *
- * Customize the background color to match your design.
- */
 
-::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
+/* ==========================================================================
+   Global Styles
+   ========================================================================== */
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
 }
 
 ::selection {
-    background: #b3d4fc;
+    background: #6DC9C7;
+    color: #ffffff;
     text-shadow: none;
 }
 
-/*
- * A better looking default horizontal rule
- */
-
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+body {
+    font: 400 17px/2.000 'Ubuntu', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background: #000000 repeat url('../images/timmons-logo-pattern.png');
 }
 
-/*
- * Remove the gap between audio, canvas, iframes,
- * images, videos and the bottom of their containers:
- * https://github.com/h5bp/html5-boilerplate/issues/440
- */
-
-audio,
-canvas,
-iframe,
-img,
-svg,
-video {
-    vertical-align: middle;
+a:focus {
+    outline:0;
 }
 
-/*
- * Remove default fieldset styles.
- */
-
-fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
+a:hover,
+a:active {
+    outline:0;
 }
 
-/*
- * Allow only vertical resizing of textareas.
- */
-
-textarea {
-    resize: vertical;
+input:focus {
+    outline:0;
+    border: 1px dotted #6DC9C7;
 }
+
+p {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
 
 /* ==========================================================================
-   Browser Upgrade Prompt
+   Custom Styles
    ========================================================================== */
 
-.browserupgrade {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
+/* Global */
+
+a { @apply no-underline text-aqua; }
+a:hover { @apply text-purple; }
+
+/* Utilities */
+
+.bg-clear-dark { background-color: rgba(0, 0, 0, 0.5); }
+.bg-img-hero { background-image: url("/static/images/circuit-board-circuits-components.jpg"); }
+.bg-img-portrait { background-image: url("/static/images/david-timmons.jpg"); }
+.filter-shadow-dark { filter: drop-shadow(0 0 1px rgba(0, 0, 0, 0.08)); }
+.mixin\:text-headline { @apply block font-bold lowercase -mt-2 text-purple tracking-wider; }
+.text-clear-light { color: rgba(255, 255, 255, 0.55); }
+.text-shadow-dark { text-shadow: 0 0 1px rgba(0, 0, 0, 0.08); }
+.text-shadow-darker { text-shadow: 0 1px 6px rgba(0, 0, 0, 0.9); }
+
+@responsive {
+    .bg-img-pattern { background-image: url("/static/images/timmons-logo-pattern.png"); }
+    .clip-none { clip-path: none; }
+    .clip-circle { clip-path: circle(50% at 50% 50%); }
+    .clip-parallelogram { clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%); }
+
+    ul.list-custom-clear-light li::before { color: rgba(255, 255, 255, 0.55); }
+    ul.list-custom li { display: block; }
+    ul.list-custom li::before {
+        content: "•";
+        display: inline-block;
+        margin-right: 0.5rem;
+    }
+    ul.list-custom-inline li { display: inline-block; }
+    ul.list-custom-inline li:first-child::before { display: none; }
+    ul.list-custom-inline li + li::before {
+        content: "•";
+        display: inline-block;
+        margin: 0 0.5rem 0 0.25rem;
+    }
 }
+
+/* Animations */
+
+@keyframes cursor-blink {
+    50% { border-right-width: 0px; }
+    100% { border-right-width: 1px; }
+}
+
+@keyframes heartbeat {
+    50% { transform: scale(1.04); }
+    100% { transform: scale(1.0); }
+}
+
+@keyframes heartbeat-lg {
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1.0); }
+}
+
+@keyframes wiggle {
+    20% { transform: translateX(-2px); }
+    40% { transform: translateX(2px); }
+    60% { transform: translateX(-1px); }
+    80% { transform: translateX(1px); }
+}
+
+@variants group-hover, hover {
+    .ani-cursor-blink { animation: cursor-blink 1.2s linear 0s infinite; }
+    .ani-heartbeat { animation: heartbeat 0.2s ease-in; }
+    .ani-heartbeat-lg { animation: heartbeat-lg 0.2s ease-in; }
+    .ani-pause { animation-play-state: paused; }
+    .ani-play { animation-play-state: running; }
+    .ani-wiggle { animation: wiggle 0.7s ease-in; }
+}
+
+.ani-fill-both { animation-fill-mode: both; }
+.ani-will-change { will-change: transform; }
+.mixin\:ani-heartbeat { @apply ani-pause ani-fill-both; }
+.mixin\:ani-heartbeat:hover { @apply ani-play ani-heartbeat; }
+.mixin\:ani-heartbeat-lg { @apply ani-pause ani-fill-both; }
+.mixin\:ani-heartbeat-lg:hover { @apply ani-play ani-heartbeat-lg; }
+.mixin\:ani-wiggle { @apply ani-pause ani-fill-both; }
+.mixin\:ani-wiggle:hover { @apply ani-play ani-wiggle; }
+.t-width { transition: width 0.5s ease-in-out; }
+
 
 /* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+   Print Styles
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ==========================================================================
-   Helper classes
-   ========================================================================== */
-
-/*
- * Hide visually and from screen readers
- */
-
-.hidden {
-    display: none !important;
-}
-
-/*
- * Hide only visually, but have it available for screen readers:
- * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
- *
- * 1. For long content, line feeds are not interpreted as spaces and small width
- *    causes content to wrap 1 word per line:
- *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
- */
-
-.visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    -webkit-clip-path: inset(50%);
-    clip-path: inset(50%);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-    white-space: nowrap; /* 1 */
-}
-
-/*
- * Extends the .visuallyhidden class to allow the element
- * to be focusable when navigated to via the keyboard:
- * https://www.drupal.org/node/897638
- */
-
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
-    clip: auto;
-    -webkit-clip-path: none;
-    clip-path: none;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
-    white-space: inherit;
-}
-
-/*
- * Hide visually and from screen readers, but maintain layout
- */
-
-.invisible {
-    visibility: hidden;
-}
-
-/*
- * Clearfix: contain floats
- *
- * For modern browsers
- * 1. The space content is one way to avoid an Opera bug when the
- *    `contenteditable` attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that receive the `clearfix` class.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
- */
-
-.clearfix:before,
-.clearfix:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
-}
-
-.clearfix:after {
-    clear: both;
-}
-
-/* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
-
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
-}
-
-@media print,
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 1.25dppx),
-       (min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
-}
-
-/* ==========================================================================
-   Print styles.
    Inlined to avoid the additional HTTP request:
-   http://www.phpied.com/delay-loading-your-print-css/
+   https://www.phpied.com/delay-loading-your-print-css/
    ========================================================================== */
 
-@media print {
+   @media print {
     *,
     *:before,
     *:after {
         background: transparent !important;
-        color: #000 !important; /* Black prints faster:
-                                   http://www.sanbeiji.com/archives/953 */
+        color: #000 !important; /* Black prints faster */
+        -webkit-box-shadow: none !important;
         box-shadow: none !important;
         text-shadow: none !important;
     }

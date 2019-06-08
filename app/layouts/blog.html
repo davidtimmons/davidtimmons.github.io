@@ -8,79 +8,83 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
 
-        <div class="sm:min-w-page">
-            {{> header }}
-        </div>
+        {{> header }}
 
         <main
             class="bg-dark-street mt-16 text-shadow-dark"
             role="main"
             >
             <section>
-                <div class="bg-dark-tar border-b border-t border-dark-coal my-1 px-8 lg:px-48">
-                    <h1 class="font-bold font-mono leading-none lowercase my-2 select-none text-4xl text-aqua tracking-wide">
-                        Blog
-                    </h1>
+                <div class="bg-dark-tar border-b border-t border-dark-coal my-1">
+                    <div class="mixin:page-layout">
+                        <h1 class="font-bold font-mono leading-none lowercase my-2 select-none text-4xl text-aqua tracking-wide">
+                            Blog
+                        </h1>
+                    </div>
                 </div>
 
-                <div class="my-4 px-8 lg:px-48">
-                    {{#each pagination.files}}
-                    <article class="category-{{ category }} bg-dark-tar flex flex-wrap md:flex-no-wrap mb-2 p-6 rounded-lg text-dark-concrete">
+                <div class="my-4">
+                    <div class="mixin:page-layout">
+                        {{#each pagination.files}}
+                        <article class="category-{{ category }} bg-dark-tar flex flex-wrap md:flex-no-wrap mb-2 p-6 rounded-lg text-dark-concrete">
 
-                        <!-- post thumbnail -->
-                        <div class="bg-img-pattern flex-shrink-0 mr-6 mb-6 md:mb-0 w-full md:w-1/3 lg:w-1/4 float-left md:float-none">
-                            <a
-                                href="{{ @root.buildPath }}{{ this.slug }}/"
-                                title="{{ this.title }}"
-                                >
-                                <img
-                                    class="inline-block w-full"
-                                    src="{{ this.hero.imgUrlSrc }}"
-                                    alt="{{ this.title }}"
+                            <!-- post thumbnail -->
+                            <div class="bg-img-pattern flex-shrink-0 mr-6 mb-6 md:mb-0 w-full md:w-1/3 lg:w-1/4 float-left md:float-none">
+                                <a
+                                    href="{{ @root.buildPath }}{{ this.slug }}/"
+                                    title="{{ this.title }}"
                                     >
-                            </a>
-                        </div>
-
-                        <div class="flex-shrink">
-                            <!-- post details -->
-                            <div>
-                                <h2 class="border-b border-dark-coal leading-snug mixin:text-headline text-2xl">
-                                    <a
-                                        href="{{ @root.buildPath }}{{ this.slug }}/"
-                                        title="{{ this.title }}"
+                                    <img
+                                        class="inline-block w-full"
+                                        src="{{ this.hero.imgUrlSrc }}"
+                                        alt="{{ this.title }}"
                                         >
-                                        {{ this.title }}
-                                    </a>
-                                </h2>
-                                <time class="text-purple text-sm">
-                                    {{prettyDate this.date}}
-                                </time>
+                                </a>
                             </div>
 
-                            <!-- post preview -->
-                            <p class="mt-2 mb-0">
-                                {{ this.preview }} </span><a class="whitespace-no-wrap" href="{{ @root.buildPath }}{{ this.slug }}/">[ Keep Reading ]</a>
-                            </p>
-                        </div>
+                            <div class="flex-shrink">
+                                <!-- post details -->
+                                <div>
+                                    <h2 class="border-b border-dark-coal leading-snug mixin:text-headline text-2xl">
+                                        <a
+                                            href="{{ @root.buildPath }}{{ this.slug }}/"
+                                            title="{{ this.title }}"
+                                            >
+                                            {{ this.title }}
+                                        </a>
+                                    </h2>
+                                    <time class="text-purple text-sm">
+                                        {{prettyDate this.date}}
+                                    </time>
+                                </div>
 
-                    </article>
-                    {{/each}}
+                                <!-- post preview -->
+                                <p class="mt-2 mb-0">
+                                    {{ this.preview }} </span><a class="whitespace-no-wrap" href="{{ @root.buildPath }}{{ this.slug }}/">[ Keep Reading ]</a>
+                                </p>
+                            </div>
+
+                        </article>
+                        {{/each}}
+                    </div>
                 </div>
 
                 <!-- pagination -->
-                <div class="bg-dark-street -mt-2 pb-4 px-8 lg:px-48">
-                    <div class="bg-dark-tar px-6 rounded-lg text-dark-concrete">
-                        {{#if pagination.previous}}
-                        <a href="{{ buildPath }}{{ pagination.previous.path }}" class="posts-link" title="Click to read newer content.">
-                            ⥢ newer
-                        </a>
-                        <span class="inline-block mx-2 text-purple-lilac">...</span>
-                        {{/if}}
-                        {{#if pagination.next}}
-                        <a href="{{ buildPath }}{{ pagination.next.path }}" class="posts-link" title="Click to read older content.">
-                            older ⥤
-                        </a>
-                        {{/if}}
+                <div class="bg-dark-street -mt-2 pb-4">
+                    <div class="mixin:page-layout">
+                        <div class="bg-dark-tar px-6 rounded-lg text-dark-concrete">
+                            {{#if pagination.previous}}
+                            <a href="{{ buildPath }}{{ pagination.previous.path }}" class="posts-link" title="Click to read newer content.">
+                                ⥢ newer
+                            </a>
+                            <span class="inline-block mx-2 text-purple-lilac">...</span>
+                            {{/if}}
+                            {{#if pagination.next}}
+                            <a href="{{ buildPath }}{{ pagination.next.path }}" class="posts-link" title="Click to read older content.">
+                                older ⥤
+                            </a>
+                            {{/if}}
+                        </div>
                     </div>
                 </div>
             </section>

@@ -44,16 +44,16 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
 
-        <div class="sm:min-w-page">
-            <!-- header -->
-            <header
-                class="bg-dark-concrete border-t-8 border-purple fixed px-8 shadow top-0 w-full z-50 lg:px-48"
-                role="banner"
-                >
-                <div class="flex py-1 sm:min-w-page">
-            
+        <!-- header -->
+        <header
+            class="bg-dark-concrete border-t-8 border-purple fixed shadow top-0 w-full z-50"
+            role="banner"
+            >
+            <div class="mixin:page-layout">
+                <div class="flex py-1">
+        
                     <!-- logo -->
-                    <div class="flex-shrink-0 -ml-1 w-40">
+                    <div class="flex-shrink-0 mr-4 -ml-1 w-40">
                         <a
                             href="http://david.timmons.io/"
                             title="Definitely probably not working on an AI that can enslave the human race."
@@ -65,14 +65,10 @@
                                 >
                         </a>
                     </div>
-            
-                    <!-- div class="flex justify-end overflow-hidden sm:overflow-auto" -->
+        
                     <div class="flex-grow flex items-center justify-end">
                         <!-- nav -->
-                        <nav
-                            class="xs:mr-6"
-                            role="navigation"
-                            >
+                        <nav role="navigation">
                             <ul class="whitespace-no-wrap">
                                 <li
                                     id="menu-item-1"
@@ -98,10 +94,10 @@
                                 </li>
                             </ul>
                         </nav>
-            
+        
                         <!-- search -->
                         <form
-                            class="hidden md:inline-block md:mr-6"
+                            class="hidden md:inline-block md:ml-6"
                             onsubmit="searchDuckDuckGo()"
                             action="javascript:void(0)"
                             role="search"
@@ -123,9 +119,9 @@
                                 </button>
                             </div>
                         </form>
-            
+        
                         <!-- social -->
-                        <div class="hidden xs:flex-shrink-0 xs:flex xs:items-center">
+                        <div class="hidden ml-6 xs:flex-shrink-0 xs:flex xs:items-center">
                             <div class="mr-3 text-0">
                                 <a
                                     href="https://github.com/davidtimmons"
@@ -155,453 +151,459 @@
                         </div>
                     </div>
                 </div>
-            
-                <script>
-                    /**
-                     * This function uses DuckDuckGo to search this website for text content.
-                     */
-                    function searchDuckDuckGo() {
-                        var input = document.getElementById("search-input");
-                        if (input && input.value) {
-                            var searchString = encodeURIComponent(input.value).replace('%20', '+');
-                            var query = [encodeURIComponent('site:david.timmons.io'), searchString].join('+');
-                            window.location.href = 'https://duckduckgo.com/?q=' + query;
-                        }
+            </div>
+        
+            <script>
+                /**
+                 * This function uses DuckDuckGo to search this website for text content.
+                 */
+                function searchDuckDuckGo() {
+                    var input = document.getElementById("search-input");
+                    if (input && input.value) {
+                        var searchString = encodeURIComponent(input.value).replace('%20', '+');
+                        var query = [encodeURIComponent('site:david.timmons.io'), searchString].join('+');
+                        window.location.href = 'https://duckduckgo.com/?q=' + query;
                     }
-            
-                    // Add a special CSS class to the navigation menu item for the current page.
-                    var pageTitle = document.title.toLowerCase();
-                    var activeClass = ' current-menu-item current_page_item';
-            
-                    if (pageTitle.indexOf('blog') >= 0) {
-                        document.getElementById('menu-item-1').className += activeClass;
-                    } else if (pageTitle.indexOf('site map') >= 0) {
-                        document.getElementById('menu-item-2').className += activeClass;
-                    }
-                </script>
-            </header>
-        </div>
+                }
+        
+                // Add a special CSS class to the navigation menu item for the current page.
+                var pageTitle = document.title.toLowerCase();
+                var activeClass = ' current-menu-item current_page_item';
+        
+                if (pageTitle.indexOf('blog') >= 0) {
+                    document.getElementById('menu-item-1').className += activeClass;
+                } else if (pageTitle.indexOf('site map') >= 0) {
+                    document.getElementById('menu-item-2').className += activeClass;
+                }
+            </script>
+        </header>
 
         <main
             class="bg-dark-street mt-16 text-shadow-dark"
             role="main"
             >
             <section>
-                <div class="bg-dark-tar border-b border-t border-dark-coal my-1 px-8 lg:px-48">
-                    <h1 class="font-bold font-mono leading-none lowercase my-2 select-none text-4xl text-aqua tracking-wide">
-                        Blog
-                    </h1>
+                <div class="bg-dark-tar border-b border-t border-dark-coal my-1">
+                    <div class="mixin:page-layout">
+                        <h1 class="font-bold font-mono leading-none lowercase my-2 select-none text-4xl text-aqua tracking-wide">
+                            Blog
+                        </h1>
+                    </div>
                 </div>
 
-                <div class="my-4 px-8 lg:px-48">
-                    <article class="category-technology bg-dark-tar flex flex-wrap md:flex-no-wrap mb-2 p-6 rounded-lg text-dark-concrete">
+                <div class="my-4">
+                    <div class="mixin:page-layout">
+                        <article class="category-technology bg-dark-tar flex flex-wrap md:flex-no-wrap mb-2 p-6 rounded-lg text-dark-concrete">
 
-                        <!-- post thumbnail -->
-                        <div class="bg-img-pattern flex-shrink-0 mr-6 mb-6 md:mb-0 w-full md:w-1/3 lg:w-1/4 float-left md:float-none">
-                            <a
-                                href="http://david.timmons.io/are-time-thieves-living-in-your-software-part-2/"
-                                title="Are Time-Thieves Living in Your Software? (Part 2)"
-                                >
-                                <img
-                                    class="inline-block w-full"
-                                    src="http://david.timmons.io/static/images/2016/11/time-thieves-pt2.jpg"
-                                    alt="Are Time-Thieves Living in Your Software? (Part 2)"
+                            <!-- post thumbnail -->
+                            <div class="bg-img-pattern flex-shrink-0 mr-6 mb-6 md:mb-0 w-full md:w-1/3 lg:w-1/4 float-left md:float-none">
+                                <a
+                                    href="http://david.timmons.io/are-time-thieves-living-in-your-software-part-2/"
+                                    title="Are Time-Thieves Living in Your Software? (Part 2)"
                                     >
-                            </a>
-                        </div>
-
-                        <div class="flex-shrink">
-                            <!-- post details -->
-                            <div>
-                                <h2 class="border-b border-dark-coal leading-snug mixin:text-headline text-2xl">
-                                    <a
-                                        href="http://david.timmons.io/are-time-thieves-living-in-your-software-part-2/"
-                                        title="Are Time-Thieves Living in Your Software? (Part 2)"
+                                    <img
+                                        class="inline-block w-full"
+                                        src="http://david.timmons.io/static/images/2016/11/time-thieves-pt2.jpg"
+                                        alt="Are Time-Thieves Living in Your Software? (Part 2)"
                                         >
-                                        Are Time-Thieves Living in Your Software? (Part 2)
-                                    </a>
-                                </h2>
-                                <time class="text-purple text-sm">
-                                    November 12, 2016 1:16am
-                                </time>
+                                </a>
                             </div>
 
-                            <!-- post preview -->
-                            <p class="mt-2 mb-0">
-                                Time-thieves delight in stealing your seconds, so when they move into your software, you must protect your time from their sticky fingers. Your seconds can be put to better use than waiting on a loading screen! We looked at slow... </span><a class="whitespace-no-wrap" href="http://david.timmons.io/are-time-thieves-living-in-your-software-part-2/">[ Keep Reading ]</a>
-                            </p>
-                        </div>
+                            <div class="flex-shrink">
+                                <!-- post details -->
+                                <div>
+                                    <h2 class="border-b border-dark-coal leading-snug mixin:text-headline text-2xl">
+                                        <a
+                                            href="http://david.timmons.io/are-time-thieves-living-in-your-software-part-2/"
+                                            title="Are Time-Thieves Living in Your Software? (Part 2)"
+                                            >
+                                            Are Time-Thieves Living in Your Software? (Part 2)
+                                        </a>
+                                    </h2>
+                                    <time class="text-purple text-sm">
+                                        November 12, 2016 1:16am
+                                    </time>
+                                </div>
 
-                    </article>
-                    <article class="category-technology bg-dark-tar flex flex-wrap md:flex-no-wrap mb-2 p-6 rounded-lg text-dark-concrete">
-
-                        <!-- post thumbnail -->
-                        <div class="bg-img-pattern flex-shrink-0 mr-6 mb-6 md:mb-0 w-full md:w-1/3 lg:w-1/4 float-left md:float-none">
-                            <a
-                                href="http://david.timmons.io/are-time-thieves-living-in-your-software-part-1/"
-                                title="Are Time-Thieves Living in Your Software? (Part 1)"
-                                >
-                                <img
-                                    class="inline-block w-full"
-                                    src="http://david.timmons.io/static/images/2016/11/time-thieves-pt1.jpg"
-                                    alt="Are Time-Thieves Living in Your Software? (Part 1)"
-                                    >
-                            </a>
-                        </div>
-
-                        <div class="flex-shrink">
-                            <!-- post details -->
-                            <div>
-                                <h2 class="border-b border-dark-coal leading-snug mixin:text-headline text-2xl">
-                                    <a
-                                        href="http://david.timmons.io/are-time-thieves-living-in-your-software-part-1/"
-                                        title="Are Time-Thieves Living in Your Software? (Part 1)"
-                                        >
-                                        Are Time-Thieves Living in Your Software? (Part 1)
-                                    </a>
-                                </h2>
-                                <time class="text-purple text-sm">
-                                    October 13, 2016 6:00pm
-                                </time>
+                                <!-- post preview -->
+                                <p class="mt-2 mb-0">
+                                    Time-thieves delight in stealing your seconds, so when they move into your software, you must protect your time from their sticky fingers. Your seconds can be put to better use than waiting on a loading screen! We looked at slow... </span><a class="whitespace-no-wrap" href="http://david.timmons.io/are-time-thieves-living-in-your-software-part-2/">[ Keep Reading ]</a>
+                                </p>
                             </div>
 
-                            <!-- post preview -->
-                            <p class="mt-2 mb-0">
-                                What would you do if time was like spare change? You save a few seconds here and there and find an extra hour on Saturday afternoon. Or, you might collect otherwise unproductive minutes and use them on days when you... </span><a class="whitespace-no-wrap" href="http://david.timmons.io/are-time-thieves-living-in-your-software-part-1/">[ Keep Reading ]</a>
-                            </p>
-                        </div>
+                        </article>
+                        <article class="category-technology bg-dark-tar flex flex-wrap md:flex-no-wrap mb-2 p-6 rounded-lg text-dark-concrete">
 
-                    </article>
-                    <article class="category-technology bg-dark-tar flex flex-wrap md:flex-no-wrap mb-2 p-6 rounded-lg text-dark-concrete">
-
-                        <!-- post thumbnail -->
-                        <div class="bg-img-pattern flex-shrink-0 mr-6 mb-6 md:mb-0 w-full md:w-1/3 lg:w-1/4 float-left md:float-none">
-                            <a
-                                href="http://david.timmons.io/good-software-hygiene-prevents-bad-code-smell/"
-                                title="Good Software Hygiene Prevents Bad Code Smell"
-                                >
-                                <img
-                                    class="inline-block w-full"
-                                    src="http://david.timmons.io/static/images/2016/11/software-hygiene.jpg"
-                                    alt="Good Software Hygiene Prevents Bad Code Smell"
+                            <!-- post thumbnail -->
+                            <div class="bg-img-pattern flex-shrink-0 mr-6 mb-6 md:mb-0 w-full md:w-1/3 lg:w-1/4 float-left md:float-none">
+                                <a
+                                    href="http://david.timmons.io/are-time-thieves-living-in-your-software-part-1/"
+                                    title="Are Time-Thieves Living in Your Software? (Part 1)"
                                     >
-                            </a>
-                        </div>
-
-                        <div class="flex-shrink">
-                            <!-- post details -->
-                            <div>
-                                <h2 class="border-b border-dark-coal leading-snug mixin:text-headline text-2xl">
-                                    <a
-                                        href="http://david.timmons.io/good-software-hygiene-prevents-bad-code-smell/"
-                                        title="Good Software Hygiene Prevents Bad Code Smell"
+                                    <img
+                                        class="inline-block w-full"
+                                        src="http://david.timmons.io/static/images/2016/11/time-thieves-pt1.jpg"
+                                        alt="Are Time-Thieves Living in Your Software? (Part 1)"
                                         >
-                                        Good Software Hygiene Prevents Bad Code Smell
-                                    </a>
-                                </h2>
-                                <time class="text-purple text-sm">
-                                    September 17, 2016 11:50am
-                                </time>
+                                </a>
                             </div>
 
-                            <!-- post preview -->
-                            <p class="mt-2 mb-0">
-                                Johann Wolfgang von Goethe once wrote, &quot;In der Beschränkung zeigt sich erst der Meister.&quot; Put another way, &quot;Masters of their craft know that less is more.&quot; While Goethe was not talking about software development, building software is a craft. The... </span><a class="whitespace-no-wrap" href="http://david.timmons.io/good-software-hygiene-prevents-bad-code-smell/">[ Keep Reading ]</a>
-                            </p>
-                        </div>
+                            <div class="flex-shrink">
+                                <!-- post details -->
+                                <div>
+                                    <h2 class="border-b border-dark-coal leading-snug mixin:text-headline text-2xl">
+                                        <a
+                                            href="http://david.timmons.io/are-time-thieves-living-in-your-software-part-1/"
+                                            title="Are Time-Thieves Living in Your Software? (Part 1)"
+                                            >
+                                            Are Time-Thieves Living in Your Software? (Part 1)
+                                        </a>
+                                    </h2>
+                                    <time class="text-purple text-sm">
+                                        October 13, 2016 6:00pm
+                                    </time>
+                                </div>
 
-                    </article>
-                    <article class="category-technology bg-dark-tar flex flex-wrap md:flex-no-wrap mb-2 p-6 rounded-lg text-dark-concrete">
-
-                        <!-- post thumbnail -->
-                        <div class="bg-img-pattern flex-shrink-0 mr-6 mb-6 md:mb-0 w-full md:w-1/3 lg:w-1/4 float-left md:float-none">
-                            <a
-                                href="http://david.timmons.io/virtual-reality-tech-savvy-business/"
-                                title="Virtual Reality for the Tech-Savvy Business"
-                                >
-                                <img
-                                    class="inline-block w-full"
-                                    src="http://david.timmons.io/static/images/2016/11/vr-tech-savvy-biz.jpg"
-                                    alt="Virtual Reality for the Tech-Savvy Business"
-                                    >
-                            </a>
-                        </div>
-
-                        <div class="flex-shrink">
-                            <!-- post details -->
-                            <div>
-                                <h2 class="border-b border-dark-coal leading-snug mixin:text-headline text-2xl">
-                                    <a
-                                        href="http://david.timmons.io/virtual-reality-tech-savvy-business/"
-                                        title="Virtual Reality for the Tech-Savvy Business"
-                                        >
-                                        Virtual Reality for the Tech-Savvy Business
-                                    </a>
-                                </h2>
-                                <time class="text-purple text-sm">
-                                    August 3, 2016 5:59pm
-                                </time>
+                                <!-- post preview -->
+                                <p class="mt-2 mb-0">
+                                    What would you do if time was like spare change? You save a few seconds here and there and find an extra hour on Saturday afternoon. Or, you might collect otherwise unproductive minutes and use them on days when you... </span><a class="whitespace-no-wrap" href="http://david.timmons.io/are-time-thieves-living-in-your-software-part-1/">[ Keep Reading ]</a>
+                                </p>
                             </div>
 
-                            <!-- post preview -->
-                            <p class="mt-2 mb-0">
-                                Virtual reality technology has come a long way in 20 years. Early advancements like Nintendo&#x27;s 1995 Virtual Boy and Google&#x27;s 2007 Street View gave us glimpses into how this technology might advance. Now, in 2016, Facebook&#x27;s Oculus Rift and the... </span><a class="whitespace-no-wrap" href="http://david.timmons.io/virtual-reality-tech-savvy-business/">[ Keep Reading ]</a>
-                            </p>
-                        </div>
+                        </article>
+                        <article class="category-technology bg-dark-tar flex flex-wrap md:flex-no-wrap mb-2 p-6 rounded-lg text-dark-concrete">
 
-                    </article>
-                    <article class="category-technology bg-dark-tar flex flex-wrap md:flex-no-wrap mb-2 p-6 rounded-lg text-dark-concrete">
-
-                        <!-- post thumbnail -->
-                        <div class="bg-img-pattern flex-shrink-0 mr-6 mb-6 md:mb-0 w-full md:w-1/3 lg:w-1/4 float-left md:float-none">
-                            <a
-                                href="http://david.timmons.io/what-your-javascript-says-about-you/"
-                                title="What Your JavaScript Says About You"
-                                >
-                                <img
-                                    class="inline-block w-full"
-                                    src="http://david.timmons.io/static/images/2016/07/javascript-and-you.jpg"
-                                    alt="What Your JavaScript Says About You"
+                            <!-- post thumbnail -->
+                            <div class="bg-img-pattern flex-shrink-0 mr-6 mb-6 md:mb-0 w-full md:w-1/3 lg:w-1/4 float-left md:float-none">
+                                <a
+                                    href="http://david.timmons.io/good-software-hygiene-prevents-bad-code-smell/"
+                                    title="Good Software Hygiene Prevents Bad Code Smell"
                                     >
-                            </a>
-                        </div>
-
-                        <div class="flex-shrink">
-                            <!-- post details -->
-                            <div>
-                                <h2 class="border-b border-dark-coal leading-snug mixin:text-headline text-2xl">
-                                    <a
-                                        href="http://david.timmons.io/what-your-javascript-says-about-you/"
-                                        title="What Your JavaScript Says About You"
+                                    <img
+                                        class="inline-block w-full"
+                                        src="http://david.timmons.io/static/images/2016/11/software-hygiene.jpg"
+                                        alt="Good Software Hygiene Prevents Bad Code Smell"
                                         >
-                                        What Your JavaScript Says About You
-                                    </a>
-                                </h2>
-                                <time class="text-purple text-sm">
-                                    June 1, 2016 8:33am
-                                </time>
+                                </a>
                             </div>
 
-                            <!-- post preview -->
-                            <p class="mt-2 mb-0">
-                                There is a growing philosophical divide between front-end Web application developers. JavaScript is the one front-end language that all browsers natively understand (at least until WebAssembly becomes a widely supported reality), so building software directly within the browser depends on... </span><a class="whitespace-no-wrap" href="http://david.timmons.io/what-your-javascript-says-about-you/">[ Keep Reading ]</a>
-                            </p>
-                        </div>
+                            <div class="flex-shrink">
+                                <!-- post details -->
+                                <div>
+                                    <h2 class="border-b border-dark-coal leading-snug mixin:text-headline text-2xl">
+                                        <a
+                                            href="http://david.timmons.io/good-software-hygiene-prevents-bad-code-smell/"
+                                            title="Good Software Hygiene Prevents Bad Code Smell"
+                                            >
+                                            Good Software Hygiene Prevents Bad Code Smell
+                                        </a>
+                                    </h2>
+                                    <time class="text-purple text-sm">
+                                        September 17, 2016 11:50am
+                                    </time>
+                                </div>
 
-                    </article>
-                    <article class="category-technology bg-dark-tar flex flex-wrap md:flex-no-wrap mb-2 p-6 rounded-lg text-dark-concrete">
-
-                        <!-- post thumbnail -->
-                        <div class="bg-img-pattern flex-shrink-0 mr-6 mb-6 md:mb-0 w-full md:w-1/3 lg:w-1/4 float-left md:float-none">
-                            <a
-                                href="http://david.timmons.io/have-you-met-dockers-cousin-vagrant/"
-                                title="Have you met Docker&#x27;s cousin Vagrant?"
-                                >
-                                <img
-                                    class="inline-block w-full"
-                                    src="http://david.timmons.io/static/images/2016/07/dockers-cousin-vagrant.jpg"
-                                    alt="Have you met Docker&#x27;s cousin Vagrant?"
-                                    >
-                            </a>
-                        </div>
-
-                        <div class="flex-shrink">
-                            <!-- post details -->
-                            <div>
-                                <h2 class="border-b border-dark-coal leading-snug mixin:text-headline text-2xl">
-                                    <a
-                                        href="http://david.timmons.io/have-you-met-dockers-cousin-vagrant/"
-                                        title="Have you met Docker&#x27;s cousin Vagrant?"
-                                        >
-                                        Have you met Docker&#x27;s cousin Vagrant?
-                                    </a>
-                                </h2>
-                                <time class="text-purple text-sm">
-                                    May 25, 2016 4:58pm
-                                </time>
+                                <!-- post preview -->
+                                <p class="mt-2 mb-0">
+                                    Johann Wolfgang von Goethe once wrote, &quot;In der Beschränkung zeigt sich erst der Meister.&quot; Put another way, &quot;Masters of their craft know that less is more.&quot; While Goethe was not talking about software development, building software is a craft. The... </span><a class="whitespace-no-wrap" href="http://david.timmons.io/good-software-hygiene-prevents-bad-code-smell/">[ Keep Reading ]</a>
+                                </p>
                             </div>
 
-                            <!-- post preview -->
-                            <p class="mt-2 mb-0">
-                                The technology industry has long accepted virtualization as a great idea, but it’s important to use the right tool for the job. Containers as a virtualization approach have grown in popularity from a niche Unix concept to widespread use in... </span><a class="whitespace-no-wrap" href="http://david.timmons.io/have-you-met-dockers-cousin-vagrant/">[ Keep Reading ]</a>
-                            </p>
-                        </div>
+                        </article>
+                        <article class="category-technology bg-dark-tar flex flex-wrap md:flex-no-wrap mb-2 p-6 rounded-lg text-dark-concrete">
 
-                    </article>
-                    <article class="category-technology bg-dark-tar flex flex-wrap md:flex-no-wrap mb-2 p-6 rounded-lg text-dark-concrete">
-
-                        <!-- post thumbnail -->
-                        <div class="bg-img-pattern flex-shrink-0 mr-6 mb-6 md:mb-0 w-full md:w-1/3 lg:w-1/4 float-left md:float-none">
-                            <a
-                                href="http://david.timmons.io/oracle-content-marketing-in-5-minutes-or-less/"
-                                title="Oracle Content Marketing in 5 Minutes or Less"
-                                >
-                                <img
-                                    class="inline-block w-full"
-                                    src="http://david.timmons.io/static/images/2016/07/oracle-content-marketing.jpg"
-                                    alt="Oracle Content Marketing in 5 Minutes or Less"
+                            <!-- post thumbnail -->
+                            <div class="bg-img-pattern flex-shrink-0 mr-6 mb-6 md:mb-0 w-full md:w-1/3 lg:w-1/4 float-left md:float-none">
+                                <a
+                                    href="http://david.timmons.io/virtual-reality-tech-savvy-business/"
+                                    title="Virtual Reality for the Tech-Savvy Business"
                                     >
-                            </a>
-                        </div>
-
-                        <div class="flex-shrink">
-                            <!-- post details -->
-                            <div>
-                                <h2 class="border-b border-dark-coal leading-snug mixin:text-headline text-2xl">
-                                    <a
-                                        href="http://david.timmons.io/oracle-content-marketing-in-5-minutes-or-less/"
-                                        title="Oracle Content Marketing in 5 Minutes or Less"
+                                    <img
+                                        class="inline-block w-full"
+                                        src="http://david.timmons.io/static/images/2016/11/vr-tech-savvy-biz.jpg"
+                                        alt="Virtual Reality for the Tech-Savvy Business"
                                         >
-                                        Oracle Content Marketing in 5 Minutes or Less
-                                    </a>
-                                </h2>
-                                <time class="text-purple text-sm">
-                                    April 28, 2016 6:14pm
-                                </time>
+                                </a>
                             </div>
 
-                            <!-- post preview -->
-                            <p class="mt-2 mb-0">
-                                Your company just purchased a license to use Oracle Content Marketing (previously known as Compendium), and your job as a developer is to get it running. Where do you begin? As the Chinese philosopher Lao-tzu once said, &quot;A journey of... </span><a class="whitespace-no-wrap" href="http://david.timmons.io/oracle-content-marketing-in-5-minutes-or-less/">[ Keep Reading ]</a>
-                            </p>
-                        </div>
+                            <div class="flex-shrink">
+                                <!-- post details -->
+                                <div>
+                                    <h2 class="border-b border-dark-coal leading-snug mixin:text-headline text-2xl">
+                                        <a
+                                            href="http://david.timmons.io/virtual-reality-tech-savvy-business/"
+                                            title="Virtual Reality for the Tech-Savvy Business"
+                                            >
+                                            Virtual Reality for the Tech-Savvy Business
+                                        </a>
+                                    </h2>
+                                    <time class="text-purple text-sm">
+                                        August 3, 2016 5:59pm
+                                    </time>
+                                </div>
 
-                    </article>
-                    <article class="category-technology bg-dark-tar flex flex-wrap md:flex-no-wrap mb-2 p-6 rounded-lg text-dark-concrete">
-
-                        <!-- post thumbnail -->
-                        <div class="bg-img-pattern flex-shrink-0 mr-6 mb-6 md:mb-0 w-full md:w-1/3 lg:w-1/4 float-left md:float-none">
-                            <a
-                                href="http://david.timmons.io/how-to-be-mean/"
-                                title="How to be MEAN!"
-                                >
-                                <img
-                                    class="inline-block w-full"
-                                    src="http://david.timmons.io/static/images/2015/10/hf-robot-blog.jpg"
-                                    alt="How to be MEAN!"
-                                    >
-                            </a>
-                        </div>
-
-                        <div class="flex-shrink">
-                            <!-- post details -->
-                            <div>
-                                <h2 class="border-b border-dark-coal leading-snug mixin:text-headline text-2xl">
-                                    <a
-                                        href="http://david.timmons.io/how-to-be-mean/"
-                                        title="How to be MEAN!"
-                                        >
-                                        How to be MEAN!
-                                    </a>
-                                </h2>
-                                <time class="text-purple text-sm">
-                                    October 8, 2015 2:05am
-                                </time>
+                                <!-- post preview -->
+                                <p class="mt-2 mb-0">
+                                    Virtual reality technology has come a long way in 20 years. Early advancements like Nintendo&#x27;s 1995 Virtual Boy and Google&#x27;s 2007 Street View gave us glimpses into how this technology might advance. Now, in 2016, Facebook&#x27;s Oculus Rift and the... </span><a class="whitespace-no-wrap" href="http://david.timmons.io/virtual-reality-tech-savvy-business/">[ Keep Reading ]</a>
+                                </p>
                             </div>
 
-                            <!-- post preview -->
-                            <p class="mt-2 mb-0">
-                                Bringing a Web application from the spark of an idea to a complete interactive experience is certainly a rite of passage. I finished programming my first complete Web application this week using the MEAN stack (MongoDB, Express, AngularJS, Node.js), and... </span><a class="whitespace-no-wrap" href="http://david.timmons.io/how-to-be-mean/">[ Keep Reading ]</a>
-                            </p>
-                        </div>
+                        </article>
+                        <article class="category-technology bg-dark-tar flex flex-wrap md:flex-no-wrap mb-2 p-6 rounded-lg text-dark-concrete">
 
-                    </article>
-                    <article class="category-marketing bg-dark-tar flex flex-wrap md:flex-no-wrap mb-2 p-6 rounded-lg text-dark-concrete">
-
-                        <!-- post thumbnail -->
-                        <div class="bg-img-pattern flex-shrink-0 mr-6 mb-6 md:mb-0 w-full md:w-1/3 lg:w-1/4 float-left md:float-none">
-                            <a
-                                href="http://david.timmons.io/marketing-the-zombie-apocalypse-and-you/"
-                                title="Marketing, The Zombie Apocalypse, And You"
-                                >
-                                <img
-                                    class="inline-block w-full"
-                                    src="http://david.timmons.io/static/images/2013/05/marketing-the-zombie-apocalypse-and-you0.jpg"
-                                    alt="Marketing, The Zombie Apocalypse, And You"
+                            <!-- post thumbnail -->
+                            <div class="bg-img-pattern flex-shrink-0 mr-6 mb-6 md:mb-0 w-full md:w-1/3 lg:w-1/4 float-left md:float-none">
+                                <a
+                                    href="http://david.timmons.io/what-your-javascript-says-about-you/"
+                                    title="What Your JavaScript Says About You"
                                     >
-                            </a>
-                        </div>
-
-                        <div class="flex-shrink">
-                            <!-- post details -->
-                            <div>
-                                <h2 class="border-b border-dark-coal leading-snug mixin:text-headline text-2xl">
-                                    <a
-                                        href="http://david.timmons.io/marketing-the-zombie-apocalypse-and-you/"
-                                        title="Marketing, The Zombie Apocalypse, And You"
+                                    <img
+                                        class="inline-block w-full"
+                                        src="http://david.timmons.io/static/images/2016/07/javascript-and-you.jpg"
+                                        alt="What Your JavaScript Says About You"
                                         >
-                                        Marketing, The Zombie Apocalypse, And You
-                                    </a>
-                                </h2>
-                                <time class="text-purple text-sm">
-                                    May 18, 2013 6:20pm
-                                </time>
+                                </a>
                             </div>
 
-                            <!-- post preview -->
-                            <p class="mt-2 mb-0">
-                                Marketing your business after the zombie apocalypse can be a living nightmare. For one thing, zombies are terrible customers. Just try getting that putrid smell of death off your inventory after these shambling deadbeats jostle your merchandise. Do you have... </span><a class="whitespace-no-wrap" href="http://david.timmons.io/marketing-the-zombie-apocalypse-and-you/">[ Keep Reading ]</a>
-                            </p>
-                        </div>
+                            <div class="flex-shrink">
+                                <!-- post details -->
+                                <div>
+                                    <h2 class="border-b border-dark-coal leading-snug mixin:text-headline text-2xl">
+                                        <a
+                                            href="http://david.timmons.io/what-your-javascript-says-about-you/"
+                                            title="What Your JavaScript Says About You"
+                                            >
+                                            What Your JavaScript Says About You
+                                        </a>
+                                    </h2>
+                                    <time class="text-purple text-sm">
+                                        June 1, 2016 8:33am
+                                    </time>
+                                </div>
 
-                    </article>
-                    <article class="category-marketing bg-dark-tar flex flex-wrap md:flex-no-wrap mb-2 p-6 rounded-lg text-dark-concrete">
-
-                        <!-- post thumbnail -->
-                        <div class="bg-img-pattern flex-shrink-0 mr-6 mb-6 md:mb-0 w-full md:w-1/3 lg:w-1/4 float-left md:float-none">
-                            <a
-                                href="http://david.timmons.io/marketing-strategy/"
-                                title="Marketing Strategy"
-                                >
-                                <img
-                                    class="inline-block w-full"
-                                    src="http://david.timmons.io/static/images/2014/05/2-image-zmot.png"
-                                    alt="Marketing Strategy"
-                                    >
-                            </a>
-                        </div>
-
-                        <div class="flex-shrink">
-                            <!-- post details -->
-                            <div>
-                                <h2 class="border-b border-dark-coal leading-snug mixin:text-headline text-2xl">
-                                    <a
-                                        href="http://david.timmons.io/marketing-strategy/"
-                                        title="Marketing Strategy"
-                                        >
-                                        Marketing Strategy
-                                    </a>
-                                </h2>
-                                <time class="text-purple text-sm">
-                                    May 16, 2013 2:19am
-                                </time>
+                                <!-- post preview -->
+                                <p class="mt-2 mb-0">
+                                    There is a growing philosophical divide between front-end Web application developers. JavaScript is the one front-end language that all browsers natively understand (at least until WebAssembly becomes a widely supported reality), so building software directly within the browser depends on... </span><a class="whitespace-no-wrap" href="http://david.timmons.io/what-your-javascript-says-about-you/">[ Keep Reading ]</a>
+                                </p>
                             </div>
 
-                            <!-- post preview -->
-                            <p class="mt-2 mb-0">
-                                ## Summary Creating a marketing strategy from thin air involves hours or days of intense thinking. Successful marketers know they must approach this process with care, but it is not always clear where to begin. Some strategy approaches amount to... </span><a class="whitespace-no-wrap" href="http://david.timmons.io/marketing-strategy/">[ Keep Reading ]</a>
-                            </p>
-                        </div>
+                        </article>
+                        <article class="category-technology bg-dark-tar flex flex-wrap md:flex-no-wrap mb-2 p-6 rounded-lg text-dark-concrete">
 
-                    </article>
+                            <!-- post thumbnail -->
+                            <div class="bg-img-pattern flex-shrink-0 mr-6 mb-6 md:mb-0 w-full md:w-1/3 lg:w-1/4 float-left md:float-none">
+                                <a
+                                    href="http://david.timmons.io/have-you-met-dockers-cousin-vagrant/"
+                                    title="Have you met Docker&#x27;s cousin Vagrant?"
+                                    >
+                                    <img
+                                        class="inline-block w-full"
+                                        src="http://david.timmons.io/static/images/2016/07/dockers-cousin-vagrant.jpg"
+                                        alt="Have you met Docker&#x27;s cousin Vagrant?"
+                                        >
+                                </a>
+                            </div>
+
+                            <div class="flex-shrink">
+                                <!-- post details -->
+                                <div>
+                                    <h2 class="border-b border-dark-coal leading-snug mixin:text-headline text-2xl">
+                                        <a
+                                            href="http://david.timmons.io/have-you-met-dockers-cousin-vagrant/"
+                                            title="Have you met Docker&#x27;s cousin Vagrant?"
+                                            >
+                                            Have you met Docker&#x27;s cousin Vagrant?
+                                        </a>
+                                    </h2>
+                                    <time class="text-purple text-sm">
+                                        May 25, 2016 4:58pm
+                                    </time>
+                                </div>
+
+                                <!-- post preview -->
+                                <p class="mt-2 mb-0">
+                                    The technology industry has long accepted virtualization as a great idea, but it’s important to use the right tool for the job. Containers as a virtualization approach have grown in popularity from a niche Unix concept to widespread use in... </span><a class="whitespace-no-wrap" href="http://david.timmons.io/have-you-met-dockers-cousin-vagrant/">[ Keep Reading ]</a>
+                                </p>
+                            </div>
+
+                        </article>
+                        <article class="category-technology bg-dark-tar flex flex-wrap md:flex-no-wrap mb-2 p-6 rounded-lg text-dark-concrete">
+
+                            <!-- post thumbnail -->
+                            <div class="bg-img-pattern flex-shrink-0 mr-6 mb-6 md:mb-0 w-full md:w-1/3 lg:w-1/4 float-left md:float-none">
+                                <a
+                                    href="http://david.timmons.io/oracle-content-marketing-in-5-minutes-or-less/"
+                                    title="Oracle Content Marketing in 5 Minutes or Less"
+                                    >
+                                    <img
+                                        class="inline-block w-full"
+                                        src="http://david.timmons.io/static/images/2016/07/oracle-content-marketing.jpg"
+                                        alt="Oracle Content Marketing in 5 Minutes or Less"
+                                        >
+                                </a>
+                            </div>
+
+                            <div class="flex-shrink">
+                                <!-- post details -->
+                                <div>
+                                    <h2 class="border-b border-dark-coal leading-snug mixin:text-headline text-2xl">
+                                        <a
+                                            href="http://david.timmons.io/oracle-content-marketing-in-5-minutes-or-less/"
+                                            title="Oracle Content Marketing in 5 Minutes or Less"
+                                            >
+                                            Oracle Content Marketing in 5 Minutes or Less
+                                        </a>
+                                    </h2>
+                                    <time class="text-purple text-sm">
+                                        April 28, 2016 6:14pm
+                                    </time>
+                                </div>
+
+                                <!-- post preview -->
+                                <p class="mt-2 mb-0">
+                                    Your company just purchased a license to use Oracle Content Marketing (previously known as Compendium), and your job as a developer is to get it running. Where do you begin? As the Chinese philosopher Lao-tzu once said, &quot;A journey of... </span><a class="whitespace-no-wrap" href="http://david.timmons.io/oracle-content-marketing-in-5-minutes-or-less/">[ Keep Reading ]</a>
+                                </p>
+                            </div>
+
+                        </article>
+                        <article class="category-technology bg-dark-tar flex flex-wrap md:flex-no-wrap mb-2 p-6 rounded-lg text-dark-concrete">
+
+                            <!-- post thumbnail -->
+                            <div class="bg-img-pattern flex-shrink-0 mr-6 mb-6 md:mb-0 w-full md:w-1/3 lg:w-1/4 float-left md:float-none">
+                                <a
+                                    href="http://david.timmons.io/how-to-be-mean/"
+                                    title="How to be MEAN!"
+                                    >
+                                    <img
+                                        class="inline-block w-full"
+                                        src="http://david.timmons.io/static/images/2015/10/hf-robot-blog.jpg"
+                                        alt="How to be MEAN!"
+                                        >
+                                </a>
+                            </div>
+
+                            <div class="flex-shrink">
+                                <!-- post details -->
+                                <div>
+                                    <h2 class="border-b border-dark-coal leading-snug mixin:text-headline text-2xl">
+                                        <a
+                                            href="http://david.timmons.io/how-to-be-mean/"
+                                            title="How to be MEAN!"
+                                            >
+                                            How to be MEAN!
+                                        </a>
+                                    </h2>
+                                    <time class="text-purple text-sm">
+                                        October 8, 2015 2:05am
+                                    </time>
+                                </div>
+
+                                <!-- post preview -->
+                                <p class="mt-2 mb-0">
+                                    Bringing a Web application from the spark of an idea to a complete interactive experience is certainly a rite of passage. I finished programming my first complete Web application this week using the MEAN stack (MongoDB, Express, AngularJS, Node.js), and... </span><a class="whitespace-no-wrap" href="http://david.timmons.io/how-to-be-mean/">[ Keep Reading ]</a>
+                                </p>
+                            </div>
+
+                        </article>
+                        <article class="category-marketing bg-dark-tar flex flex-wrap md:flex-no-wrap mb-2 p-6 rounded-lg text-dark-concrete">
+
+                            <!-- post thumbnail -->
+                            <div class="bg-img-pattern flex-shrink-0 mr-6 mb-6 md:mb-0 w-full md:w-1/3 lg:w-1/4 float-left md:float-none">
+                                <a
+                                    href="http://david.timmons.io/marketing-the-zombie-apocalypse-and-you/"
+                                    title="Marketing, The Zombie Apocalypse, And You"
+                                    >
+                                    <img
+                                        class="inline-block w-full"
+                                        src="http://david.timmons.io/static/images/2013/05/marketing-the-zombie-apocalypse-and-you0.jpg"
+                                        alt="Marketing, The Zombie Apocalypse, And You"
+                                        >
+                                </a>
+                            </div>
+
+                            <div class="flex-shrink">
+                                <!-- post details -->
+                                <div>
+                                    <h2 class="border-b border-dark-coal leading-snug mixin:text-headline text-2xl">
+                                        <a
+                                            href="http://david.timmons.io/marketing-the-zombie-apocalypse-and-you/"
+                                            title="Marketing, The Zombie Apocalypse, And You"
+                                            >
+                                            Marketing, The Zombie Apocalypse, And You
+                                        </a>
+                                    </h2>
+                                    <time class="text-purple text-sm">
+                                        May 18, 2013 6:20pm
+                                    </time>
+                                </div>
+
+                                <!-- post preview -->
+                                <p class="mt-2 mb-0">
+                                    Marketing your business after the zombie apocalypse can be a living nightmare. For one thing, zombies are terrible customers. Just try getting that putrid smell of death off your inventory after these shambling deadbeats jostle your merchandise. Do you have... </span><a class="whitespace-no-wrap" href="http://david.timmons.io/marketing-the-zombie-apocalypse-and-you/">[ Keep Reading ]</a>
+                                </p>
+                            </div>
+
+                        </article>
+                        <article class="category-marketing bg-dark-tar flex flex-wrap md:flex-no-wrap mb-2 p-6 rounded-lg text-dark-concrete">
+
+                            <!-- post thumbnail -->
+                            <div class="bg-img-pattern flex-shrink-0 mr-6 mb-6 md:mb-0 w-full md:w-1/3 lg:w-1/4 float-left md:float-none">
+                                <a
+                                    href="http://david.timmons.io/marketing-strategy/"
+                                    title="Marketing Strategy"
+                                    >
+                                    <img
+                                        class="inline-block w-full"
+                                        src="http://david.timmons.io/static/images/2014/05/2-image-zmot.png"
+                                        alt="Marketing Strategy"
+                                        >
+                                </a>
+                            </div>
+
+                            <div class="flex-shrink">
+                                <!-- post details -->
+                                <div>
+                                    <h2 class="border-b border-dark-coal leading-snug mixin:text-headline text-2xl">
+                                        <a
+                                            href="http://david.timmons.io/marketing-strategy/"
+                                            title="Marketing Strategy"
+                                            >
+                                            Marketing Strategy
+                                        </a>
+                                    </h2>
+                                    <time class="text-purple text-sm">
+                                        May 16, 2013 2:19am
+                                    </time>
+                                </div>
+
+                                <!-- post preview -->
+                                <p class="mt-2 mb-0">
+                                    ## Summary Creating a marketing strategy from thin air involves hours or days of intense thinking. Successful marketers know they must approach this process with care, but it is not always clear where to begin. Some strategy approaches amount to... </span><a class="whitespace-no-wrap" href="http://david.timmons.io/marketing-strategy/">[ Keep Reading ]</a>
+                                </p>
+                            </div>
+
+                        </article>
+                    </div>
                 </div>
 
                 <!-- pagination -->
-                <div class="bg-dark-street -mt-2 pb-4 px-8 lg:px-48">
-                    <div class="bg-dark-tar px-6 rounded-lg text-dark-concrete">
-                        <a href="http://david.timmons.io/blog/page/2/index.html" class="posts-link" title="Click to read older content.">
-                            older ⥤
-                        </a>
+                <div class="bg-dark-street -mt-2 pb-4">
+                    <div class="mixin:page-layout">
+                        <div class="bg-dark-tar px-6 rounded-lg text-dark-concrete">
+                            <a href="http://david.timmons.io/blog/page/2/index.html" class="posts-link" title="Click to read older content.">
+                                older ⥤
+                            </a>
+                        </div>
                     </div>
                 </div>
             </section>
         </main>
 
         <footer
-            class="bg-dark-tar border-t border-dark-coal mt-1 px-8 py-1 text-shadow-dark w-full lg:px-48"
+            class="bg-dark-tar border-t border-dark-coal mt-1 py-1 text-shadow-dark text-xs w-full sm:text-sm"
             role="contentinfo"
             >
-            <div class="text-xs sm:min-w-page sm:text-sm">
+            <div class="mixin:page-layout">
                 <p class="leading-snug my-2 text-purple sm:mb-0">
                     &copy; 2017 - 2019 David Timmons. All rights reserved.
                 </p>

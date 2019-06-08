@@ -12,6 +12,7 @@
 /* ==========================================================================
    Global Styles
    ========================================================================== */
+
 *,
 *:after,
 *:before {
@@ -59,12 +60,21 @@ p {
 a { @apply no-underline text-aqua; }
 a:hover { @apply text-purple; }
 
+.article #contents h1,
+.article #contents h2,
+.article #contents h3,
+.article #contents h4 {
+    @apply block font-bold lowercase -mt-2 text-purple tracking-wider;
+    @apply border-b border-dark-coal leading-snug mt-6 text-2xl;
+}
+
 /* Utilities */
 
 .bg-clear-dark { background-color: rgba(0, 0, 0, 0.5); }
 .bg-img-hero { background-image: url("/static/images/circuit-board-circuits-components.jpg"); }
 .bg-img-portrait { background-image: url("/static/images/david-timmons.jpg"); }
-.filter-shadow-dark { filter: drop-shadow(0 0 1px rgba(0, 0, 0, 0.08)); }
+/* .filter-shadow-dark { filter: drop-shadow(0 0 1px rgba(0, 0, 0, 0.08)); } */
+.mixin\:page-layout { @apply max-w-page mx-auto px-6; }
 .mixin\:text-headline { @apply block font-bold lowercase -mt-2 text-purple tracking-wider; }
 .text-clear-light { color: rgba(255, 255, 255, 0.55); }
 .text-shadow-dark { text-shadow: 0 0 1px rgba(0, 0, 0, 0.08); }
@@ -72,9 +82,11 @@ a:hover { @apply text-purple; }
 
 @responsive {
     .bg-img-pattern { background-image: url("/static/images/timmons-logo-pattern.png"); }
-    .clip-none { clip-path: none; }
-    .clip-circle { clip-path: circle(50% at 50% 50%); }
-    .clip-parallelogram { clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%); }
+    /* .col-count-2 { column-count: 2; } */
+    /* .col-gap-sm { column-gap: 3rem; } */
+    /* .clip-none { clip-path: none; } */
+    /* .clip-circle { clip-path: circle(50% at 50% 50%); } */
+    /* .shape-parallelogram { shape-outside: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%); } */
 
     ul.list-custom-clear-light li::before { color: rgba(255, 255, 255, 0.55); }
     ul.list-custom li { display: block; }
@@ -95,8 +107,8 @@ a:hover { @apply text-purple; }
 /* Animations */
 
 @keyframes cursor-blink {
-    50% { border-right-width: 0px; }
-    100% { border-right-width: 1px; }
+    from { border-right-width: 0px; }
+    to   { border-right-width: 1px; }
 }
 
 @keyframes heartbeat {
@@ -117,7 +129,7 @@ a:hover { @apply text-purple; }
 }
 
 @variants group-hover, hover {
-    .ani-cursor-blink { animation: cursor-blink 1.2s linear 0s infinite; }
+    .ani-cursor-blink { animation: cursor-blink 1.2s steps(2) infinite; }
     .ani-heartbeat { animation: heartbeat 0.2s ease-in; }
     .ani-heartbeat-lg { animation: heartbeat-lg 0.2s ease-in; }
     .ani-pause { animation-play-state: paused; }
@@ -131,8 +143,8 @@ a:hover { @apply text-purple; }
 .mixin\:ani-heartbeat:hover { @apply ani-play ani-heartbeat; }
 .mixin\:ani-heartbeat-lg { @apply ani-pause ani-fill-both; }
 .mixin\:ani-heartbeat-lg:hover { @apply ani-play ani-heartbeat-lg; }
-.mixin\:ani-wiggle { @apply ani-pause ani-fill-both; }
-.mixin\:ani-wiggle:hover { @apply ani-play ani-wiggle; }
+/* .mixin\:ani-wiggle { @apply ani-pause ani-fill-both; } */
+/* .mixin\:ani-wiggle:hover { @apply ani-play ani-wiggle; } */
 .t-width { transition: width 0.5s ease-in-out; }
 
 

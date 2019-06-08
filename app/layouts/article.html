@@ -8,9 +8,7 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
 
-        <div class="sm:min-w-page">
-            {{> header }}
-        </div>
+        {{> header }}
 
         <main
             class="bg-dark-street mt-16 text-shadow-dark"
@@ -20,24 +18,25 @@
                 <article class="category-{{ category }} text-dark-concrete">
 
                     <!-- post details -->
-                    <div class="bg-dark-tar border-b border-t border-dark-coal mt-1 mb-4 px-8 lg:px-48 pb-2">
-                        <h1 class="font-bold font-mono leading-none lowercase my-2 select-none text-4xl text-aqua tracking-wide sm:min-w-page">
-                            {{ title }}
-                        </h1>
-                        <time class="block leading-snug text-purple text-sm">
-                            {{prettyDate date }}
-                        </time>
-                        <div class="block text-purple-lilac text-sm">
-                            category ➞ {{sentenceCase category }}
+                    <div class="bg-dark-tar border-b border-t border-dark-coal mt-1 mb-4 pb-2">
+                        <div class="mixin:page-layout">
+                            <h1 class="font-bold font-mono leading-none lowercase my-2 select-none text-4xl text-aqua tracking-wide">
+                                {{ title }}
+                            </h1>
+                            <time class="block leading-snug text-purple text-sm">
+                                {{prettyDate date }}
+                            </time>
+                            <div class="block text-purple-lilac text-sm">
+                                category ➞ {{sentenceCase category }}
+                            </div>
                         </div>
                     </div>
 
                     <!-- post content -->
-                    <div class="pb-4 px-8 lg:px-48">
+                    <div class="max-w-page mx-auto mb-4 px-6">
                         <div class="bg-dark-tar px-6 pt-4 pb-2 rounded-lg text-dark-concrete">
                             {{> hero }}
-
-                            <div class="text-lg">
+                            <div id="contents" class="max-w-2xl mx-auto text-lg md:text-justify">
                                 {{{ contents }}}
                             </div>
                         </div>
@@ -45,38 +44,40 @@
                 </article>
 
                 <!-- post navigation -->
-                <div class="pb-4 px-8 lg:px-48">
+                <div class="max-w-page mx-auto pb-4 px-6">
                     <div class="bg-dark-tar px-6 pt-4 pb-2 rounded-lg text-dark-concrete">
-                        {{#if this.previous.path}}
-                            <h3 class="leading-snug mixin:text-headline">
-                                next:
-                            </h3>
-                            <a
-                                href="{{ buildPath }}{{ this.previous.path }}/"
-                                rel="prev"
-                                >
-                                {{ this.previous.title }}
-                            </a>
-                        {{/if}}
-                        {{#if this.next.path }}
+                        <div class="max-w-2xl mx-auto">
                             {{#if this.previous.path}}
-                                <div class="mt-4">
+                                <h3 class="leading-snug mixin:text-headline">
+                                    next:
+                                </h3>
+                                <a
+                                    href="{{ buildPath }}{{ this.previous.path }}/"
+                                    rel="prev"
+                                    >
+                                    {{ this.previous.title }}
+                                </a>
                             {{/if}}
+                            {{#if this.next.path }}
+                                {{#if this.previous.path}}
+                                    <div class="mt-4">
+                                {{/if}}
 
-                            <h3 class="leading-snug mixin:text-headline">
-                                previous:
-                            </h3>
-                            <a
-                                href="{{ buildPath }}{{ this.next.path }}/"
-                                rel="next"
-                                >
-                                {{ this.next.title }}
-                            </a>
+                                <h3 class="leading-snug mixin:text-headline">
+                                    previous:
+                                </h3>
+                                <a
+                                    href="{{ buildPath }}{{ this.next.path }}/"
+                                    rel="next"
+                                    >
+                                    {{ this.next.title }}
+                                </a>
 
-                            {{#if this.previous.path}}
-                                </div>
+                                {{#if this.previous.path}}
+                                    </div>
+                                {{/if}}
                             {{/if}}
-                        {{/if}}
+                        </div>
                     </div>
                 </div>
             </section>

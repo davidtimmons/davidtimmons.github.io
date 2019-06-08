@@ -1,23 +1,23 @@
-<div class="hero text-center text-xs">
-    <div class="">
-        <div class="bg-img-pattern mb-2 rounded-lg">
-            <img
-                class="border-purple border-b-4 inline-block rounded-lg"
-                alt="{{ hero.imgAlt }}"
-                src="{{ hero.imgUrlSrc }}"
-                srcset="{{ hero.imgUrlSrc }} 648w"
-                sizes="(max-width: 648px) 100vw, 648px"
-                >
+<div class="hero bg-img-pattern p-6 rounded-lg">
+    <div class="max-w-2xl mx-auto">
+        <div
+            class="bg-cover border-purple border-b-4 h-2/5w max-h-hero mb-2 rounded-lg"
+            style="background-image: url('{{ hero.imgUrlSrc }}');"
+            >
         </div>
-        <p class="leading-tight m-0 mb-2 text-purple">
-            {{ hero.creditText }}
-            <a href="{{ hero.creditUrlSrc }}"
-            title="{{ hero.creditUrlTitle }}">
-            {{ hero.creditUrlText }}
-            </a>.
-        </p>
-        <p class="font-bold leading-tight m-0 text-purple-lilac">
-            {{{ hero.caption }}}
-        </p>
+        <div class="text-center text-xs">
+            <p class="leading-tight m-0 mb-2 text-purple">
+                {{ hero.creditText }}
+                <a
+                    href="{{ hero.creditUrlSrc }}"
+                    title="{{ hero.creditUrlTitle }}"
+                    >
+                    {{ hero.creditUrlText }}
+                </a>
+            </p>
+            <p class="font-bold leading-tight m-0 text-purple-lilac">
+                {{{ hero.caption }}}
+            </p>
+        </div>
     </div>
 </div>

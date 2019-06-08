@@ -30,7 +30,7 @@ permalink: false
       to learn more about my career.
     </p>
   </div>
-  <div class="bg-dark-tar md:bg-img-pattern flex-grow mt-2 md:mt-0 p-6 rounded-lg text-shadow-darker whitespace-no-wrap">
+  <div class="bg-dark-tar md:bg-img-pattern flex-grow mt-2 p-6 rounded-lg text-shadow-darker md:whitespace-no-wrap md:mt-0">
     <h3 class="border-b border-dark-coal leading-snug mb-4 text-2xl mixin:text-headline md:border-none md:mb-0 md:text-base">
       Favorite tech:
     </h3>
@@ -56,13 +56,13 @@ permalink: false
       technology and marketing.
     </p>
     <p>
-      I have career experience at startups and enterprises as well as my own business
-      ventures. My engineering experience spans the entire software stack (i.e. front-end,
+      I have worked at startups and enterprises as well as my own business
+      ventures. My engineering experience spans the entire software stack (i.e., front-end,
       back-end, database, and some mobile).
     </p>
     <p>
-      A focus on strong front-end engineering methodologies combined with a drive toward
-      quality and best practice in all things defines my professional approach.
+      Lastly, a focus on strong front-end engineering methodologies combined with a drive
+      toward quality and best practice in all things defines my professional approach.
     </p>
   </div>
 

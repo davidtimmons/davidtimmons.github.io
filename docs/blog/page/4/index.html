@@ -44,16 +44,16 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
 
-        <div class="sm:min-w-page">
-            <!-- header -->
-            <header
-                class="bg-dark-concrete border-t-8 border-purple fixed px-8 shadow top-0 w-full z-50 lg:px-48"
-                role="banner"
-                >
-                <div class="flex py-1 sm:min-w-page">
-            
+        <!-- header -->
+        <header
+            class="bg-dark-concrete border-t-8 border-purple fixed shadow top-0 w-full z-50"
+            role="banner"
+            >
+            <div class="mixin:page-layout">
+                <div class="flex py-1">
+        
                     <!-- logo -->
-                    <div class="flex-shrink-0 -ml-1 w-40">
+                    <div class="flex-shrink-0 mr-4 -ml-1 w-40">
                         <a
                             href="http://david.timmons.io/"
                             title="Definitely probably not working on an AI that can enslave the human race."
@@ -65,14 +65,10 @@
                                 >
                         </a>
                     </div>
-            
-                    <!-- div class="flex justify-end overflow-hidden sm:overflow-auto" -->
+        
                     <div class="flex-grow flex items-center justify-end">
                         <!-- nav -->
-                        <nav
-                            class="xs:mr-6"
-                            role="navigation"
-                            >
+                        <nav role="navigation">
                             <ul class="whitespace-no-wrap">
                                 <li
                                     id="menu-item-1"
@@ -98,10 +94,10 @@
                                 </li>
                             </ul>
                         </nav>
-            
+        
                         <!-- search -->
                         <form
-                            class="hidden md:inline-block md:mr-6"
+                            class="hidden md:inline-block md:ml-6"
                             onsubmit="searchDuckDuckGo()"
                             action="javascript:void(0)"
                             role="search"
@@ -123,9 +119,9 @@
                                 </button>
                             </div>
                         </form>
-            
+        
                         <!-- social -->
-                        <div class="hidden xs:flex-shrink-0 xs:flex xs:items-center">
+                        <div class="hidden ml-6 xs:flex-shrink-0 xs:flex xs:items-center">
                             <div class="mr-3 text-0">
                                 <a
                                     href="https://github.com/davidtimmons"
@@ -155,103 +151,109 @@
                         </div>
                     </div>
                 </div>
-            
-                <script>
-                    /**
-                     * This function uses DuckDuckGo to search this website for text content.
-                     */
-                    function searchDuckDuckGo() {
-                        var input = document.getElementById("search-input");
-                        if (input && input.value) {
-                            var searchString = encodeURIComponent(input.value).replace('%20', '+');
-                            var query = [encodeURIComponent('site:david.timmons.io'), searchString].join('+');
-                            window.location.href = 'https://duckduckgo.com/?q=' + query;
-                        }
+            </div>
+        
+            <script>
+                /**
+                 * This function uses DuckDuckGo to search this website for text content.
+                 */
+                function searchDuckDuckGo() {
+                    var input = document.getElementById("search-input");
+                    if (input && input.value) {
+                        var searchString = encodeURIComponent(input.value).replace('%20', '+');
+                        var query = [encodeURIComponent('site:david.timmons.io'), searchString].join('+');
+                        window.location.href = 'https://duckduckgo.com/?q=' + query;
                     }
-            
-                    // Add a special CSS class to the navigation menu item for the current page.
-                    var pageTitle = document.title.toLowerCase();
-                    var activeClass = ' current-menu-item current_page_item';
-            
-                    if (pageTitle.indexOf('blog') >= 0) {
-                        document.getElementById('menu-item-1').className += activeClass;
-                    } else if (pageTitle.indexOf('site map') >= 0) {
-                        document.getElementById('menu-item-2').className += activeClass;
-                    }
-                </script>
-            </header>
-        </div>
+                }
+        
+                // Add a special CSS class to the navigation menu item for the current page.
+                var pageTitle = document.title.toLowerCase();
+                var activeClass = ' current-menu-item current_page_item';
+        
+                if (pageTitle.indexOf('blog') >= 0) {
+                    document.getElementById('menu-item-1').className += activeClass;
+                } else if (pageTitle.indexOf('site map') >= 0) {
+                    document.getElementById('menu-item-2').className += activeClass;
+                }
+            </script>
+        </header>
 
         <main
             class="bg-dark-street mt-16 text-shadow-dark"
             role="main"
             >
             <section>
-                <div class="bg-dark-tar border-b border-t border-dark-coal my-1 px-8 lg:px-48">
-                    <h1 class="font-bold font-mono leading-none lowercase my-2 select-none text-4xl text-aqua tracking-wide">
-                        Blog
-                    </h1>
+                <div class="bg-dark-tar border-b border-t border-dark-coal my-1">
+                    <div class="mixin:page-layout">
+                        <h1 class="font-bold font-mono leading-none lowercase my-2 select-none text-4xl text-aqua tracking-wide">
+                            Blog
+                        </h1>
+                    </div>
                 </div>
 
-                <div class="my-4 px-8 lg:px-48">
-                    <article class="category-marketing bg-dark-tar flex flex-wrap md:flex-no-wrap mb-2 p-6 rounded-lg text-dark-concrete">
+                <div class="my-4">
+                    <div class="mixin:page-layout">
+                        <article class="category-marketing bg-dark-tar flex flex-wrap md:flex-no-wrap mb-2 p-6 rounded-lg text-dark-concrete">
 
-                        <!-- post thumbnail -->
-                        <div class="bg-img-pattern flex-shrink-0 mr-6 mb-6 md:mb-0 w-full md:w-1/3 lg:w-1/4 float-left md:float-none">
-                            <a
-                                href="http://david.timmons.io/setting-marketing-budget/"
-                                title="Setting a Marketing Budget"
-                                >
-                                <img
-                                    class="inline-block w-full"
-                                    src="http://david.timmons.io/static/images/2012/11/our-world-is-a-big-place0.jpg"
-                                    alt="Setting a Marketing Budget"
+                            <!-- post thumbnail -->
+                            <div class="bg-img-pattern flex-shrink-0 mr-6 mb-6 md:mb-0 w-full md:w-1/3 lg:w-1/4 float-left md:float-none">
+                                <a
+                                    href="http://david.timmons.io/setting-marketing-budget/"
+                                    title="Setting a Marketing Budget"
                                     >
-                            </a>
-                        </div>
-
-                        <div class="flex-shrink">
-                            <!-- post details -->
-                            <div>
-                                <h2 class="border-b border-dark-coal leading-snug mixin:text-headline text-2xl">
-                                    <a
-                                        href="http://david.timmons.io/setting-marketing-budget/"
-                                        title="Setting a Marketing Budget"
+                                    <img
+                                        class="inline-block w-full"
+                                        src="http://david.timmons.io/static/images/2012/11/our-world-is-a-big-place0.jpg"
+                                        alt="Setting a Marketing Budget"
                                         >
-                                        Setting a Marketing Budget
-                                    </a>
-                                </h2>
-                                <time class="text-purple text-sm">
-                                    October 8, 2012 2:27am
-                                </time>
+                                </a>
                             </div>
 
-                            <!-- post preview -->
-                            <p class="mt-2 mb-0">
-                                Having a marketing budget is just as important as knowing what activities to fund. When building a marketing program, start by doing one or two marketing activities really well then build that into a comprehensive program over time. This will... </span><a class="whitespace-no-wrap" href="http://david.timmons.io/setting-marketing-budget/">[ Keep Reading ]</a>
-                            </p>
-                        </div>
+                            <div class="flex-shrink">
+                                <!-- post details -->
+                                <div>
+                                    <h2 class="border-b border-dark-coal leading-snug mixin:text-headline text-2xl">
+                                        <a
+                                            href="http://david.timmons.io/setting-marketing-budget/"
+                                            title="Setting a Marketing Budget"
+                                            >
+                                            Setting a Marketing Budget
+                                        </a>
+                                    </h2>
+                                    <time class="text-purple text-sm">
+                                        October 8, 2012 2:27am
+                                    </time>
+                                </div>
 
-                    </article>
+                                <!-- post preview -->
+                                <p class="mt-2 mb-0">
+                                    Having a marketing budget is just as important as knowing what activities to fund. When building a marketing program, start by doing one or two marketing activities really well then build that into a comprehensive program over time. This will... </span><a class="whitespace-no-wrap" href="http://david.timmons.io/setting-marketing-budget/">[ Keep Reading ]</a>
+                                </p>
+                            </div>
+
+                        </article>
+                    </div>
                 </div>
 
                 <!-- pagination -->
-                <div class="bg-dark-street -mt-2 pb-4 px-8 lg:px-48">
-                    <div class="bg-dark-tar px-6 rounded-lg text-dark-concrete">
-                        <a href="http://david.timmons.io/blog/page/3/index.html" class="posts-link" title="Click to read newer content.">
-                            ⥢ newer
-                        </a>
-                        <span class="inline-block mx-2 text-purple-lilac">...</span>
+                <div class="bg-dark-street -mt-2 pb-4">
+                    <div class="mixin:page-layout">
+                        <div class="bg-dark-tar px-6 rounded-lg text-dark-concrete">
+                            <a href="http://david.timmons.io/blog/page/3/index.html" class="posts-link" title="Click to read newer content.">
+                                ⥢ newer
+                            </a>
+                            <span class="inline-block mx-2 text-purple-lilac">...</span>
+                        </div>
                     </div>
                 </div>
             </section>
         </main>
 
         <footer
-            class="bg-dark-tar border-t border-dark-coal mt-1 px-8 py-1 text-shadow-dark w-full lg:px-48"
+            class="bg-dark-tar border-t border-dark-coal mt-1 py-1 text-shadow-dark text-xs w-full sm:text-sm"
             role="contentinfo"
             >
-            <div class="text-xs sm:min-w-page sm:text-sm">
+            <div class="mixin:page-layout">
                 <p class="leading-snug my-2 text-purple sm:mb-0">
                     &copy; 2017 - 2019 David Timmons. All rights reserved.
                 </p>

@@ -44,16 +44,16 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
 
-        <div class="sm:min-w-page">
-            <!-- header -->
-            <header
-                class="bg-dark-concrete border-t-8 border-purple fixed px-8 shadow top-0 w-full z-50 lg:px-48"
-                role="banner"
-                >
-                <div class="flex py-1 sm:min-w-page">
-            
+        <!-- header -->
+        <header
+            class="bg-dark-concrete border-t-8 border-purple fixed shadow top-0 w-full z-50"
+            role="banner"
+            >
+            <div class="mixin:page-layout">
+                <div class="flex py-1">
+        
                     <!-- logo -->
-                    <div class="flex-shrink-0 -ml-1 w-40">
+                    <div class="flex-shrink-0 mr-4 -ml-1 w-40">
                         <a
                             href="http://david.timmons.io/"
                             title="Definitely probably not working on an AI that can enslave the human race."
@@ -65,14 +65,10 @@
                                 >
                         </a>
                     </div>
-            
-                    <!-- div class="flex justify-end overflow-hidden sm:overflow-auto" -->
+        
                     <div class="flex-grow flex items-center justify-end">
                         <!-- nav -->
-                        <nav
-                            class="xs:mr-6"
-                            role="navigation"
-                            >
+                        <nav role="navigation">
                             <ul class="whitespace-no-wrap">
                                 <li
                                     id="menu-item-1"
@@ -98,10 +94,10 @@
                                 </li>
                             </ul>
                         </nav>
-            
+        
                         <!-- search -->
                         <form
-                            class="hidden md:inline-block md:mr-6"
+                            class="hidden md:inline-block md:ml-6"
                             onsubmit="searchDuckDuckGo()"
                             action="javascript:void(0)"
                             role="search"
@@ -123,9 +119,9 @@
                                 </button>
                             </div>
                         </form>
-            
+        
                         <!-- social -->
-                        <div class="hidden xs:flex-shrink-0 xs:flex xs:items-center">
+                        <div class="hidden ml-6 xs:flex-shrink-0 xs:flex xs:items-center">
                             <div class="mr-3 text-0">
                                 <a
                                     href="https://github.com/davidtimmons"
@@ -155,62 +151,68 @@
                         </div>
                     </div>
                 </div>
-            
-                <script>
-                    /**
-                     * This function uses DuckDuckGo to search this website for text content.
-                     */
-                    function searchDuckDuckGo() {
-                        var input = document.getElementById("search-input");
-                        if (input && input.value) {
-                            var searchString = encodeURIComponent(input.value).replace('%20', '+');
-                            var query = [encodeURIComponent('site:david.timmons.io'), searchString].join('+');
-                            window.location.href = 'https://duckduckgo.com/?q=' + query;
-                        }
+            </div>
+        
+            <script>
+                /**
+                 * This function uses DuckDuckGo to search this website for text content.
+                 */
+                function searchDuckDuckGo() {
+                    var input = document.getElementById("search-input");
+                    if (input && input.value) {
+                        var searchString = encodeURIComponent(input.value).replace('%20', '+');
+                        var query = [encodeURIComponent('site:david.timmons.io'), searchString].join('+');
+                        window.location.href = 'https://duckduckgo.com/?q=' + query;
                     }
-            
-                    // Add a special CSS class to the navigation menu item for the current page.
-                    var pageTitle = document.title.toLowerCase();
-                    var activeClass = ' current-menu-item current_page_item';
-            
-                    if (pageTitle.indexOf('blog') >= 0) {
-                        document.getElementById('menu-item-1').className += activeClass;
-                    } else if (pageTitle.indexOf('site map') >= 0) {
-                        document.getElementById('menu-item-2').className += activeClass;
-                    }
-                </script>
-            </header>
-        </div>
+                }
+        
+                // Add a special CSS class to the navigation menu item for the current page.
+                var pageTitle = document.title.toLowerCase();
+                var activeClass = ' current-menu-item current_page_item';
+        
+                if (pageTitle.indexOf('blog') >= 0) {
+                    document.getElementById('menu-item-1').className += activeClass;
+                } else if (pageTitle.indexOf('site map') >= 0) {
+                    document.getElementById('menu-item-2').className += activeClass;
+                }
+            </script>
+        </header>
 
         <main
             class="mt-6 text-shadow-dark"
             role="main"
             >
             <!-- Awesome image by Fancycrave.com (https://www.pexels.com/photo/green-and-black-computer-motherboard-825258/) -->
-            <section class="bg-cover bg-img-hero flex flex-col h-screen justify-center px-8 lg:px-48">
-                <div class="-ml-6 text-0">
-                    <div class="bg-clear-dark px-6 font-bold inline-block leading-snug m-0 rounded-lg text-xs text-aqua text-shadow-darker tracking-wider sm:leading-normal sm:truncate lg:text-base">
-                        I'm a full-Stack, quality-oriented, design-loving, entrepreneurial, well-rounded
-                    </div>
-                    <br>
-                    <div class="mt-1 text-base">
-                        <div class="bg-dark-tar inline-block -ml-1 px-6 rounded-lg text-2/3 truncate sm:text-full lg:text-3/2">
-                            <h1 class="relative font-bold font-mono leading-tight select-none text-dark-concrete text-r5xl tracking-tight whitespace-no-wrap">
-                                software engineer <span style="top: calc(50% - 0.5em);" class="absolute ani-cursor-blink border-aqua h-r4 ml-1"></span>
-                            </h1>
-                        <div>
+            <section class="bg-cover bg-img-hero">
+                <div class="mixin:page-layout">
+                    <div class="flex flex-col h-screen justify-center">
+                        <div class="-ml-6 text-0">
+                            <div class="bg-clear-dark px-6 font-bold inline-block leading-snug m-0 rounded-lg text-xs text-aqua text-shadow-darker tracking-wider sm:leading-normal sm:truncate lg:text-base">
+                                I'm a full-Stack, quality-oriented, design-loving, entrepreneurial, well-rounded
+                            </div>
+                            <br>
+                            <div class="mt-1 text-base">
+                                <div class="bg-dark-tar inline-block -ml-1 px-6 rounded-lg text-3/5 truncate sm:text-full lg:text-3/2">
+                                    <h1 class="relative font-bold font-mono leading-tight select-none text-dark-concrete text-r5xl tracking-tight whitespace-no-wrap">
+                                        software engineer <span style="top: calc(50% - 0.5em);" class="absolute ani-cursor-blink border-aqua h-r4 ml-1"></span>
+                                    </h1>
+                                <div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
 
             <section>
-                <div class="bg-dark-tar border-b border-t border-dark-coal my-1 px-8 lg:px-48">
-                    <h2 class="font-bold font-mono leading-none lowercase my-2 select-none text-4xl text-aqua tracking-wide">
-                        About
-                    </h2>
+                <div class="bg-dark-tar border-b border-t border-dark-coal my-1">
+                    <div class="mixin:page-layout">
+                        <h2 class="font-bold font-mono leading-none lowercase my-2 select-none text-4xl text-aqua tracking-wide">
+                            About
+                        </h2>
+                    </div>
                 </div>
-                <article class="bg-dark-street px-8 py-4 text-dark-concrete lg:px-48">
-                    <div class="sm:min-w-page">
+                <article class="bg-dark-street py-4 text-dark-concrete">
+                    <div class="mixin:page-layout">
                         <div class="flex flex-wrap md:flex-no-wrap mb-2">
   <div class="bg-dark-tar hidden mr-2 rounded-lg xl:flex xl:items-center">
     <div
@@ -232,7 +234,7 @@
       to learn more about my career.
     </p>
   </div>
-  <div class="bg-dark-tar md:bg-img-pattern flex-grow mt-2 md:mt-0 p-6 rounded-lg text-shadow-darker whitespace-no-wrap">
+  <div class="bg-dark-tar md:bg-img-pattern flex-grow mt-2 p-6 rounded-lg text-shadow-darker md:whitespace-no-wrap md:mt-0">
     <h3 class="border-b border-dark-coal leading-snug mb-4 text-2xl mixin:text-headline md:border-none md:mb-0 md:text-base">
       Favorite tech:
     </h3>
@@ -258,13 +260,13 @@
       technology and marketing.
     </p>
     <p>
-      I have career experience at startups and enterprises as well as my own business
-      ventures. My engineering experience spans the entire software stack (i.e. front-end,
+      I have worked at startups and enterprises as well as my own business
+      ventures. My engineering experience spans the entire software stack (i.e., front-end,
       back-end, database, and some mobile).
     </p>
     <p>
-      A focus on strong front-end engineering methodologies combined with a drive toward
-      quality and best practice in all things defines my professional approach.
+      Lastly, a focus on strong front-end engineering methodologies combined with a drive
+      toward quality and best practice in all things defines my professional approach.
     </p>
   </div>
 
@@ -344,10 +346,10 @@
         </main>
 
         <footer
-            class="bg-dark-tar border-t border-dark-coal mt-1 px-8 py-1 text-shadow-dark w-full lg:px-48"
+            class="bg-dark-tar border-t border-dark-coal mt-1 py-1 text-shadow-dark text-xs w-full sm:text-sm"
             role="contentinfo"
             >
-            <div class="text-xs sm:min-w-page sm:text-sm">
+            <div class="mixin:page-layout">
                 <p class="leading-snug my-2 text-purple sm:mb-0">
                     &copy; 2017 - 2019 David Timmons. All rights reserved.
                 </p>

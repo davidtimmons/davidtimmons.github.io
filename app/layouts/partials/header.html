@@ -1,109 +1,107 @@
 <!-- header -->
 <header
-    class="bg-dark-concrete border-t-8 border-purple fixed px-8 shadow top-0 w-full z-50 lg:px-48"
+    class="bg-dark-concrete border-t-8 border-purple fixed shadow top-0 w-full z-50"
     role="banner"
     >
-    <div class="flex py-1 sm:min-w-page">
+    <div class="mixin:page-layout">
+        <div class="flex py-1">
 
-        <!-- logo -->
-        <div class="flex-shrink-0 -ml-1 w-40">
-            <a
-                href="{{ buildPath }}"
-                title="Definitely probably not working on an AI that can enslave the human race."
-                >
-                <img
-                    class="mixin:ani-heartbeat -mt-2"
-                    src="{{ imagePath }}timmons-logo.svg"
-                    alt="Logo"
+            <!-- logo -->
+            <div class="flex-shrink-0 mr-4 -ml-1 w-40">
+                <a
+                    href="{{ buildPath }}"
+                    title="Definitely probably not working on an AI that can enslave the human race."
                     >
-            </a>
-        </div>
-
-        <!-- div class="flex justify-end overflow-hidden sm:overflow-auto" -->
-        <div class="flex-grow flex items-center justify-end">
-            <!-- nav -->
-            <nav
-                class="xs:mr-6"
-                role="navigation"
-                >
-                <ul class="whitespace-no-wrap">
-                    <li
-                        id="menu-item-1"
-                        class="inline-block mr-2 text-base"
+                    <img
+                        class="mixin:ani-heartbeat -mt-2"
+                        src="{{ imagePath }}timmons-logo.svg"
+                        alt="Logo"
                         >
+                </a>
+            </div>
+
+            <div class="flex-grow flex items-center justify-end">
+                <!-- nav -->
+                <nav role="navigation">
+                    <ul class="whitespace-no-wrap">
+                        <li
+                            id="menu-item-1"
+                            class="inline-block mr-2 text-base"
+                            >
+                            <a
+                                class="hover:text-aqua text-purple"
+                                href="{{ buildPath }}blog/"
+                                >
+                                Blog
+                            </a>
+                        </li>
+                        <li
+                            id="menu-item-2"
+                            class="inline-block text-base"
+                            >
+                            <a
+                                class="hover:text-aqua text-purple"
+                                href="{{ buildPath }}site-map/"
+                                >
+                                Site map
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- search -->
+                <form
+                    class="hidden md:inline-block md:ml-6"
+                    onsubmit="searchDuckDuckGo()"
+                    action="javascript:void(0)"
+                    role="search"
+                    >
+                    <div class="text-0 whitespace-no-wrap t-width">
+                        <input
+                            id="search-input"
+                            class="bg-dark-street pl-3 rounded-l-full text-sm text-dark-concrete text-shadow-dark t-width w-28 focus:w-56 hover:w-56"
+                            type="search"
+                            name="q"
+                            placeholder="search here..."
+                            >
+                        <button
+                            class="bg-dark-coal border-dark-concrete border-l lowercase px-2 rounded-r-full text-sm hover:text-aqua text-dark-concrete text-shadow-dark"
+                            type="submit"
+                            role="button"
+                            >
+                            Search
+                        </button>
+                    </div>
+                </form>
+
+                <!-- social -->
+                <div class="hidden ml-6 xs:flex-shrink-0 xs:flex xs:items-center">
+                    <div class="mr-3 text-0">
                         <a
-                            class="hover:text-aqua text-purple"
-                            href="{{ buildPath }}blog/"
+                            href="{{ social.github }}"
+                            title="David Timmons on GitHub"
+                            target="_blank"
                             >
-                            Blog
+                            <img
+                                class="mixin:ani-heartbeat-lg min-w-8 w-8"
+                                src="{{ imagePath }}github-mark.svg"
+                                alt="My GitHub"
+                                >
                         </a>
-                    </li>
-                    <li
-                        id="menu-item-2"
-                        class="inline-block text-base"
-                        >
+                    </div>
+                    <div class="text-0">
                         <a
-                            class="hover:text-aqua text-purple"
-                            href="{{ buildPath }}site-map/"
+                            href="{{ social.linkedin }}"
+                            title="David Timmons on LinkedIn"
+                            target="_blank"
                             >
-                            Site map
+                            <img
+                                class="mixin:ani-heartbeat-lg min-w-8 w-8"
+                                src="{{ imagePath }}linkedin-mark.svg"
+                                alt="My LinkedIn"
+                                >
                         </a>
-                    </li>
-                </ul>
-            </nav>
-
-            <!-- search -->
-            <form
-                class="hidden md:inline-block md:mr-6"
-                onsubmit="searchDuckDuckGo()"
-                action="javascript:void(0)"
-                role="search"
-                >
-                <div class="text-0 whitespace-no-wrap t-width">
-                    <input
-                        id="search-input"
-                        class="bg-dark-street pl-3 rounded-l-full text-sm text-dark-concrete text-shadow-dark t-width w-28 focus:w-56 hover:w-56"
-                        type="search"
-                        name="q"
-                        placeholder="search here..."
-                        >
-                    <button
-                        class="bg-dark-coal border-dark-concrete border-l lowercase px-2 rounded-r-full text-sm hover:text-aqua text-dark-concrete text-shadow-dark"
-                        type="submit"
-                        role="button"
-                        >
-                        Search
-                    </button>
-                </div>
-            </form>
-
-            <!-- social -->
-            <div class="hidden xs:flex-shrink-0 xs:flex xs:items-center">
-                <div class="mr-3 text-0">
-                    <a
-                        href="{{ social.github }}"
-                        title="David Timmons on GitHub"
-                        target="_blank"
-                        >
-                        <img
-                            class="mixin:ani-heartbeat-lg min-w-8 w-8"
-                            src="{{ imagePath }}github-mark.svg"
-                            alt="My GitHub"
-                            >
-                    </a>
-                </div>
-                <div class="text-0">
-                    <a
-                        href="{{ social.linkedin }}"
-                        title="David Timmons on LinkedIn"
-                        target="_blank"
-                        >
-                        <img
-                            class="mixin:ani-heartbeat-lg min-w-8 w-8"
-                            src="{{ imagePath }}linkedin-mark.svg"
-                            alt="My LinkedIn"
-                            >
-                    </a>
+                    </div>
                 </div>
             </div>
         </div>

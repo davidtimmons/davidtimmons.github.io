@@ -44,16 +44,16 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
 
-        <div class="sm:min-w-page">
-            <!-- header -->
-            <header
-                class="bg-dark-concrete border-t-8 border-purple fixed px-8 shadow top-0 w-full z-50 lg:px-48"
-                role="banner"
-                >
-                <div class="flex py-1 sm:min-w-page">
-            
+        <!-- header -->
+        <header
+            class="bg-dark-concrete border-t-8 border-purple fixed shadow top-0 w-full z-50"
+            role="banner"
+            >
+            <div class="mixin:page-layout">
+                <div class="flex py-1">
+        
                     <!-- logo -->
-                    <div class="flex-shrink-0 -ml-1 w-40">
+                    <div class="flex-shrink-0 mr-4 -ml-1 w-40">
                         <a
                             href="http://david.timmons.io/"
                             title="Definitely probably not working on an AI that can enslave the human race."
@@ -65,14 +65,10 @@
                                 >
                         </a>
                     </div>
-            
-                    <!-- div class="flex justify-end overflow-hidden sm:overflow-auto" -->
+        
                     <div class="flex-grow flex items-center justify-end">
                         <!-- nav -->
-                        <nav
-                            class="xs:mr-6"
-                            role="navigation"
-                            >
+                        <nav role="navigation">
                             <ul class="whitespace-no-wrap">
                                 <li
                                     id="menu-item-1"
@@ -98,10 +94,10 @@
                                 </li>
                             </ul>
                         </nav>
-            
+        
                         <!-- search -->
                         <form
-                            class="hidden md:inline-block md:mr-6"
+                            class="hidden md:inline-block md:ml-6"
                             onsubmit="searchDuckDuckGo()"
                             action="javascript:void(0)"
                             role="search"
@@ -123,9 +119,9 @@
                                 </button>
                             </div>
                         </form>
-            
+        
                         <!-- social -->
-                        <div class="hidden xs:flex-shrink-0 xs:flex xs:items-center">
+                        <div class="hidden ml-6 xs:flex-shrink-0 xs:flex xs:items-center">
                             <div class="mr-3 text-0">
                                 <a
                                     href="https://github.com/davidtimmons"
@@ -155,32 +151,32 @@
                         </div>
                     </div>
                 </div>
-            
-                <script>
-                    /**
-                     * This function uses DuckDuckGo to search this website for text content.
-                     */
-                    function searchDuckDuckGo() {
-                        var input = document.getElementById("search-input");
-                        if (input && input.value) {
-                            var searchString = encodeURIComponent(input.value).replace('%20', '+');
-                            var query = [encodeURIComponent('site:david.timmons.io'), searchString].join('+');
-                            window.location.href = 'https://duckduckgo.com/?q=' + query;
-                        }
+            </div>
+        
+            <script>
+                /**
+                 * This function uses DuckDuckGo to search this website for text content.
+                 */
+                function searchDuckDuckGo() {
+                    var input = document.getElementById("search-input");
+                    if (input && input.value) {
+                        var searchString = encodeURIComponent(input.value).replace('%20', '+');
+                        var query = [encodeURIComponent('site:david.timmons.io'), searchString].join('+');
+                        window.location.href = 'https://duckduckgo.com/?q=' + query;
                     }
-            
-                    // Add a special CSS class to the navigation menu item for the current page.
-                    var pageTitle = document.title.toLowerCase();
-                    var activeClass = ' current-menu-item current_page_item';
-            
-                    if (pageTitle.indexOf('blog') >= 0) {
-                        document.getElementById('menu-item-1').className += activeClass;
-                    } else if (pageTitle.indexOf('site map') >= 0) {
-                        document.getElementById('menu-item-2').className += activeClass;
-                    }
-                </script>
-            </header>
-        </div>
+                }
+        
+                // Add a special CSS class to the navigation menu item for the current page.
+                var pageTitle = document.title.toLowerCase();
+                var activeClass = ' current-menu-item current_page_item';
+        
+                if (pageTitle.indexOf('blog') >= 0) {
+                    document.getElementById('menu-item-1').className += activeClass;
+                } else if (pageTitle.indexOf('site map') >= 0) {
+                    document.getElementById('menu-item-2').className += activeClass;
+                }
+            </script>
+        </header>
 
         <main
             class="bg-dark-street mt-16 text-shadow-dark"
@@ -190,46 +186,47 @@
                 <article class="category-marketing text-dark-concrete">
 
                     <!-- post details -->
-                    <div class="bg-dark-tar border-b border-t border-dark-coal mt-1 mb-4 px-8 lg:px-48 pb-2">
-                        <h1 class="font-bold font-mono leading-none lowercase my-2 select-none text-4xl text-aqua tracking-wide sm:min-w-page">
-                            Want To Earn Your First $1 Million With Crowdfunding?
-                        </h1>
-                        <time class="block leading-snug text-purple text-sm">
-                            March 14, 2013 7:00am
-                        </time>
-                        <div class="block text-purple-lilac text-sm">
-                            category ➞ Marketing
+                    <div class="bg-dark-tar border-b border-t border-dark-coal mt-1 mb-4 pb-2">
+                        <div class="mixin:page-layout">
+                            <h1 class="font-bold font-mono leading-none lowercase my-2 select-none text-4xl text-aqua tracking-wide">
+                                Want To Earn Your First $1 Million With Crowdfunding?
+                            </h1>
+                            <time class="block leading-snug text-purple text-sm">
+                                March 14, 2013 7:00am
+                            </time>
+                            <div class="block text-purple-lilac text-sm">
+                                category ➞ Marketing
+                            </div>
                         </div>
                     </div>
 
                     <!-- post content -->
-                    <div class="pb-4 px-8 lg:px-48">
+                    <div class="max-w-page mx-auto mb-4 px-6">
                         <div class="bg-dark-tar px-6 pt-4 pb-2 rounded-lg text-dark-concrete">
-                            <div class="hero text-center text-xs">
-                                <div class="">
-                                    <div class="bg-img-pattern mb-2 rounded-lg">
-                                        <img
-                                            class="border-purple border-b-4 inline-block rounded-lg"
-                                            alt="crowd"
-                                            src="http://david.timmons.io/static/images/2013/03/want-to-earn-your-first-1-million-with-crowdfunding0.jpg"
-                                            srcset="http://david.timmons.io/static/images/2013/03/want-to-earn-your-first-1-million-with-crowdfunding0.jpg 648w"
-                                            sizes="(max-width: 648px) 100vw, 648px"
-                                            >
+                            <div class="hero bg-img-pattern p-6 rounded-lg">
+                                <div class="max-w-2xl mx-auto">
+                                    <div
+                                        class="bg-cover border-purple border-b-4 h-2/5w max-h-hero mb-2 rounded-lg"
+                                        style="background-image: url('http://david.timmons.io/static/images/2013/03/want-to-earn-your-first-1-million-with-crowdfunding0.jpg');"
+                                        >
                                     </div>
-                                    <p class="leading-tight m-0 mb-2 text-purple">
-                                        Photo: &quot;crowd&quot; by 
-                                        <a href="http://www.flickr.com/photos/ausnahmezustand/7624312056/"
-                                        title="View the original photo on Flickr.">
-                                        Michael Dornbierer
-                                        </a>.
-                                    </p>
-                                    <p class="font-bold leading-tight m-0 text-purple-lilac">
-                                        "Crowdfunding is a way entrepreneurs can raise money without using conventional financing. Could you use a few million dollars?"
-                                    </p>
+                                    <div class="text-center text-xs">
+                                        <p class="leading-tight m-0 mb-2 text-purple">
+                                            Photo: &quot;crowd&quot; by 
+                                            <a
+                                                href="http://www.flickr.com/photos/ausnahmezustand/7624312056/"
+                                                title="View the original photo on Flickr."
+                                                >
+                                                Michael Dornbierer
+                                            </a>
+                                        </p>
+                                        <p class="font-bold leading-tight m-0 text-purple-lilac">
+                                            "Crowdfunding is a way entrepreneurs can raise money without using conventional financing. Could you use a few million dollars?"
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
-
-                            <div class="text-lg">
+                            <div id="contents" class="max-w-2xl mx-auto text-lg md:text-justify">
                                 <p><a href="http://en.wikipedia.org/wiki/Crowdfunding" title="Click here to learn more about crowdfunding.">Crowdfunding</a> is a way to bypass the sometimes onerous process of
 raising capital. Using this approach entrepreneurs can request monetary
 support from the communities they wish to benefit, often in exchange
@@ -283,40 +280,42 @@ be impossible regularly launch into the marketplace.</p>
                 </article>
 
                 <!-- post navigation -->
-                <div class="pb-4 px-8 lg:px-48">
+                <div class="max-w-page mx-auto pb-4 px-6">
                     <div class="bg-dark-tar px-6 pt-4 pb-2 rounded-lg text-dark-concrete">
-                            <h3 class="leading-snug mixin:text-headline">
-                                next:
-                            </h3>
-                            <a
-                                href="http://david.timmons.io/how-to-create-compelling-social-media-marketing/"
-                                rel="prev"
-                                >
-                                How To Create Compelling Social Media Marketing
-                            </a>
-                                <div class="mt-4">
+                        <div class="max-w-2xl mx-auto">
+                                <h3 class="leading-snug mixin:text-headline">
+                                    next:
+                                </h3>
+                                <a
+                                    href="http://david.timmons.io/how-to-create-compelling-social-media-marketing/"
+                                    rel="prev"
+                                    >
+                                    How To Create Compelling Social Media Marketing
+                                </a>
+                                    <div class="mt-4">
 
-                            <h3 class="leading-snug mixin:text-headline">
-                                previous:
-                            </h3>
-                            <a
-                                href="http://david.timmons.io/project-management-and-the-triangle-of-doom/"
-                                rel="next"
-                                >
-                                Project Management And The Triangle Of Doom
-                            </a>
+                                <h3 class="leading-snug mixin:text-headline">
+                                    previous:
+                                </h3>
+                                <a
+                                    href="http://david.timmons.io/project-management-and-the-triangle-of-doom/"
+                                    rel="next"
+                                    >
+                                    Project Management And The Triangle Of Doom
+                                </a>
 
-                                </div>
+                                    </div>
+                        </div>
                     </div>
                 </div>
             </section>
         </main>
 
         <footer
-            class="bg-dark-tar border-t border-dark-coal mt-1 px-8 py-1 text-shadow-dark w-full lg:px-48"
+            class="bg-dark-tar border-t border-dark-coal mt-1 py-1 text-shadow-dark text-xs w-full sm:text-sm"
             role="contentinfo"
             >
-            <div class="text-xs sm:min-w-page sm:text-sm">
+            <div class="mixin:page-layout">
                 <p class="leading-snug my-2 text-purple sm:mb-0">
                     &copy; 2017 - 2019 David Timmons. All rights reserved.
                 </p>

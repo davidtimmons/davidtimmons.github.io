@@ -44,16 +44,16 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
 
-        <div class="sm:min-w-page">
-            <!-- header -->
-            <header
-                class="bg-dark-concrete border-t-8 border-purple fixed px-8 shadow top-0 w-full z-50 lg:px-48"
-                role="banner"
-                >
-                <div class="flex py-1 sm:min-w-page">
-            
+        <!-- header -->
+        <header
+            class="bg-dark-concrete border-t-8 border-purple fixed shadow top-0 w-full z-50"
+            role="banner"
+            >
+            <div class="mixin:page-layout">
+                <div class="flex py-1">
+        
                     <!-- logo -->
-                    <div class="flex-shrink-0 -ml-1 w-40">
+                    <div class="flex-shrink-0 mr-4 -ml-1 w-40">
                         <a
                             href="http://david.timmons.io/"
                             title="Definitely probably not working on an AI that can enslave the human race."
@@ -65,14 +65,10 @@
                                 >
                         </a>
                     </div>
-            
-                    <!-- div class="flex justify-end overflow-hidden sm:overflow-auto" -->
+        
                     <div class="flex-grow flex items-center justify-end">
                         <!-- nav -->
-                        <nav
-                            class="xs:mr-6"
-                            role="navigation"
-                            >
+                        <nav role="navigation">
                             <ul class="whitespace-no-wrap">
                                 <li
                                     id="menu-item-1"
@@ -98,10 +94,10 @@
                                 </li>
                             </ul>
                         </nav>
-            
+        
                         <!-- search -->
                         <form
-                            class="hidden md:inline-block md:mr-6"
+                            class="hidden md:inline-block md:ml-6"
                             onsubmit="searchDuckDuckGo()"
                             action="javascript:void(0)"
                             role="search"
@@ -123,9 +119,9 @@
                                 </button>
                             </div>
                         </form>
-            
+        
                         <!-- social -->
-                        <div class="hidden xs:flex-shrink-0 xs:flex xs:items-center">
+                        <div class="hidden ml-6 xs:flex-shrink-0 xs:flex xs:items-center">
                             <div class="mr-3 text-0">
                                 <a
                                     href="https://github.com/davidtimmons"
@@ -155,457 +151,463 @@
                         </div>
                     </div>
                 </div>
-            
-                <script>
-                    /**
-                     * This function uses DuckDuckGo to search this website for text content.
-                     */
-                    function searchDuckDuckGo() {
-                        var input = document.getElementById("search-input");
-                        if (input && input.value) {
-                            var searchString = encodeURIComponent(input.value).replace('%20', '+');
-                            var query = [encodeURIComponent('site:david.timmons.io'), searchString].join('+');
-                            window.location.href = 'https://duckduckgo.com/?q=' + query;
-                        }
+            </div>
+        
+            <script>
+                /**
+                 * This function uses DuckDuckGo to search this website for text content.
+                 */
+                function searchDuckDuckGo() {
+                    var input = document.getElementById("search-input");
+                    if (input && input.value) {
+                        var searchString = encodeURIComponent(input.value).replace('%20', '+');
+                        var query = [encodeURIComponent('site:david.timmons.io'), searchString].join('+');
+                        window.location.href = 'https://duckduckgo.com/?q=' + query;
                     }
-            
-                    // Add a special CSS class to the navigation menu item for the current page.
-                    var pageTitle = document.title.toLowerCase();
-                    var activeClass = ' current-menu-item current_page_item';
-            
-                    if (pageTitle.indexOf('blog') >= 0) {
-                        document.getElementById('menu-item-1').className += activeClass;
-                    } else if (pageTitle.indexOf('site map') >= 0) {
-                        document.getElementById('menu-item-2').className += activeClass;
-                    }
-                </script>
-            </header>
-        </div>
+                }
+        
+                // Add a special CSS class to the navigation menu item for the current page.
+                var pageTitle = document.title.toLowerCase();
+                var activeClass = ' current-menu-item current_page_item';
+        
+                if (pageTitle.indexOf('blog') >= 0) {
+                    document.getElementById('menu-item-1').className += activeClass;
+                } else if (pageTitle.indexOf('site map') >= 0) {
+                    document.getElementById('menu-item-2').className += activeClass;
+                }
+            </script>
+        </header>
 
         <main
             class="bg-dark-street mt-16 text-shadow-dark"
             role="main"
             >
             <section>
-                <div class="bg-dark-tar border-b border-t border-dark-coal my-1 px-8 lg:px-48">
-                    <h1 class="font-bold font-mono leading-none lowercase my-2 select-none text-4xl text-aqua tracking-wide">
-                        Blog
-                    </h1>
+                <div class="bg-dark-tar border-b border-t border-dark-coal my-1">
+                    <div class="mixin:page-layout">
+                        <h1 class="font-bold font-mono leading-none lowercase my-2 select-none text-4xl text-aqua tracking-wide">
+                            Blog
+                        </h1>
+                    </div>
                 </div>
 
-                <div class="my-4 px-8 lg:px-48">
-                    <article class="category-marketing bg-dark-tar flex flex-wrap md:flex-no-wrap mb-2 p-6 rounded-lg text-dark-concrete">
+                <div class="my-4">
+                    <div class="mixin:page-layout">
+                        <article class="category-marketing bg-dark-tar flex flex-wrap md:flex-no-wrap mb-2 p-6 rounded-lg text-dark-concrete">
 
-                        <!-- post thumbnail -->
-                        <div class="bg-img-pattern flex-shrink-0 mr-6 mb-6 md:mb-0 w-full md:w-1/3 lg:w-1/4 float-left md:float-none">
-                            <a
-                                href="http://david.timmons.io/hire-marketing-generalists-harvard-says/"
-                                title="Hire Marketing Generalists, Harvard Says"
-                                >
-                                <img
-                                    class="inline-block w-full"
-                                    src="http://david.timmons.io/static/images/2013/05/hire-marketing-generalists-harvard-says0.jpg"
-                                    alt="Hire Marketing Generalists, Harvard Says"
+                            <!-- post thumbnail -->
+                            <div class="bg-img-pattern flex-shrink-0 mr-6 mb-6 md:mb-0 w-full md:w-1/3 lg:w-1/4 float-left md:float-none">
+                                <a
+                                    href="http://david.timmons.io/hire-marketing-generalists-harvard-says/"
+                                    title="Hire Marketing Generalists, Harvard Says"
                                     >
-                            </a>
-                        </div>
-
-                        <div class="flex-shrink">
-                            <!-- post details -->
-                            <div>
-                                <h2 class="border-b border-dark-coal leading-snug mixin:text-headline text-2xl">
-                                    <a
-                                        href="http://david.timmons.io/hire-marketing-generalists-harvard-says/"
-                                        title="Hire Marketing Generalists, Harvard Says"
+                                    <img
+                                        class="inline-block w-full"
+                                        src="http://david.timmons.io/static/images/2013/05/hire-marketing-generalists-harvard-says0.jpg"
+                                        alt="Hire Marketing Generalists, Harvard Says"
                                         >
-                                        Hire Marketing Generalists, Harvard Says
-                                    </a>
-                                </h2>
-                                <time class="text-purple text-sm">
-                                    May 9, 2013 5:01pm
-                                </time>
+                                </a>
                             </div>
 
-                            <!-- post preview -->
-                            <p class="mt-2 mb-0">
-                                Marketing was once easy. In fact, it was often synonymous with advertising. You hired an artist to depict happy people using your product, wrote an accompanying paragraph or two extolling the virtues of life with your brand, and you ran... </span><a class="whitespace-no-wrap" href="http://david.timmons.io/hire-marketing-generalists-harvard-says/">[ Keep Reading ]</a>
-                            </p>
-                        </div>
+                            <div class="flex-shrink">
+                                <!-- post details -->
+                                <div>
+                                    <h2 class="border-b border-dark-coal leading-snug mixin:text-headline text-2xl">
+                                        <a
+                                            href="http://david.timmons.io/hire-marketing-generalists-harvard-says/"
+                                            title="Hire Marketing Generalists, Harvard Says"
+                                            >
+                                            Hire Marketing Generalists, Harvard Says
+                                        </a>
+                                    </h2>
+                                    <time class="text-purple text-sm">
+                                        May 9, 2013 5:01pm
+                                    </time>
+                                </div>
 
-                    </article>
-                    <article class="category-marketing bg-dark-tar flex flex-wrap md:flex-no-wrap mb-2 p-6 rounded-lg text-dark-concrete">
-
-                        <!-- post thumbnail -->
-                        <div class="bg-img-pattern flex-shrink-0 mr-6 mb-6 md:mb-0 w-full md:w-1/3 lg:w-1/4 float-left md:float-none">
-                            <a
-                                href="http://david.timmons.io/follow-this-one-simple-rule-to-encourage-brand-engagement/"
-                                title="Follow This One Simple Rule To Encourage Brand Engagement"
-                                >
-                                <img
-                                    class="inline-block w-full"
-                                    src="http://david.timmons.io/static/images/2013/05/follow-this-one-simple-rule-to-encourage-brand-engagement0.jpg"
-                                    alt="Follow This One Simple Rule To Encourage Brand Engagement"
-                                    >
-                            </a>
-                        </div>
-
-                        <div class="flex-shrink">
-                            <!-- post details -->
-                            <div>
-                                <h2 class="border-b border-dark-coal leading-snug mixin:text-headline text-2xl">
-                                    <a
-                                        href="http://david.timmons.io/follow-this-one-simple-rule-to-encourage-brand-engagement/"
-                                        title="Follow This One Simple Rule To Encourage Brand Engagement"
-                                        >
-                                        Follow This One Simple Rule To Encourage Brand Engagement
-                                    </a>
-                                </h2>
-                                <time class="text-purple text-sm">
-                                    May 2, 2013 7:00am
-                                </time>
+                                <!-- post preview -->
+                                <p class="mt-2 mb-0">
+                                    Marketing was once easy. In fact, it was often synonymous with advertising. You hired an artist to depict happy people using your product, wrote an accompanying paragraph or two extolling the virtues of life with your brand, and you ran... </span><a class="whitespace-no-wrap" href="http://david.timmons.io/hire-marketing-generalists-harvard-says/">[ Keep Reading ]</a>
+                                </p>
                             </div>
 
-                            <!-- post preview -->
-                            <p class="mt-2 mb-0">
-                                Brand engagement is the Holy Grail of business stakeholders everywhere. When customers interact with your brand -- shape it, play with it, make it their own -- within the parameters you allow, brand managers and marketers have created a compelling... </span><a class="whitespace-no-wrap" href="http://david.timmons.io/follow-this-one-simple-rule-to-encourage-brand-engagement/">[ Keep Reading ]</a>
-                            </p>
-                        </div>
+                        </article>
+                        <article class="category-marketing bg-dark-tar flex flex-wrap md:flex-no-wrap mb-2 p-6 rounded-lg text-dark-concrete">
 
-                    </article>
-                    <article class="category-marketing bg-dark-tar flex flex-wrap md:flex-no-wrap mb-2 p-6 rounded-lg text-dark-concrete">
-
-                        <!-- post thumbnail -->
-                        <div class="bg-img-pattern flex-shrink-0 mr-6 mb-6 md:mb-0 w-full md:w-1/3 lg:w-1/4 float-left md:float-none">
-                            <a
-                                href="http://david.timmons.io/new-frontiers-in-gamification/"
-                                title="New Frontiers In Gamification"
-                                >
-                                <img
-                                    class="inline-block w-full"
-                                    src="http://david.timmons.io/static/images/2013/04/new-frontiers-in-gamification0.jpg"
-                                    alt="New Frontiers In Gamification"
+                            <!-- post thumbnail -->
+                            <div class="bg-img-pattern flex-shrink-0 mr-6 mb-6 md:mb-0 w-full md:w-1/3 lg:w-1/4 float-left md:float-none">
+                                <a
+                                    href="http://david.timmons.io/follow-this-one-simple-rule-to-encourage-brand-engagement/"
+                                    title="Follow This One Simple Rule To Encourage Brand Engagement"
                                     >
-                            </a>
-                        </div>
-
-                        <div class="flex-shrink">
-                            <!-- post details -->
-                            <div>
-                                <h2 class="border-b border-dark-coal leading-snug mixin:text-headline text-2xl">
-                                    <a
-                                        href="http://david.timmons.io/new-frontiers-in-gamification/"
-                                        title="New Frontiers In Gamification"
+                                    <img
+                                        class="inline-block w-full"
+                                        src="http://david.timmons.io/static/images/2013/05/follow-this-one-simple-rule-to-encourage-brand-engagement0.jpg"
+                                        alt="Follow This One Simple Rule To Encourage Brand Engagement"
                                         >
-                                        New Frontiers In Gamification
-                                    </a>
-                                </h2>
-                                <time class="text-purple text-sm">
-                                    April 25, 2013 7:00am
-                                </time>
+                                </a>
                             </div>
 
-                            <!-- post preview -->
-                            <p class="mt-2 mb-0">
-                                &quot;Gamification&quot; has been around a few years, and most marketers have at least thought about ways to incorporate this concept into their campaigns. It&#x27;s an interesting premise: Gamification employs psychology to reward specific tasks that serve your business objective. Often... </span><a class="whitespace-no-wrap" href="http://david.timmons.io/new-frontiers-in-gamification/">[ Keep Reading ]</a>
-                            </p>
-                        </div>
+                            <div class="flex-shrink">
+                                <!-- post details -->
+                                <div>
+                                    <h2 class="border-b border-dark-coal leading-snug mixin:text-headline text-2xl">
+                                        <a
+                                            href="http://david.timmons.io/follow-this-one-simple-rule-to-encourage-brand-engagement/"
+                                            title="Follow This One Simple Rule To Encourage Brand Engagement"
+                                            >
+                                            Follow This One Simple Rule To Encourage Brand Engagement
+                                        </a>
+                                    </h2>
+                                    <time class="text-purple text-sm">
+                                        May 2, 2013 7:00am
+                                    </time>
+                                </div>
 
-                    </article>
-                    <article class="category-marketing bg-dark-tar flex flex-wrap md:flex-no-wrap mb-2 p-6 rounded-lg text-dark-concrete">
-
-                        <!-- post thumbnail -->
-                        <div class="bg-img-pattern flex-shrink-0 mr-6 mb-6 md:mb-0 w-full md:w-1/3 lg:w-1/4 float-left md:float-none">
-                            <a
-                                href="http://david.timmons.io/fox-and-the-firefly-hat-a-case-study-in-brand-management/"
-                                title="Fox And The &quot;Firefly&quot; Hat: A Case Study in Brand Management"
-                                >
-                                <img
-                                    class="inline-block w-full"
-                                    src="http://david.timmons.io/static/images/2013/04/fox-and-the-firefly-hat-a-case-study-in-brand-management0.jpg"
-                                    alt="Fox And The &quot;Firefly&quot; Hat: A Case Study in Brand Management"
-                                    >
-                            </a>
-                        </div>
-
-                        <div class="flex-shrink">
-                            <!-- post details -->
-                            <div>
-                                <h2 class="border-b border-dark-coal leading-snug mixin:text-headline text-2xl">
-                                    <a
-                                        href="http://david.timmons.io/fox-and-the-firefly-hat-a-case-study-in-brand-management/"
-                                        title="Fox And The &quot;Firefly&quot; Hat: A Case Study in Brand Management"
-                                        >
-                                        Fox And The &quot;Firefly&quot; Hat: A Case Study in Brand Management
-                                    </a>
-                                </h2>
-                                <time class="text-purple text-sm">
-                                    April 15, 2013 8:00am
-                                </time>
+                                <!-- post preview -->
+                                <p class="mt-2 mb-0">
+                                    Brand engagement is the Holy Grail of business stakeholders everywhere. When customers interact with your brand -- shape it, play with it, make it their own -- within the parameters you allow, brand managers and marketers have created a compelling... </span><a class="whitespace-no-wrap" href="http://david.timmons.io/follow-this-one-simple-rule-to-encourage-brand-engagement/">[ Keep Reading ]</a>
+                                </p>
                             </div>
 
-                            <!-- post preview -->
-                            <p class="mt-2 mb-0">
-                                Fans grow brands. The most dedicated fans build unofficial communities, reveling in the joy that participation with a favorite brand provides. Fans drive sales and love sharing their passion with friends. Brands give fans something to value. They invest time... </span><a class="whitespace-no-wrap" href="http://david.timmons.io/fox-and-the-firefly-hat-a-case-study-in-brand-management/">[ Keep Reading ]</a>
-                            </p>
-                        </div>
+                        </article>
+                        <article class="category-marketing bg-dark-tar flex flex-wrap md:flex-no-wrap mb-2 p-6 rounded-lg text-dark-concrete">
 
-                    </article>
-                    <article class="category-marketing bg-dark-tar flex flex-wrap md:flex-no-wrap mb-2 p-6 rounded-lg text-dark-concrete">
-
-                        <!-- post thumbnail -->
-                        <div class="bg-img-pattern flex-shrink-0 mr-6 mb-6 md:mb-0 w-full md:w-1/3 lg:w-1/4 float-left md:float-none">
-                            <a
-                                href="http://david.timmons.io/would-you-pay-67-to-be-my-friend/"
-                                title="Would You Pay $67 To Be My Friend?"
-                                >
-                                <img
-                                    class="inline-block w-full"
-                                    src="http://david.timmons.io/static/images/2013/04/would-you-pay-67-to-be-my-friend0.jpg"
-                                    alt="Would You Pay $67 To Be My Friend?"
+                            <!-- post thumbnail -->
+                            <div class="bg-img-pattern flex-shrink-0 mr-6 mb-6 md:mb-0 w-full md:w-1/3 lg:w-1/4 float-left md:float-none">
+                                <a
+                                    href="http://david.timmons.io/new-frontiers-in-gamification/"
+                                    title="New Frontiers In Gamification"
                                     >
-                            </a>
-                        </div>
-
-                        <div class="flex-shrink">
-                            <!-- post details -->
-                            <div>
-                                <h2 class="border-b border-dark-coal leading-snug mixin:text-headline text-2xl">
-                                    <a
-                                        href="http://david.timmons.io/would-you-pay-67-to-be-my-friend/"
-                                        title="Would You Pay $67 To Be My Friend?"
+                                    <img
+                                        class="inline-block w-full"
+                                        src="http://david.timmons.io/static/images/2013/04/new-frontiers-in-gamification0.jpg"
+                                        alt="New Frontiers In Gamification"
                                         >
-                                        Would You Pay $67 To Be My Friend?
-                                    </a>
-                                </h2>
-                                <time class="text-purple text-sm">
-                                    April 8, 2013 4:30pm
-                                </time>
+                                </a>
                             </div>
 
-                            <!-- post preview -->
-                            <p class="mt-2 mb-0">
-                                Marketing communicates the value of your product or service. This often leads to a transaction. We shout our &quot;call to action&quot; and hope the money rolls in, but there are times when the virtual currency we ask our customers to... </span><a class="whitespace-no-wrap" href="http://david.timmons.io/would-you-pay-67-to-be-my-friend/">[ Keep Reading ]</a>
-                            </p>
-                        </div>
+                            <div class="flex-shrink">
+                                <!-- post details -->
+                                <div>
+                                    <h2 class="border-b border-dark-coal leading-snug mixin:text-headline text-2xl">
+                                        <a
+                                            href="http://david.timmons.io/new-frontiers-in-gamification/"
+                                            title="New Frontiers In Gamification"
+                                            >
+                                            New Frontiers In Gamification
+                                        </a>
+                                    </h2>
+                                    <time class="text-purple text-sm">
+                                        April 25, 2013 7:00am
+                                    </time>
+                                </div>
 
-                    </article>
-                    <article class="category-marketing bg-dark-tar flex flex-wrap md:flex-no-wrap mb-2 p-6 rounded-lg text-dark-concrete">
-
-                        <!-- post thumbnail -->
-                        <div class="bg-img-pattern flex-shrink-0 mr-6 mb-6 md:mb-0 w-full md:w-1/3 lg:w-1/4 float-left md:float-none">
-                            <a
-                                href="http://david.timmons.io/your-understanding-is-anchored-in-negativity/"
-                                title="Your Understanding Is Anchored In Negativity"
-                                >
-                                <img
-                                    class="inline-block w-full"
-                                    src="http://david.timmons.io/static/images/2013/04/your-understanding-is-anchored-in-negativity0.jpg"
-                                    alt="Your Understanding Is Anchored In Negativity"
-                                    >
-                            </a>
-                        </div>
-
-                        <div class="flex-shrink">
-                            <!-- post details -->
-                            <div>
-                                <h2 class="border-b border-dark-coal leading-snug mixin:text-headline text-2xl">
-                                    <a
-                                        href="http://david.timmons.io/your-understanding-is-anchored-in-negativity/"
-                                        title="Your Understanding Is Anchored In Negativity"
-                                        >
-                                        Your Understanding Is Anchored In Negativity
-                                    </a>
-                                </h2>
-                                <time class="text-purple text-sm">
-                                    April 4, 2013 7:00am
-                                </time>
+                                <!-- post preview -->
+                                <p class="mt-2 mb-0">
+                                    &quot;Gamification&quot; has been around a few years, and most marketers have at least thought about ways to incorporate this concept into their campaigns. It&#x27;s an interesting premise: Gamification employs psychology to reward specific tasks that serve your business objective. Often... </span><a class="whitespace-no-wrap" href="http://david.timmons.io/new-frontiers-in-gamification/">[ Keep Reading ]</a>
+                                </p>
                             </div>
 
-                            <!-- post preview -->
-                            <p class="mt-2 mb-0">
-                                Information floods every corner of our modern Internet. We&#x27;re all in a hurry, and interpreting the tidal wave before us requires snap judgments to process information quickly. Yahoo! News commenters frequently admit to only skimming articles before reading the attached... </span><a class="whitespace-no-wrap" href="http://david.timmons.io/your-understanding-is-anchored-in-negativity/">[ Keep Reading ]</a>
-                            </p>
-                        </div>
+                        </article>
+                        <article class="category-marketing bg-dark-tar flex flex-wrap md:flex-no-wrap mb-2 p-6 rounded-lg text-dark-concrete">
 
-                    </article>
-                    <article class="category-marketing bg-dark-tar flex flex-wrap md:flex-no-wrap mb-2 p-6 rounded-lg text-dark-concrete">
-
-                        <!-- post thumbnail -->
-                        <div class="bg-img-pattern flex-shrink-0 mr-6 mb-6 md:mb-0 w-full md:w-1/3 lg:w-1/4 float-left md:float-none">
-                            <a
-                                href="http://david.timmons.io/storytelling-is-selling/"
-                                title="Storytelling Is Selling"
-                                >
-                                <img
-                                    class="inline-block w-full"
-                                    src="http://david.timmons.io/static/images/2013/03/storytelling-is-selling0.jpg"
-                                    alt="Storytelling Is Selling"
+                            <!-- post thumbnail -->
+                            <div class="bg-img-pattern flex-shrink-0 mr-6 mb-6 md:mb-0 w-full md:w-1/3 lg:w-1/4 float-left md:float-none">
+                                <a
+                                    href="http://david.timmons.io/fox-and-the-firefly-hat-a-case-study-in-brand-management/"
+                                    title="Fox And The &quot;Firefly&quot; Hat: A Case Study in Brand Management"
                                     >
-                            </a>
-                        </div>
-
-                        <div class="flex-shrink">
-                            <!-- post details -->
-                            <div>
-                                <h2 class="border-b border-dark-coal leading-snug mixin:text-headline text-2xl">
-                                    <a
-                                        href="http://david.timmons.io/storytelling-is-selling/"
-                                        title="Storytelling Is Selling"
+                                    <img
+                                        class="inline-block w-full"
+                                        src="http://david.timmons.io/static/images/2013/04/fox-and-the-firefly-hat-a-case-study-in-brand-management0.jpg"
+                                        alt="Fox And The &quot;Firefly&quot; Hat: A Case Study in Brand Management"
                                         >
-                                        Storytelling Is Selling
-                                    </a>
-                                </h2>
-                                <time class="text-purple text-sm">
-                                    March 28, 2013 7:00am
-                                </time>
+                                </a>
                             </div>
 
-                            <!-- post preview -->
-                            <p class="mt-2 mb-0">
-                                 There are times when you get only one shot to make an impact. No  do-overs, no second chances. We all want to be the hero of a story.   Few of us are.   Will you... </span><a class="whitespace-no-wrap" href="http://david.timmons.io/storytelling-is-selling/">[ Keep Reading ]</a>
-                            </p>
-                        </div>
+                            <div class="flex-shrink">
+                                <!-- post details -->
+                                <div>
+                                    <h2 class="border-b border-dark-coal leading-snug mixin:text-headline text-2xl">
+                                        <a
+                                            href="http://david.timmons.io/fox-and-the-firefly-hat-a-case-study-in-brand-management/"
+                                            title="Fox And The &quot;Firefly&quot; Hat: A Case Study in Brand Management"
+                                            >
+                                            Fox And The &quot;Firefly&quot; Hat: A Case Study in Brand Management
+                                        </a>
+                                    </h2>
+                                    <time class="text-purple text-sm">
+                                        April 15, 2013 8:00am
+                                    </time>
+                                </div>
 
-                    </article>
-                    <article class="category-marketing bg-dark-tar flex flex-wrap md:flex-no-wrap mb-2 p-6 rounded-lg text-dark-concrete">
-
-                        <!-- post thumbnail -->
-                        <div class="bg-img-pattern flex-shrink-0 mr-6 mb-6 md:mb-0 w-full md:w-1/3 lg:w-1/4 float-left md:float-none">
-                            <a
-                                href="http://david.timmons.io/how-to-create-compelling-social-media-marketing/"
-                                title="How To Create Compelling Social Media Marketing"
-                                >
-                                <img
-                                    class="inline-block w-full"
-                                    src="http://david.timmons.io/static/images/2013/03/how-to-create-compelling-social-media-marketing0.jpg"
-                                    alt="How To Create Compelling Social Media Marketing"
-                                    >
-                            </a>
-                        </div>
-
-                        <div class="flex-shrink">
-                            <!-- post details -->
-                            <div>
-                                <h2 class="border-b border-dark-coal leading-snug mixin:text-headline text-2xl">
-                                    <a
-                                        href="http://david.timmons.io/how-to-create-compelling-social-media-marketing/"
-                                        title="How To Create Compelling Social Media Marketing"
-                                        >
-                                        How To Create Compelling Social Media Marketing
-                                    </a>
-                                </h2>
-                                <time class="text-purple text-sm">
-                                    March 21, 2013 7:00am
-                                </time>
+                                <!-- post preview -->
+                                <p class="mt-2 mb-0">
+                                    Fans grow brands. The most dedicated fans build unofficial communities, reveling in the joy that participation with a favorite brand provides. Fans drive sales and love sharing their passion with friends. Brands give fans something to value. They invest time... </span><a class="whitespace-no-wrap" href="http://david.timmons.io/fox-and-the-firefly-hat-a-case-study-in-brand-management/">[ Keep Reading ]</a>
+                                </p>
                             </div>
 
-                            <!-- post preview -->
-                            <p class="mt-2 mb-0">
-                                The signal-to-noise ratio in social media marketing can be described as a comparison of value versus junk. Becoming relevant takes work. Your content, its context, and your conversation methods must all be in sync. Begin tuning your social media marketing... </span><a class="whitespace-no-wrap" href="http://david.timmons.io/how-to-create-compelling-social-media-marketing/">[ Keep Reading ]</a>
-                            </p>
-                        </div>
+                        </article>
+                        <article class="category-marketing bg-dark-tar flex flex-wrap md:flex-no-wrap mb-2 p-6 rounded-lg text-dark-concrete">
 
-                    </article>
-                    <article class="category-marketing bg-dark-tar flex flex-wrap md:flex-no-wrap mb-2 p-6 rounded-lg text-dark-concrete">
-
-                        <!-- post thumbnail -->
-                        <div class="bg-img-pattern flex-shrink-0 mr-6 mb-6 md:mb-0 w-full md:w-1/3 lg:w-1/4 float-left md:float-none">
-                            <a
-                                href="http://david.timmons.io/want-to-earn-your-first-1-million-with-crowdfunding/"
-                                title="Want To Earn Your First $1 Million With Crowdfunding?"
-                                >
-                                <img
-                                    class="inline-block w-full"
-                                    src="http://david.timmons.io/static/images/2013/03/want-to-earn-your-first-1-million-with-crowdfunding0.jpg"
-                                    alt="Want To Earn Your First $1 Million With Crowdfunding?"
+                            <!-- post thumbnail -->
+                            <div class="bg-img-pattern flex-shrink-0 mr-6 mb-6 md:mb-0 w-full md:w-1/3 lg:w-1/4 float-left md:float-none">
+                                <a
+                                    href="http://david.timmons.io/would-you-pay-67-to-be-my-friend/"
+                                    title="Would You Pay $67 To Be My Friend?"
                                     >
-                            </a>
-                        </div>
-
-                        <div class="flex-shrink">
-                            <!-- post details -->
-                            <div>
-                                <h2 class="border-b border-dark-coal leading-snug mixin:text-headline text-2xl">
-                                    <a
-                                        href="http://david.timmons.io/want-to-earn-your-first-1-million-with-crowdfunding/"
-                                        title="Want To Earn Your First $1 Million With Crowdfunding?"
+                                    <img
+                                        class="inline-block w-full"
+                                        src="http://david.timmons.io/static/images/2013/04/would-you-pay-67-to-be-my-friend0.jpg"
+                                        alt="Would You Pay $67 To Be My Friend?"
                                         >
-                                        Want To Earn Your First $1 Million With Crowdfunding?
-                                    </a>
-                                </h2>
-                                <time class="text-purple text-sm">
-                                    March 14, 2013 7:00am
-                                </time>
+                                </a>
                             </div>
 
-                            <!-- post preview -->
-                            <p class="mt-2 mb-0">
-                                Crowdfunding is a way to bypass the sometimes onerous process of raising capital. Using this approach entrepreneurs can request monetary support from the communities they wish to benefit, often in exchange for exclusive incentives. But this approach is only as... </span><a class="whitespace-no-wrap" href="http://david.timmons.io/want-to-earn-your-first-1-million-with-crowdfunding/">[ Keep Reading ]</a>
-                            </p>
-                        </div>
+                            <div class="flex-shrink">
+                                <!-- post details -->
+                                <div>
+                                    <h2 class="border-b border-dark-coal leading-snug mixin:text-headline text-2xl">
+                                        <a
+                                            href="http://david.timmons.io/would-you-pay-67-to-be-my-friend/"
+                                            title="Would You Pay $67 To Be My Friend?"
+                                            >
+                                            Would You Pay $67 To Be My Friend?
+                                        </a>
+                                    </h2>
+                                    <time class="text-purple text-sm">
+                                        April 8, 2013 4:30pm
+                                    </time>
+                                </div>
 
-                    </article>
-                    <article class="category-marketing bg-dark-tar flex flex-wrap md:flex-no-wrap mb-2 p-6 rounded-lg text-dark-concrete">
-
-                        <!-- post thumbnail -->
-                        <div class="bg-img-pattern flex-shrink-0 mr-6 mb-6 md:mb-0 w-full md:w-1/3 lg:w-1/4 float-left md:float-none">
-                            <a
-                                href="http://david.timmons.io/project-management-and-the-triangle-of-doom/"
-                                title="Project Management And The Triangle Of Doom"
-                                >
-                                <img
-                                    class="inline-block w-full"
-                                    src="http://david.timmons.io/static/images/2013/03/project-management-and-the-triangle-of-doom0.jpg"
-                                    alt="Project Management And The Triangle Of Doom"
-                                    >
-                            </a>
-                        </div>
-
-                        <div class="flex-shrink">
-                            <!-- post details -->
-                            <div>
-                                <h2 class="border-b border-dark-coal leading-snug mixin:text-headline text-2xl">
-                                    <a
-                                        href="http://david.timmons.io/project-management-and-the-triangle-of-doom/"
-                                        title="Project Management And The Triangle Of Doom"
-                                        >
-                                        Project Management And The Triangle Of Doom
-                                    </a>
-                                </h2>
-                                <time class="text-purple text-sm">
-                                    March 7, 2013 7:00am
-                                </time>
+                                <!-- post preview -->
+                                <p class="mt-2 mb-0">
+                                    Marketing communicates the value of your product or service. This often leads to a transaction. We shout our &quot;call to action&quot; and hope the money rolls in, but there are times when the virtual currency we ask our customers to... </span><a class="whitespace-no-wrap" href="http://david.timmons.io/would-you-pay-67-to-be-my-friend/">[ Keep Reading ]</a>
+                                </p>
                             </div>
 
-                            <!-- post preview -->
-                            <p class="mt-2 mb-0">
-                                Do your coworkers hide when they see you coming? Good project management must efficiently handle constraints. If you manage resources of any kind, you know time and budgets are always finite quantities. However, when your project management philosophy neglects this... </span><a class="whitespace-no-wrap" href="http://david.timmons.io/project-management-and-the-triangle-of-doom/">[ Keep Reading ]</a>
-                            </p>
-                        </div>
+                        </article>
+                        <article class="category-marketing bg-dark-tar flex flex-wrap md:flex-no-wrap mb-2 p-6 rounded-lg text-dark-concrete">
 
-                    </article>
+                            <!-- post thumbnail -->
+                            <div class="bg-img-pattern flex-shrink-0 mr-6 mb-6 md:mb-0 w-full md:w-1/3 lg:w-1/4 float-left md:float-none">
+                                <a
+                                    href="http://david.timmons.io/your-understanding-is-anchored-in-negativity/"
+                                    title="Your Understanding Is Anchored In Negativity"
+                                    >
+                                    <img
+                                        class="inline-block w-full"
+                                        src="http://david.timmons.io/static/images/2013/04/your-understanding-is-anchored-in-negativity0.jpg"
+                                        alt="Your Understanding Is Anchored In Negativity"
+                                        >
+                                </a>
+                            </div>
+
+                            <div class="flex-shrink">
+                                <!-- post details -->
+                                <div>
+                                    <h2 class="border-b border-dark-coal leading-snug mixin:text-headline text-2xl">
+                                        <a
+                                            href="http://david.timmons.io/your-understanding-is-anchored-in-negativity/"
+                                            title="Your Understanding Is Anchored In Negativity"
+                                            >
+                                            Your Understanding Is Anchored In Negativity
+                                        </a>
+                                    </h2>
+                                    <time class="text-purple text-sm">
+                                        April 4, 2013 7:00am
+                                    </time>
+                                </div>
+
+                                <!-- post preview -->
+                                <p class="mt-2 mb-0">
+                                    Information floods every corner of our modern Internet. We&#x27;re all in a hurry, and interpreting the tidal wave before us requires snap judgments to process information quickly. Yahoo! News commenters frequently admit to only skimming articles before reading the attached... </span><a class="whitespace-no-wrap" href="http://david.timmons.io/your-understanding-is-anchored-in-negativity/">[ Keep Reading ]</a>
+                                </p>
+                            </div>
+
+                        </article>
+                        <article class="category-marketing bg-dark-tar flex flex-wrap md:flex-no-wrap mb-2 p-6 rounded-lg text-dark-concrete">
+
+                            <!-- post thumbnail -->
+                            <div class="bg-img-pattern flex-shrink-0 mr-6 mb-6 md:mb-0 w-full md:w-1/3 lg:w-1/4 float-left md:float-none">
+                                <a
+                                    href="http://david.timmons.io/storytelling-is-selling/"
+                                    title="Storytelling Is Selling"
+                                    >
+                                    <img
+                                        class="inline-block w-full"
+                                        src="http://david.timmons.io/static/images/2013/03/storytelling-is-selling0.jpg"
+                                        alt="Storytelling Is Selling"
+                                        >
+                                </a>
+                            </div>
+
+                            <div class="flex-shrink">
+                                <!-- post details -->
+                                <div>
+                                    <h2 class="border-b border-dark-coal leading-snug mixin:text-headline text-2xl">
+                                        <a
+                                            href="http://david.timmons.io/storytelling-is-selling/"
+                                            title="Storytelling Is Selling"
+                                            >
+                                            Storytelling Is Selling
+                                        </a>
+                                    </h2>
+                                    <time class="text-purple text-sm">
+                                        March 28, 2013 7:00am
+                                    </time>
+                                </div>
+
+                                <!-- post preview -->
+                                <p class="mt-2 mb-0">
+                                     There are times when you get only one shot to make an impact. No  do-overs, no second chances. We all want to be the hero of a story.   Few of us are.   Will you... </span><a class="whitespace-no-wrap" href="http://david.timmons.io/storytelling-is-selling/">[ Keep Reading ]</a>
+                                </p>
+                            </div>
+
+                        </article>
+                        <article class="category-marketing bg-dark-tar flex flex-wrap md:flex-no-wrap mb-2 p-6 rounded-lg text-dark-concrete">
+
+                            <!-- post thumbnail -->
+                            <div class="bg-img-pattern flex-shrink-0 mr-6 mb-6 md:mb-0 w-full md:w-1/3 lg:w-1/4 float-left md:float-none">
+                                <a
+                                    href="http://david.timmons.io/how-to-create-compelling-social-media-marketing/"
+                                    title="How To Create Compelling Social Media Marketing"
+                                    >
+                                    <img
+                                        class="inline-block w-full"
+                                        src="http://david.timmons.io/static/images/2013/03/how-to-create-compelling-social-media-marketing0.jpg"
+                                        alt="How To Create Compelling Social Media Marketing"
+                                        >
+                                </a>
+                            </div>
+
+                            <div class="flex-shrink">
+                                <!-- post details -->
+                                <div>
+                                    <h2 class="border-b border-dark-coal leading-snug mixin:text-headline text-2xl">
+                                        <a
+                                            href="http://david.timmons.io/how-to-create-compelling-social-media-marketing/"
+                                            title="How To Create Compelling Social Media Marketing"
+                                            >
+                                            How To Create Compelling Social Media Marketing
+                                        </a>
+                                    </h2>
+                                    <time class="text-purple text-sm">
+                                        March 21, 2013 7:00am
+                                    </time>
+                                </div>
+
+                                <!-- post preview -->
+                                <p class="mt-2 mb-0">
+                                    The signal-to-noise ratio in social media marketing can be described as a comparison of value versus junk. Becoming relevant takes work. Your content, its context, and your conversation methods must all be in sync. Begin tuning your social media marketing... </span><a class="whitespace-no-wrap" href="http://david.timmons.io/how-to-create-compelling-social-media-marketing/">[ Keep Reading ]</a>
+                                </p>
+                            </div>
+
+                        </article>
+                        <article class="category-marketing bg-dark-tar flex flex-wrap md:flex-no-wrap mb-2 p-6 rounded-lg text-dark-concrete">
+
+                            <!-- post thumbnail -->
+                            <div class="bg-img-pattern flex-shrink-0 mr-6 mb-6 md:mb-0 w-full md:w-1/3 lg:w-1/4 float-left md:float-none">
+                                <a
+                                    href="http://david.timmons.io/want-to-earn-your-first-1-million-with-crowdfunding/"
+                                    title="Want To Earn Your First $1 Million With Crowdfunding?"
+                                    >
+                                    <img
+                                        class="inline-block w-full"
+                                        src="http://david.timmons.io/static/images/2013/03/want-to-earn-your-first-1-million-with-crowdfunding0.jpg"
+                                        alt="Want To Earn Your First $1 Million With Crowdfunding?"
+                                        >
+                                </a>
+                            </div>
+
+                            <div class="flex-shrink">
+                                <!-- post details -->
+                                <div>
+                                    <h2 class="border-b border-dark-coal leading-snug mixin:text-headline text-2xl">
+                                        <a
+                                            href="http://david.timmons.io/want-to-earn-your-first-1-million-with-crowdfunding/"
+                                            title="Want To Earn Your First $1 Million With Crowdfunding?"
+                                            >
+                                            Want To Earn Your First $1 Million With Crowdfunding?
+                                        </a>
+                                    </h2>
+                                    <time class="text-purple text-sm">
+                                        March 14, 2013 7:00am
+                                    </time>
+                                </div>
+
+                                <!-- post preview -->
+                                <p class="mt-2 mb-0">
+                                    Crowdfunding is a way to bypass the sometimes onerous process of raising capital. Using this approach entrepreneurs can request monetary support from the communities they wish to benefit, often in exchange for exclusive incentives. But this approach is only as... </span><a class="whitespace-no-wrap" href="http://david.timmons.io/want-to-earn-your-first-1-million-with-crowdfunding/">[ Keep Reading ]</a>
+                                </p>
+                            </div>
+
+                        </article>
+                        <article class="category-marketing bg-dark-tar flex flex-wrap md:flex-no-wrap mb-2 p-6 rounded-lg text-dark-concrete">
+
+                            <!-- post thumbnail -->
+                            <div class="bg-img-pattern flex-shrink-0 mr-6 mb-6 md:mb-0 w-full md:w-1/3 lg:w-1/4 float-left md:float-none">
+                                <a
+                                    href="http://david.timmons.io/project-management-and-the-triangle-of-doom/"
+                                    title="Project Management And The Triangle Of Doom"
+                                    >
+                                    <img
+                                        class="inline-block w-full"
+                                        src="http://david.timmons.io/static/images/2013/03/project-management-and-the-triangle-of-doom0.jpg"
+                                        alt="Project Management And The Triangle Of Doom"
+                                        >
+                                </a>
+                            </div>
+
+                            <div class="flex-shrink">
+                                <!-- post details -->
+                                <div>
+                                    <h2 class="border-b border-dark-coal leading-snug mixin:text-headline text-2xl">
+                                        <a
+                                            href="http://david.timmons.io/project-management-and-the-triangle-of-doom/"
+                                            title="Project Management And The Triangle Of Doom"
+                                            >
+                                            Project Management And The Triangle Of Doom
+                                        </a>
+                                    </h2>
+                                    <time class="text-purple text-sm">
+                                        March 7, 2013 7:00am
+                                    </time>
+                                </div>
+
+                                <!-- post preview -->
+                                <p class="mt-2 mb-0">
+                                    Do your coworkers hide when they see you coming? Good project management must efficiently handle constraints. If you manage resources of any kind, you know time and budgets are always finite quantities. However, when your project management philosophy neglects this... </span><a class="whitespace-no-wrap" href="http://david.timmons.io/project-management-and-the-triangle-of-doom/">[ Keep Reading ]</a>
+                                </p>
+                            </div>
+
+                        </article>
+                    </div>
                 </div>
 
                 <!-- pagination -->
-                <div class="bg-dark-street -mt-2 pb-4 px-8 lg:px-48">
-                    <div class="bg-dark-tar px-6 rounded-lg text-dark-concrete">
-                        <a href="http://david.timmons.io/blog/index.html" class="posts-link" title="Click to read newer content.">
-                            ⥢ newer
-                        </a>
-                        <span class="inline-block mx-2 text-purple-lilac">...</span>
-                        <a href="http://david.timmons.io/blog/page/3/index.html" class="posts-link" title="Click to read older content.">
-                            older ⥤
-                        </a>
+                <div class="bg-dark-street -mt-2 pb-4">
+                    <div class="mixin:page-layout">
+                        <div class="bg-dark-tar px-6 rounded-lg text-dark-concrete">
+                            <a href="http://david.timmons.io/blog/index.html" class="posts-link" title="Click to read newer content.">
+                                ⥢ newer
+                            </a>
+                            <span class="inline-block mx-2 text-purple-lilac">...</span>
+                            <a href="http://david.timmons.io/blog/page/3/index.html" class="posts-link" title="Click to read older content.">
+                                older ⥤
+                            </a>
+                        </div>
                     </div>
                 </div>
             </section>
         </main>
 
         <footer
-            class="bg-dark-tar border-t border-dark-coal mt-1 px-8 py-1 text-shadow-dark w-full lg:px-48"
+            class="bg-dark-tar border-t border-dark-coal mt-1 py-1 text-shadow-dark text-xs w-full sm:text-sm"
             role="contentinfo"
             >
-            <div class="text-xs sm:min-w-page sm:text-sm">
+            <div class="mixin:page-layout">
                 <p class="leading-snug my-2 text-purple sm:mb-0">
                     &copy; 2017 - 2019 David Timmons. All rights reserved.
                 </p>

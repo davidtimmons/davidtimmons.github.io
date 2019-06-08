@@ -18,20 +18,31 @@ module.exports = {
             },
 
             fontSize: {
-                0: '0px',
-                r5xl: '3em',
-                '2/3': '66%',
-                full: '100%',
+                // Order is important here for breakpoints.
+                '0': '0px',
+                '3/5': '60%',
+                '9/10': '90%',
+                'full': '100%',
                 '3/2': '150%',
                 '4/2': '200%',
+                'r5xl': '3em',
             },
 
             height: {
+                '2/5w': '40vw',
                 'r4': '1em',
             },
 
+            maxHeight: {
+                'hero': '22rem',
+            },
+
+            maxWidth: {
+                'page': '1150px',
+            },
+
             minWidth: {
-                'page': '600px',
+                'page': '350px',
             },
 
             screens: {

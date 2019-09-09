@@ -7,7 +7,7 @@ files and _Handlebars_ templates into published content. Utility tools include _
 _Bash_ webscrapers that pull content from the previous _WordPress_ site and convert it into the
 new format.
 
-## Features:
+## Features
 
 * Blog articles.
 * Project demos.
@@ -21,3 +21,8 @@ new format.
 ## Production
 
 See the live website [**here**](http://david.timmons.io "Visit my website!")!
+
+## Note to Self
+
+Files for the published website are located in the `docs` directory. Execute the command
+`npm run release` to build these files and move them appropriately.

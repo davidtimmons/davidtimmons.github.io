@@ -2,6 +2,7 @@
 # App #
 #######
 todo
+.vscode/
 examples/
 app/build/
 app/src/static/css/

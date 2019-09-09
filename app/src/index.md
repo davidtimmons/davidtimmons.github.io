@@ -36,9 +36,8 @@ permalink: false
     </h3>
     <ul class="list-custom list-custom-clear-light">
       <li>JavaScript</li>
-      <li>Node.js</li>
-      <li>Go (Golang)</li>
       <li>CSS</li>
+      <li>Haskell</li>
       <li>functional programming</li>
     </ul>
   </div>

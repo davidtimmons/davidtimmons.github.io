@@ -76,6 +76,7 @@ a:hover { @apply text-purple; }
 /* .filter-shadow-dark { filter: drop-shadow(0 0 1px rgba(0, 0, 0, 0.08)); } */
 .mixin\:page-layout { @apply max-w-page mx-auto px-6; }
 .mixin\:text-headline { @apply block font-bold lowercase -mt-2 text-purple tracking-wider; }
+.mixin\:text-subtitle { @apply block lowercase -mt-2 text-dark-plume tracking-wider; }
 .text-clear-light { color: rgba(255, 255, 255, 0.55); }
 .text-shadow-dark { text-shadow: 0 0 1px rgba(0, 0, 0, 0.08); }
 .text-shadow-darker { text-shadow: 0 1px 6px rgba(0, 0, 0, 0.9); }

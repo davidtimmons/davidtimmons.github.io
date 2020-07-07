@@ -11,6 +11,7 @@ module.exports = {
                     tar: '#080808',
                     street: '#212121',
                     coal: '#383838',
+                    plume: '#5e5e5e',
                     silver: '#c7c7c7',
                     concrete: '#f2f2f2',
                     white: '#ffffff',
